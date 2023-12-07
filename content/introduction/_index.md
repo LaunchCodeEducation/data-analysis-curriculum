@@ -3,6 +3,7 @@ chapter = true
 pre = "<b>1. </b>"
 title = "Introduction"
 weight = 1
+originalAuthorGitHub = "jwoolbright23"
 +++
 
 ## Why Learn Data Analysis?
