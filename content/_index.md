@@ -1,12 +1,8 @@
 +++
-chapter = false
-title = "Home"
-description = "Data Analysis Curriculum"
+title = "Data Analysis"
 date = 2021-10-01T09:28:27-05:00
 draft = false
 +++
-
-# Data Analysis Curriculum
 
 ## Course Summary
 
