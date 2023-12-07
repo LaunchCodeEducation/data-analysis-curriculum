@@ -1,0 +1,13 @@
+baseURL = 'https://data-analysis-curriculum.netlify.app/'
+languageCode = 'en-us'
+title = 'Data Analysis Curriculum'
+
+theme = "hugo-theme-relearn"
+
+canonifyUrls = true
+
+[outputs]
+  home = ["HTML", "RSS", "SEARCH"]
+
+[params]
+  themeVariant = ["lc-light", "lc-dark-blue", "lc-dark-blue-two"]
