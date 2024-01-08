@@ -7,6 +7,8 @@ weight = 2
 
 As you continue to learn about data analysis you will certainly come across different types of methods and technologies. Each scenario where data is analyzed might have a completely different use case than the next. Developing an understanding of what method or technique is appropriate to use is a critical skill for beginners!
 
+Below are some of the more common methods and techniques used today.
+
 ## Methods and Techniques
 
 1. **Cleaning data**: After data has been collected it will most often need to be cleaned. Since collected data may often be improperly formatted, duplicated, have errors or typos, missing values, or simply incorrect, correcting these mistakes or "cleaning" the data is a very logical step. One of the most important reasons to clean data is so that you do not reach false or inaccurate conclusions when presenting it.
@@ -14,12 +16,12 @@ As you continue to learn about data analysis you will certainly come across diff
 1. **Formatting data**: Providing a specific format for certain columns, rows, values, data types, and more will help mitigate errors in your data. If you are working with data that has a specific length or is of a specific type you can add that parameter to prevent user error when adding and collecting data.
 1. **Cluster analysis**: This type of analysis is a technique used to group data together that have similarities. This allows the ability to organize data based on the features present within those groups. There are multiple strategies used to "cluster" data together:
     - **K-means**: defines a number of clusters that you want to group the data into.
-    - **Hierarchical clustering**: involves organizing the clusters into a tree diagram. 
+    - **Hierarchical clustering**: involves organizing the clusters into a tree diagram.
     - **Density-based clustering**: creates clusters by identifying areas of high density within the data, separating them from low density areas.
 
 1. **Factor analysis**: Is the practice of finding hidden patterns or commonalities that drive relationships between data, cpmibining these underlying factors into one data point.
-1. Time series analysis
-1. Sentiment analysis
+1. **Time series analysis**: Like the name suggests time series analysis is an examination of patterns or trends in data over time. Time series analysis will help predict or forecast future outcomes based on previous occurences. Time series data is also measured or modeled with time steps. For example if you recorded what you ate everyday for breakfast for an entire week, each recording would be a single "time step", all of the steps in that period of time would be a series.
+1. Sentiment analysiswhat
 1. Cohort analysis
 1. Exploratory analysis
 1. Regression analysis
