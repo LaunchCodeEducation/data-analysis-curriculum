@@ -5,11 +5,11 @@ draft = false
 weight = 1
 +++
 
-A data project or analysis life cycle is typically attached to a business need or use case. Before you start collecting, cleaning, analyzing or visualizing data you want to know why you are doing so in the first place. Like an agile methodology or framework, organizations and teams have different ways of going about their own project life cycle but have similarities that are shared. The steps below will provide you with an idea of what those steps and processes look like in addition to questions you want to answer during them.
+A data analysis project typically starts with a specific business need or goal in mind. While each organization will tailor their project lifecycle to align with their own objectives and strategies, there are common stages across any data analysis workflow. The steps below will provide you with an idea of what that workflow and process entails in addition to questions you want to answer at each stage of the project.
 
 ## Understanding the Problem
 
-The first step in a data analysis project revolves around understanding what if any problem you are trying to solve. Business or organizational stakeholders will usually provide clear objectives or key deliverables to help you better grasp what information they need. This will help with scoping a project and targeting specific data for analysis. Like any project, asking clarifying questions related to the problem is crucial during this stage so that it can help shape expectations, methods or techniques, and outcomes.
+The first step in a data analysis project revolves around understanding what if any problem you are trying to solve. Business or organizational stakeholders will usually provide clear objectives or key deliverables to help you better grasp what information they want. This will help with scoping a project and targeting specific data for analysis. Like any project, asking clarifying questions related to the problem is crucial during this stage so that it can help shape expectations, methods or techniques, and outcomes.
 
 Below are the key questions you want to answer during this stage:
 - What problem are you trying to solve or address?
@@ -67,3 +67,23 @@ Below are the key questions you want to answer during this stage:
     - How do you most effectively communicate that
 - What presentation method will be used
 - What are the next steps?
+
+### Data Analysis Lifecycle Visual
+
+{{< mermaid align="center" zoom="true" >}}
+graph TD
+    A[Understand the Problem] --> B[Collect Relevant Data]
+    B --> C[Clean and Explore Data]
+    C --> D[Build Analytical Models]
+    D --> E[Evaluate Model Performance]
+    E --> F[Visualize and Present Insights]
+    F --> G[Recommend Actions]
+
+    A-- What is the business problem? Who are stakeholders?-->B
+    B-- What data sources are needed? How to access data?-->C
+    C-- Fix data issues. Explore for trends and patterns.-->D
+    D-- Select modeling techniques. Tune models.-->E 
+    E-- Assess accuracy. Validate model outputs.-->F
+    F-- Tailor visuals for audience. Focus on key insights.-->G
+    G-- Drive business value through data-driven decisions.-->A
+{{< /mermaid >}}
