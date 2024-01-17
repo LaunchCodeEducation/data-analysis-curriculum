@@ -14,18 +14,28 @@ To get you ready for a career in technology, our goal is to teach you the skills
 
 We have created the course activities to make the most of your time. It is important to actively engage with each activity to maximize your learning potential. Skipping the textbook reading or falling behind on assignments can quickly lead to struggling to complete the course.
 
+{{% notice blue "Note" "rocket" %}}
+
+As you read through a chapter, you may realize you already know a lot about that topic. You still need to participate fully in the course activities. Each assignment builds on the course activities and doing the course activities will help you better understand the graded assignment requirements which is vital to passing the graded assignment.
+
+{{% /notice %}}
+
 ### Textbook Reading
 
 Think of this textbook as your first destination in your learning journey. In addition to reading, this text includes small questions that can help you reinforce your understanding of the new material. At the beginning of the chapter, you will find your goals for the chapter and the list of key terms to guide your note-taking process. Reviewing your notes from a given chapter before moving on to the next is another great way to make the most of your learning potential. At the end of many chapters, we have recommendations of additional resources on the given topic. If you are unsure about what you just read, try reviewing those resources and making note of questions you want to ask during classtime.
 
 ### Exercises
 
-Towards the end of most of the textbook chapters, you will find a a page of exercises. These are small coding problems and are a chance for you to implement what you have just learned. While exercises do not count towards your final grade in the class, it is essential to practice in order to reinforce your understanding of the new concepts. We recognize that working on something that is graded can be stressful and stress can actually inhibit your ability to learn! Make the most of every opportunity to practice coding without being graded on the end result!
+Towards the end of most of the textbook chapters, you will find a page of exercises. These are smaller problems and are a chance for you to implement what you have just learned. While exercises do not count towards your final grade in the class, it is essential to practice in order to reinforce your understanding of the new concepts. We recognize that working on something that is graded can be stressful and stress can actually inhibit your ability to learn! Make the most of every opportunity to practice without being graded on the end result!
 
 ### Studios
 
-Many chapters also include a studio. These studios are going to be more difficult than exercises, but these activities are designed to be done in class and with a smaller group, so you can pair with other students and ask questions of course staff as you navigate these challenges. Some of the studios are not about coding, but are about goal setting, building confidence, and other equally important topics when pursuing a new career. We encourage you to participate in these activities to your best abilities!
+Many chapters also include a studio. These studios are going to be more difficult than exercises, but these activities are designed to be done in class and with a smaller group, so you can pair with other students and ask questions of course staff as you navigate these challenges. We encourage you to participate in these activities to your best abilities!
 
 ### Graded Assignments
 
 Graded assignments are larger projects where you demonstrate what you have learned and challenge yourself. Assignments oftentimes cover multiple lessons, but we encourage you to get started as soon as you can instead of waiting until the end. The assignments are broken down into different tasks, so when you first start, read through every task and determine what you can start working on right away and what you may need to wait on.
+
+### Final Project
+
+The final project of this course is a full data analysis project on a topic which interests you. We have set up several checkpoints for you to complete throughout the course so that you can stay on top of each stage. At the end of the course, you will be sharing your project work with your course staff and classmates!
