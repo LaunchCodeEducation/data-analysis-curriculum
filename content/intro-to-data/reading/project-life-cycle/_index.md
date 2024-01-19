@@ -9,16 +9,16 @@ A data analysis project typically starts with a specific business need or goal i
 
 ## Understanding the Problem
 
-The first step in a data analysis project revolves around understanding what if any problem you are trying to solve. Business or organizational stakeholders will usually provide clear objectives or key deliverables to help you better grasp what information they want. This will help with scoping a project and targeting specific data for analysis. Like any project, asking clarifying questions related to the problem is crucial during this stage so that it can help shape expectations, methods or techniques, and outcomes.
+The first step in a data analysis project revolves around understanding what, if any, problem you are trying to solve. Business or organizational stakeholders will usually provide clear objectives or key deliverables to help you better grasp what information they want. This will help with scoping a project and targeting specific data for analysis. Like any project, asking clarifying questions related to the problem is crucial during this stage so that it can help shape expectations, methods or techniques, and outcomes.
 
 Below are the key questions you want to answer during this stage:
 - What problem are you trying to solve or address?
-- Who are the main stakeholders
+- Who are the main stakeholders?
 - What value will this bring to your organization?
 
 ## Collecting Data
 
-Once you understand the problem and have clear objectives and goals you can begin to collect data related to those criteria. Sometimes data is already provided that needs to be cleaned in preparation for exploration and model building. If data is not already provided the goal is to use the questions and outline from the initial problem so that you can target relevant sources for your data.
+Once you understand the problem and have clear objectives and goals, you can begin to collect data related to those criteria. Sometimes data is already provided that needs to be cleaned in preparation for exploration and model building. If data is not already provided, the goal is to use the questions and outline from the initial problem so that you can target relevant sources for your data.
 
 Below are the key questions you want to answer during this stage:
 - What are the relevant sources of data?
@@ -27,7 +27,7 @@ Below are the key questions you want to answer during this stage:
 
 ## Cleaning and Exploration
 
-After data has been collected it will most often need to be cleaned. Since collected data may often be improperly formatted, duplicated, have errors or typos, missing values, or simply incorrect, correcting these mistakes or “cleaning” the data is a very logical step. One of the most important reasons to clean data is so that you do not reach false or inaccurate conclusions when presenting it.
+After data has been collected, it will most often need to be cleaned. Since collected data may often be improperly formatted, duplicated, have errors or typos, missing values, or simply incorrect, correcting these mistakes or “cleaning” the data is a very logical step. One of the most important reasons to clean data is so that you do not reach false or inaccurate conclusions when presenting it.
 
 Exploring or investigating data is an important step in understanding it. Exploratory analysis may often be referenced as exploratory data analysis (EDA) which will be covered more in depth later in the course. Finding connections and similarities within your data often comes from exploration, which will help you with other methods that include cleaning, organization, and visualization.
 

@@ -24,7 +24,7 @@ There are multiple strategies used to "cluster" data together. Below are some ex
     {{% /notice %}}
 
 1. **Factor analysis**: Is the practice of finding hidden patterns or commonalities that drive relationships between data, combining these underlying factors into one data point.
-1. **Time series analysis**: Like the name suggests time series analysis is an examination of patterns or trends in data over time. Time series analysis will help predict or forecast future outcomes based on previous occurences. Time series data is also measured or modeled with time steps.
+1. **Time series analysis**: Like the name suggests, time series analysis is an examination of patterns or trends in data over time. Time series analysis will help predict or forecast future outcomes based on previous occurrences. Time series data is also measured or modeled with time steps.
 
     {{% notice blue Example "rocket" %}}
 If you recorded what you ate for breakfast over the course of an entire week, each recording would be a sinsgle "time step", all of the steps in that period of time would be a series.

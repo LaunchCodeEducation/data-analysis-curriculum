@@ -13,7 +13,7 @@ Think about working on a monthly budget. Let’s say you have a singular spreads
 
 ## KPIs
 
-**Key Performance Indicators** are commonly used across many businesses and organizations. Their purpose is to measure performance and provide additional insight towards future decision making processes. However each KPI is only as effective as it's parameters, often times problems can arrise if KPIs revolve around goals or datapoints that dont actually drive business success. A common misuse of KPIs may be related to overall quanitity of something versus the quality of it.
+**Key Performance Indicators** are commonly used across many businesses and organizations. Their purpose is to measure performance and provide additional insight towards future decision making processes. However each KPI is only as effective as it's parameters. Oftentimes problems can arrise if KPIs revolve around goals or datapoints that dont actually drive business success. A common misuse of KPIs may be related to overall quanitity of something versus the quality of it.
 
 Using the `SMART` method will help when structuring KPIs so that you ensure that they provide useful insights and observations. The `SMART` method when related to goals states that they should be specific, measurable, achievable, relevant, and time-bound.
 
