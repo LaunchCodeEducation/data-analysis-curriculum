@@ -28,7 +28,7 @@ The benefit of setting up a formula like this is that we don't have to worry abo
 Just as the current value may change, so may the tax rate. However, we don't want to go through every cell and make sure the formula is updated. We also don't want to add a new column with the tax rate because that is going to involve some extra data entry. We want to make this as simple as possible!
 
 1. Over in J6, let's add "Current Tax Rate" and in K6, we will add 0.02.
-1. We want to reference K6 in our formula for the tax value, but we want it to be constant for each row. We can reference K6 with dollar signs to designate that that value is a constant in our formula, like so `$K$6`. Try updating your formula in G2 and seeing if you get the same number.
+1. We want to reference K6 in our formula for the tax value, but we want it to be constant for each row. We can reference K6 with dollar signs to designate that the value is a constant in our formula, like so `$K$6`. Try updating your formula in G2 and seeing if you get the same number.
 1. Once you are satisfied, click and drag down to G3 to update that formula. You won't see the number change, but you can click on the cell to see that the formula is updated and that both values are based on the current tax rate.
 
 ## Connecting to Another Sheet
