@@ -42,7 +42,7 @@ Below are the key questions you want to answer during this stage:
 After the data has been organized, you can begin to build out your model(s) to uncover insights related to your primary objectives. The goal of this step is to supply stakeholders with actionable insights that will fit into the directives given at the inception of the project.
 
 Below are the key questions you want to answer during this stage:
-- What model or technique best works for your scenario
+- What model or technique best works for your scenario?
 - How complex does the model need to be?
 
 ## Model Validation
