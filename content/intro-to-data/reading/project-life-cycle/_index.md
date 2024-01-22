@@ -57,10 +57,10 @@ Below are the key questions you want to answer during this stage:
 ## Visualization and Presentation
 
 After collecting insights and deliverables you will need to present the data in a way that makes sense. Visualizing data makes it easier for everyone to understand but there are many strategies used to do so. Teams may choose to visualize their data with a simple chart, graphs, tables or create dashboards, bar charts, heat maps, pie charts, or histograms. There are numerous ways to visualize your data but knowing your target audience is important because it will help you convey your information or tell a story catered to them. Other key aspects of data visualization include:
-- `Accuracy`: Presenting data without distorting it is important! Be precise with trends or movements within the data so that nothing is misinterpreted.
-- `Clarity`: You want your visuals to provide a clear representation of your findings
-- `Tools`: Any tool used to create your visualizations needs to be well thought out, as others may be using these same tools when interacting with the data
-- `Accessibility`: Making sure your visualizations meet accessibility standards will accomodate a more diverse audience: things like text size, color specifications for individuals who might be color-blind or have low-vision.
+- Accuracy: Presenting data without distorting it is important! Be precise with trends or movements within the data so that nothing is misinterpreted.
+- Clarity: You want your visuals to provide a clear representation of your findings
+- Tools: Any tool used to create your visualizations needs to be well thought out, as others may be using these same tools when interacting with the data
+- Accessibility: Making sure your visualizations meet accessibility standards will accommodate a more diverse audience: things like text size, and color specifications for individuals who might be color-blind or have low vision.
 
 Below are the key questions you want to answer during this stage:
 - What data is the most relevant / significant from the analysis
