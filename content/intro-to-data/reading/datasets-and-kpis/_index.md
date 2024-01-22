@@ -13,10 +13,10 @@ Think about working on a monthly budget. Let’s say you have a singular spreads
 
 ## KPIs
 
-**Key Performance Indicators** are commonly used across many businesses and organizations. Their purpose is to measure performance and provide additional insight towards future decision making processes. However each KPI is only as effective as it's parameters. Oftentimes problems can arrise if KPIs revolve around goals or datapoints that dont actually drive business success. A common misuse of KPIs may be related to overall quanitity of something versus the quality of it.
+**Key Performance Indicators** are commonly used across many businesses and organizations. They aim to measure performance and provide additional insight into future decision-making processes. However, each KPI is only as effective as its parameters. Often problems can arise if KPIs revolve around goals or datapoints that don't drive business success. When considering KPIs, we want to focus on the quality of the KPI instead of the quantity of KPIs.
 
-Using the `SMART` method will help when structuring KPIs so that you ensure that they provide useful insights and observations. The `SMART` method when related to goals states that they should be specific, measurable, achievable, relevant, and time-bound.
+Using the SMART method will help when structuring KPIs so that you ensure that they provide useful insights and observations. The SMART method when related to goals states that they should be specific, measurable, achievable, relevant, and time-bound.
 
-One of the many benefits that KPIs bring to a business is that when used properly, assists in creating cross-team collaboration and alignment around a common organizational goal.
+One benefit worth highlighting is that the proper use of KPIs can assist in cross-team collaboration and alignment around a common organizational goal.
 
 Once a team has a good understanding of KPIs and how it relates to their project it will help you identify what kind of data is and is not relevant. Furthermore when you are viewing datasets it will allow the user to more easily and swiftly filter and clean data.

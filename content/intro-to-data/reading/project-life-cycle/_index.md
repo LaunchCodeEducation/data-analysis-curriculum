@@ -32,17 +32,17 @@ After data has been collected, it will most often need to be cleaned. Since coll
 Exploring or investigating data is an important step in understanding it. Exploratory analysis may often be referenced as exploratory data analysis (EDA) which will be covered more in depth later in the course. Finding connections and similarities within your data often comes from exploration, which will help you with other methods that include cleaning, organization, and visualization.
 
 Below are the key questions you want to answer during this stage:
-- What issues need to be addressed
+- What issues need to be addressed?
 - What are the anolomies within the data?
 - What trends or movements arrise?
 - What presumptions or premise can be formed?
 
 ## Building a Model
 
-After the data has been organized you can begin to build out your model(s) to uncover insights related to your primary objectives. The goal of this step is to supply stakeholders with actionable insights that will fit into the directives given at the inception of the project.
+After the data has been organized, you can begin to build out your model(s) to uncover insights related to your primary objectives. The goal of this step is to supply stakeholders with actionable insights that will fit into the directives given at the inception of the project.
 
 Below are the key questions you want to answer during this stage:
-- What model or technique best works for your scenario
+- What model or technique best works for your scenario?
 - How complex does the model need to be?
 
 ## Model Validation
@@ -57,10 +57,10 @@ Below are the key questions you want to answer during this stage:
 ## Visualization and Presentation
 
 After collecting insights and deliverables you will need to present the data in a way that makes sense. Visualizing data makes it easier for everyone to understand but there are many strategies used to do so. Teams may choose to visualize their data with a simple chart, graphs, tables or create dashboards, bar charts, heat maps, pie charts, or histograms. There are numerous ways to visualize your data but knowing your target audience is important because it will help you convey your information or tell a story catered to them. Other key aspects of data visualization include:
-- `Accuracy`: Presenting data without distorting it is important! Be precise with trends or movements within the data so that nothing is misinterpreted.
-- `Clarity`: You want your visuals to provide a clear representation of your findings
-- `Tools`: Any tool used to create your visualizations needs to be well thought out, as others may be using these same tools when interacting with the data
-- `Accessibility`: Making sure your visualizations meet accessibility standards will accomodate a more diverse audience: things like text size, color specifications for individuals who might be color-blind or have low-vision.
+- Accuracy: Presenting data without distorting it is important! Be precise with trends or movements within the data so that nothing is misinterpreted.
+- Clarity: You want your visuals to provide a clear representation of your findings
+- Tools: Any tool used to create your visualizations needs to be well thought out, as others may be using these same tools when interacting with the data
+- Accessibility: Making sure your visualizations meet accessibility standards will accommodate a more diverse audience: things like text size, and color specifications for individuals who might be color-blind or have low vision.
 
 Below are the key questions you want to answer during this stage:
 - What data is the most relevant / significant from the analysis
