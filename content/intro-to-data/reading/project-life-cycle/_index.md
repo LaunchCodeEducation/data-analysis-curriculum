@@ -70,6 +70,20 @@ Below are the key questions you want to answer during this stage:
 
 ### Data Analysis Lifecycle Visual
 
+The below visual illustrates a Data Analysis Lifecycle and how it eventually loops back to the first stage of each project.
+
+This visual has the following steps:
+
+1. Understand the Problem
+1. Collect Relevant Data
+1. Clean and Explore Data
+1. Build Analytical Models
+1. Evaluate Model Performance
+1. Visualize and Present Insights
+1. Recommend Actions
+
+Once actions have been recommended, the lifecycle loops back to understanding the new problem at hand.
+
 {{< mermaid align="center" zoom="true" >}}
 graph TD
     A[Understand the Problem] --> B[Collect Relevant Data]
