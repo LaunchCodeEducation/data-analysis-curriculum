@@ -24,7 +24,7 @@ Looking at a dataset on Kaggle:
 
 ## Create A Document
 
-In your chosen word processing program, create a document titled: ``your_name-IntroToDataExercises``.  
+Using google docs, create a new spreadsheet titled: ``your_name-IntroToDataExercises``.  
 Copy the below questions and paste into your document and answer the questions.
 
 {{% notice green Question "rocket" %}}
