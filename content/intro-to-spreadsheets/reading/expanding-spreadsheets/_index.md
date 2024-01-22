@@ -11,7 +11,7 @@ As you work more on spreadsheets, you may find that you want to add a row or col
 Let's revisit our Car Info workbook. While we already have some great data stored about the two cars, we need some more information. 
 
 1. We want to insert a column between "Model" and "Car Mileage". Right-click on the D for the "Model" column and select *Insert 1 column right*. Alternatively, you can right-click on the E for the "Car Mileage" column and select *Insert 1 column left*.
-1. You now have an empty column that is the column E and "Car Mileage" is now column F. Type "Current Value" in F1.
+1. You now have an empty column that is the column E and "Car Mileage" is now column F. Type "Current Value" in E1.
 1. Add the current value for both the cars you created on the previous page.
 
 You can do the same for rows by right-clicking on the row number and inserting a new row above or below the one you selected.

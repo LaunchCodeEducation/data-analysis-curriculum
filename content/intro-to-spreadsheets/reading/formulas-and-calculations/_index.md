@@ -15,7 +15,7 @@ Let's explore some ways we can use formulas in Car Info.
 
 Sometimes, we want to set up a whole column where each value is the result of a formula. In the case of cars, since we have to pay property taxes on our vehicle, we want to set up a column for the tax value of each car. 
 
-1. Add a new header to column G called "Tax Value".
+1. In the "Overview" tab, add a new header to column G called "Tax Value".
 1. We checked the tax rate and on cars right now, it is 2%, so the taxes we owe would be 2% of the current value.
 1. Starting with G2, write in that cell the formula for finding the tax value of the car. As you write the cell identifuer for the current value of row 2, Google Sheets will highlight the cell that you are referencing which can serve as a helpful visual reminder of what the formula is going to be using.
 1. Now we want every row in column G to accurately reflect the tax value of the car. To copy the formula and not the value in G2, hover your mouse over the bottom right corner of G2 and you will see a plus sign appear. Click and drag down to G3. Release once both cells are highlighted and you should see 2% of E3 in G3. To confirm, click on the cell to see what the formula looks like.
