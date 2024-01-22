@@ -17,6 +17,6 @@ Think about working on a monthly budget. Let’s say you have a singular spreads
 
 Using the SMART method will help when structuring KPIs so that you ensure that they provide useful insights and observations. The SMART method when related to goals states that they should be specific, measurable, achievable, relevant, and time-bound.
 
-One of the many benefits that KPIs bring to a business is that when used properly, assists in creating cross-team collaboration and alignment around a common organizational goal.
+One benefit worth highlighting is that the proper use of KPIs can assist in cross-team collaboration and alignment around a common organizational goal.
 
 Once a team has a good understanding of KPIs and how it relates to their project it will help you identify what kind of data is and is not relevant. Furthermore when you are viewing datasets it will allow the user to more easily and swiftly filter and clean data.
