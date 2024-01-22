@@ -15,7 +15,7 @@ Think about working on a monthly budget. Let’s say you have a singular spreads
 
 **Key Performance Indicators** are commonly used across many businesses and organizations. They aim to measure performance and provide additional insight into future decision-making processes. However, each KPI is only as effective as its parameters. Often problems can arise if KPIs revolve around goals or datapoints that don't drive business success. When considering KPIs, we want to focus on the quality of the KPI instead of the quantity of KPIs.
 
-Using the `SMART` method will help when structuring KPIs so that you ensure that they provide useful insights and observations. The `SMART` method when related to goals states that they should be specific, measurable, achievable, relevant, and time-bound.
+Using the SMART method will help when structuring KPIs so that you ensure that they provide useful insights and observations. The SMART method when related to goals states that they should be specific, measurable, achievable, relevant, and time-bound.
 
 One of the many benefits that KPIs bring to a business is that when used properly, assists in creating cross-team collaboration and alignment around a common organizational goal.
 
