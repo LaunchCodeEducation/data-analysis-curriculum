@@ -32,7 +32,7 @@ After data has been collected, it will most often need to be cleaned. Since coll
 Exploring or investigating data is an important step in understanding it. Exploratory analysis may often be referenced as exploratory data analysis (EDA) which will be covered more in depth later in the course. Finding connections and similarities within your data often comes from exploration, which will help you with other methods that include cleaning, organization, and visualization.
 
 Below are the key questions you want to answer during this stage:
-- What issues need to be addressed
+- What issues need to be addressed?
 - What are the anolomies within the data?
 - What trends or movements arrise?
 - What presumptions or premise can be formed?
