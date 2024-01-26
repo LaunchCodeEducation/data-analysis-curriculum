@@ -6,3 +6,15 @@ weight = 1
 +++
 
 Once you have the google sheet open in your browser window, have a look around the various tabs and familiarize yourself with each spreadsheet. Don't be afraid to look - just don't edit anything just yet.
+
+## Car Info Tab
+
+![Image of car info spreadsheet tab within the Hello, Google Sheets! google sheet](pictures/car-info-spreadsheet.png?classes=border)
+
+## Grocery Info Tab
+
+![Image of the grocery info spreadsheet tab within the Hello, Google Sheets! google sheet](pictures/grocery-info-spreadsheet.png?classes=border)
+
+## Overview Tab
+
+![Image of the overview spreadsheet tab within the Hello, Google Sheets! google sheet](pictures/overview-spreadsheet.png?classes=border)
