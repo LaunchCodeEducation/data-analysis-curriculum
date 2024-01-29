@@ -34,7 +34,7 @@ As mentioned in the [Project Introduction]({{% relref "../project-introduction/_
 1. Cell H2 uses a forumla that still references the 2023 inflation rates, update this forumla to match the new rates.
 
 {{% notice green Bonus "rocket" %}}
-Cells J1 - M1 provide a budget for the 2023 year. This helped ensure that the monthly spend was within the appropriate range. Create a similar reference for the 2024 year within the J2 - M2 cell range, referencing the new 2024 inflation rates.
+Cells J1 - M1 provide a budget for the 2023 year. This helped ensure that the monthly spend was within the appropriate range. Create a budget for the 2024 year within the J2 - M2 cell range, referencing the new 2024 inflation rates.
 {{% /notice %}}
 
 ## Overview Tab
