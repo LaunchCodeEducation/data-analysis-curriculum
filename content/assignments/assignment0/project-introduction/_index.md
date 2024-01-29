@@ -42,3 +42,7 @@ The `Grocery Info` tab contains categories for groceries purchased at the store,
 
 ### Overview
 Lastly there is an `Overview` tab, combining data from the Car Info sheet and the Grocery Info sheet. The goal of this sheet is to provide one centralized place to view the total combined costs for Car and Grocery expenses. You will need to reference the cells containing the monthly and yearly totals for both car and grocery expenses, and display the total for both.
+
+First, find Assignment #0 in Canvas and click on the starter google sheet link.
+
+Once you have the sheet open you are ready to move on!
