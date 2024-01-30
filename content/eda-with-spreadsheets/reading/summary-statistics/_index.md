@@ -67,7 +67,7 @@ The **range** is the difference between the maximum and minimum values in a data
 
 ### Standard Deviation
 
-The **standard deviation** helps us determine how spread the data is from the mean because it is the amount of dispersion of a variable from the dataset's mean. The greater the percentage of data points one standard deviation away from the mean, the less dispersed the data set is. It is found by the taking the square root of the sum of a data point minus the mean squared divided by the number of data points. This can be a tedious process to do by hand but fortunately Google Sheets has a rapid way for us to do this. We can just type `=STDDEV(cells)` with the cells we need in parantheses.
+The **standard deviation** helps us determine how spread the data is from the mean because it is the amount of dispersion of a variable from the dataset's mean. The greater the percentage of data points one standard deviation away from the mean, the less dispersed the data set is. It is found by taking the square root of the sum of a data point minus the mean squared divided by the number of data points. This can be a tedious process to do by hand but fortunately Google Sheets has a rapid way for us to do this. We can just type `=STDDEV(cells)` with the cells we need in parantheses.
 
 Summary statistics are just the beginning of EDA. Time to create some visualizations!
 
