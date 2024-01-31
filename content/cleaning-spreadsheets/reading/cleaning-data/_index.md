@@ -9,7 +9,7 @@ weight = 1
 
 - Importance of cleaning data and why this is one of the first things that happens.
 
-## Common Data Cleaning Techniques
+## Common Data Cleaning Techniques - Separate Segment
 1. Filtering
 1. Sorting
 1. Trailing Whitespace
@@ -17,12 +17,12 @@ weight = 1
 1. use functions to standardize data accross the entire set
 1. Remove redundant data
 
-## Use Cases for Data Cleaning
+## Use Cases for Data Cleaning - Separate Segment
 1. Before injecting into datastore
 1. Fix corrupted data
 1. Before visualization and analyzation
 
-## Four Types of Dirty Data
+## Four Types of Dirty Data - Separate Segment
 1. Missing
 1. Irregular
 1. Unnecessary
