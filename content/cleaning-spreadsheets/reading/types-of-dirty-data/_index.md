@@ -32,30 +32,28 @@ The table below has numerous examples of missing data within the `last_name`, `e
 In relation to the above examples it is important to understand whether or not the missing data was due to user error or the means of collecting the data itself. This will help when deciding on what strategy can be used to alleviate the problem.
 
 ## Irregular Data
-**Irregular** data is usually identified as data formatting that is not uniform across the dataset. If you have dates that are not formatted the same or contact numbers that do not use the same separators like dashes or spaces this will cause issues later on. Another example would be strings of text that are all capitalized or numbers with many leading zeros.
-
-The goal of identifying irregular data is to help understand what approach or changes can be made so that you can properly structure and format the data while cleaning it.
+**Irregular** data is usually related to finding outliers within the dataset. Outliers must first be detected before deciding on a strategy to handle them. An outlier can be something like an email that does not contain an `@` symbol, or a number that is not within an appropriate range for the expected results.
 
 {{% notice blue Example "rocket" %}}
-In the below table you will notice that the `phone_number` column, the phone numbers do not all have the same formatting. This is an example of irregular data.
+In the below table you will notice that the `email` column contains emails without an `@` symbol and phone numbers without 9 characters.
 
 | first_name | last_name | email                    | employer           | phone_number     | favorite_hobby |
 |-|-|-|-|-|-|
-| Amy        | Williams  | amorris@example.net      | Emerson Electric   | 379 012 0298     | hiking |
-| Robert     | Marshal  | christopher84@example.org| Edward Jones       | 288-085-0092     | reading |
-| Kimberly   | Stevens   | ptaylor@example.net      | Centene            | 126.015.0765     | yoga |
-| Rachel     | Vincent   | rodneythomas@example.net | Nueroflow          | 857-203-0334     | painting |
-| Brian      | Salinas   | iperez@example.net       | Edward Jones       | 914 555 4392     | cooking |
-| Wesley     | Boone     | stephen94@example.net    | Emerson Electric   | 504-326-2719     | gaming |
+| Amy        | Williams  | amorris@example.net      | Emerson Electric   | 37-012-0298     | hiking |
+| Robert     | Marshal  | christopher84example.org| Edward Jones       | 288-05-0092     | reading |
+| Kimberly   | Stevens   | ptaylor@example.net      | Centene            | 126-015-0765     | yoga |
+| Rachel     | Vincent   | rodneythomas@example.net | Nueroflow          | 857-203-034     | painting |
+| Brian      | Salinas   | iperez@example.net       | Edward Jones       | 914-555-4392     | cooking |
+| Wesley     | Boone     | stephen94example.net    | Emerson Electric   | 504-326-2719     | gaming |
 {{% /notice %}}
 
 ## Unnecessary Data
-This category of dirty data involves a dataset with values that are either not useful or will cause issues during analysis. Removing unncessary and redundant data will help with query and compute speeds which improves performance and will also simplify the dataset.
+Unnecessary data could be duplicates, irrelevant, or any uninformative data. This typically involves a dataset with values that are either not useful or will cause issues during analysis. Removing unncessary and redundant data will help with query and compute speeds which improves performance and will also simplify the dataset.
 
 Common examples of unnecessary data are duplicated rows and columns or old or outdated data that is inaccurate. Another piece of unnecessary data would be data entered for testing purposes that were not removed and were left inside of the dataset.
 
 {{% notice blue Example "rocket" %}}
-The table below represents an example of redundant or unnecessary data. The goal of this data is to collect contact information for different users, making the `favorite_hobby` category unnecessary within this dataset.
+The table below represents an example of redundant or unnecessary data. The primary purpose of this data is to store contact information for different users, making the `favorite_hobby` category unnecessary within this dataset.
 
 | first_name | last_name | email                    | employer            | phone_number   | favorite_hobby    |
 |-|-|-|-|-|-|  
@@ -68,7 +66,7 @@ The table below represents an example of redundant or unnecessary data. The goal
 {{% /notice %}}
 
 ## Inconsistent Data
-This type of dirty data usually relates to the actual values within your dataset. While **Irregular** data is typically related to the formatting of data like dates and names, **inconsistent** data is a value spelled incorrectly. Columns that have multiple types of data would also be considered inconsistent.
+Inconsistent data is anything that messes with your model. This is likely due to inconsistent formatting and can be addressed by re-formatting all values in a column or row.
 
 {{% notice blue Example "rocket" %}}
 Here is a table containing inconsistencies using the provided data. The `employer` column contains different spellings for the same name and the `favorite_hobby` column has different data types contained within.
