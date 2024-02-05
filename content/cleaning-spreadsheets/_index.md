@@ -8,12 +8,20 @@ weight = 6
 +++
 
 ## Learning Objectives
-- Use data cleaning techniques to remove data
+- Understand common data cleaning techniques used to remove data
 - Identify different use cases for cleaning a data set
 - Identify corrupted data and handle it appropriately
-- Name the four categories of "dirty" data: Missing, Irregular, Unnecessary, and Inconsistent
+- Recognize the four types of "dirty" data: Missing, Irregular, Unnecessary, and Inconsistent
 
 ## Key Terminology
+
+### Data Cleaning Techniques
+1. Filtering
+1. Sorting
+1. Redundant data
+1. Trailing Whitespace
+1. functions
+1. REGEX
 
 ## Content Links
 
