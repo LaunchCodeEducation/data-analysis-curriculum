@@ -55,12 +55,13 @@ Now that we have found the interquartile range we can apply some conditional for
 
 ### Inconsistent Data
 
-Not only did we have duplicate emails within the dataset but there are also invalid and inconsistent emails. Apply conditional formatting to ensure that all emails contain an `@`.
+1. Not only did we have duplicate emails within the dataset but there are also invalid and inconsistent emails. Apply conditional formatting to ensure that all emails contain an `@`.
    - Also check to make sure emails do not start with an `@` sign as that is also invalid.
-
+1. The `transaction_total` column also has some inconsistencies.
+   - All columns contain a `$` sign. This might make analysis difficult later on. These should be removed from all cells within the column. You can do so by selecting column M, clicking on `Format` > `Number` > `Number`.
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub. 
+When finished store a copy of the spreadsheet within your google drive.
 
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Exercises: Cleaning Data** and click *Submit*.
+Copy the link to your spreadsheet and paste it into the submission box in Canvas for **Exercises: Cleaning Data** and click *Submit*.

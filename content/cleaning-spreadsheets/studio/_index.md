@@ -7,20 +7,47 @@ weight = 3
 
 ## Getting Started
 
-For this weeks studio you will be working with a partner.  
+For this weeks studio you will be continuing your work on the same spreadsheet you practiced with in the [Exercises: Cleaning Data]({{% relref "../exercises/_index.md" %}}) section and working with a partner.
 
-Each of you should fork this [GitHub repository](https://github.com/launchcodeeducation/DataCleaning-Pumpkin-Sales) and clone to your computer.  
+After spending some time identifying parts of the dataset that needs to be cleaned we can begin restructuring our spreadsheet. Some things that were identified during the exercises are as follows:
 
-## In Your Notebook
+1. Missing data
+1. Invalid email addresses
+1. Outliers within the `transaction_total` column
+1. Unnecessary and redundant data that can be purged
 
-The notebook poses questions for partners to discuss and answer about data cleaning.
+The primary reason for analyzing this data is to better understand what each user is spending based on current employer and location. Keep this in mind as you begin to work through the prompts below and make decisions related to your dataset.
 
-Code has been provided so that discussion can be the primary focus of the studio.
+## Handle Missing Data and Outliers
 
-Spaces for notes and answers to questions provided in the notebook.
+Looking at the missing data and think about the following before you consider any action steps:
+- Should the entire row of data be removed if it only contains one piece of missing data?
+- Are there any value types that can be imputed based on existing values?
+- Are there any values that can be replaced?
+
+Let us begin by removing rows with missing data that you have decided are not worth keeping.
+
+1. Create a filter for your spreadsheet. You can do so by clicking the top-left corner of your spreadsheet, clicking on `Data` > `Create a filter`.
+    - Start by unselecting the "(Blanks)" option using the filter for the columns with missing data. You can see an example below:
+    ![View of spreadsheet with the filter option opened ](pictures/unselect-blanks.png?classes=border)
+
+1. Consider the interquartile range:
+- What values within the `transaction_total` column should be considered outliers and removed fromthe dataset?
+    - Is there any action that can be taken to adjust these values? Consider revisiting the [Summary Statistics with Google Sheets]({{< relref "../../eda-with-spreadsheets/reading/summary-statistics/_index.md" >}}) section.
+
+## Remove Unnecessary and Redundant Data
+
+Is there any other redundant or duplicated data within the spreadsheet? Knowing that email addresses must be unique by nature, check to see if there are any duplicates within column C. You can do so by applying conditional formatting and using a `COUNTIF` formula like so: `=COUNTIF(C:C,C2)>1`. This will check to see if there is more than one occurence within the column.
+    - After you have identified whether or not there is duplicate emails, decide on a strategy to remove them from the dataset.
+
+Discuss with your partner on other columns you think can be removed. If there are any that you decide to remove feel free to drop them from the dataset!
+
+## Filter out Inconsistencies
+
+1. Hide or remove all rows that contain invalid emails. This includes emails that start with an `@` sign and emails that do not have an `@` sign.
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub. 
+When finished make sure to save your changes and add your spreadsheet to your google drive. 
 
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Studio: Cleaning Data** and click *Submit*.
+Copy the link to your spreadsheet and paste it into the submission box in Canvas for **Studio: Cleaning Data** and click *Submit*.
