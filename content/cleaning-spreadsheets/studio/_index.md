@@ -40,11 +40,16 @@ Let us begin by removing rows with missing data that you have decided are not wo
 Is there any other redundant or duplicated data within the spreadsheet? Knowing that email addresses must be unique by nature, check to see if there are any duplicates within column C. You can do so by applying conditional formatting and using a `COUNTIF` formula like so: `=COUNTIF(C:C,C2)>1`. This will check to see if there is more than one occurence within the column.
     - After you have identified whether or not there is duplicate emails, decide on a strategy to remove them from the dataset.
 
-Discuss with your partner on other columns you think can be removed. If there are any that you decide to remove feel free to drop them from the dataset!
+Discuss with your partner on other columns you think can be removed. If there are any columns that you decide are worth dropping consider what to do with the data:
+    - Do you remove it compeltely?
+    - Should you store it another location for future reference?
 
 ## Filter out Inconsistencies
 
 1. Hide or remove all rows that contain invalid emails. This includes emails that start with an `@` sign and emails that do not have an `@` sign.
+1. Consider capitalization of names, employers, and locations:
+    - Should they be left alone?
+    - Would it be worthwhile to convert all values to lowercase?
 
 ## Submitting Your Work
 

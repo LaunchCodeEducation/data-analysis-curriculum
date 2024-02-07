@@ -50,6 +50,8 @@ Some common functions that you might find helpful include the following:
 1. `COUNTBLANK`: Counts the total number of blanks or empty cells within the provided range
 1. `COUNTUNIQUE`: Counts the total number of unique values within the provided range
 1. `UNIQUE`: Returns only unique rows in the provided range, removing duplicate data.
+1. `LOWER`: Converts a string of text to lowercase
+1. `UPPER`: Converts a string of text to uppercase
 
 {{% notice blue Note "rocket" %}}
 If you would like to view the entire list of functions available within google sheets you can find them here: [Google Sheets function list](https://support.google.com/docs/table/25273?hl=en) 
