@@ -27,6 +27,10 @@ Google sheets has many built in tools that allow the user to handle missing data
 1. Conditional Formatting: Google Sheets allows you to use conditional formatting to highlight specific cells that meet a certain criteria. Lets start by highlighting cells that do not contain any data.
    - Select columns A - M. Once selected click `Format` > `Conditional Formatting`. Under the `Format cells if...` section select `Is empty`. All cells missing data should now be highlighted. This helps provide an idea of what columns do not contain any data and better helps you visualize as you scan through.
 
+{{% notice green Tip "rocket" %}}
+If you would like to differentiate highlight data from your conditional formatting consider color coding each rule and adding a key for reference. This will help visually when viewing your dataset.
+{{% /notice %}}
+
 ### Irregular Data
 
 Looking at the `transaction_total` column you will may notice there are some possible outliers. In cell M2 there is a total of $8,442,352.95 dollars showing for a transaction. Let's check to see if this or any other data within the column is irregular. In order to do so we need to identify the [interquartile range]({{% relref "../../eda-with-spreadsheets/reading/summary-statistics/_index.md#interquartile-range" %}}).
