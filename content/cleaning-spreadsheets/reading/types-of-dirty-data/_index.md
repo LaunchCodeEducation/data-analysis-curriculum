@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-There are four different types of "dirty" data. Understanding and being able to differentiate between them will help you categorize your data and decide what technique or practice would work best for cleaning a dataset.
+There are four different types of "dirty" data. Understanding and being able to differentiate between them will help you categorize your data and decide what technique or practice would work best for cleaning a dataset. Below we will cover **missing data**, **irregular data**, **unncessary data**, and **inconsistent data**.
 
 ## Missing Data
 Identifying missing data is straight forward. If you see that a row or column is blank or void of a data entry then that can be classified as missing data. 

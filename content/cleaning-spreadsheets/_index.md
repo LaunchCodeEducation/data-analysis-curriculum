@@ -23,6 +23,12 @@ weight = 6
 1. functions
 1. REGEX
 
+### Types of Dirty Data
+1. Missing data
+1. Irregular data
+1. Unnecessary data
+1. Inconsistent data
+
 ## Content Links
 
 {{% children %}}
