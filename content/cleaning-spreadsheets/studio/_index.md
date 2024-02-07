@@ -33,7 +33,7 @@ Let us begin by removing rows with missing data that you have decided are not wo
 
 1. Consider the interquartile range:
 - What values within the `transaction_total` column should be considered outliers and removed fromthe dataset?
-    - Is there any action that can be taken to adjust these values? Consider revisiting the [Summary Statistics with Google Sheets]({{< relref "../../eda-with-spreadsheets/reading/summary-statistics/_index.md" >}}) section.
+    - Is there any action that can be taken to adjust these values? Consider revisiting the [Summary Statistics with Google Sheets]({{% relref "../../eda-with-spreadsheets/reading/summary-statistics/_index.md" %}}) section.
 
 ## Remove Unnecessary and Redundant Data
 
