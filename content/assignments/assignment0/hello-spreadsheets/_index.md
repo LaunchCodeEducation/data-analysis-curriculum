@@ -27,7 +27,7 @@ Below you will find a screenshot of what the `Grocery Info` spreadsheet currentl
 
 ![Image of the grocery info spreadsheet tab within the Hello, Google Sheets! google sheet](pictures/grocery-info-spreadsheet.png?classes=border)
 
-As mentioned in the [Project Introduction]({{% relref "../project-introduction/_index.md#grocery-info" %}}) section The `Grocery Info` tab contains categories for groceries purchased at the store, including a weekly cost breakdown for each category. You will notice in cell J12 and K12 the 2023 inflation rates are referenced. In this scenario, inflation had risen by 5% for the 2023 year. However, in 2024 inflation is now at 8%. You will need to adjust the monthly grocery estimate so that it matches the new rates of inflation.
+As mentioned in the [Project Introduction]({{% relref "../project-introduction/_index.md#grocery-info" %}}) section The `Grocery Info` tab contains categories for groceries purchased at the store, including a weekly cost breakdown for each category. You will notice in cells J12 and K12 the 2023 inflation rates are referenced. In this scenario, inflation had risen by 5% for the 2023 year. However, in 2024 inflation is now at 8%. You will need to adjust the monthly grocery estimate so that it matches the new rates of inflation.
 
 1. Within cell J9, type in "2024 Inflation Rates"
 1. In Cell K9, type in "0.08" to represent the 8% inflation rate.
