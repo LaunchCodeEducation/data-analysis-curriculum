@@ -19,6 +19,6 @@ When sharing a google sheet you want to ensure you provide the correct sharing p
     1. To the right of "Anyone with the link", make sure the "Viewer" option is selected. This ensures that no one can edit or make changes to your sheet, even if they have access.
 1. Click the "Copy link" button and submit it within Canvas!
 
-If you have completed the above steps your sharing options should look similar to the image below:
+If you have completed the above steps, your sharing options should look similar to the image below:
 
 ![Image of correct sharing options for a google sheet assignment](pictures/share-options.png?classes=border)
