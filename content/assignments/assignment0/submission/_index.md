@@ -21,4 +21,4 @@ When sharing a google sheet you want to ensure you provide the correct sharing p
 
 If you have completed the above steps, your sharing options should look similar to the image below:
 
-![Image of correct sharing options for a google sheet assignment](pictures/share-options.png?classes=border)
+![Correct sharing options for a google sheet assignment](pictures/share-options.png?classes=border)
