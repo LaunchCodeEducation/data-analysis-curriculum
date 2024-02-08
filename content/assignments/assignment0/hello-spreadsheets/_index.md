@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-Once you have the google sheet open in your browser window, have a look around the various tabs and familiarize yourself with each spreadsheet. Don't be afraid to look - just don't edit anything just yet.
+Once you have the Google Sheet open in your browser window, have a look around the various tabs and familiarize yourself with each spreadsheet. Don't be afraid to look - just don't edit anything just yet.
 
 ## Car Info Tab
 
