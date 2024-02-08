@@ -1,6 +1,6 @@
 +++
 pre = "<b>A1: </b>"
-title = "Assignment 1"
+title = "Fintech Fun"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 1
@@ -8,10 +8,7 @@ weight = 1
 
 ## Outline
 
-Business Issue -> work for a company looking to make the first all-inclusive personal finance app aimed at the average American
-Ramp up with some complex tasks -> debt snowball vs. debt avalanche
-EDA -> they want to set up a predictive grocery cost model. need to explore one data set from a top American grocery store to help get them started
-Cleaning Data
+In this assignment, you are working for a fintech company looking to build a personal finance app to guide the average American consumer. You will be using the EDA and cleaning data skills you acquired with Google Sheets to grow the founders' understanding of various data sources before the app teams put together the underlying logic into the app.
 
 ## Content Links
 
