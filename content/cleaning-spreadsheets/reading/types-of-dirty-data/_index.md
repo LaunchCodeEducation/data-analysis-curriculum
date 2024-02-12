@@ -12,7 +12,7 @@ Identifying missing data can be as straight forward as noticing empty columns or
 
 A common example would be a survey that has questions which are optional. If the user decides not to answer the question it may result in an empty cell within your dataset. 
 
-There are of course ways to combat missing data that usually involves deleting the entire entry or imputing data based on existing knowledge of the dataset or a substitute value like `N/A` or `NaN`. Another approach is to use column means or regression values based on the data that you do have. 
+Analysts have ways to combat missing data. This usually involves deleting the entire entry or imputing data based on existing knowledge of the dataset or a substitute value like `N/A` or `NaN`. Another approach is to use column means or regression values based on the data that you have. 
 
 You can also revisit the place the data was first collected to see if it exists there and was lost in transit.
 
