@@ -28,7 +28,7 @@ Google Sheets has many built-in tools that allow the user to handle missing data
    - Select columns A - M. Once selected, click `Format` > `Conditional Formatting`. Under the `Format cells if...` section select `Is empty`. All cells missing data should now be highlighted. This provides a visual indicator for you so you can more easily scan through.
 
 {{% notice green Tip "rocket" %}}
-If you would like to differentiate highlight data from your conditional formatting consider color coding each rule and adding a key for reference. This will help visually when viewing your dataset.
+Consider color-coding different rules applied through conditional formatting so that you can differentiate what each highlighted cell indicates.
 {{% /notice %}}
 
 ### Irregular Data
