@@ -21,7 +21,7 @@ Don't hesitate to reach out to course staff and your fellow students if you want
 
 ### Missing Data
 
-Google sheets has many built in tools that allow the user to handle missing data. We will explore a few of those options below to help clean a randomly generated dataset that includes the following:
+Google Sheets has many built-in tools that allow the user to handle missing data. We will explore a few of those options below to help clean a randomly generated dataset that includes the following:
 `first_name`, `last_name`, `email`, `employer`, `username`, `password`, `ipv4_address`, `user_agent`, `datetime`, `company`, `city`, `transaction_total`
 
 1. Conditional Formatting: Google Sheets allows you to use conditional formatting to highlight specific cells that meet a certain criteria. Lets start by highlighting cells that do not contain any data.
