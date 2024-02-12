@@ -3,7 +3,7 @@ pre = "<b>A1: </b>"
 title = "Fintech Fun"
 date = 2023-05-25T12:55:09-05:00
 draft = false
-weight = 1
+weight = 2
 +++
 
 ## Outline
