@@ -29,7 +29,7 @@ The table below has numerous examples of missing data within the `last_name`, `e
 | Wesley     |           | stephen94@example.net    | Emerson Electtic    | 504-326-2719   | gaming       |
 {{% /notice %}}
 
-In relation to the above examples it is important to understand whether or not the missing data was due to user error or the means of collecting the data itself. This will help when deciding on what strategy can be used to alleviate the problem.
+With the above examples, prioritize understanding whether or not the missing data was due to user error or the means of collecting the data itself. This will help when deciding on what strategy can be used to alleviate the problem.
 
 ## Irregular Data
 **Irregular** data is usually related to finding outliers within the dataset. Outliers must first be detected before deciding on a strategy to handle them. An outlier can be something like an email that does not contain an `@` symbol, or a number that is not within an appropriate range for the expected results.
