@@ -7,6 +7,13 @@ weight = 1
 
    > "It'll take a few moments to get the coordinates from the navicomputer." - Han Solo
 
+As you begin to understand how programs work it may be worthwhile to revisit earlier sections that cover the following:
+
+1. [Why Learn to Code?]({{% relref "../../../learning-data-analysis/reading/why-learn-code/_index.md" %}})
+1. [Why Learn Python?]({{% relref "../../../learning-data-analysis/reading/why-python/_index.md" %}})
+
+If you do not need a refresher on the above feel free to move on!
+
 ## Programs
 
 Given a set of inputs, Han's computer analyzes the data and returns information about safely navigating a hyperspace jump. The computer does this by running a **program**.
