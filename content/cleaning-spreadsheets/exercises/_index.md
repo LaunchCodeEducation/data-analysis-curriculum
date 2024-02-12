@@ -25,7 +25,7 @@ Google Sheets has many built-in tools that allow the user to handle missing data
 `first_name`, `last_name`, `email`, `employer`, `username`, `password`, `ipv4_address`, `user_agent`, `datetime`, `company`, `city`, `transaction_total`
 
 1. Conditional Formatting: Google Sheets allows you to use conditional formatting to highlight specific cells that meet a certain criteria. Lets start by highlighting cells that do not contain any data.
-   - Select columns A - M. Once selected click `Format` > `Conditional Formatting`. Under the `Format cells if...` section select `Is empty`. All cells missing data should now be highlighted. This helps provide an idea of what columns do not contain any data and better helps you visualize as you scan through.
+   - Select columns A - M. Once selected, click `Format` > `Conditional Formatting`. Under the `Format cells if...` section select `Is empty`. All cells missing data should now be highlighted. This provides a visual indicator for you so you can more easily scan through.
 
 {{% notice green Tip "rocket" %}}
 If you would like to differentiate highlight data from your conditional formatting consider color coding each rule and adding a key for reference. This will help visually when viewing your dataset.
