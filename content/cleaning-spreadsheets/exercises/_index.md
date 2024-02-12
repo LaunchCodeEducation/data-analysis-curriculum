@@ -33,7 +33,7 @@ If you would like to differentiate highlight data from your conditional formatti
 
 ### Irregular Data
 
-Looking at the `transaction_total` column you will may notice there are some possible outliers. In cell M2 there is a total of $8,442,352.95 dollars showing for a transaction. Let's check to see if this or any other data within the column is irregular. In order to do so we need to identify the [interquartile range]({{% relref "../../eda-with-spreadsheets/reading/summary-statistics/_index.md#interquartile-range" %}}).
+You will notice some possible outliers in the `transaction_total` column. In cell M2 there is a total of $8,442,352.95 for a transaction. Let's check to see if this or any other data within the column is irregular. To do so we need to identify the [interquartile range]({{% relref "../../eda-with-spreadsheets/reading/summary-statistics/_index.md#interquartile-range" %}}).
 
 Select your cells where you want to store your lower, upper, and interquartile ranges and make the necessary calculations using the values within column M.
 
