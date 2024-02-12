@@ -9,13 +9,14 @@ Before you can start coding, you need to set up your coding tools.
 
 Be sure to create or install all of the following listed below:
 
-## Setting Up Visual Studio Code 
+## Setting Up Visual Studio Code
 
 For this course, you will be working in a **integrated development environment (IDE)** called Visual Studio Code.  
 
 This is where you will write and run your code.
 
-We have created a Visual Studio Code [installation guide]({{< relref "../../../installations/install-visual-studio/_index.md" >}}) for you to follow.
+<!-- TODO: Add Link below when able -->
+<!-- We have created a Visual Studio Code [installation guide]() for you to follow. -->
 
 ## Setting Up Your Terminal
 
@@ -23,21 +24,20 @@ We will be using the terminal to keep track of our code.  You will need to make 
 
 This tool is used for giving commands to your code to run or start.  This tool is also used to help track the status of your code as you work on it.  We will learn about it more in later chapters.
 
-We have created a Terminal [installation guide]({{< relref "../../../installations/terminal-setup/_index.md" >}}) for you to follow.
+<!-- TODO: Add Link below when able -->
+<!-- We have created a Terminal [installation guide]() for you to follow. -->
 
-## Setting Up Node.js
+<!-- ## Setting Up Python
 
-Once your terminal has been installed, you will need to install `Node.js`.  This will install the NPM Command Line Interface (CLI), which will allow you to run specialized commands in your terminal.  
-
-You will use these commands to run, build, and test your JavaScript code as you work through this course.
-
-We have created a `Node.js` [installation guide]({{< relref "../../../installations/install-node/_index.md" >}}) for you to follow.
+Once your terminal has been installed, you will need to install `Python`.
+<!-- TODO: Add Link below when able -->
+We have created a `Python` [installation guide]() for you to follow.
 
 ## Setting Up Git
 
 In the terminal, we will be using Git.  Git is a version control tool, or a way to track and manage changes in your code.  We will explore it more later in this course.  In the next section of this chapter, you will learn the basic git commands needed to work with the codebases in this course.
-
-We have created a Git [installation guide]({{< relref "../../../installations/install-git/_index.md" >}}) for you to follow.
+<!-- TODO: Add Link below when able -->
+<!-- We have created a Git [installation guide]() for you to follow. -->
 
 ### Creating Your GitHub Account
 

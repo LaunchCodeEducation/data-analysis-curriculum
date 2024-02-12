@@ -41,7 +41,7 @@ Since computers only understand binary code, every programming language contains
 If we want to print `Hello, World!` on the screen, we would write the instructions in our chosen programming language, then select "Run". Our code gets **compiled** or **interpreted**, which converts our typed commands into something the computer can use. The instructions are then executed by the machine, and we observe the results.
 
 {{< rawhtml >}}
-   <img src="../images/compiled-vs-interpreted.png" alt="diagram of code moving from IDE to compiler to Hexadecimal to monitor"  />
+   <img src="../images/Compiler.png" alt="diagram of code moving from IDE to compiler to Hexadecimal to monitor"  />
 {{< /rawhtml >}}
 
 In the example above, the syntax for printing `Hello, World!` varies between the Python, JavaScript, and Java languages, but the end result is the same.

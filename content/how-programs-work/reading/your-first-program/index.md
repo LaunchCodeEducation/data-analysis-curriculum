@@ -16,7 +16,7 @@ Every starter code repository (repo) in this course will contain instructions.  
 We suggest reading the rest of this page before diving into the code.  Since this is the first time you are pulling from our GitHub repository, you will need to set up your new PAT, create a directory on your computer to store your work, and practice with the terminal.  You will do great!
 
 ### Starter Code
-When you have finished reading through the instructions, use this [starter code](https://github.com/LaunchCodeEducation/js-hello-world) to complete your first program.
+When you have finished reading through the instructions, use this [starter code](https://github.com/LaunchCodeEducation/python-hello-world) to complete your first program.
 
 ## Open your terminal
 
@@ -152,7 +152,8 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
 
 1. Double click on `hello.js` to open the file.  You should see instructions and `console.log("Hello");`.  You can type in this file now.  Follow the instructions to complete your first program.  
    1. Enter your code on line 7 to print 'Hello, World!
-   1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]({{< relref "../../../installations/install-visual-studio/_index.md" >}}).
+   <!-- TODO: Add link below when able -->
+   1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]().
    1. Inside your terminal type the following commands
       1. `npm install` (We will explore this more in future chapters).  You will see that more files and directories have been added to your project. That is expected.
       1. Next type the command `node hello.js`.  This should run the program, which in this case prints your message in the terminal.  
@@ -243,10 +244,10 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
 {{% notice green  "Question" "rocket" %}} 
 Which of the following correctly prints Coding Rocks? There may be more than one valid option.
 
-1. `console.log(Coding Rocks)`
-1. `console.log(Coding Rocks);`
-1. `console.log('Coding Rocks')`
-1. `console.log("Coding Rocks');`
-1. `console.log("Coding Rocks");`
+1. `print(Coding Rocks)`
+1. `print(Coding Rocks);`
+1. `print('Coding Rocks')`
+1. `print("Coding Rocks');`
+1. `print("Coding Rocks");`
 <!-- ans: 3 and 5 -->
 {{% /notice %}}
