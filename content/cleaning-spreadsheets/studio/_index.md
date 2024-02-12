@@ -9,7 +9,7 @@ weight = 3
 
 For this week's studio, you will be continuing your work on the same spreadsheet you practiced with in the [Exercises: Cleaning Data]({{% relref "../exercises/_index.md" %}}) section and working with a partner.
 
-After spending some time identifying parts of the dataset that needs to be cleaned we can begin restructuring our spreadsheet. Some things that were identified during the exercises are as follows:
+After spending some time identifying parts of the dataset that need to be cleaned we can begin restructuring our spreadsheet. Some things that were identified during the exercises are as follows:
 
 1. Missing data
 1. Invalid email addresses
