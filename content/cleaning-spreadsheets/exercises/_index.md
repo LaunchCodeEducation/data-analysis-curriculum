@@ -9,7 +9,7 @@ weight = 2
 
 Now that we have covered what cleaning data is and why its important, the different types of data cleaning techniques, and types of dirty data we can put it into practice!
 
-Download the below dataset to your machine and upload it into google sheets.
+Download the below dataset to your machine and upload it into Google Sheets.
 
 {{% attachments style="blue" title="Random Data starter set" /%}}
 
