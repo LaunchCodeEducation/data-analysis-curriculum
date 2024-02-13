@@ -60,7 +60,7 @@ out the full name of a directory or simply can't remember it.
 | `~`      | The Home directory                     |
 | `.`      | The current directory                  |
 | `..`     | The parent directory of the current directory |
-
+<!-- TODO: Add Link below for terminal commands tutorial when able -->
 For an in-depth tutorial of how to use a CLI to move through your daily life,
 refer to the [terminal commands tutorial]().
 
