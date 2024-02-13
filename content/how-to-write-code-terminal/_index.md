@@ -1,17 +1,17 @@
 +++
-pre = "<b>7. </b>"
+pre = "<b>8. </b>"
 chapter = true
 title = "How to Write and Run Code"
 date = 2024-01-08T10:24:35-06:00
 draft = false
-weight = 7
+weight = 8
 +++
 
 ## Learning Objectives
 
 Upon completing all the content in this chapter, you should be able to do the following:
 
-1. Write `console.log` statements
+1. Write `print` statements
 1. Understand what syntax, comments and debugging are when you are coding
 
 ## Key Terminology
@@ -30,7 +30,7 @@ Here is a list of the key terms throughout this chapter based on the page they f
 
 1. comment
 
-### Output with `console.log`
+### Output with `print`
 
 1. console
 1. newline

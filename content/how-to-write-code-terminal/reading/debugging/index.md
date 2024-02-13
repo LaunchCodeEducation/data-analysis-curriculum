@@ -1,16 +1,9 @@
----
-title: "Fixing Errors in Your Code"
-date: 2023-07-13T14:00:03-05:00
-draft: false
-weight: 6
-originalAuthor: Sally Steuterman # to be set by page creator
-originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: Rob Thomas
-reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
----
++++
+title = "Fixing Errors in Your Code"
+date = 2024-01-08T10:24:35-06:00
+draft = false
+weight = 5
++++
 
 As you progress through this class, you will find yourself having to fix problems in your code.
 Whether the code simply won't run or is giving you the wrong answer, fixing problems with code is a vital part of being a programmer.

@@ -1,18 +1,9 @@
----
-title: "Output with console.log"
-date: 2023-07-13T14:00:03-05:00
-draft: false
-weight: 5
-originalAuthor: Sally Steuterman # to be set by page creator
-originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: Rob Thomas
-reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
----
-
-<!-- TODO: Add link to Chapter 2 -->
++++
+title = "Output with print"
+date = 2024-01-08T10:24:35-06:00
+draft = false
+weight = 4
++++
 
 In the Hello World section, you experimented with
 displaying text on the screen. Technically, you sent the words to the
