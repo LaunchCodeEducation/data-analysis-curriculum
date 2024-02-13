@@ -11,25 +11,25 @@ displaying text on the screen. Technically, you sent the words to the
 output. We used a print function without explicitly talking about how it works.
 Let’s fix that now.
 
-We *call* the print function using the syntax `console.log()`. When the code
+We *call* the print function using the syntax `print`. When the code
 runs, we want it to tell the computer, *Please display what is inside the () on
-the screen*. For us, the words are enough - we want to LOG the text to the
-CONSOLE. However, the computer only understands binary or hexadecimal
-instructions. We need the compiler to change the keywords *console* and *log*
+the screen*. For us, the words are enough - we want to PRINT the text to the
+console. However, the computer only understands binary or hexadecimal
+instructions. We need the compiler to change the keywords *print*
 into a format that the machine understands.
 
 ## Examples
 
-Open the `ConsoleLogExamples01.js` file in `how-to-write-code`. Run the code with `node consolelogexamples01.js` and note the difference between the
+Open the `print-examples.py` file in `how-to-write-code`. Run the code with `python3 print-examples.py` and note the difference between the
 outputs:
 
-```js {linenos=table}
-   console.log('Hello, JavaScript.');
-   console.log(2001);
-   console.log("What","do","commas","do?");
-   console.log("Does", "adding",      "space", "matter?");
-   console.log('Launch' + 'Code');
-   console.log("LaunchCode was founded in", 2013);
+```python {linenos=table}
+print('Hello, JavaScript.');
+print(2001);
+print("What","do","commas","do?");
+print("Does", "adding",      "space", "matter?");
+print('Launch' + 'Code');
+print("LaunchCode was founded in", 2013);
 ```
 
 Observations line by line:
