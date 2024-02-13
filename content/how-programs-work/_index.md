@@ -33,8 +33,6 @@ Here are the key terms for this chapter. On the pages that they appear, make not
 
 ### The Python Language
 1. Python
-1. Front-end
-1. Back-end
 
 ### Setting Up Your Coding Tools
 1. Integrated development environment (IDE)
