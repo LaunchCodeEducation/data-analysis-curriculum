@@ -12,7 +12,7 @@ The commands used to run a program in the terminal vary widely based on type of 
 However, no matter what language you are coding in, the documentation will include, in some format, ways to run the program in the terminal. 
 
 {{% notice blue Example "rocket" %}}
-So far, in this class, we have been running our programs by typing `node <file-name>` into our terminal.
+So far, in this class, we have been running our programs by typing `python3 <file-name>` into our terminal.
 {{% /notice %}}
 
 Let's say there is an error in our program like an infinite loop. How then do we get it to stop running so we can go back and fix our code?
@@ -20,10 +20,6 @@ Let's say there is an error in our program like an infinite loop. How then do we
 In many cases, typing *ctrl+c* into the terminal will stop a process that is currently running. However, if that doesn't work, the `exit` command can also stop a currently running process.
 
 ## CLI Specific Programs and Tools
-
-### npm CLI
-
-There is existing documentation on the npm CLI that you can view here: [npm CLI](https://docs.npmjs.com/cli/v10)
 
 There are also many other programs and software designed to run within the terminal or cli specifically. Below is a fun example.
 

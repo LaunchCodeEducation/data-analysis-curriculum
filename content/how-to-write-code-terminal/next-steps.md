@@ -5,7 +5,7 @@ draft = false
 weight = 4
 +++
 
-Now that you have learned how to write and run code, you are ready to move on and learn about variables and data types!
+Now that you have learned how to write and run code, and learned more about the terminal, you are ready to move on and learn about variables and data types!
 
 Some words of advice:
 
