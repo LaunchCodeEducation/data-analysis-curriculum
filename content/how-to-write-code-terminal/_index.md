@@ -13,10 +13,12 @@ Upon completing all the content in this chapter, you should be able to do the fo
 
 1. Write `print` statements
 1. Understand what syntax, comments and debugging are when you are coding
+1. Have a better understanding of how to navigate through the terminal
 
 ## Key Terminology
 
 Here is a list of the key terms throughout this chapter based on the page they first appear on. You should make note of these.
+## How to Write and Run Code
 
 ### What is Code?
 
@@ -38,6 +40,26 @@ Here is a list of the key terms throughout this chapter based on the page they f
 ### Fixing Errors in Your Code
 
 1. debugging
+
+## Terminal
+
+### What is a terminal anyways?
+1. graphical user interface (GUI)
+1. command line interface
+1. terminal
+1. shell
+
+### Filesystems and Paths
+1. filesystem
+1. directory
+1. subdirectory
+1. root directory
+1. parent directory
+1. absolute path
+1. relative path
+
+### How to do stuff in the terminal
+1. prompt
 
 ## Content Links
 

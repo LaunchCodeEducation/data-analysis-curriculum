@@ -6,6 +6,4 @@ draft = false
 weight = 2
 +++
 
-## Reading Content
-
 {{% children %}}
