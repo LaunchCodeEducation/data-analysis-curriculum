@@ -1,26 +1,16 @@
----
-title: "Welcome, Novice Coder"
-date: 2023-07-13T14:00:03-05:00
-draft: false
-weight: 2
-originalAuthor: Sally Steuterman # to be set by page creator
-originalAuthorGitHub: gildedgardenia # to be set by page creator
-reviewer: Rob Thomas
-reviewerGitHub: icre8FreeCode
-lastEditor: # update any time edits are made after review
-lastEditorGitHub: # update any time edits are made after review
-lastMod: # UPDATE ANY TIME CHANGES ARE MADE
----
++++
+title = "Next Steps"
+date = 2024-01-08T10:24:35-06:00
+draft = false
+weight = 4
++++
 
-Congratulations! You finished the prep work for Web Development. You are ready to take
-the next steps on your learning journey.
+Now that you have learned how to write and run code, you are ready to move on and learn about variables and data types!
 
 Some words of advice:
 
-1. Take advantage of the resources at your disposal---your instructor, TAs, and
-   classmates are here to help.
-1. Complete all of the homework and practice tasks. To learn how to code, you
-   need to code.
+1. Take advantage of the resources at your disposal—your instructor, TAs, and classmates are here to help.
+1. Complete all of the homework and practice tasks. To learn how to code, you need to code.
 1. Ask and answer questions.
 1. Recognize that making mistakes is part of the learning process.
 

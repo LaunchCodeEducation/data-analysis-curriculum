@@ -49,7 +49,7 @@ Observations line by line:
 ## Two Special Characters
 
 One final observation for all of the examples above is that each time we use
-`console.log`, a **newline** is inserted after the printed content. Think of
+`print`, a **newline** is inserted after the printed content. Think of
 a newline as the same as hitting the Enter or Return key on your keyboard. The
 cursor moves to the beginning of the next line.
 
@@ -59,13 +59,13 @@ character with the special representation `\n`.
 
 {{% notice blue "Example" "rocket" %}}
 
-   Experiment with the newline character by opening up `ConsoleLogExamples02.js` and running the code.
+Experiment with the newline character by opening up `newline-examples.py` and running the code.
 
-   ```js {linenos=table}
-      console.log("Some Programming Languages:");
+```python {linenos=table}
+print("Some Programming Languages:");
 
-      console.log("Python\nJavaScript\nJava\nC#\nSwift");
-   ```
+print("Python\nJavaScript\nJava\nC#\nSwift");
+```
 
 {{% /notice %}}
 
