@@ -17,7 +17,7 @@ The process of working through issues in code is called **debugging**. We will c
 
 Before asking for help, make sure that you have the answers to some of the questions that may be asked of you and that your questions to the person who is helping you are detailed.
 "My code doesn't work" or "Why doesn't my code work?" are difficult questions for someone to answer.
-"I tried using `console.log()` like the chapter outlined, but the screen says 'Invalid Input'. What does that mean and how might I go about addressing it?" is a good question to ask.
+"I tried using `print` like the chapter outlined, but the screen says 'Invalid Input'. What does that mean and how might I go about addressing it?" is a good question to ask.
 
 Here are some tips on what information you might need when asking for help:
 
