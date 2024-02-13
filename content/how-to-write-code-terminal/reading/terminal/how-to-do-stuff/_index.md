@@ -62,7 +62,7 @@ out the full name of a directory or simply can't remember it.
 | `..`     | The parent directory of the current directory |
 
 For an in-depth tutorial of how to use a CLI to move through your daily life,
-refer to the [terminal commands tutorial]({{< relref "../../../appendices/terminal-commands/_index.md" >}}).
+refer to the [terminal commands tutorial]().
 
 ## Check Your Understanding
 

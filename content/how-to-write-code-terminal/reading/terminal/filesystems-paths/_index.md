@@ -16,7 +16,7 @@ location of primary hard drive - in Windows, that's your C drive; in a Mac, the 
 The root directory is the **parent directory** for the folders stored inside of it.
 
 {{% notice blue Example "rocket" %}}
-Most of you have a `Desktop` folder on your computer. If you happened to store your `javascript-projects` folder on your Desktop, then the parent directory of `javascript-projects` is `Desktop`.
+Most of you have a `Desktop` folder on your computer. If you happened to store your `data-analysis-projects` folder on your Desktop, then the parent directory of `data-analysis-projects` is `Desktop`.
 {{% /notice %}}
 
 A **path** for files and folders is the list of parent directories that the computer must go through to find that particular item.
@@ -29,16 +29,16 @@ Below you will find examples for both scenarios.
 ## Absolute Path
 
 {{% notice blue Example "rocket" %}}
-Envision a scenario where there is a file called `homework.js` located within the `Desktop` directory.
+Envision a scenario where there is a file called `homework.py` located within the `Desktop` directory.
 
-The absolute path for `homework.js` would be `/Users/launchcode-learner/Desktop/homework.js` for Mac users.
+The absolute path for `homework.py` would be `/Users/launchcode-learner/Desktop/homework.py` for Mac users.
 
-The absolute path for `homework.js` would be `C:\windows\Desktop\homework.js` for Windows users.
+The absolute path for `homework.js` would be `C:\windows\Desktop\homework.py` for Windows users.
 {{% /notice %}}
 
-The following screenshot was taken on a `Linux` machine where the absolute path for `homework.js` is `/home/john/Desktop/homework.js`. The user in the screenshot utilizes the `pwd` command to display the current working directory and the `ls` command to list the contents of that directory. You will learn about these commands and more in the next section.
+The following screenshot was taken on a `Linux` machine where the absolute path for `homework.py` is `/home/john/Desktop/homework.py`. The user in the screenshot utilizes the `pwd` command to display the current working directory and the `ls` command to list the contents of that directory. You will learn about these commands and more in the next section.
 
-![Example image of desktop directory on linux machine using the pwd and ls command to demonstrate the absolute path for homework.js](pictures/absolute-path.png?classes=border)
+![Example image of desktop directory on linux machine using the pwd and ls command to demonstrate the absolute path for homework.js](pictures/ls-pwd-desktop.png?classes=border)
 
 ## Relative Path
 
