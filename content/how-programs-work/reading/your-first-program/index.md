@@ -64,25 +64,20 @@ You will be provided links to all of the repos in the course.  You will need to 
 
 1. Make sure you are signed into your GitHub account.
 1. Go to the starter code repo and fork it.
-   {{< rawhtml >}}
-      <img src="../images/forking-a-repo.png" alt="The starter code repo with the fork button" />
-   {{< /rawhtml >}}
+![The starter code repo with the fork button](../images/fork-repository.png?classes=border)
+
    A. The original repo.  Notice the Lauchcode rocket next to the name.
    
    B. The _Fork_ button.  Click this to create a fork. You should be redirected to your fork once you click this button.
 
 1. Your forked repo will look like this:
-   {{< rawhtml >}}
-      <img src="../images/fork-and-clone.png" alt="GitHub page pointing out that the repo was forked, dropdown menu to clone code is set for HTTPS" />
-   {{< /rawhtml >}}
+![GitHub page pointing out that the repo was forked, dropdown menu to clone code is set](../images/clone-repository.png?classes=border)
    
    A. The repo will have the same name, but below it will be a link to the original repo.
 
    B. Click the green _<> Code_ button.  This will open a new dropdown menu.
 
    C. In the dropdown menu, select _HTTPS_.  A URL will appear. Copy that URL.
-
-
 
 GitHub has documentation on [Forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [Cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) if you would like more guidance. 
 
@@ -92,7 +87,7 @@ Occasionally, a change is made to the original repo that you forked. These chang
 
 To get these changes, Git has a process in place called "fetching the upstream". You do NOT have to do any of this right now or even be able to explain exactly how this works, but we encourage you to bookmark this page in case you are ever directed to fetch the upstream.
 
-Now what is the upstream? The upstream here is the repo you forked, in this case, `LaunchCodeEducation/js-hello-world`. Your repo (`speudusa/js-hello-world` in the above example image) is set up as the origin. With this distinction in place, let's look at the commands required.
+Now what is the upstream? The upstream here is the repo you forked, in this case, `LaunchCodeEducation/python-hello-world`. Your repo (`jwoolbright23/python-hello-world` in the above example image) is set up as the origin. With this distinction in place, let's look at the commands required.
 
 1. Run the command, `git remote -v`. If you only see the origin repo listed, you need to add an upstream. You can do so with the command `git remote add upstream <PASTE-UPSTREAM-URL-HERE>`. Run `git remote -v` to make sure that you now have both an origin repo and an upstream repo listed.
 1. With an upstream set up, run the command `git fetch upstream`.
@@ -146,98 +141,40 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
 `Hello, World` will be your first program as well. Welcome to the club!
 
 1. Open your IDE, and open your new repo.  You should see a file tree with the same files from the repo.
-   {{< rawhtml >}}
-      <img src="../images/filetree.png" alt="file tree for hello-world repo" width=60%/>
-   {{< /rawhtml >}}
+
+![file tree for hello-world repo](../images/visual-studio-code-view.png?classes=border)
 
 1. Double click on `hello.js` to open the file.  You should see instructions and `console.log("Hello");`.  You can type in this file now.  Follow the instructions to complete your first program.  
-   1. Enter your code on line 7 to print 'Hello, World!
+   1. Enter your code on line 6 to print 'Hello, World!
    <!-- TODO: Add link below when able -->
    1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]().
    1. Inside your terminal type the following commands
-      1. `npm install` (We will explore this more in future chapters).  You will see that more files and directories have been added to your project. That is expected.
-      1. Next type the command `node hello.js`.  This should run the program, which in this case prints your message in the terminal.  
+      1. Next type the command `python3 hello.py`.  This should run the program, which in this case prints your message in the terminal.  
       ```bash
-      node hello.js
+      python3 hello.js
       Hello World!
       ```
-      1. Another way to run your program is to use the _Run and Debug_ button found on the left icon menu of Visual Studio Code.  Set it to `Node.js` for this project.
-      {{< rawhtml >}}
-         <img src="../images/run-and-debug.png" alt="icon for the Run and Debug button" width=10%/>
-      {{< /rawhtml >}}
    1. Try out the other prompts starting at line 10.
    1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This is how you use git to track each change in your code.
-      1. `git status` This will show you all the files you changed in red. Note that many of these were added by the `npm install` command. This is expected.
+      1. `git status` This will show you all the files you changed in red.
       1. `git add .` This will 'stage', or prepare all the changed files in this directory to be updated in your GitHub repo.
-      1. `git status` This will show you all your staged files in green, which are now ready to update in GitHub.
+      1. `git status` This is optional but will show you all your staged files in green, which are now ready to update in GitHub.
       1. `git commit -m "<type a message here>"` This will 'commit', or finalize your changes in git. Between the quotes, replace the text and carrot symbols `< >` with a short message describing your changes.  This will help you remember what you did while looking through many commits later.
       1. `git push` This will actually send the committed changes to your GitHub repo.
 
-   {{% notice blue "Example of staging and pushing up your latest commit" "rocket" %}} 
+You can view an example of the above process in the image below:
+
+![Add, commit, and push changes made to project to remote github repository](../images/push-changes-to-remote.png?classes=border)
    
    Colors may not match exactly as in your terminal.
 
-   ```bash{linenos=table,hl_lines=[],linenostart=1}
-   git status
-   On branch main
-   Your branch is ahead of 'origin/main' by 1 commit.
-   (use "git push" to publish your local commits)
-
-   Changes not staged for commit:
-   (use "git add <file>..." to update what will be committed)
-   (use "git restore <file>..." to discard changes in working directory)
-      modified:   hello.js
-
-   Untracked files:
-      (use "git add <file>..." to include in what will be committed)
-         package-lock.json
-
-   no changes added to commit (use "git add" and/or "git commit -a")
-
-   git add .
-   git status
-   On branch main
-   Your branch is ahead of 'origin/main' by 1 commit.
-      (use "git push" to publish your local commits)
-
-   Changes to be committed:
-      (use "git restore --staged <file>..." to unstage)
-         modified:   hello.js
-         new file:   package-lock.json
-
-   git commit -m "now says Hello World"
-   [main b1bb194] now says Hello World
-   2 files changed, 3457 insertions(+), 1 deletion(-)
-    create mode 100644 package-lock.json
-   computer:js-hello-world username$$ git push 
-   Enumerating objects: 9, done.
-   Counting objects: 100% (9/9), done.
-   Delta compression using up to 10 threads
-   Compressing objects: 100% (7/7), done.
-   Writing objects: 100% (7/7), 31.59 KiB | 15.80 MiB/s, done.
-   Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
-   remote: Resolving deltas: 100% (3/3), completed with 1 local object.
-   To https://github.com/USERNAME/js-hello-world.git
-      408d555..b1bb194  main -> main
-   ```
-
-   1. Line 1 `git status` used to check on the latest version of the project. 
-   1. Line 6 notes Changes not staged for commit.  We need to add these.
-   1. Line 17 `git add .` will add these to GitHub when we are ready to push up.
-   1. Line 28 `git commit -m "now says Hello World"` A commit is like taking a photo of the latest version of your code.  The message (`-m`) acts like a caption to keep track of the changes. 
-   1. Line 32 `git push` sends our latest code up to GitHub.
-
    We will learn more about these in a later chapter.
-
-   {{% /notice %}}
    
    ## Back to GitHub
 
    You should see your latest version of your code along with your commit message.
 
-   {{< rawhtml >}}
-      <img src="../images/changes-in-github.png" alt="file tree for hello-world repo">
-   {{< /rawhtml >}}
+![Updated remote repository for python hello world](../images/updated-github-remote.png?classes=border)
 
 
 ## Check Your Understanding

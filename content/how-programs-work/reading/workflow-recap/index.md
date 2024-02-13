@@ -21,7 +21,6 @@ That was a lot.  Here is a quick version of the workflow.
 ## 4. Open Visual Studio Code
    1. Open your new repo
    1. Open the terminal - make sure you are in your project directory
-   1. Run the command: `npm install`
    1. Write your code
    1. Run your code often to check your progress
    1. Save your changes
