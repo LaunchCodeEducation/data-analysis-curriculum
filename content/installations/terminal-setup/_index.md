@@ -14,7 +14,7 @@ You will often find yourself coming across terms such as the **terminal** and **
 
 A **terminal** is a program that runs a shell which allows the user to enter commands. 
 
-The **command-line** is any interface that allows the user to enter text-based commands. The **terminal** is an example of a command-line interface. Many programs and software have their own command-line interface in order to interact with them. For example **git** is a version control tool that has its own command-line interface that you will be using throughout the course.
+The **command-line** is an interface that allows the user to enter text-based commands. The **terminal** is an example of a command-line interface. Many programs and software have a command-line interface to interact with them. For example **Git** is a version control tool that has its own command-line interface that you will be using throughout the course.
 {{% /notice %}}
 
 {{% notice blue Note "rocket" %}}
