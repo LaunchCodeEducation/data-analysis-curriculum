@@ -7,7 +7,7 @@ draft = false
 weight = 7
 +++
 
-## Major Concepts
+## Learning Objectives
 
 After completing this chapter, you should be able to do the following:
 1. Explain what an algorithm is.
