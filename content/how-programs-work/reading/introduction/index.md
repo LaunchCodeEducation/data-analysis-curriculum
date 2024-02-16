@@ -7,12 +7,12 @@ weight = 1
 
    > "It'll take a few moments to get the coordinates from the navicomputer." - Han Solo
 
-As you begin to understand how programs work it may be worthwhile to revisit earlier sections that cover the following:
+Before diving into Python, take a few moments to revisit the following:
 
 1. [Why Learn to Code?]({{% relref "../../../learning-data-analysis/reading/why-learn-code/_index.md" %}})
 1. [Why Learn Python?]({{% relref "../../../learning-data-analysis/reading/why-python/_index.md" %}})
 
-If you do not need a refresher on the above feel free to move on!
+Our aim with this class is to prepare you to launch a career in data analytics and while some data analysts do not code, many do. We will be laying the groundwork of how programs work before diving into the foundations of coding with Python and later on how to use Python for data analytics.
 
 ## Programs
 
