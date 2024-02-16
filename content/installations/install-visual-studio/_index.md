@@ -7,7 +7,7 @@ weight = 20
 
 ## Setting Up Visual Studio Code
 
-Before we start coding on our computer, we need to make sure we have the right tools! Programmers use **integrated development environments (IDE)** to write and run their code. The development environment we will be using for this class is Visual Studio Code
+Before we start coding on our computer, we need to make sure we have the right tools! Programmers use **rich text editor** to write and run their code. The editor we will be using for this class is Visual Studio Code
 .
 In addition to simply writing and running code, Visual Studio Code has tools that recognize errors in our code and has an integrated terminal so we can navigate through our filesystem to find the files that need our attention.
 
