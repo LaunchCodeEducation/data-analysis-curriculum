@@ -16,7 +16,7 @@ Computers operate using `binary code`, which consists only of 0s and 1s. For exa
    > `01001000` `01100101` `01101100` `01101100` `01101111` `00100000` `01010111` `01101111` `01110010` `01101100` `01100100`
 
 Each set of 8 digits represents one character in the text.
-To make things a little easier, binary data may also be represented as **hexadecimal** values. Here is `Hello World` expressed in _hex_:
+To make things a little easier, binary data may also be represented as **hexadecimal** values. Here is `Hello World` expressed in hex:
 
    > `48 65 6c 6c 6f 20 57 6f 72 6c 64`
 
