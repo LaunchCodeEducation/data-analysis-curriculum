@@ -32,7 +32,7 @@ Writing code using only 0s and 1s would be impractical, so many clever individua
 
 A **programming language** is a set of specific words and rules for teaching a computer how to perform a desired task. Examples of programming languages include Python, JavaScript, Basic, COBOL, C++, C#, Java, and many others.
 
-These _high-level languages_ can be written and understood by humans, and each one has its own characteristic vocabulary, style, and syntax.
+These high-level languages can be written and understood by humans, and each one has its own characteristic vocabulary, style, and syntax.
 
 ### How Computers Run Programs
 
