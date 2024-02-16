@@ -29,7 +29,7 @@ The running application will look similar to the image below:
 ![Jupyter notebook running on localhost within the browser](pictures/localhost-notebook.png?classes=border)
 
 {{% notice blue Note "rocket" %}}
-If a browser window with a running jupyter notebook application does not happen automatically, you can copy and paste one of the highlighted links into the browser of your choice.
+If a browser window with a running Jupyter notebook application does not happen automatically, you can copy and paste one of the highlighted links into the browser of your choice.
 {{% /notice %}}
 
 ![Running jupyter notebook in the terminal to open the application](pictures/jupyter-notebook.png?classes=border)
