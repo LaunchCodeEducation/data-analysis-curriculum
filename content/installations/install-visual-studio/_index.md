@@ -23,7 +23,7 @@ Please ensure that you download the correct version depending on your chip type.
 
 Open your new copy of Visual Studio Code. To open one of your coding projects, go to _File > Open_ and select the project you want to work on.
 
-To start working with the terminal, look for the _Terminal_ tab in the top menu.  To open at new terminal,  _Terminal > New Terminal_. The new terminal window will open on the bottom of your IDE.
+To start working with the terminal, look for the _Terminal_ tab in the top menu.  To open a new terminal,  _Terminal > New Terminal_. The new terminal window will open on the bottom of your IDE.
 
 ## Windows Users
 
