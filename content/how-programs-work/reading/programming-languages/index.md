@@ -5,8 +5,6 @@ draft = false
 weight = 2
 +++
 
-   > "Computer, scan the surface for lifeforms."
-
    > "Hey Siri, what movies are playing nearby?"
 
 Even though today's tech makes it seem like computers understand spoken language, the devices do not use English, Chinese, Spanish, etc. to carry out their jobs. Instead, programmers must write their instructions in a form that computers understand.
