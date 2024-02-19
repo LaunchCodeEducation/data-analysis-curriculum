@@ -114,7 +114,7 @@ print(type(pi))
 
 **Console Output**
 
-```conosle
+```console
 <class 'str'>
 <class 'int'>
 <class 'float'>
