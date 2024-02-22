@@ -54,7 +54,7 @@ assignment operator, but `==` is a comparison operator.
 {{% /notice %}}
    
 An equality test is symmetric, meaning that we can switch the places of the
-two values and get the same the result.  If `num == 7` is `True`, then
+two values and get the same result.  If `num == 7` is `True`, then
 `7 == num` is also `True`. However, an assignment statement is not
 symmetric. `num = 7` works while `7 = num` does not.
 

@@ -16,7 +16,7 @@ returned the book.
 {{% /notice %}}
 
 The app sends a message to the user if the condition "the book is overdue" is
-true.
+`True`.
 
 In Python and other programming languages, **conditional statements** are used
 to either run or skip certain parts of the code. If a condition is `True`,

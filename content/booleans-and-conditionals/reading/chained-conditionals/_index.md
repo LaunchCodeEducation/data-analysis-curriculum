@@ -10,7 +10,7 @@ the following checks are ignored.
 
 ## `elif` Statements
 
-`If/else` statements provide two alternative paths. A single condition
+`if/else` statements provide two alternative paths. A single condition
 determines which path to follow. We can build more complex conditionals using
 an **elif** clause. `elif` stands for *else if*, and it allows us to include
 more conditions and code blocks. This leads to more branches for our code to

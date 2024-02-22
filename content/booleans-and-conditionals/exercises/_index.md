@@ -58,16 +58,16 @@ For questions 3 and 4, code in `exercises02.py`.
       - If the value is `True`, print `"Crew Ready"`
       - Else print `"Crew Not Ready"`
 
-      {{% expand "Check your solution" %}}
-      
-      ```python {linenos=table}
-      if crew_status:
-         print("Crew Ready")
-      else:
-         print("Crew Not Ready")
-      ```
+   {{% expand "Check your solution" %}}
+   
+   ```python {linenos=table}
+   if crew_status:
+      print("Crew Ready")
+   else:
+      print("Crew Not Ready")
+   ```
 
-      {{% /expand %}}
+   {{% /expand %}}
 
    1. `computer_status_code`
 
@@ -76,18 +76,16 @@ For questions 3 and 4, code in `exercises02.py`.
       - Else if the value is `400`, print `"Success! Computer online."`
       - Else print `"ALERT: Computer offline!"`
 
-      {{% expand "Check your solution" %}}
-      
-      ```python {linenos=true}
-      if computer_status_code == 200:
-         print("Please stand by. Computer is rebooting.")
-      elif computer_status_code == 400:
-         print("Success! Computer online.")
-      else:
-         print("ALERT: Computer offline!")
-      ```
-
-      {{% /expand %}}
+   {{% expand "Check your solution" %}}
+   ```python {linenos=table}
+   if computer_status_code == 200:
+      print("Please stand by. Computer is rebooting.")
+   elif computer_status_code == 400:
+      print("Success! Computer online.")
+   else:
+      print("ALERT: Computer offline!")
+   ```
+   {{% /expand %}}
 
    1. `shuttle_speed`
 
@@ -97,18 +95,18 @@ For questions 3 and 4, code in `exercises02.py`.
         `"ALERT: Cannot maintain orbit!"`
       - Else print `"Stable speed"`
 
-      {{% expand "Check your solution" %}}
-      
-      ```python {linenos=table}
-      if shuttle_speed > 17500:
-         print("ALERT: Escape velocity reached!")
-      elif shuttle_speed < 8000:
-         print("ALERT: Cannot maintain orbit!")
-      else:
-         print("Stable speed.")
-      ```
+   {{% expand "Check your solution" %}}
+   
+   ```python {linenos=table}
+   if shuttle_speed > 17500:
+      print("ALERT: Escape velocity reached!")
+   elif shuttle_speed < 8000:
+      print("ALERT: Cannot maintain orbit!")
+   else:
+      print("Stable speed.")
+   ```
 
-      {{% /expand %}}
+   {{% /expand %}}
 
 1. **PREDICT**
 
