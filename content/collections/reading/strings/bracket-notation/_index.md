@@ -98,17 +98,38 @@ to the beginning (right to left). In this case, the index values are
 
 Note that when we move from right to left, the index values start with `-1`.
 
-## Check Your Understanding
+## Slicing
 
-{{% notice green Question "rocket" %}}
-If `phrase = 'Code for fun'`, then `phrase[2]` evaluates to:
+In addition to accessing single characters in a string, we can also use bracket
+notation to return multiple characters. This smaller set of characters is
+called a **substring** of the original.
 
-1. `'o'`
-1. `'d'`
-1. `'for'`
-1. `'fun'`
-<!-- Solution: 2 -->
+A substring is also called a **slice** of the original string. Selecting a
+slice is similar to selecting a character, and the syntax is:
+
+```python
+some_string[start_index : end_index]
+```
+
+With this format, Python returns all of the characters from the `start_index` value up to but NOT including the `end_index`.
+
+### Saving Substrings
+
+When we use brackets to return part of a string, we actually *create a new string*. This new string is a piece of data, and we can perform operations on it like any other string. It can be advantageous to assign the newly created string to a variable whenever we use bracket notation so that the value is stored.
+
+{{% notice blue Example "rocket" %}}
+```python
+some_string = "Hello Slice"
+new_string = some_string[5:11]
+print(new_string)
+```
+
+```console
+Slice
+```
 {{% /notice %}}
+
+## Check Your Understanding
 
 {{% notice green Question "rocket" %}}
 Which of the following returns `True` given `my_str = 'index'`?  Choose
@@ -137,12 +158,11 @@ print(phrase[len(phrase) - 9])
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-Given `my_str = 'ABC DEF GHI'`, which of the following
-expressions returns `'F'`?
+Given `language = 'Python'`, what does `language[1:5]` return?
 
-1. `my_str[-3]`
-1. `my_str[-4]`
-1. `my_str[-5]`
-1. `my_str[-6]`
-<!-- Solution: my_str[-5] -->
+1. `"Pyth"`
+1. `"Pyt"`
+1. `"yth"`
+1. `"ytho"`
+<!-- Solution: 4 -->
 {{% /notice %}}

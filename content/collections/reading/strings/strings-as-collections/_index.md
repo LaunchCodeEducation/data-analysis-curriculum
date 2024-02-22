@@ -72,9 +72,7 @@ considered a string. It simply contains zero characters and is represented by
 `''` or `""` (two single or two double quotes with nothing in between).
 
 ## Quote Reminder
-<!-- TODO: Add link to Data and Variables: Values and Data Types below when able -->
-Recall from the [Data and Variables: Values and Data Types]({{% relref "" %}}) chapter that we can
-use single quotes around a string (`'hello'`), double quotes (`"hello"`),
+Recall that we can use single quotes around a string (`'hello'`), double quotes (`"hello"`),
 or triple quotes (`'''hello'''` and `"""hello"""`), as long as we start and
 end with the same type.
 
