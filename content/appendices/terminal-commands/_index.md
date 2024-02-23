@@ -26,8 +26,7 @@ If you would like to follow along with the commands below you can find an identi
 
 Sample file tree in VSCode
 
-When working in the terminal, it can be helpful to think of yourself as
-physically inside of the project's file system. File trees, like the one
+When working in the terminal, you may find it helpful to imagine that you are physically inside the project's file system. File trees, like the one
 above, are common visualization tools. Here's another map-like option
 for imagining your file system:
 
