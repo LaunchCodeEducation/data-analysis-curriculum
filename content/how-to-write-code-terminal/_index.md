@@ -24,32 +24,32 @@ Here is a list of the key terms throughout this chapter based on the page they f
 
 1. code
 
-### Syntax Rules
+#### Syntax Rules
 
 1. syntax
 
-### Comments
+#### Comments
 
 1. comment
 
-### Output with `print`
+#### Output with `print`
 
 1. console
 1. newline
 
-### Fixing Errors in Your Code
+#### Fixing Errors in Your Code
 
 1. debugging
 
-## Terminal
+### Terminal
 
-### What is a terminal anyways?
+#### What is a terminal anyways?
 1. graphical user interface (GUI)
 1. command line interface
 1. terminal
 1. shell
 
-### Filesystems and Paths
+#### Filesystems and Paths
 1. filesystem
 1. directory
 1. subdirectory
@@ -58,7 +58,7 @@ Here is a list of the key terms throughout this chapter based on the page they f
 1. absolute path
 1. relative path
 
-### How to do stuff in the terminal
+#### How to do stuff in the terminal
 1. prompt
 
 ## Content Links
