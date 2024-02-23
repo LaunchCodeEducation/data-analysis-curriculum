@@ -559,8 +559,7 @@ data_analysis $
 
 `man` is your best friend. Running `man <command>` gives you a manual
 entry of what that command does, what options it takes, and more
-documentation than you could ever need. It's so thorough, it makes this
-guide blush. Any command you think you may need, but you're not sure how
+documentation than you could ever need. Any command you think you may need, but you're not sure how
 to use it, or maybe you want to do something specific and are wondering if
 there's a specialized option for it, use `man` to get more info!
 
