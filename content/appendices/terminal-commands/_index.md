@@ -24,16 +24,12 @@ If you would like to follow along with the commands below you can find an identi
 
 ![File tree in VSCode](pictures/init_tree.png?classes=border)
 
-Sample file tree in VSCode
-
 When working in the terminal, it can be helpful to think of yourself as
 physically inside of the project's file system. File trees, like the one
 above, are common visualization tools. Here's another map-like option
 for imagining your file system:
 
 ![Sample file system map](pictures/init.png?classes=border)
-
-Sample file system map
 
 We'll navigate through and edit this sample project folder for the
 remainder of this tutorial.
@@ -538,8 +534,6 @@ Here's what that gives us:
 
 ![a new file](pictures/touch_cafes.png?classes=border)
 
-`touch` adds a file
-
 ## `clear` Command
 
 `clear` wipes your terminal window of any previously run commands
@@ -583,8 +577,9 @@ Some programs take different commands to exit. *ctrl + c* is sometimes the
 command to quit a running program and other times used to prompt the running
 program for an different exit command.
 
-### `q`
+*ctrl +d* may also be used to terminate certain running programs. Python is one example.
 
-`q` is another command for exiting a running program. Notably, it is needed
-to exit the :ref:`terminal-man` pages.
+### `q` and `ctrl +d`
+
+`q` and `ctrl + d` are also commands used for exiting a running program in certain scenarios.
 
