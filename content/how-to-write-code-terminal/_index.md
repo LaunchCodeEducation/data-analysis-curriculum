@@ -18,9 +18,9 @@ Upon completing all the content in this chapter, you should be able to do the fo
 ## Key Terminology
 
 Here is a list of the key terms throughout this chapter based on the page they first appear on. You should make note of these.
-## How to Write and Run Code
+### How to Write and Run Code
 
-### What is Code?
+#### What is Code?
 
 1. code
 
