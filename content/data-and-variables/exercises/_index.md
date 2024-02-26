@@ -5,11 +5,6 @@ draft = false
 weight = 2
 +++
 
-We've included our solutions to some (but not all) of the exercises so that you can check your own work 
-after you practice. As with any learning opportunity, take it seriously and give every 
-exercise a fair shot before peeking at the solution. Our solution may not look exactly like yours,
-but that's ok. There's often more than one way to solve a problem with code.
-
 The following exercises can be worked on within the `data-analysis-projects/exercises/exercises.py` file!
 
 ## The Data
