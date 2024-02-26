@@ -1,10 +1,10 @@
 +++
-pre = "<b>9. </b>"
+pre = "<b>10. </b>"
 chapter = true
 title = "Making Decisions with Conditionals"
 date = 2024-02-12T11:52:57-06:00
 draft = false
-weight = 9
+weight = 10
 +++
 
 ## Learning Objectives
@@ -12,9 +12,6 @@ weight = 9
 After completing all the content in this chapter, you should be able to do the following:
 
 1. Use conditional statements: `if`, `else`, and `elif`.
-1. Use loops: `for` and `while`.
-1. Modify the flow of control in loops using `break` and `continue`.
-1. Explain the difference between `break` and `continue`.
 
 ## Key Terminology
 
