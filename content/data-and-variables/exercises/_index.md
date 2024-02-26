@@ -108,4 +108,4 @@ exercises:
 
 ## Submitting Your Work
 
-When finished copy the URL to your github repository for the exercises and paste it into the submission box in Canvas for **Exercises: Data and Variables** and click *Submit*.
+When finished copy the URL to your GitHub repository for the exercises and paste it into the submission box in Canvas for **Exercises: Data and Variables** and click *Submit*.
