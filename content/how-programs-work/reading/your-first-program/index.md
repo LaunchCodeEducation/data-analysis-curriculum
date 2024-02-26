@@ -1,0 +1,190 @@
++++
+title = "Your First Program"
+date = 2024-01-08T10:24:35-06:00
+draft = false
+weight = 5
++++
+
+## Your First Program
+
+We are going to walk you through a very simple **workflow**, or sequence of steps, to start coding.
+
+## Read the Instructions
+
+Every starter code repository (repo) in this course will contain instructions.  We strongly suggest you read ALL of the instructions before writing any code.  This will help you understand the goal of your code and may explain any hurdles you might encounter while building your program.
+
+We suggest reading the rest of this page before diving into the code.  Since this is the first time you are pulling from our GitHub repository, you will need to set up your new PAT, create a directory on your computer to store your work, and practice with the terminal.  You will do great!
+
+### Starter Code
+When you have finished reading through the instructions, use this [starter code](https://github.com/LaunchCodeEducation/python-hello-world) to complete your first program.
+
+## Open your terminal
+
+You will use the terminal to create a location to store the code repos.  The terminal will also communicate with GitHub.
+
+1. Run the following command: `ls`
+This will _list_ any files or directories (folders) wherever you are in the terminal.
+
+   It may look like this:
+   ```bash
+   ls
+   ```
+
+   **Console Output**
+
+   ```console
+   Applications   
+   Desktop
+   Downloads
+   Documents
+   ...
+   ```
+1. Choose a folder where you would like to store your course work. This example stores work on the Desktop; you may choose a different location if you desire.
+
+   1. Use the following command to _change directory_, or move, into that folder: `cd <location-name>`
+      ```bash
+      cd Desktop
+      ```
+   1. _Make a directory_ (folder) to save your course work: `mkdir <directory-name>`
+      ```bash
+      mkdir LaunchCode
+      ```
+   1. To verify if your directory exists run the `ls` command again.  You should see your new directory listed.
+   1. Move into your new directory with the following command: `cd <directory-name>`
+      ```bash
+      cd LaunchCode
+      ```
+
+You are now ready to add the repo to your directory.  
+
+
+## Go to GitHub
+
+You will be provided links to all of the repos in the course.  You will need to **fork** and **clone** them to your computer.  When you fork a repo, you are making a copy of the original code.  Any changes you make to the forked repo will not be applied to the original code.  This keeps the original starter code intact for the next student.  Cloning the repo moves the repo code onto your computer.  If the code is not on your computer, you will not be able to work with it.  
+
+1. Make sure you are signed into your GitHub account.
+1. Go to the starter code repo and fork it.
+![The starter code repo with the fork button](../images/fork-repository.png?classes=border)
+
+   A. The original repo.  Notice the Lauchcode rocket next to the name.
+   
+   B. The _Fork_ button.  Click this to create a fork. You should be redirected to your fork once you click this button.
+
+1. Your forked repo will look like this:
+![GitHub page pointing out that the repo was forked, dropdown menu to clone code is set](../images/clone-repository.png?classes=border)
+   
+   A. The repo will have the same name, but below it will be a link to the original repo.
+
+   B. Click the green _<> Code_ button.  This will open a new dropdown menu.
+
+   C. In the dropdown menu, select _HTTPS_.  A URL will appear. Copy that URL.
+
+GitHub has documentation on [Forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) and [Cloning your forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) if you would like more guidance. 
+
+### Handling Changes to the Original Repo
+
+Occasionally, a change is made to the original repo that you forked. These changes may be additions to the code, updates to a package version that you are using, or something else that you would really like to be included in your forked repo.
+
+To get these changes, Git has a process in place called "fetching the upstream". You do NOT have to do any of this right now or even be able to explain exactly how this works, but we encourage you to bookmark this page in case you are ever directed to fetch the upstream.
+
+Now what is the upstream? The upstream here is the repo you forked, in this case, `LaunchCodeEducation/python-hello-world`. Your repo (`jwoolbright23/python-hello-world` in the above example image) is set up as the origin. With this distinction in place, let's look at the commands required.
+
+1. Run the command, `git remote -v`. If you only see the origin repo listed, you need to add an upstream. You can do so with the command `git remote add upstream <PASTE-UPSTREAM-URL-HERE>`. Run `git remote -v` to make sure that you now have both an origin repo and an upstream repo listed.
+1. With an upstream set up, run the command `git fetch upstream`.
+1. Once this command is done running, run the command `git merge upstream/main`.
+
+Now if you compare your code, you should see the change that was made in your upstream repo in your origin repo too. Just a reminder that we are sharing this information with you now in case you need it, not because it is a required portion of this walkthrough.
+
+{{% notice blue "Note" "rocket" %}}
+
+You may be wondering what `main` is in the above command. `main` is what we call a branch and we will be learning more about what a branch is later in this book!
+
+{{% /notice %}}
+
+Check out this article from [Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line) for more information on each of these steps!
+
+## Back to the Terminal
+
+Return to your terminal.  You should be in the directory for your course work.
+
+Run the following command: `git clone <paste-the-URL-here>`
+
+   ```bash
+   git clone https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME.git
+   ```
+
+Your PAT will act as your password to perform HTTPS Git operations. For example, if you are working on a repo with the example URL, https://github.com/username/repo.git, your terminal might look like the following:
+
+{{% notice blue Note "rocket" %}}
+If you set up your github account to work with `SSH` instead of a personal-access token then you will not be asked to enter your username or password.
+{{% /notice %}}
+
+   ```bash
+   git clone https://github.com/username/repo.git
+   Username: your_username
+   Password: your_token
+   ```
+
+If you will be pushing and pulling from a repository multiple times in quick succession, you can save your PAT in memory for a short time. Run the command:
+
+   ```bash
+   git config credential.helper 'cache --timeout=3600'
+   ```
+The next time you access your remote repo, Git will ask for your username and PAT. It will then remember your credentials for a certain amount of time. In the example above, `timeout=3600` saves your information for 1 hour (3600 seconds). You can adjust the amount of time up or down as needed.
+
+## Open Visual Studio Code
+
+We haven’t learned how to code yet, but we can still write and run our first program. This exercise asks you to create and run small amounts of code, and it reinforces the LaunchCode principle of learning by doing.
+
+We have used the phrase `Hello, World` as an example throughout this chapter because it represents the traditional first program for a new coder. Printing a single message is one of the simplest tasks a program can carry out.
+
+`Hello, World` will be your first program as well. Welcome to the club!
+
+1. Open your IDE, and open your new repo.  You should see a file tree with the same files from the repo.
+
+![file tree for hello-world repo](../images/visual-studio-code-view.png?classes=border)
+
+1. Double click on `hello.js` to open the file.  You should see instructions and `console.log("Hello");`.  You can type in this file now.  Follow the instructions to complete your first program.  
+   1. Enter your code on line 6 to print 'Hello, World!
+   <!-- TODO: Add link below when able -->
+   1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]().
+   1. Inside your terminal type the following commands
+      1. Next type the command `python3 hello.py`.  This should run the program, which in this case prints your message in the terminal.  
+      ```bash
+      python3 hello.js
+      Hello World!
+      ```
+   1. Try out the other prompts starting at line 10.
+   1. When you are done with this code, you will need to `push` it up to your GitHub repo.  This is how you use git to track each change in your code.
+      1. `git status` This will show you all the files you changed in red.
+      1. `git add .` This will 'stage', or prepare all the changed files in this directory to be updated in your GitHub repo.
+      1. `git status` This is optional but will show you all your staged files in green, which are now ready to update in GitHub.
+      1. `git commit -m "<type a message here>"` This will 'commit', or finalize your changes in git. Between the quotes, replace the text and carrot symbols `< >` with a short message describing your changes.  This will help you remember what you did while looking through many commits later.
+      1. `git push` This will actually send the committed changes to your GitHub repo.
+
+You can view an example of the above process in the image below:
+
+![Add, commit, and push changes made to project to remote github repository](../images/push-changes-to-remote.png?classes=border)
+   
+   Colors may not match exactly as in your terminal.
+
+   We will learn more about these in a later chapter.
+   
+   ## Back to GitHub
+
+   You should see your latest version of your code along with your commit message.
+
+![Updated remote repository for python hello world](../images/updated-github-remote.png?classes=border)
+
+
+## Check Your Understanding
+{{% notice green  "Question" "rocket" %}} 
+Which of the following correctly prints Coding Rocks? There may be more than one valid option.
+
+1. `print(Coding Rocks)`
+1. `print(Coding Rocks);`
+1. `print('Coding Rocks')`
+1. `print("Coding Rocks');`
+1. `print("Coding Rocks");`
+<!-- ans: 3 and 5 -->
+{{% /notice %}}
