@@ -32,7 +32,7 @@ diamond:
 
 ## Getting Started
 
-You will find the starter code `here <https://replit.com/@launchcode/FunctionsExercises>`_.
+You will find the starter code in `data-analysis-projects/functions/exercises/functions-exercises.py`.
 
 ## Part 1: Rectangles
 
@@ -46,8 +46,22 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
    **Console Output**
 
    ```console
-   #####
+      #####
    ```
+
+   {{% expand "Check your solution" %}}
+   
+   ```python {linenos=table}
+   def make_line(size):
+      line = ""
+      for i in range(size):
+         line += "#"
+      return line
+
+   print(make_line(5))
+   ```
+
+   {{% /expand %}}
 
 1. Write a function called `make_square(size)` that returns a `size` by
    `size` string of hashes. The function should NOT print each row of the
@@ -69,11 +83,11 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
    **Console Output**
 
    ```console
-   #####
-   #####
-   #####
-   #####
-   #####
+      #####
+      #####
+      #####
+      #####
+      #####
    ```
 
    {{% notice orange Warning %}}
@@ -84,10 +98,6 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
    you toward the end of the exercises.
 
    {{% /notice %}}
-
-   {{% expand "Check your solution" %}}
-   
-   {{% /expand %}}
 
 1. Write a function `make_rectangle(width, height)` that returns a
    rectangle with the given width and height. Use your `make_line` function to
@@ -100,16 +110,26 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
    **Console Output**
 
    ```console
-   #####
-   #####
-   #####
+      #####
+      #####
+      #####
    ```
 
+   {{% expand "Check your solution" %}}
+   
+   ```python {linenos=table}
+   def make_rectangle(width, height):
+      rectangle = ""
+      for i in range(height):
+         rectangle += (make_line(width) + "\n")
+      return rectangle
+
+   print(make_rectangle(5, 3))
+   ```
+
+   {{% /expand %}}
+
 1. Now, go back and rewrite `make_square` to use `make_rectangle`.
-
-{{% expand "Check your solution" %}}
-
-{{% /expand %}}
 
 ## Part 2:  Triangles
 
@@ -124,15 +144,25 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
    **Console Output**
 
    ```console
-   #
-   ##
-   ###
-   ####
-   #####
+      #
+      ##
+      ###
+      ####
+      #####
    ```
 
    {{% expand "Check your solution" %}}
    
+   ```python {linenos=table}
+   def make_downward_stairs(height):
+      stairs = ""
+      for i in range(height):
+         stairs += (make_line(i+1) + "\n")
+      return stairs
+
+   print(make_downward_stairs(5))
+   ```
+
    {{% /expand %}}
 
 1. Write a function `make_space_line(numSpaces, numChars)` that returns a line
@@ -154,10 +184,6 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
    We have inserted underscores to represent spaces, so they are visible in the output. Don't do this in your code.
 
    {{% /notice %}}
-   
-   {{% expand "Check your solution" %}}
-   
-   {{% /expand %}}
 
 1. Write a function `make_isosceles_triangle(height)` that returns a triangle
    of the given height.
@@ -184,6 +210,16 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
 
    {{% expand "Check your solution" %}}
    
+   ```python {linenos=table}
+   def make_isosceles_triangle(height):
+      triangle = ""
+      for i in range(height):
+         triangle += (make_space_line(height - i - 1, 2 * i + 1) + "\n")
+      return triangle
+
+   print(make_isosceles_triangle(5))
+   ```
+
    {{% /expand %}}
 
 ## Part 3: Diamonds
@@ -212,9 +248,20 @@ You will find the starter code `here <https://replit.com/@launchcode/FunctionsEx
 
    {{% expand "Check your solution" %}}
    
+   ```python {linenos=table}
+   def make_diamond(height):
+      diamond = ""
+      triangle = make_isosceles_triangle(height)
+      diamond += triangle[:-1]
+      for i in range(len(triangle)-1, -1, -1):
+         diamond += triangle[i]
+      return diamond
+
+   print(make_diamond(5))
+   ```
    {{% /expand %}}
 
 ## Submitting Your Work
 
-When finished copy the URLs to your repls for the exercises, separating each URL with a semi-colon and paste them into the submission box in Canvas for **Exercises: Booleans, Conditionals, and Loops** and click *Submit*.
+When finished, copy the URL to your GitHub repository and paste it in the submission box on the assignment page in Canvas.
 

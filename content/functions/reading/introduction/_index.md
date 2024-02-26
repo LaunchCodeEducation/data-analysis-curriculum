@@ -65,8 +65,7 @@ Encapsulation is the process of packaging up code in a reusable way, without the
 
 A commonly-used analogy for describing the concept of a function is that of a machine that takes input, carries out an action, and gives back a result. This is known as the **function machine** analogy.
 
-.. figure:: figures/function-machine.png
-   :alt: A "function machine," consisting of a box which takes inputs, and from which output emerges.
+![A "function machine," consisting of a box which takes inputs, and from which output emerges](./pictures/function-machine.png)
 
 If we want to use a function, we must provide it with some input. It carries
 out an action on that input and returns a result. The action occurs within the
@@ -82,7 +81,7 @@ of whether or not that value is used, or is even useful.
 
 {{% /notice %}}
 
-The programming concept of a function is very similar to the concept of a mathematical function. For example, in high school algebra you learned about functions like `y = 4x + 7`. These functions used a mathematical input (`x`) and carried out a procedure to return a numerical result (`y`).
+The programming concept of a function is very similar to the concept of a mathematical function. For example, in high school algebra you might learned about functions like `y = 4x + 7`. These functions used a mathematical input (`x`) and carried out a procedure to return a numerical result (`y`).
 
 {{% notice blue Example %}}
 

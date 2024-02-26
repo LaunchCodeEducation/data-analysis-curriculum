@@ -78,14 +78,13 @@ Let's say we define a function with a single parameter. When we call
 that function, what happens if we provide two arguments? What if we call the function but give
 no arguments?
 
-In this example, we receive a `TypeError` message each time we call the
+In this case, we receive a `TypeError` message each time we call the
 `say_hello` function with the wrong number of arguments. As defined in line
 1, the function has one parameter, so it *expects* to receive one data value.
 When we send the wrong number of arguments, the program crashes with a runtime error, since we did not tell the program how to
 deal with missing or extra data.
 
-Read the error messages again, and note that we are given information about why
-the program crashed. How useful! The messages tell us how many missing or extra
+Luckily, when this happens, the error message tell us how many missing or extra
 arguments we used in the function call.
 
 ## Default Parameter Values

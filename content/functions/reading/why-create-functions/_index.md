@@ -4,8 +4,6 @@ draft = false
 weight = 9
 +++
 
-Whew! You made it to the end of the chapter!
-
 After plowing through all of the details for creating a function, you might ask
 yourself, *Why would I ever want to do this?*
 

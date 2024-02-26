@@ -11,7 +11,7 @@ Let's take a look at function output in greater detail.
 
 Some functions return values that are useful. 
 In particular, the type conversion functions convert input to the specified data type 
-and return the result---calling `int("3.14")` returns the integer value `3.14`.
+and return the result---calling `int("3")` returns the integer value `3`.
 
 ### Returning a Value
 
@@ -54,7 +54,7 @@ Now that we have return statements in our coding toolbox, we will very rarely
 print anything *within* a function. If we want to see the value returned by a
 function then we must print it *after* calling the function.
 
-### `return` Terminates Function Execution
+### Return Terminates Function Execution
 
 When a return statement executes, the function terminates, regardless of whether or not there is any code following the return statement. This means that you must be careful to use `return` only when the work of the function has been completed.
 

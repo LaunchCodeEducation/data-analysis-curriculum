@@ -7,9 +7,16 @@ draft = false
 weight = 13
 +++
 
-## Major Concepts & 
+## Learning Objectives
+
+Upon completing all the content in this chapter, you should be able to do the following:
+
+1. Write a function in Python
+1. Be able to set default values for function parameters
 
 ## Key Terminology
+
+Here is a list of key terms for this chapter, broken up by the page upon which the term first appears. Make note of each term as its definition.
 
 ### Introduction
 

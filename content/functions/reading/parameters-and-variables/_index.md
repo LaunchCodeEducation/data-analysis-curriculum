@@ -14,18 +14,8 @@ The **scope** of a variable refers to where that variable is useable within a
 program. Scope consists of all locations in a program where a variable can be
 used or modified.
 
-{{% notice orange Warning %}}
-
-A variable defined inside a function is NOT usable outside of that
-function.
-
-{{% /notice %}}
-
-This is what we mean when we refer to **scope**. A variable is not always
-usable throughout an entire program. Where it can be used depends on where it
-is defined.
-
-Parameters and variables defined inside a function are only visible within that function.
+A variable is not always usable throughout an entire program. Where it can be used depends on where it
+is defined. Parameters and variables defined inside a function are only visible within that function.
 
 ## Variable Shadowing
 
@@ -58,7 +48,7 @@ no_hyph_number = remove_hyphens('56-78')
 
 We don't recommend doing this! Are you having trouble interpreting this code?
 When the function runs, does `phone_number` on line 2 have the value `"614-555-5555"` or
-`'56-78'`? Feel free to run this code in the editor above to find out.
+`'56-78'`? Feel free to run this code in a code editor above to find out.
 
 {{% /notice %}}
 

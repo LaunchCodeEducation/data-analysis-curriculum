@@ -115,13 +115,6 @@ When we *define* a function, we make it available for later use. However, a
 function does NOT run when it is defined. It must be *called* in order to
 execute.
 
-{{% notice orange Warning %}}
-
-This is not only a common point of confusion for new programmers, but it can
-also cause logic errors!
-
-{{% /notice %}}
-
 ## Check Your Understanding
 
 {{% notice green Question %}}

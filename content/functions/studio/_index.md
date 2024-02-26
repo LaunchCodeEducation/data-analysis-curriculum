@@ -37,6 +37,8 @@ practice, we will solve the list reversal by defining two functions - one that
 reverses the characters in a string (or the digits in a number) and one that
 flips the order of entries in the list.
 
+To get started on the studio, open up `data-analysis-projects/functions/studio/functions-studio.py`.
+
 ## Reverse Characters
 
 1. In order to create this function, let's review some string methods and 
@@ -44,27 +46,27 @@ flips the order of entries in the list.
    Using these built-in methods, we can create a function that will not
    only reverse the order of elements, but the characters contained within each element.
 
-   a. Define the function as `reverse_characters`. Give it one parameter, which will
+   1. Define the function as `reverse_characters`. Give it one parameter, which will
       be the string to reverse.
-   b. Within your function, use the `list` function to split the 
+   1. Within your function, use the `list` function to split the 
       string into a list of individual characters.
-   c. `reverse` your new list.
-   d. Use `join` to create the reversed string and *return* that string from the
+   1. `reverse` your new list.
+   1. Use `join` to create the reversed string and *return* that string from the
       function.
-   e. Create a variable of type string to test your new function.  (See suggestions below)
-   f. Use `print(reverse_characters(my_variable_name))` to call the function and verify
+   1. Create a variable of type string to test your new function.  (See suggestions below)
+   1. Use `print(reverse_characters(my_variable_name))` to call the function and verify
       that it correctly reverses the characters in the string.
-   g. *Optional*: Use method chaining to reduce the lines of code within the
+   1. *Optional*: Use method chaining to reduce the lines of code within the
       function.
 
 {{% notice green Tip %}}
 
 Use these sample strings for testing:
 
-a. `'apple'`
-b. `'LC101'`
-c. `'Capitalized Letters'`
-d. `'I love the smell of code in the morning.'`
+1. `'apple'`
+1. `'LC101'`
+1. `'Capitalized Letters'`
+1. `'I love the smell of code in the morning.'`
 
 {{% /notice %}}
 
@@ -77,13 +79,13 @@ d. `'I love the smell of code in the morning.'`
    function to return a number with all the digits reversed (e.g. 1234 converts
    to 4321 and NOT the string `"4321"`).
 
-   a. Add an `if` statement to `reverse_characters` to check the `type` the
+   1. Add an `if` statement to `reverse_characters` to check the `type` the
       parameter.
-   b. If `type` is `str`, return the reversed string as before.
-   c. If `type` is `int` or  `float`, convert the parameter to a string, reverse the
+   1. If `type` is `str`, return the reversed string as before.
+   1. If `type` is `int` or  `float`, convert the parameter to a string, reverse the
       characters, then convert it back into a number.
-   d. Return the reversed number.
-   e. Be sure to print the result returned by the function to verify that your code
+   1. Return the reversed number.
+   1. Be sure to print the result returned by the function to verify that your code
       works for *both strings and numbers*. Do this before moving on to the
       next exercise.
 
@@ -91,10 +93,10 @@ d. `'I love the smell of code in the morning.'`
 
 Use these samples for testing:
 
-a. `1234`
-b. `'LC101'`
-c. `8675309`
-d. `'radar'`
+1. `1234`
+1. `'LC101'`
+1. `8675309`
+1. `'radar'`
 
 {{% /notice %}}
 
@@ -104,13 +106,13 @@ d. `'radar'`
    function with one parameter, which is the list we want to change. The
    function should:
 
-   a. Define and initialize an empty list.
-   b. Loop through the old list.
-   c. For each element in the old list, call `reverse_characters` to flip the
+   1. Define and initialize an empty list.
+   1. Loop through the old list.
+   1. For each element in the old list, call `reverse_characters` to flip the
       characters or digits.
-   d. Add the reversed string (or number) to the list defined in part 'a'.
-   e. Return the final, reversed list.
-   f. *Be sure to print the results from each test case in order to verify your
+   1. Add the reversed string (or number) to the list defined in part 'a'.
+   1. Return the final, reversed list.
+   1. *Be sure to print the results from each test case in order to verify your
       code*.
 
 {{% notice green Tip %}}
@@ -125,50 +127,6 @@ Use this sample data for testing.
 
 {{% /notice %}}
 
-## Bonus Missions
-
-4. Define a function with one parameter, which will be a string. The function
-   must do the following:
-
-   a. Have a clear, descriptive name like `fun_phrase`.
-   b. Retrieve only the last character from strings with lengths of 3 or less.
-   c. Retrieve only the first 3 characters from strings with lengths larger
-      than 3.
-   d. Use a template literal to return the phrase `We put the '___' in '___'.`
-      Fill the first blank with the modified string, and fill the second blank
-      with the original string.
-   e. `Build your function at repl.it <https://replit.com/@launchcode/FunctionsStudio-Bonus01>`__.
-
-#. Now test your function:
-
-   f. Outside of the function, define the variable `str` and initialize it
-      with a string (e.g. `'Functions rock!'`).
-   g. Call your function and print the returned phrase.
-
-#. The area of a rectangle is equal to its *length x width*.
-
-   a. Define a function with the required parameters to calculate the area of a
-      rectangle.
-   b. The function should *return* the area, NOT print it.
-   c. Call your area function by passing in two arguments - the length and
-      width.
-   d. If only one argument is passed to the function, then the shape is a
-      square. Modify your code to deal with this case.
-   e. Use a template literal to print, "The area is ____ cm^2."
-   f. `Code the area function at repl.it <https://replit.com/@launchcode/FunctionsStudio-Bonus02>`__.
-
-{{% notice green Tip %}}
-
-Use these test cases.
-
-a. length = 2, width = 4 (area = 8)
-b. length = 14, width = 7 (area = 98)
-c. length = 20 (area = 400)
-
-{{% /notice %}}
-
 ## Submitting Your Work
 
-You should have **1** repl when finished with the studio. Copy the URL to your repl and paste it into the submission box in Canvas for **Studio: Functions** and click *Submit*.
-
-If you did the bonus missions, submit them through Canvas as well.
+Copy the URL to your GitHub repo and paste it in the submission box on the Canvas assignment page.
