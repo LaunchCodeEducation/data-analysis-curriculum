@@ -66,7 +66,7 @@ strings*, so numbers get concatenated rather than added.  Just like
 Python treats input entries as strings!
 {{% /notice %}}
 
-If we want our program to perform math on the entered numbers, we must [type conversion]({{% relref "../type-conversion/_index.md" %}}) to change the string values into numbers.
+If we want our program to perform math on the entered numbers, we must use [type conversion]({{% relref "../type-conversion/_index.md" %}}) to change the string values into numbers.
 
 ## Check Your Understanding
 
