@@ -12,7 +12,7 @@ Variables allow us to store values for later use.
 
 A useful visual analogy for how a variable works is that of a label that *points to* a piece of data. 
 
-![A label, programmingLanguages, pointing to thing string value "JavaScript"](pictures/variable.png?classes=border)
+![A label, programmingLanguages, pointing to string value "JavaScript"](pictures/variable.png?classes=border)
 
 In this figure, the name `programmingLanguage` points to the string value `"JavaScript"`. 
 This is more than an analogy, since it also is representative of how a variable and its value are stored in a computer's memory.
