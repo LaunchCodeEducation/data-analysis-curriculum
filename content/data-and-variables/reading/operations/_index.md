@@ -25,7 +25,7 @@ For example, in the calculation `20 + 32`, the operator is `+` and the operands 
 The symbols `+` and `-`, and the use of parentheses for grouping, mean in Python what they mean in mathematics. The asterisk (`*`) is the symbol for multiplication, and `**` is the symbol for exponentiation. Addition, subtraction, multiplication, and exponentiation all do what you expect.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 print(2 + 3)
 print(2 - 3)
 print(2 * 3)
@@ -35,7 +35,7 @@ print(3 ** 2)
 
 **Console Output**
 
-```console
+```console {linenos=table}
 5
 -1
 6
@@ -49,7 +49,7 @@ We use the same terminology as before, stating that `2 + 3` **returns** the valu
 When a variable name appears in the place of an operand, it is replaced with the value that it refers to before the operation is performed. For example, suppose that we wanted to convert 645 minutes into hours. Division is denoted by the operator `/`.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 minutes = 645
 hours = minutes / 60
 print(hours)
@@ -131,7 +131,7 @@ The acronym PEMDAS can be used to remember order of operations:
 {{% notice blue Note "rocket" %}}
 Due to an historical quirk, an exception to the left-to-right rule is the exponentiation operator `**`. A useful hint is to always use parentheses to force exactly the order you want when exponentiation is involved:
 
-```python
+```python {linenos=table}
 # the right-most ** operator is applied first
 print(2 ** 3 ** 2)
 

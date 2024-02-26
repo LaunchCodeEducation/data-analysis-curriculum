@@ -33,7 +33,7 @@ exercises:
    {{% /notice %}}
 
    {{% expand "Check Your Solution" %}}
-   ```python
+   ```python {linenos=table}
    shuttle_name = 'Determination'
    shuttle_speed_mph = 17500
    distance_to_mars_km = 225000000
@@ -93,7 +93,7 @@ exercises:
    `"_____ will take ___ days to reach the Moon."`.
 
    {{% expand "Check Your Solution" %}}
-   ```python
+   ```python {linenos=table}
    miles_to_moon = kilometers_to_moon * MILES_PER_KM
    hours_to_moon = miles_to_moon / shuttle_speed_mph
    days_to_moon = hours_to_moon / 24

@@ -52,7 +52,7 @@ variable names. For example, consider the following program. While we haven't
 introduced each of the components used here, you should be able to come to a
 general understanding of the new components.
 
-```python
+```python {linenos=table}
 x = 5
 Y = 3.14
 z = Y * x ** 2
@@ -68,7 +68,7 @@ they will be used.
 
 Let's look at an improved version of this program.
 
-```python
+```python {linenos=table}
 radius_of_circle = 5
 PI = 3.14
 area_of_circle = PI * radius_of_circle ** 2

@@ -44,7 +44,7 @@ We will explore such "mixed" operations in a later chapter.
 A common programming task is to update the value of a variable in reference to itself.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 x = 1
 x = x + 1
 
@@ -63,7 +63,7 @@ Line 2 may seem odd to you at first, since it uses the value of the variable `x`
 This action is so common, in fact, that it has a shorthand operator, `+=`. The following example has the same behavior as the one above.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 x = 1
 x += 1
 

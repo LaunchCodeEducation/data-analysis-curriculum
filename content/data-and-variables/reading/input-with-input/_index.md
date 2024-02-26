@@ -45,7 +45,7 @@ remember. Given `print(7 + 2)`, the output would be `9`.
 
 Now explore the following code located in the `data-analysis-projects/data-and-variables` directory, which prompts the user for two numbers and then prints their sum.
 
-```python
+```python {linenos=table}
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 

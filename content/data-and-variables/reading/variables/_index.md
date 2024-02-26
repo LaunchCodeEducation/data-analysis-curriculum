@@ -78,7 +78,7 @@ value `"Hello, World"`. `print(message)` means the same thing as `print("Hello, 
 say that `message` **evaluates to** `"Hello, World!"`
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 message = "Python ROCKS!"
 num = 17
 pi = 3.14159
@@ -102,7 +102,7 @@ In each case, the printed result is the value of the variable.
 Like values, variables also have types. We determine the type of a variable the same way we determine the type of a value, using `type()`.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 message = "What's up, Doc?"
 n = 17
 pi = 3.14159
@@ -131,7 +131,7 @@ a football game. Just like a score, variables can change over time.
 To see this, read and then run the following program. Notice how we change the
 value of `day` three times. We even give it a value of a different data type.
 
-```python
+```python {linenos=table}
 day = "Thursday"
 print(day)
 
@@ -152,7 +152,7 @@ new total.
 {{% notice green Question "rocket" %}}
 What is printed when the following code executes?
 
-```python
+```python {linenos=table}
 day = "Thursday"
 day = 32.5
 day = 19
