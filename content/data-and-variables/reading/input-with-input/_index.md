@@ -73,7 +73,7 @@ If we want our program to perform math on the entered numbers, we must use [type
 {{% notice green Question "rocket" %}}
 What is printed when the following program runs?
 
-```python
+```python {linenos=table}
 info = input("Please enter your age: ")
 # The user enters 25.
 
