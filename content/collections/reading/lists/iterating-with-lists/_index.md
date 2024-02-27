@@ -82,114 +82,103 @@ print("{0}) {1}".format(index+1, shopping_list_items[index]))
 
 Note the following:
 
-#. In this loop, ``range(len(shopping_list_items))`` generates a sequence of
-   integers up to but not including the length of the list. Since
-   ``len(shopping_list_items)`` returns the value ``5``, this list of integers
-   will be ``0, 1, 2, 3, 4``.
-#. Each time the loop repeats, Python assigns the next integer in the
-   sequence to the variable ``index``.
-#. In line 4, note how we use the ``index`` values to calculate the item
-   numbers and access each element from the list.
+1. In this loop, `range(len(shopping_list_items))` generates a sequence of
+integers up to but not including the length of the list. Since
+`len(shopping_list_items)` returns the value `5`, this list of integers
+will be `0, 1, 2, 3, 4`.
+1. Each time the loop repeats, Python assigns the next integer in the sequence to the variable `index`.
+1. In line 4, note how we use the `index` values to calculate the item numbers and access each element from the list.
 
-   a. The ``{0}`` placeholder gets filled with the value of ``index`` plus
-      one. Since ``index`` takes the values 0 - 4, the output shows the
-      line numbers 1 - 5.
-   b. The ``{1}`` placeholder gets filled with one element from the list.
-      When ``index`` is ``0``, ``shopping_list_items[index]`` returns
-      ``'apples'``. The next time the loop repeats, ``index`` is ``1``, and
-      ``shopping_list_items[index]`` returns ``'oranges'``.
+1. The `{0}` placeholder gets filled with the value of `index` plus one. Since `index` takes the values 0 - 4, the output shows the line numbers 1 - 5.
+1. The `{1}` placeholder gets filled with one element from the list. When `index` is `0`, `shopping_list_items[index]`` returns `'apples'``. The next time the loop repeats, `index` is `1`, and `shopping_list_items[index]` returns `'oranges'`.
 
-Which Syntax Should We Use?
----------------------------
+## Which Syntax Should We Use?
 
 Should we *loop by element* or *loop by index*? In many cases, the choice comes
 down to personal preference. Sometimes, however, one option will be better than
 the other.
 
-.. admonition:: Example
+{{% notice blue Example "rocket" %}}
+Given `scores = [10, 25, 8, 33, 0]`, the code shows two ways to add up all
+of the values from the list:
 
-   Given ``scores = [10, 25, 8, 33, 0]``, the code shows two ways to add up all
-   of the values from the list:
+```python {linenos=table}
+for score in scores:             # Option 1: Loop by element
+total_points += score
 
-   .. sourcecode:: Python
-      :linenos:
+for index in range(len(scores)): # Option 2: Loop by index
+total_points += scores[index]
+```
+{{% /notice %}}
 
-      for score in scores:             # Option 1: Loop by element
-         total_points += score
-      
-      for index in range(len(scores)): # Option 2: Loop by index
-         total_points += scores[index]
-
-The end result is the same for both loops, ``total_points`` winds up with a
-value of ``76``. However, the syntax for looping by element (option 1) is
+The end result is the same for both loops, `total_points` winds up with a
+value of `76`. However, the syntax for looping by element (option 1) is
 cleaner, since we do not have to worry about bracket notation.
 
 This example shows doing something WITH the list elements. We access each one
-in turn and add it to ``total_points``. We do NOT change any of the elements
-themselves. ``print(scores)`` returns ``[10, 25, 8, 33, 0]`` even after the
+in turn and add it to `total_points`. We do NOT change any of the elements
+themselves. `print(scores)` returns `[10, 25, 8, 33, 0]` even after the
 loop finishes.
 
 The next example shows a case where we change the values of some list elements:
 
-.. admonition:: Example
+{{% notice blue Example "rocket" %}}
+Given `scores = [10, 25, 8, 33, 0]`, the code below changes the points for
+some of the values:
 
-   Given ``scores = [10, 25, 8, 33, 0]``, the code below changes the points for
-   some of the values:
+```python {linenos=table}
+print(scores)
 
-   .. sourcecode:: Python
-      :linenos:
-      
-      print(scores)
+for index in range(len(scores)):    # Loop by index
+if index >= 2:                   # Check position in list
+scores[index] += 12           # If True, increase the value of the element
 
-      for index in range(len(scores)):    # Loop by index
-         if index >= 2:                   # Check position in list
-            scores[index] += 12           # If True, increase the value of the element
+print(scores)
+```
 
-      print(scores)
+**Console Output**
 
-   **Console Output**
+```console
+[10, 25, 8, 33, 0]
+[10, 25, 20, 45, 12]
+```
+{{% /notice %}}
 
-   ::
-
-      [10, 25, 8, 33, 0]
-      [10, 25, 20, 45, 12]
+Take a moment to think about what happens inside this loop. We change the
+value of an element based on its *position* in the list. 
    
-   Take a moment to think about what happens inside this loop. We change the
-   value of an element based on its *position* in the list. 
-   
-   #. Each time the loop runs, ``index`` gets assigned the next value in the
-      sequence ``0, 1, 2, 3, 4``.
-   #. Line 4 checks if the element in the list is at index 2 or later. If
-      ``True``, we add 12 points to the value.
-   #. We use the bracket notation in line 5 to change the value of the selected
-      element.
+1. Each time the loop runs, `index` gets assigned the next value in the
+sequence `0, 1, 2, 3, 4`.
+1. Line 4 checks if the element in the list is at index 2 or later. If
+`True`, we add 12 points to the value.
+1. We use the bracket notation in line 5 to change the value of the selected
+element.
 
 We can also change list elements based on their values instead of their
 locations:
 
-.. admonition:: Example
+{{% notice blue Example "rocket" %}}
+```python
+print(scores)
 
-   .. sourcecode:: Python
-      :linenos:
-      
-      print(scores)
+for index in range(len(scores)):    # Loop by index
+if scores[index]%2 == 0:         # Check if the current score is even
+scores[index] *= 2            # If True, double the score
 
-      for index in range(len(scores)):    # Loop by index
-         if scores[index]%2 == 0:         # Check if the current score is even
-            scores[index] *= 2            # If True, double the score
+print(scores)
+```
 
-      print(scores)
+**Console Output**
 
-   **Console Output**
+```console
+[10, 25, 8, 33, 0]
+[20, 25, 16, 33, 0]
+```
 
-   ::
-
-      [10, 25, 8, 33, 0]
-      [20, 25, 16, 33, 0]
-   
-   #. Line 4 checks if the value for the current list element is even.
-   #. If ``True``, line 5 doubles the value and reassigns it to the same
-      index location in the list.
+1. Line 4 checks if the value for the current list element is even.
+1. If `True`, line 5 doubles the value and reassigns it to the same
+index location in the list.
+{{% /notice %}}
 
 Since lists are mutable, we can use a loop to change some or all of the
 elements. To do this, we must know the *position* of the element in the list,
