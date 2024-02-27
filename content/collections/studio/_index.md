@@ -19,7 +19,7 @@ Strings and lists have **properties** and **methods** that allow us to easily
 perform some useful actions.
 
 {{% notice blue Note "rocket" %}}
-The following studio starter code can be found in your `data-analysis-projects/collections/studio` directory.
+The following studio starter code for each part can be found in your `data-analysis-projects/collections/studio` directory.
 {{% /notice %}}
 
 ## Part 1: String Modification
