@@ -32,7 +32,7 @@ print(movies)
 
 ```console {linenos=table}
 1 Interstellar
-2 Prider and Prejudice
+2 Pride and Prejudice
 3 Inception
 4 Barbie
 ```
@@ -85,4 +85,42 @@ Joe Wright              Pride and Prejudice 2005
 Christopher Nolan       Inception           2010
 Greta Gerwig            Barbie              2003
 ```
+{{% /notice %}}
+
+### Creating a DataFrame from Series
+
+In the following example we will create a DataFrame from two Series using pandas and the built-in `.concat()` function.
+
+{{% notice blue Example "rocket" %}}
+```python
+movies = pd.Series(["Interstellar", "Pride and Prejudice", "Inception", "Barbie"], index=['1', '2', '3', '4'], name = 'movies')
+```
+
+```python
+genres = pd.Series(["Science Fiction", "Novel", "Science Fiction", "Comedy"], index=['1', '2', '3', '4'], name='genres')
+```
+Using the two series above we can concatenate the two together in order to create a DataFrame.
+
+``` python
+df = pd.concat([movies, genres], axis=1) # axis 1 specifies that the operations will be performed down each column
+```
+
+**Output**
+
+```console
+                movies           genres
+1         Interstellar  Science Fiction
+2  Pride and Prejudice            Novel
+3            Inception  Science Fiction
+4               Barbie           Comedy
+```
+{{% /notice %}}
+
+{{% notice blue Note "rocket" %}}
+the `axis` option specifies whether the data will be joined or combined along the *row* or *column*. The table below provides an overview of the `axis` option.
+
+| Axis | Represents | Use Case |
+|---|---|---|---|
+| 0 | **Row** | Operations performed **across rows** |
+| 1 | **Column** | Operations performed **down each column** |
 {{% /notice %}}
