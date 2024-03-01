@@ -104,7 +104,7 @@ print("Hello, World!")
 ```
 
 Line 1 defines the function name and parameter. Lines 2 - 6 are part of the
-function body. Line 89 is even with the `def` keyword, so it is NOT part of
+function body. Line 9 is even with the `def` keyword, so it is NOT part of
 the `add_list_numbers` function.
 
 {{% /notice %}}
@@ -119,7 +119,7 @@ execute.
 
 {{% notice green Question %}}
 
-What are the *parameters* of the following function? Click *ALL* that apply.
+What are the *parameters* of the following function? Select *ALL* that apply.
 
 ```python {linenos=table}
 def perimeter_of_square(side_length):
@@ -139,7 +139,7 @@ print(perimeter_of_square(4))
 {{% notice green Question %}}
 
 For the same code sample, what are the *arguments* sent by the function call?
-Click *ALL* that apply.
+Select *ALL* that apply.
 
 1. `square`
 1. `side_length`

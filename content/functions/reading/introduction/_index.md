@@ -81,7 +81,7 @@ of whether or not that value is used, or is even useful.
 
 {{% /notice %}}
 
-The programming concept of a function is very similar to the concept of a mathematical function. For example, in high school algebra you might learned about functions like `y = 4x + 7`. These functions used a mathematical input (`x`) and carried out a procedure to return a numerical result (`y`).
+The programming concept of a function is very similar to the concept of a mathematical function. For example, in high school algebra you might have learned about functions like `y = 4x + 7`. These functions used a mathematical input (`x`) and carried out a procedure to return a numerical result (`y`).
 
 {{% notice blue Example %}}
 
