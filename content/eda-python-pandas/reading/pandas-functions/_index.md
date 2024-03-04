@@ -9,6 +9,10 @@ Now that we have a basic understanding of `pandas` data structures lets take a l
 
 ## Commonly Used Functions
 
+Below you will find some of the most common functions used when exploring data. Things like reading a `.csv` file and referencing it using a variable is extremely useful. It allows you to parse through an entire dataset and grab the bits and pieces you are most interested in observing and analyzing in order to help you make key decisions during the process.
+
+Two functions below that may stick out to you might be the `.info()` and the `.describe()` functions. Upon initial exploration of your dataset these two built-in functions are extremely powerful when trying to get a high-level understanding of what your DataFrame holds.
+
 | Function | Description |
 |-----------|-------------|
 | `pd.read_csv(path_to_file)` | Reads a CSV (Comma-Separated Values) file into a pandas DataFrame. |
@@ -26,6 +30,8 @@ Now that we have a basic understanding of `pandas` data structures lets take a l
 
 ## Statistics with `pandas`
 
+A lot of the functions below may look familiar to you as you have already practiced some of them during your time spent with Google sheets. Refer back to [Summary Statistics with Google Sheets]({{% relref "../../../eda-with-spreadsheets/reading/summary-statistics/_index.md" %}}) if you need a refresher on basic statistics. While the functions might look different, conceptually they are the same.
+
 | Function | Description |
 |-----------|-------------|
 | `.mean()` | Calculates the mean (average) of all the values in the DataFrame. |
@@ -37,3 +43,25 @@ Now that we have a basic understanding of `pandas` data structures lets take a l
 | `.max()` | Finds the maximum value in the DataFrame. |
 | `.sum()` | Calculates the sum of all the values in the DataFrame. |
 | `.skew()` | Calculates the skewness (measure of asymmetry) of all the values in the DataFrame. |
+
+{{% notice blue Note "rocket" %}}
+All of the above statistical functions are able to reference specific rows or columns.
+{{% /notice %}}
+
+## Examples
+
+```python
+import pandas as pd
+
+# read a data file and assign to variable
+data_file = pd.read_csv('path-to-file.csv')
+
+# print out various info within the DataFrame
+## first 10 rows of the DataFrame
+print(data_file.head(10))
+
+## last 15 rows of the DataFrame
+print(data_file.tail(15))
+
+## 
+```
