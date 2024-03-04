@@ -14,6 +14,10 @@ The `pandas` library comes with two types of classes to handle data:
 
 A `series` is capable of holding any type of data (strings, objects, integers, floats, booleans, number, and so on). All values within a `series` are associated with a labeled index. The labaled index can be either label or integer-based.
 
+Column values within a `DataFrame` are called a `pandas Series`. Below is an example of how they may be used to build a `DataFrame`
+
+![diagram of how a pandas Series is used to build a dataframe](pictures/pandas-series.png?classes=border)
+
 {{% notice blue Note "rocket" %}}
 While a `Series` is capable of holding any type of data it usually only holds one type.
 {{% /notice %}}
@@ -60,7 +64,9 @@ This represents the ability to have a label-based index or integer-based index.
 
 Similar to a spreadsheet a `DataFrame` has an index for each row and a name for each column. a `DataFrame` is capable of holding different types of data (strings, objects, integers, floats, booleans, number, and so on).
 
-A `DataFrame` at its core is a collection of Series. pandas also allows for the creation of a `DataFrame` by combining one or more series together.
+A `DataFrame` at its core is a collection of Series. pandas also allows for the creation of a `DataFrame` by combining one or more series together. A `pandas DataFrame` is similar to a Python dictionary. The column names are like keys and the values are the data for that column.
+
+![A diagram of a pandas dataframe](pictures/pandas-dataframe.png?classes=border)
 
 Let's take a look at some examples below.
 
