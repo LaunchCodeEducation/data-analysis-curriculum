@@ -19,8 +19,7 @@ is defined. Parameters and variables defined inside a function are only visible 
 
 ## Variable Shadowing
 
-What about variables defined OUTSIDE of a function? We saw above that
-`phone_number` was visible inside of the `remove_hyphens` function.
+What about variables defined OUTSIDE of a function?
 
 This situation is more complicated. A variable defined outside a
 function *may* be visible within the function, but using it or trying to
