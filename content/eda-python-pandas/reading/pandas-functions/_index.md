@@ -23,3 +23,17 @@ Now that we have a basic understanding of `pandas` data structures lets take a l
 | `.fillna(desired_value)` | Fills null values in a DataFrame with the specified value. |
 | `.groupby('column_name')` | Groups a DataFrame by the unique values in the specified column. |
 | `.value_counts()` | Computes the value counts for each element in a DataFrame. |
+
+## Statistics with `pandas`
+
+| Function | Description |
+|-----------|-------------|
+| `.mean()` | Calculates the mean (average) of all the values in the DataFrame. |
+| `.median()` | Calculates the median (midpoint) of all the values in the DataFrame. |
+| `.mode()` | Calculates the mode (most commonly occuring) of all the values in the DataFrame. |
+| `.std()` | Calculates the standard deviation of all the values in the DataFrame. |
+| `.var()` | Calculates the variance of all the values in the DataFrame. |
+| `.min()` | Finds the minimum value in the DataFrame. |
+| `.max()` | Finds the maximum value in the DataFrame. |
+| `.sum()` | Calculates the sum of all the values in the DataFrame. |
+| `.skew()` | Calculates the skewness (measure of asymmetry) of all the values in the DataFrame. |
