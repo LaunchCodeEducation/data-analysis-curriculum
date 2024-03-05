@@ -1,5 +1,5 @@
 +++
-title = "Exploring Data with Python"
+title = "Exploring Data with pandas"
 date = 2024-02-29T09:18:56-06:00
 draft = false
 weight = 1
@@ -11,8 +11,6 @@ Exploratory Data Analysis or EDA as you already know is a critical step when beg
 1. Challenge previous assumptions that may have been made when discussing the business issue.
 1. Guide you on what tools and techniques you should use when working with that dataset.
 
-We will be using the power of Python, **NumPy**, and **pandas** in conjuction to be efficient and insightful while performing EDA. 
-
 {{% notice blue Note "rocket" %}}
 **pandas** and other libraries that we will use like **NumPy** is that they are not default Python packages. This means that we will need to install and import them into our workspace to use their functionality.
 {{% /notice %}}
@@ -20,8 +18,3 @@ We will be using the power of Python, **NumPy**, and **pandas** in conjuction to
 ## pandas
 
 The **pandas** library is incredibly powerful and was built specifically for data analysis work. The library comes with many useful tools and data structures that we will cover more in depth in the upcoming readings.
-
-## NumPy
-
-**NumPy** is also an external Python library used for computing in Python. It provides a multidimensional array object, derived objects like masked arrays and matrices, and additional mathematical operations.
-

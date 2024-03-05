@@ -19,10 +19,16 @@ weight = 15
 ## Key Terminology
 
 ### Exploring Data with Python
+- pandas
+- NumPy
 
 ### Data Structures
 - DataFrame
 - Series
+
+### Visualize Data with pandas
+- Matplotlib
+- pyplot
 
 ## Content Links
 

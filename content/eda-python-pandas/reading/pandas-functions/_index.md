@@ -63,5 +63,6 @@ print(data_file.head(10))
 ## last 15 rows of the DataFrame
 print(data_file.tail(15))
 
-## 
+## list out all columns within the DataFrame
+print(data_file.columns)
 ```
