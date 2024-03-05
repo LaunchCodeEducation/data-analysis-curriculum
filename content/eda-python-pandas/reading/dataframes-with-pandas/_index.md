@@ -2,12 +2,16 @@
 title = "pandas DataFrames"
 date = 2024-02-29T09:18:56-06:00
 draft = false
-weight = 1
+weight = 3
 +++
 
 Similar to a spreadsheet a `DataFrame` has an index for each row and a name for each column. a `DataFrame` is capable of holding different types of data (strings, objects, integers, floats, booleans, number, and so on).
 
 A `DataFrame` at its core is a collection of Series. pandas also allows for the creation of a `DataFrame` by combining one or more series together. A `pandas DataFrame` is similar to a Python dictionary. The column names are like keys and the values are the data for that column.
+
+Column values within a `DataFrame` are called a `pandas Series`. Below is an example of how they may be used to build a `DataFrame`
+
+![diagram of how a pandas Series is used to build a dataframe](pictures/pandas-series.png?classes=border)
 
 ![A diagram of a pandas dataframe](pictures/pandas-dataframe.png?classes=border)
 

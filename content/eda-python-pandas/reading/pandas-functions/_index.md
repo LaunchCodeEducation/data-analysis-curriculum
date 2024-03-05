@@ -2,7 +2,7 @@
 title = "pandas Functions"
 date = 2024-02-29T09:18:56-06:00
 draft = false
-weight = 3
+weight = 4
 +++
 
 Now that we have a basic understanding of `pandas` data structures lets take a look at some functions that are included with the library and how they are used. The functions included below are a small portion of those included with the library but are some of the more common ones used for exploratory data analysis.

@@ -20,15 +20,16 @@ weight = 15
 
 ### Exploring Data with Python
 - pandas
-- NumPy
 
-### Data Structures
-- DataFrame
+### pandas Series
 - Series
 
-### Visualize Data with pandas
-- Matplotlib
-- pyplot
+### pandas DataFrame
+- DataFrame
+
+### pandas Functions
+
+### Outlier Detection and Missing Data
 
 ## Content Links
 
