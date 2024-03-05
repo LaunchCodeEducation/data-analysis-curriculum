@@ -77,15 +77,33 @@ The above code block accomplishes the following:
 1. Creates a `pandas` `Series` called `example_tuple` by providing a tuple with values.
 1. Creates a `pandas` `Series` called `series_from_existing_tuple` by using an already existing tuple `pre_existing_tuple` and passing it in as a parameter to the `.Series()` function.
 
-## Indexing
+## Indexing and Naming
 
-When creating a `pandas Series` you have the ability to add custom index values. If you do not add custom index values to a `Series` and none already exist it will default to a typical index range of `0, 1, 2, 3, 4, 5, etc..`.
+When creating a `pandas Series` you have the ability to add custom index labels and a name (sometimes also referred to as a label) for the column associated with the `Series`.  
 
-In order to add custom index labels you can add in an additional parameter when creating the `Series`:
+If you do not add custom index labels to a `Series` and none already exist it will default to a typical index range of `0, 1, 2, 3, 4, 5, etc..`. In regards to column names, if you do not add a custom name to the column it will default to `none`.
 
 {{% notice blue Example "rocket" %}}
+In order to add custom index labels you can add in an additional parameter when creating the `Series`:
+
 ```python
 custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = ["custom-value", "..", "..", ".."])
+```
+{{% /notice %}}
+
+{{% notice blue Example "rocket" %}}
+If you would like to add a customized column name you would also need to add in an additional parameter when creating the `Series`:
+
+```python
+custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = ["custom-value", "..", "..", ".."], name = "custom-name")
+```
+
+You could also use the `.name()` function:
+
+```python
+custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = ["custom-value", "..", "..", ".."])
+
+custom_index_labels.name = "custom-name"
 ```
 {{% /notice %}}
 
