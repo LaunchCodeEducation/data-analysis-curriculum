@@ -10,12 +10,14 @@ The final project is an opportunity to showcase your analysis skills from EDA to
 visualization and produce a project for your professional portfolio. The project 
 is broken into five checkpoints and a final presentation.
 
-1. :ref:`Selecting your business issue and dataset<checkpoint1>`
-1. :ref:`EDA<checkpoint2>`
-1. :ref:`Cleaning data<checkpoint3>`
-1. :ref:`Manipulate, interpret, and visualize data<checkpoint4>`
-1. :ref:`Modelling data<checkpoint5>`
-1. :ref:`Final presentation<finalPresentation>`
+<!-- TODO: Update these links as you work -->
+
+1. [Selecting your business issue and dataset]({{< relref "./checkpoint-1" >}})
+1. [EDA]()
+1. [Cleaning data]()
+1. [Manipulate, interpret, and visualize data]()
+1. [Modelling data]()
+1. [Final Project Fair]()
 
 Examples of final project repositories to help you understand the requirements and complete your own:
 

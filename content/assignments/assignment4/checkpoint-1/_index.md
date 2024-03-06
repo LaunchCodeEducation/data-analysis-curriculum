@@ -24,27 +24,26 @@ what fuels your interest. This can be an expansion or alternative analysis of a 
 we've used in class so far.
 
 For some, your inspiration may come instead from doing a little data surfing. We've found most 
-of the exercise and studio datasets from `Kaggle <https://www.kaggle.com/datasets>`__. 
-`Tableau <https://public.tableau.com/en-us/s/resources?qt-overview_resources=1#qt-overview_resources>`__ 
+of the exercise and studio datasets from [Kaggle](https://www.kaggle.com/datasets). 
+[Tableau](https://public.tableau.com/en-us/s/resources?qt-overview_resources=1#qt-overview_resources) 
 lists some solid choices as well. You are not limited to just these resources for sourcing 
 your data. If you are interested in looking at regional data, there are resources like the 
-`STL Regional Data Exchange <https://rdx.stldata.org/search/type/dataset>`__, 
-`OpenDataPhilly <https://www.opendataphilly.org/organization/city-of-philadelphia>`__, and 
-`OpenDataKC <https://data.kcmo.org/>`__ to check out.
+[STL Regional Data Exchange](https://rdx.stldata.org/search/type/dataset), 
+[OpenDataPhilly](https://www.opendataphilly.org/organization/city-of-philadelphia), and 
+[OpenDataKC](https://data.kcmo.org/) to check out.
 
 Here's what you should consider when sourcing your data:
 
-* Is it in a format you know how to work with? 
-* Is it licensed for your educational use?
-* Does it require a request process and will that prevent you from turning in your checkpoints on time?
-* If you do find a cool set of data that requires a lengthy request process, talk to your mentors. They may know about alternatives you can use.
+1. Is it in a format you know how to work with? 
+1. Is it licensed for your educational use?
+1. Does it require a request process and will that prevent you from turning in your checkpoints on time?
+1. If you do find a cool set of data that requires a lengthy request process, talk to your mentors. They may know about alternatives you can use.
 
 **Examples**
 
-Checkpoint 1 examples can be found `here <https://github.com/LaunchCodeEducation/finalProjectDAExamples/tree/main/Checkpoint%201>`__.
+Checkpoint 1 examples can be found [here](https://github.com/LaunchCodeEducation/finalProjectDAExamples/tree/main/Checkpoint%201).
 
-Kaggle Tips
------------
+## Kaggle Tips
 
 **Usability**
 
@@ -86,8 +85,7 @@ Those errors were due to the Pandas not being able to process non-Latin characte
 If you encounter this, you may have to clean out those rows causing trouble, leading to 
 inaccuracies in your analysis. 
 
-Submitting Your Work
---------------------
+## Submitting Your Work
 
 Before you submit your work, download the dataset to ensure that it will meet your needs. 
 If your computer cannot download the dataset due to its size, try a similar dataset that 
@@ -101,4 +99,4 @@ word-processing program. Put your name in the right-hand corner and type up your
 issue and provide the link to your chosen dataset. Submit your document on the Canvas 
 submission page for Graded Assignment #4: Checkpoint 1.
 
-:ref:`Back to Final Project Overview<finalProject>`
+[Back to Final Project Overview]({{< relref "./../" >}})
