@@ -11,10 +11,15 @@ weight = 15
 
 Upon completing all the content in this chapter, you should be able to do the following:
 
-1. Use Pandas to locate different types of dirty data.
-1. Use Pandas to resolve different types of dirty data.
+1. Use Pandas to locate and resolve issues related to all four types of dirty data: missing data, irregular data, unnecessary data, and inconsistent data.
 
 ## Key Terminology
+
+These are the key terms for this chapter broken down by the page the term first appears on. Make note of these terms and their definitions as you read.
+
+### Handling Missing Data
+
+1. interpolation
 
 ## Content Links
 

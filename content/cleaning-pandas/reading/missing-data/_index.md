@@ -4,9 +4,7 @@ draft = false
 weight = 2
 +++
 
-What is missing data?
-
-Missing data is when a value for either a row or column is not filled in. pandas has different data types to describe missing data. `None` and `NaN` both represent missing values, however, the two are not actually equivalent and the boolean expression `None == nan` evaluates to `False`. This is because `None` is a Python object and `NaN` is a floating point value. While pandas has many built-in ways to handle missing data that treat these two data types as interchangeable, when working on your analysis, you may have to code a custom solution.
+Missing data is when a value for either a row or column is not actually there. pandas has different data types for missing data so when you print out a row of a dataframe where data is missing you will see one of these data types. pandas has a number of built-in methods that can handle missing data. `None` and `NaN` both hold missing values, however, the two are not actually equivalent. The boolean expression `None == nan` evaluates to `False`. This is because `None` is a Python object and `NaN` is a floating point value. If you find yourself needing to code a custom solution to handle an issue related to missing data, you might need to keep this in mind!
 
 {{% notice blue Note %}}
 
@@ -14,7 +12,7 @@ pandas has even more types to represent a missing value, such as a data type to 
 
 {{% /notice %}}
 
-pandas is so intelligent that it can account for missing values when doing summary statistics, so we cannot use summary statistics to start to detect our missing values. We need to use built-in functionality to locate these values and handle them. pandas comes with a built-in function called `isna()` to help us here.
+pandas can account for missing values when doing summary statistics, so we cannot count on summary statistics to detect our missing values. We need to use built-in functionality to locate these values and handle them. pandas comes with a built-in function called `isna()` to help us here.
 
 {{% notice blue Note %}}
 
@@ -39,27 +37,15 @@ my_series.isna()
 4   True
 ```
 
-When you use `isna()` on a series, you get a series in return except each value is either `True` or `False` depending on whether the value in the series was missing or not.
+When you use `isna()` on a series, you get a series in return. Each value in the returned series is either `True` or `False` depending on whether the value in the series was missing or not.
 
-You will get a similar outcome with a dataframe when locating missing values. `isna()` returns a dataaframe filled with `True` or `False` depending on whether a value was missing. Now that we have located the missing data, we need to handle it.
-
-Depending on what data is missing or why, you can either replace it, remove rows or columns, or further uncover the potential impact of the missing data through interpolation.
+You will get a similar outcome with a dataframe when locating missing values. `isna()` returns a dataaframe filled with `True` or `False` depending on whether a value was missing. Now that we have located the missing data, we need to handle it. Depending on what data is missing and why, you can either replace it, remove rows or columns, or further uncover the potential impact of the missing data through interpolation.
 
 ## Removing Rows or Columns with Missing Data
 
-This is possible the simplest option to start with. To remove a column or row that contains missing data, pandas comes with the `dropna()` function.
+This is possibly the simplest option to start with. To remove a column or row that contains missing data, pandas comes with the `dropna()` function.
 
-Given the following dataframe, called `etsy_sellers`.
-
-```console
-   Seller                Sales     Total_Rating     Current_Items
-0  Orchid Jewels         17,896    4.5              22
-1  Ducky Ducks           5,478     3.8              10
-2  Candy Yarns           89,974    4.8              18
-3  Parks Pins            6,897     4.9              87
-4  Sierra's Stationary   112,988   4.3              347     
-5  Star Stitchery        53,483    4.2              52 
-```
+Throughout this chapter, we will use the variations on the following dataframe, called `etsy_sellers`, to ecxamine how we can use pandas to clean data.
 
 ```console
    Seller                Sales     Total_Rating     Current_Items
@@ -72,23 +58,17 @@ Given the following dataframe, called `etsy_sellers`.
 6  NaN                   NaN       NaN              NaN
 ```
 
-This dataframe has several missing data points. Let's first examine row 6, which is entirely blank. Assuming this dataset came directly from Etsy, that may indicate a shop in their records that no longer exists. If we are studying currently active Etsy sellers, then we don't need this data so we can drop the whole row. `dropna()` removes all rows that have a missing value, so just runnning `dropna()` would remove rows 1 and 3 in addition to row 6. pandas functions come with so many different options and with every pandas function, we encourage you to always double check the documentation before continuing.
+This dataframe has several missing data points. Let's first examine row 6, which is entirely blank. Assuming this dataset came directly from Etsy, that may indicate a shop in their records that no longer exists. If we are studying currently active Etsy sellers for our analysis, then we don't need this data so we can drop the whole row. `dropna()` removes all rows that have a missing value, so just runnning `dropna()` would remove rows 1 and 3 in addition to row 6. pandas functions come with so many different options and with every pandas function, we encourage you to always double check the documentation to see the full scope of those options. The [documentation](https://pandas.pydata.org/docs/dev/reference/api/pandas.DataFrame.dropna.html) specifies how we can drop a row where all the data is missing.
 
 ```python
 etsy_sellers.dropna(how="all")
 ```
 
-The above code would drop just row 6 because it is the only row with all null values. `dropna()` defaults to dropping rows, but by changing one parameter we could specify that it should drop any column that contains missing values.
+The above code would drop just row 6 because it is the only row with all null values. `dropna()` defaults to dropping rows, but by changing one parameter we could specify that it should drop any column that contains all missing values.
 
 ```python
-etsy_sellers.dropna(axis="columns")
+etsy_sellers.dropna(axis="columns", how="all")
 ```
-
-{{% notice blue Note %}}
-
-For more options with `dropna()`, check out the [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html)
-
-{{% /notice %}}
 
 ## Replacing Missing Values
 
@@ -113,10 +93,54 @@ etsy_sellers.fillna(0)
 This code would acutally replace every single missing value in the dataframe with 0. But we decided to be a little more intentional and want to just replace the missing values in the `Current_Items` column.
 
 ```python 
-values = {"Current_Items": 0}
-etsy_sellers.fillna(value=values)
+cols = {"Current_Items": 0}
+etsy_sellers.fillna(value=cols)
 ```
 
 We can specify using a dictionary what column we want to fill and with what we want to fill it. This gives us so much more flexibility!
 
-Because pandas can account for missing values, we can also interpolate what trends are in the data beyond the missing values.
+## Interpolating Missing Values
+
+Because pandas can account for missing values, we can also interpolate what the missing values might be. **Interpolation** means inserting values into a dataset based on exisiting trends in the data. The `interpolate()` function includes a parameter that can specify how you want pandas to interpolate the data. The `method` parameter defaults to a linear interpolation meaning that pandas will fill in the missing values with the assumption that everything is equally spaced like a line.
+
+```console
+   Seller                Sales     Total_Rating     Current_Items
+0  Orchid Jewels         17,896    4.5              22
+1  Ducky Ducks           5,478     NaN              10
+2  Candy Yarns           89,974    4.8              18
+3  Parks Pins            NaN       4.9              0
+4  Sierra's Stationary   112,988   4.3              347     
+5  Star Stitchery        53,483    4.2              52 
+```
+
+The last remaining values are in the `Total_Rating` colunmn and the `Sales` column. Linear interpolation makes sense in neither case. We might want to interpolate what the missing rating is for Ducky Ducks based on what other values in the column are so in that case we can use the pad method.
+
+```python
+etsy_sellers.interpolate(method="pad")
+```
+
+Interpolation can be a bit of a gamble if you don't understand the underlying trends of the dataset, so you may not see it very often.
+
+## Check Your Understanding
+
+{{% notice green Question %}}
+
+True or False: pandas can account for missing values when performing certain calculations such as summary statistics
+
+{{% /notice %}}
+
+<!-- True -->
+
+{{% notice green Question %}}
+
+Which pandas function detects missing values? Select all that apply.
+
+1. `dropna()`
+1. `isna()`
+1. `interpolate()`
+1. `fillna()`
+1. `isnull()`
+
+{{% /notice %}}
+
+<!-- 2 and 5 -->

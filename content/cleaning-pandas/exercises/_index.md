@@ -7,12 +7,12 @@ weight = 2
 
 ## Getting Started
 
-Fork this [GitHub repository](https://github.com/launchcodeeducation/cleaning-data/blob/main/Cleaning%20Data%20Exercises.ipynb) and clone to your computer. 
+Open up `data-analysis-projects/cleaning-data-with-pandas/exercises/PandasCleaningTechniques.ipynb`.
 
 ## Code Along
 
-1. Select one of the following data sets to work with. [Women's E-commerce Clothing Reviews](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews).
-1. Download the dataset and add it to your Jupyter Notebook.
+1. Download [Women's E-commerce Clothing Reviews Dataset](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews).
+1. Add it to your Jupyter Notebook.
 1. Work through the exercise notebook using the dataset.
 
 ## Submitting Your Work

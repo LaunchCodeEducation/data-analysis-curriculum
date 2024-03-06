@@ -4,9 +4,7 @@ draft = false
 weight = 1
 +++
 
-We have already encountered cleaning data, so we should revisit the topic quicky.
-
-As we discussed in the previous chapter on cleaning data, we need to clean our data to ensure that our analysis is accurate. If we want to perform a regression analysis later on, the analysis will use all the existing data points. By cleaning our data first, we can ensure that the data points being used in the analysis are what we need. 
+As we discussed in the [previous chapter]({{< relref "../../../cleaning-spreadsheets" >}}) on cleaning data, we need to clean our data to ensure that our analysis is accurate. For example, if we want to project the price of a stock several months from now, then we would need to use as much data as possible for our analysis. If the data is not clean, then our analysis could be thrown off and depending on how unclean the data is, the predicted price could end up hundreds off. This is why we clean our data before diving into further analysuis. By cleaning our data first, we can ensure that the data points being used in the analysis are what we need. 
 
 As we previously covered, there are four types of dirty data:
 
@@ -15,4 +13,4 @@ As we previously covered, there are four types of dirty data:
 1. unnecessary data
 1. inconsistent data
 
-Pandas has different ways of handling these types. Because pandas is so powerful, we can easily search for dirty data and handle it. Let's examine each dirty data type and how we can clean it in pandas.
+While we learned lots of different ways to use spreadsheets to clean data, let's see how we can use pandas to clean data. Because pandas is built for data analysis, the library comes with different ways of handling all four dirty data types. Let's examine each dirty data type and how we can clean it in pandas.
