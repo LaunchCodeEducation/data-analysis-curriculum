@@ -1,7 +1,7 @@
 +++
 pre = "<b>15. </b>"
 chapter = true
-title = "Exploratory Data Analysis With pandas"
+title = "Exploratory Data Analysis with pandas"
 date = 2024-02-29T09:18:56-06:00
 draft = false
 weight = 15
@@ -24,6 +24,9 @@ weight = 15
 
 ### pandas DataFrame
 - DataFrame
+
+### pandas Functions
+- pandas functions
 
 ## Content Links
 
