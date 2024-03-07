@@ -7,9 +7,9 @@ weight = 3
 
 A `pandas` **DataFrame** is the second type of class that is capable of handling data.
 
-Similar to a spreadsheet, a `DataFrame` has an index for each row and a name for each column. a `DataFrame` is capable of holding different types of data (strings, objects, integers, floats, booleans, numbers, and so on).
+Similar to a spreadsheet, a `DataFrame` can be visualzed as having multiple columns and rows associated with the data inside. The data within can be of any type.
 
-A `DataFrame` at its core is a colelction of `Series`. Similar to a `Series` there are multiple ways that a `DataFrame` can be created:
+A `DataFrame` can also be considered a collection or assortment of `Series`. Similar to a `Series` there are multiple ways that a `DataFrame` can be created:
 1. Using a multi-dimensional list, dictionary, or tuple
 1. Combining or joining multiple `Series` together
 1. From a pre-existing CSV file
@@ -17,8 +17,6 @@ A `DataFrame` at its core is a colelction of `Series`. Similar to a `Series` the
 {{% notice blue Note "rocket" %}}
 The examples above are not the only options you have for creating a `DataFrame` but they are the ones we will focus on in this section.
 {{% /notice %}}
-
-A `DataFrame` at its core is a collection of Series.
 
 Column values within a `DataFrame` are referred to as a `Series`. Below is an example of how multiple `Series` might be used to build a `DataFrame`
 

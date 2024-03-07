@@ -5,9 +5,9 @@ draft = false
 weight = 2
 +++
 
-The `pandas` library comes with two types of classes to handle data. The first that we will learn about is the **pandas Series**. A `pandas Series` is a one-dimensional array. A good way to visualize this is to think about one column within a spreadsheet.
+The `pandas` library comes with two types of classes to handle data. The first that we will learn about is the **pandas Series**. A `pandas Series` can be visualized as an individual column within a spreadsheet. The column typically has a name and an index for each row associated with that column.
 
-A `pandas Series` is capable of holding any type of data (strings, objects, integers, floats, booleans, number, and so on). All values within a `Series` are associated with a labeled index. The labeled index can be either label or integer-based. An example of a label-based index would be `groceries` or `movies` while an integer-based index would be numeric (`1`, `2`, `3`, `etc..`).
+A `pandas Series` can hold any data type and all values within a `Series` are associated with a labeled index. The labeled index can be either label or integer-based. An example of a label-based index would be `groceries` or `movies` while an integer-based index would be numeric (`1`, `2`, `3`, `etc..`).
 
 {{% notice blue Note "rocket" %}}
 While a `Series` is capable of holding any type of data it usually only holds one.
