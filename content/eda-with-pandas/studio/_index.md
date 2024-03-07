@@ -7,9 +7,7 @@ weight = 3
 
 ## Getting Started
 
-Fork this [GitHub repository](https://github.com/launchcodeeducation/IMDB-Studio/blob/main/IMDB-Studio.ipynb) and clone to your computer.
-
-## Code Along
+Open up `data-analysis-projects/eda-with-pandas/studio/IMDB-Studio` directory within Jupyter Notebooks and code along with the instructions inside.
 
 ## Submitting Your Work
 

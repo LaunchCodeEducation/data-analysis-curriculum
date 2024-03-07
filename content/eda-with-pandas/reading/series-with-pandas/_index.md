@@ -24,10 +24,10 @@ Let's take a look at the syntax for creating a `Series` using lists, dictionarie
 import pandas as pd
 
 # Create a pandas Series by providing a list
-example_list = pd.Series(["value-1", "value-2", "value-3", "value-4"])
+example_list = pd.Series(["apple", "banana", "avocado", "honey dew"])
 
 # Create a pandas Series from a pre-existing list of values
-pre_existing_list = ["value-1", "value-2", "value-3", "value-4"]
+pre_existing_list = ["apple", "banana", "avocado", "honey dew"]
 
 series_from_existing_list = pd.Series(pre_existing_list)
 ```
@@ -44,10 +44,10 @@ The above code block accomplishes the following:
 import pandas as pd
 
 # Create a pandas Series by providing a dictionary, the i represents the index of the dictionary
-example_dictionary = pd.Series({'i-1': value-1, 'i-2': value-2, 'i-3': value-3, 'i-4': value-4})
+example_dictionary = pd.Series({'0': "apple", '1': "banana", '2': "avocado", '3': "honey dew"})
 
 # Create a pandas Series from a pre-existing dictionary, the i represents the index of the dictionary
-pre_existing_dictionary = {'i-1': value-1, 'i-2': value-2, 'i-3': value-3, 'i-4': value-4}
+pre_existing_dictionary = {'0': "apple", '1': "banana", '2': "avocado", '3': "honey dew"}
 
 series_from_existing_dictionary = pd.Series(pre_existing_dictionary)
 ```
@@ -87,7 +87,7 @@ If you do not add custom index labels to a `Series` and none already exist it wi
 In order to add custom index labels you can add in an additional parameter when creating the `Series`:
 
 ```python
-custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = ["custom-value", "..", "..", ".."])
+custom_index_labels = pd.Series(["apple", "banana", "avocado", "honey dew"], index = ["red", "yellow", "green", "green"])
 ```
 {{% /notice %}}
 
@@ -95,15 +95,15 @@ custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], in
 If you would like to add a customized column name you would also need to add in an additional parameter when creating the `Series`:
 
 ```python
-custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = ["custom-value", "..", "..", ".."], name = "custom-name")
+custom_index_labels = pd.Series(["apple", "banana", "avocado", "honey dew"], index = ["red", "yellow", "green", "green"], name = "fruit")
 ```
 
 You could also use the `.name()` function:
 
 ```python
-custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = ["custom-value", "..", "..", ".."])
+custom_index_labels = pd.Series(["apple", "banana", "avocado", "honey dew"], index = ["red", "yellow", "green", "green"])
 
-custom_index_labels.name = "custom-name"
+custom_index_labels.name = "fruit"
 ```
 {{% /notice %}}
 
@@ -111,8 +111,49 @@ custom_index_labels.name = "custom-name"
 You can also store index labels inside of a variable as shown below:
 
 ```python
-custom_index_variable = ["custom-value", "..", "..", ".."]
+fruit_color = ["red", "yellow", "green", "green"]
 
-custom_index_labels = pd.Series(["value-1", "value-2", "value-3", "value-4"], index = custom_index_variable)
+custom_fruit_labels = pd.Series(["apple", "banana", "avocado", "honey dew"], index = fruit_color)
+```
+{{% /notice %}}
+
+## Subsetting a Series
+
+`pandas` allows you to use *slicing* to subset a `Series`. You can accomplish this using bracket notation and specifying an index range. Let's take a look at how we can do this using the dictionary created above as an example.
+
+{{% notice blue Example %}}
+```python {linenos=table}
+# import pandas
+import pandas as pd
+
+# Create a pandas Series from a pre-existing dictionary, the i represents the index of the dictionary
+fruit_data = {'0': "apple", '1': "banana", '2': "avocado", '3': "honey dew"}
+
+# create a series from the fruit_data
+fruit_series = pd.Series(fruit_data)
+
+# Subset the existing series
+subset_fruit = fruit_series[:2]
+
+# Print the subset
+print(subset_fruit)
+
+# Subset Series to include elements from index 1 to 3
+subset_fruit_twice = fruit_series[1:4]
+# Print the series
+print("Subset elements from index 1 to 3")
+print(subset_fruit_twice)
+```
+
+**Output**
+
+```console
+0     apple
+1    banana
+
+Subset elements from index 1 to 3
+1       banana
+2      avocado
+3    honey dew
 ```
 {{% /notice %}}

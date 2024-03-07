@@ -25,9 +25,6 @@ weight = 15
 ### pandas DataFrame
 - DataFrame
 
-
-### Outlier Detection and Missing Data
-
 ## Content Links
 
 {{% children %}}
