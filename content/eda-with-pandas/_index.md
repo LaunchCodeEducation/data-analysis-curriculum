@@ -1,7 +1,7 @@
 +++
 pre = "<b>15. </b>"
 chapter = true
-title = "Exploratory Data Analysis With Python"
+title = "Exploratory Data Analysis With pandas"
 date = 2024-02-29T09:18:56-06:00
 draft = false
 weight = 15
