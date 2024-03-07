@@ -12,8 +12,6 @@ weight = 15
 - Understand pandas data structures
 - Cover statistics with pandas
 - Learn and use common pandas functions
-- Detect outliers and missing data
-- Utilize charts to visualize data
 - Understand external Python Libraries
 
 ## Key Terminology
@@ -27,7 +25,6 @@ weight = 15
 ### pandas DataFrame
 - DataFrame
 
-### pandas Functions
 
 ### Outlier Detection and Missing Data
 

@@ -39,7 +39,7 @@ Let's dive in to some different ways you can create a `DataFrame`.
 import pandas as pd
 
 # Create a pandas DataFrame by providing a list of lists
-movie_list_of_lists = pd.DataFrame([["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],["Marley & Me", "The Proposal", "The Guardian", "Bridesmaids"]])
+movie_list_of_lists = pd.DataFrame([["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],["Marley & Me", "Two Weeks Notice", "The Guardian", "Bridesmaids"]])
 
 # Create a pandas Series from a pre-existing list of lists
 movies_dataframe_data = [["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],["Marley & Me", "The Proposal", "The Guardian", "Bridesmaids"]]
@@ -48,7 +48,7 @@ dataframe_from_existing_list = pd.DataFrame(movies_dataframe_data)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas` as `pd`.
+1. imports `pandas`.
 1. Creates a `pandas` `DataFrame` called `movie_list_of_lists` by providing a list of lists as a parameter into the `.DataFrame()` function..
 1. Creates a `pandas` `DataFrame` called `dataframe_from_existing_list` by using the already existing list `movies_dataframe_data` and passing it in as a parameter to the `.DataFrame()` function.
 
@@ -72,8 +72,8 @@ dataframe_from_movies_dictionary = pd.DataFrame(movies)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas` as `pd`.
-1. Creates a `pandas` `DataFrame` called `movie_dictionary_dataframe` by providing a dictionary as a parameter to the `DataFrame` function.
+1. imports `pandas`.
+1. Creates a `pandas` `DataFrame` called `movie_dictionary_dataframe` by providing a dictionary as a parameter to the `.DataFrame()` function.
 1. Creates a `pandas` `DataFrame` called `dataframe_from_movies_dictionary` by using the already existing dictionary `movies` and passing it in as a parameter to the `.DataFrame()` function.
 
 ### Using a Tuple
@@ -83,35 +83,34 @@ The above code block accomplishes the following:
 import pandas as pd
 
 # Create a pandas DataFrame by providing a tuple
-example_tuple = pd.DataFrame(("Interstellar", "Pride and Prejudice", "Inception", "Barbie"))
+movies_tuple_dataframe = pd.DataFrame(("Interstellar", "Pride and Prejudice"), ("Inception", "Barbie"))
 
 # Create a pandas DataFrame by providing a pre-existing tuple
-pre_existing_tuple = ("Interstellar", "Pride and Prejudice", "Inception", "Barbie")
+movies_data = (("Interstellar", "Pride and Prejudice"), ("Inception", "Barbie"))
 
-dataframe_from_existing_tuple = pd.DataFrame(pre_existing_tuple)
+dataframe_from_existing_tuple = pd.DataFrame(movies_data)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas` as `pd`.
-1. Creates a `pandas` `DataFrame` called `example_tuple` by providing a tuple with values.
-1. Creates a `pandas` `DataFrame` called `series_from_existing_tuple` by using an already existing tuple `pre_existing_tuple` and passing it in as a parameter to the `.DataFrame()` function.
+1. imports `pandas`.
+1. Creates a `pandas` `DataFrame` called `movies_tuple_dataframe` by providing a tuple as a parameter to the `.DataFrame()` function.
+1. Creates a `pandas` `DataFrame` called `dataframe_from_existing_tuple` by using an already existing tuple `movies_data` and passing it in as a parameter to the `.DataFrame()` function.
 
-<!-- ### Creating a DataFrame from Series
+## Creating a DataFrame from Series
 
-In the following example we will create a DataFrame from two Series using pandas and the built-in `.concat()` function.
+In the following example we will create a `DataFrame` from two `Series` using pandas and the `.concat()` function included with the `pandas` library.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
+import pandas as pd
+
 movies = pd.Series(["Interstellar", "Pride and Prejudice", "Inception", "Barbie"], index=['1', '2', '3', '4'], name = 'movies')
-```
 
-```python
 genres = pd.Series(["Science Fiction", "Novel", "Science Fiction", "Comedy"], index=['1', '2', '3', '4'], name='genres')
-```
-Using the two series above we can concatenate the two together in order to create a DataFrame.
 
-``` python
-df = pd.concat([movies, genres], axis=1) # axis 1 specifies that the operations will be performed down each column
+# Using the two series above we can concatenate the two together in order to create a DataFrame.
+
+movies_genres_dataframe = pd.concat([movies, genres], axis=1) # axis 1 specifies that the operations will be performed down each column
 ```
 
 **Output**
@@ -126,10 +125,56 @@ df = pd.concat([movies, genres], axis=1) # axis 1 specifies that the operations 
 {{% /notice %}}
 
 {{% notice blue Note "rocket" %}}
-the `axis` option specifies whether the data will be joined or combined along the *row* or *column*. The table below provides an overview of the `axis` option.
+the `axis` parameter specifies whether the data will be joined or combined along the *row* or *column*. Take a look at the table below. If you do not specify `axis=1` it will default to `axis=0`.
 
 | Axis | Represents | Use Case |
 |---|---|---|---|
-| 0 | **Row** | Operations performed **across rows** |
+| 0 (default) | **Row** | Operations performed **across rows** |
 | 1 | **Column** | Operations performed **down each column** |
-{{% /notice %}} -->
+{{% /notice %}}
+
+## Column Data
+
+Suppose you want to view data from one particular column or compare specific columns to one another. You can do so by using the *column labels* to pull them aside. Let's take a look at how to do so using the same dictionary we created above.
+
+{{% notice blue Example "rocket" %}}
+```python
+# import pandas
+import pandas as pd
+
+movies = {'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2003]}
+
+movies_dataframe = pd.DataFrame(movies)
+
+movie_names = movies_dataframe["Name"]
+```
+{{% /notice %}}
+
+The above example accomplishes the following:
+
+1. Imports `pandas`
+1. Creates a dictionary called `movies` with the columns `Name` and `Release`.
+1. Creates a `DataFrame` from the `movies` dictionary
+1. A new variable called `movie_names` is created to store the values within the `Name` column of the `movies_dataframe`.
+
+### Multiple Column Data
+
+Now that you have seen how to pull aside a single column's data let's take a look at how to grab multiple columns and store them inside of a variable.
+
+{{% notice blue Example "rocket" %}}
+```python
+# import pandas
+import pandas as pd
+
+movies = {'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2003], 'Genre': ["Science Fiction", "Novel", "Science Fiction", "Comedy"]}
+
+movies_dataframe = pd.DataFrame(movies)
+
+# Pull aside the Name and Genre columns from the movies_dataframe
+movie_names_and_genres = movies_dataframe[["Name", "Genre"]]
+```
+{{% /notice %}}
+
+{{% notice blue Note "rocket" %}}
+Since we are grabbing specific columns from an already existing `DataFrame` and there are no joins happening we do not need to specify an `axis`.
+{{% /notice %}}
