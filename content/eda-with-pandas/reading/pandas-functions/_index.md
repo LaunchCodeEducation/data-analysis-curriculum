@@ -29,6 +29,13 @@ Two functions below that may stick out to you might be the `.info()` and the `.d
 | `.fillna(desired_value)` | Fills null values in a DataFrame with the specified value. |
 | `.groupby('column_name')` | Groups a DataFrame by the unique values in the specified column. |
 | `.value_counts()` | Computes the value counts for each element in a DataFrame. |
+| `.shape()` | Returns a tuple representing the dimensions of your data structure (`Series` or `DataFrame`) |
+
+{{% notice blue Note "rocket" %}}
+When using the `.shape()` function for a `DataFrame` it will show the number of rows and columns `(rows, columns)`. 
+
+When using the `.shape()` function for a `Series` it will only return the number of rows and the column will be empty `(rows, )`
+{{% /notice %}}
 
 ## Statistics with `pandas`
 
