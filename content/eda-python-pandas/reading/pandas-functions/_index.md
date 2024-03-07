@@ -5,7 +5,9 @@ draft = false
 weight = 4
 +++
 
-Now that we have a basic understanding of `pandas` data structures lets take a look at some functions that are included with the library and how they are used. The functions included below are a small portion of those included with the library but are some of the more common ones used for exploratory data analysis.
+Now that we have a basic understanding of the `.Series()` and `.DataFrame()` classes and how they are used as constructor functions, lets take a look at some other functions that are included with the library and how they are used. 
+
+The functions included below are a small portion of those included with the library but are some of the more common ones used for exploratory data analysis.
 
 ## Commonly Used Functions
 

@@ -7,10 +7,7 @@ weight = 2
 
 ## Getting Started
 
-#. Fork this `GitHub repository <https://github.com/launchcodeeducation/EDAExercises/blob/master/EDApt1Exercises.ipynb>`__ into your own GitHub account and clone to your computer.
-   If you need a refresher on how to do this see :ref:`Instruction for Using Github w/Jupyter Notebooks<usingGitHubNotebooks>`.
-
-## Code Along
+Open up `data-analysis-projects/eda-with-pandas/exercises/exercise-with-pandas.ipynb` within Jupyter Notebooks and code along with the exercises inside.
 
 ## Submitting Your Work
 
