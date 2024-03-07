@@ -13,8 +13,7 @@ A `pandas Series` is capable of holding any type of data (strings, objects, inte
 While a `Series` is capable of holding any type of data it usually only holds one.
 {{% /notice %}}
 
-## Syntax
-
+## Creating a Series
 Let's take a look at the syntax for creating a `Series` using lists, dictionaries, and tuples.
 
 ### Using a List

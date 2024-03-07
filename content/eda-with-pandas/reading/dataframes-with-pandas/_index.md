@@ -28,7 +28,7 @@ The image below provides another visual of the general `DataFrame` structure. A 
 
 ![A diagram of a pandas dataframe](pictures/pandas-dataframe.png?classes=border)
 
-## Syntax
+## Creating a DataFrame
 
 Let's dive in to some different ways you can create a `DataFrame`.
 
