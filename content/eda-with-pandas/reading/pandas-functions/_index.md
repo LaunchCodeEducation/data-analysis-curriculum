@@ -77,3 +77,23 @@ print(data_file.tail(15))
 ## list out all columns within the DataFrame
 print(data_file.columns)
 ```
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+How do we view only the first 13 rows of a `DataFrame`?
+
+<!-- Solution: .head(13) -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+Which `pandas` function will prin the number of records, three quartiles, mean, standard deviation, minimum and maximum values of a `DataFrame`?
+
+<!-- Solution: .describe() -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+What is the `pandas` function for reading a CSV file type?
+
+<!-- Solution: pd.read_csv(path_to_file) -->
+{{% /notice %}}

@@ -178,3 +178,17 @@ movie_names_and_genres = movies_dataframe[["Name", "Genre"]]
 {{% notice blue Note "rocket" %}}
 Since we are grabbing specific columns from an already existing `DataFrame` and there are no joins happening we do not need to specify an `axis`.
 {{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+True or False: Column names cannot be changed in a `DataFrame`.
+
+<!-- Solution: False -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+True or False: A `DataFrame` column is a `Series`.
+
+<!-- Solution: True -->
+{{% /notice %}}
