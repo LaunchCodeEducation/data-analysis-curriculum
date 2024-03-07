@@ -156,3 +156,17 @@ Subset elements from index 1 to 3
 3    honey dew
 ```
 {{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+What does index-labeling default to if none are provided?
+
+<!-- Solution: Basic indexing: 0, 1, 2, 3, 4 -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+What type of data is a `pandas Series` capable of holidng?
+
+<!-- Solution: Any type -->
+{{% /notice %}}
