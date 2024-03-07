@@ -7,7 +7,7 @@ weight = 5
 
 When exploring data using `pandas` you can also apply conditional formatting similar to how you did using spreadsheets. Say for instance you only want to display related to a specific city, state, movie genre, or name, you can do so!
 
-We will begin by selecting rows based on a condition within one column.
+We will begin by identifying rows based on a condition using one column of data.
 
 {{% notice blue Example "rocket" %}}
 ```python
@@ -62,4 +62,11 @@ print(science_fiction)
         Name  Release            Genre
 2  Inception     2010  Science Fiction
 ```
+{{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+True or False: Conditional formatting can be applied using data from multiple columns.
+<!-- Solution: True -->
 {{% /notice %}}
