@@ -13,6 +13,10 @@ A `pandas Series` can hold any data type and all values within a `Series` are as
 While a `Series` is capable of holding any type of data it usually only holds one.
 {{% /notice %}}
 
+{{% notice blue Note "rocket" %}}
+If you would like to change the code within the blocks of code below to view different outputs and work with the code on your own, you can access them by opening up `data-analysis-projects/eda-with-pandas/reading-examples` in Jupyer Notebook for this this section and following sections!
+{{% /notice %}}
+
 ## Creating a Series
 Let's take a look at the syntax for creating a `Series` using lists, dictionaries, and tuples.
 
