@@ -23,13 +23,10 @@ This is another example of *zero-based indexing*. The count begins with the valu
 ## Access One Character
 
 **Bracket notation** is the special syntax that allows us to access the single
-characters that make up a string. To access a character, we use the syntax:
+characters that make up a string. To access a character, we use the following syntax:
 
 ```python
 some_string[index]
-```
-
-where `index` is the position of the character we want.
 
 The expression `'school'[2]` selects the character at index `2` and creates
 a new string containing just that one character.
