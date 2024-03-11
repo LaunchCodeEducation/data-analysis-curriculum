@@ -70,7 +70,7 @@ Lists can store other lists!
 1. Use bracket notation and a template literal to display the contents of the selected cabinet. If the user entered an invalid number, print an error message instead.
 
 {{% notice green Bonus "rocket" %}}
-Modify the code to query the user for BOTH a cabinet in `cargoHold` AND a particular item. Use the`includes` method to check if the cabinet contains the selected item, then print ``"Cabinet ____ DOES/DOES NOT contain ____."``
+Modify the code to query the user for BOTH a cabinet in `cargoHold` AND a particular item. Use the`includes` method to check if the cabinet contains the selected item, then print `"Cabinet ____ DOES/DOES NOT contain ____."`
 {{% /notice %}}
 
 ## Submitting Your Work
