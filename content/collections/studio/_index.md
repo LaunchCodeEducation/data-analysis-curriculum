@@ -40,7 +40,7 @@ list, then modify the list and convert it back to a printable string.
 words are separated by commas (`,`), semicolons (`;`) or just spaces.
 1. If the string uses commas to separate the words, `split` it into an list,
 reverse the entries, and then `join` the list into a new comma separated
-string. For example, ``"up,to,code,fun"`` becomes `"fun,code,to,up"`.
+string. For example, `"up,to,code,fun"` becomes `"fun,code,to,up"`.
 1. If the string uses semicolons to separate the words, `split` it into an
 list, alphabetize the entries, and then `join` the list into a new
 hyphen separated string. For example, `"up;to;code;fun"` becomes
