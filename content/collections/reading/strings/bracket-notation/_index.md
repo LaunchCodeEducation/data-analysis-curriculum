@@ -9,7 +9,7 @@ Strings are *ordered* collections of characters, and this gives us a nice
 mental model for how they are put together. Each character has its own specific
 location within a string. We call this location the **index**.
 
-Consider the string `'Go Python!'` The first character, `'G'`, has an index
+Consider the string `'Go Python!'`. The first character, `'G'`, has an index
 value of 0, the first `'o'` has index 1, the space `' '` has index 2, and
 so on. Index values are integers representing the position of a character
 within a given string.
