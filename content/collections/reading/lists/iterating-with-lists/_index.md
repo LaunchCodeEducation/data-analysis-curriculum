@@ -66,7 +66,7 @@ bracket notation to access each element from the list:
 shopping_list_items = ['apples', 'oranges', 'bananas', 'bread', 'toothpaste']
 
 for index in range(len(shopping_list_items)):     # Iterate by index
-print("{0}) {1}".format(index+1, shopping_list_items[index]))
+    print("{0}) {1}".format(index+1, shopping_list_items[index]))
 ```
 
 **Console Output**
@@ -104,10 +104,10 @@ of the values from the list:
 
 ```python {linenos=table}
 for score in scores:             # Option 1: Loop by element
-total_points += score
+    total_points += score
 
 for index in range(len(scores)): # Option 2: Loop by index
-total_points += scores[index]
+    total_points += scores[index]
 ```
 {{% /notice %}}
 
@@ -130,8 +130,8 @@ some of the values:
 print(scores)
 
 for index in range(len(scores)):    # Loop by index
-if index >= 2:                   # Check position in list
-scores[index] += 12           # If True, increase the value of the element
+    if index >= 2:                   # Check position in list
+        scores[index] += 12           # If True, increase the value of the element
 
 print(scores)
 ```
@@ -162,8 +162,8 @@ locations:
 print(scores)
 
 for index in range(len(scores)):    # Loop by index
-if scores[index]%2 == 0:         # Check if the current score is even
-scores[index] *= 2            # If True, double the score
+    if scores[index]%2 == 0:         # Check if the current score is even
+        scores[index] *= 2            # If True, double the score
 
 print(scores)
 ```
