@@ -84,7 +84,7 @@ The following exercises can be found in the `data-analysis-projects/collections/
    ```
    {{% /expand %}}
 
-1. `append`, `insert`, `pop`, and `remove` are used to add or remove elements from a list. *Bracket notation* can be used to modify any element within a list. Starting with the `cargo_hold` list
+1. `append`, `insert`, `pop`, and `remove` are used to add or remove elements from a list. *Bracket notation* can be used to modify any element within a list. Starting with the `cargo_hold` list,
 
    ```console
    ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket']
