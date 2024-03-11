@@ -13,7 +13,7 @@ In this chapter we explore strings in much more detail.
 
 ## Collection Data Types
 
-Strings are an example of a **collection data type**. *Collections* are built
+Strings are an example of a **collection data type**. **Collections** are built
 from smaller, individual pieces. Other data types like `int`, `float`, and
 `bool` do NOT contain any smaller parts.
 
