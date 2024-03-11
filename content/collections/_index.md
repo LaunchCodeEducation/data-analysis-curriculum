@@ -8,9 +8,9 @@ weight = 12
 +++
 
 ## Learning Objectives
-- Understand that lists are rodered colelctions similar to arrays
+- Understand how to work with and manipulate strings
 - Syntax for creating new lists
-- Work with lists using bracket notation, iteration, and common list methods
+- Work with strings and lists using bracket notation, iteration, and common list methods
 - Create and use Python dictionaries
 - Create and use Python tuples
 - Recognize the benefits and drawbacks of dictionaries vs. lists vs. tuples
