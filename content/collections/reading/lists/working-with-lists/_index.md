@@ -120,8 +120,8 @@ print(my_list)
 
 ### Replacing Elements
 
-Make the ``start`` and ``end`` values different. The elements from index
-``start`` to ``end`` (NOT including ``end``) get replaced with the new values.
+Make the `start` and `end` values different. The elements from index
+`start` to `end` (NOT including `end`) get replaced with the new values.
 
 Note that the number of old and new values can be different.
 
