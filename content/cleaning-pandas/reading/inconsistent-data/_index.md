@@ -70,4 +70,4 @@ With this step, `etsy_sellers` is going to become:
 5  21378      Star Stitchery       53,483    4.2              52             False
 ```
 
-Whether you convert the column to booleans or stay with integers depends entirely on what you need from your analysis and what you find easier to work with later on. This is the case with a lot of cleaning data. The approach you take to cleaning data is heavily dependent on you and what you are hoping to achieve with your analysis. The key for now is to practice and nto be afraid to try something new.
+Whether you convert the column to booleans or stay with integers depends entirely on what you need from your analysis and what you find easier to work with later on. This is the case with a lot of cleaning data. The approach you take to cleaning data is heavily dependent on you and what you are hoping to achieve with your analysis. The key for now is to practice and not be afraid to try something new.
