@@ -39,13 +39,13 @@ my_series.isna()
 
 When you use `isna()` on a series, you get a series in return. Each value in the returned series is either `True` or `False` depending on whether the value in the series was missing or not.
 
-You will get a similar outcome with a dataframe when locating missing values. `isna()` returns a dataaframe filled with `True` or `False` depending on whether a value was missing. Now that we have located the missing data, we need to handle it. Depending on what data is missing and why, you can either replace it, remove rows or columns, or further uncover the potential impact of the missing data through interpolation.
+You will get a similar outcome with a dataframe when locating missing values. `isna()` returns a dataframe filled with `True` or `False` depending on whether a value was missing. Now that we have located the missing data, we need to handle it. Depending on what data is missing and why, you can either replace it, remove rows or columns, or further uncover the potential impact of the missing data through interpolation.
 
 ## Removing Rows or Columns with Missing Data
 
 This is possibly the simplest option to start with. To remove a column or row that contains missing data, pandas comes with the `dropna()` function.
 
-Throughout this chapter, we will use the variations on the following dataframe, called `etsy_sellers`, to ecxamine how we can use pandas to clean data.
+Throughout this chapter, we will use the variations on the following dataframe, called `etsy_sellers`, to examine how we can use pandas to clean data.
 
 ```console
    Seller                Sales     Total_Rating     Current_Items
@@ -90,7 +90,7 @@ pandas comes with a function called `fillna()` that will help us do this. If we 
 etsy_sellers.fillna(0)
 ```
 
-This code would acutally replace every single missing value in the dataframe with 0. But we decided to be a little more intentional and want to just replace the missing values in the `Current_Items` column.
+This code would actually replace every single missing value in the dataframe with 0. But we decided to be a little more intentional and want to just replace the missing values in the `Current_Items` column.
 
 ```python 
 cols = {"Current_Items": 0}
@@ -113,7 +113,7 @@ Because pandas can account for missing values, we can also interpolate what the 
 5  Star Stitchery        53,483    4.2              52 
 ```
 
-The last remaining values are in the `Total_Rating` colunmn and the `Sales` column. Linear interpolation makes sense in neither case. We might want to interpolate what the missing rating is for Ducky Ducks based on what other values in the column are so in that case we can use the pad method.
+The last remaining values are in the `Total_Rating` column and the `Sales` column. Linear interpolation makes sense in neither case. We might want to interpolate what the missing rating is for Ducky Ducks based on what other values in the column are so in that case we can use the pad method.
 
 ```python
 etsy_sellers.interpolate(method="pad")

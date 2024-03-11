@@ -4,7 +4,7 @@ draft = false
 weight = 1
 +++
 
-As we discussed in the [previous chapter]({{< relref "../../../cleaning-spreadsheets" >}}) on cleaning data, we need to clean our data to ensure that our analysis is accurate. For example, if we want to project the price of a stock several months from now, then we would need to use as much data as possible for our analysis. If the data is not clean, then our analysis could be thrown off and depending on how unclean the data is, the predicted price could end up hundreds off. This is why we clean our data before diving into further analysuis. By cleaning our data first, we can ensure that the data points being used in the analysis are what we need. 
+As we discussed in the [previous chapter]({{% relref "../../../cleaning-spreadsheets" %}}) on cleaning data, we need to clean our data to ensure that our analysis is accurate. For example, if we want to project the price of a stock several months from now, then we would need to use as much data as possible for our analysis. If the data is not clean, then our analysis could be thrown off and depending on how unclean the data is, the predicted price could end up hundreds off. This is why we clean our data before diving into further analysis. By cleaning our data first, we can ensure that the data points being used in the analysis are what we need.
 
 As we previously covered, there are four types of dirty data:
 
