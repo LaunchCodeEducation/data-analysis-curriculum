@@ -12,7 +12,7 @@ is broken into five checkpoints and a final presentation.
 
 <!-- TODO: Update these links as you work -->
 
-1. [Selecting your business issue and dataset]()
+1. [Selecting your business issue and dataset]({{< relref "./checkpoint-1" >}})
 1. [EDA]()
 1. [Cleaning data]({{< relref "./checkpoint-3" >}})
 1. [Manipulate, interpret, and visualize data]()
