@@ -1,10 +1,10 @@
 +++
-pre = "<b>15. </b>"
+pre = "<b>14. </b>"
 chapter = true
 title = "Exploratory Data Analysis with pandas"
 date = 2024-02-29T09:18:56-06:00
 draft = false
-weight = 15
+weight = 14
 +++
 
 ## Learning Objectives
