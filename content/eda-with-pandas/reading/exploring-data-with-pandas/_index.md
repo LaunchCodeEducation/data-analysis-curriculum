@@ -12,11 +12,11 @@ Exploratory Data Analysis or EDA as you already know is a critical step when beg
 1. Guide you on what tools and techniques you should use when working with that dataset.
 
 {{% notice blue Note "rocket" %}}
-`pandas` and other libraries like **NumPy** are not default Python packages. This means that we will need to install and import any external package that we need into our workspace to use their functionality.
+pandas and other libraries like **NumPy** are not default Python packages. This means that we will need to install and import any external package that we need into our workspace to use their functionality.
 {{% /notice %}}
 
 ## pandas
 
-The `pandas` library is incredibly powerful and was built specifically for data analysis work. The library comes with many useful tools and data structures that we will cover more in depth in the upcoming readings.
+The pandas library is incredibly powerful and was built specifically for data analysis work. The library comes with many useful tools and data structures that we will cover more in depth in the upcoming readings.
 
-We will use `pandas` to create, manipulate, and view data structures based on certain conditions. We will also cover some of the most common functions used when exploring data with `pandas` that we can use to our advantage during the exploration process.
+We will use pandas to create, manipulate, and view data structures based on certain conditions. We will also cover some of the most common functions used when exploring data with pandas that we can use to our advantage during the exploration process.

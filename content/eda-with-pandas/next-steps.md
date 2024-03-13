@@ -10,5 +10,4 @@ The next chapter will dive into cleaning data with pandas. Before proceeding, if
 1. [pandas Documentation: 10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
 1. [pandas Documenation: Intro to data structures](https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html)
 1. [pandas Documentation: Indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html)
-1. [Analytics Vidhya: 20 Must-Know Pandas Function for EDA](https://www.analyticsvidhya.com/blog/2021/04/20-must-known-pandas-function-for-exploratory-data-analysis-eda/)
 1. [Kaggle: EDA with Pandas](https://www.kaggle.com/code/kashnitsky/topic-1-exploratory-data-analysis-with-pandas)

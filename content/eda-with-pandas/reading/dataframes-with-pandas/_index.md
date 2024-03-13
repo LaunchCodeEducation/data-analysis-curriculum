@@ -5,30 +5,30 @@ draft = false
 weight = 3
 +++
 
-A `pandas` **DataFrame** is the second type of class that is capable of handling data.
+A pandas **DataFrame** is the second type of class that is capable of handling data.
 
-Similar to a spreadsheet, a `DataFrame` can be visualzed as having multiple columns and rows associated with the data inside. The data within can be of any type.
+Similar to a spreadsheet, a DataFrame can be visualzed as having multiple columns and rows associated with the data inside. The data within can be of any type.
 
-A `DataFrame` can also be considered a collection or assortment of `Series`. Similar to a `Series` there are multiple ways that a `DataFrame` can be created:
+A DataFrame can also be considered a collection or assortment of Series. Similar to a Series there are multiple ways that a DataFrame can be created:
 1. Using a multi-dimensional list, dictionary, or tuple
-1. Combining or joining multiple `Series` together
+1. Combining or joining multiple Series together
 1. From a pre-existing CSV file
 
 {{% notice blue Note "rocket" %}}
-The examples above are not the only options you have for creating a `DataFrame` but they are the ones we will focus on in this section.
+The examples above are not the only options you have for creating a DataFrame but they are the ones we will focus on in this section.
 {{% /notice %}}
 
-Column values within a `DataFrame` are referred to as a `Series`. Below is an example of how multiple `Series` might be used to build a `DataFrame`
+Column values within a DataFrame are referred to as a Series. Below is an example of how multiple Series might be used to build a DataFrame
 
 ![diagram of how a pandas Series is used to build a dataframe](pictures/pandas-series.png?classes=border)
 
-The image below provides another visual of the general `DataFrame` structure. A `DataFrame` is similar to a Python dictionary in that the column names are like keys and the values are the data for that column.
+The image below provides another visual of the general DataFrame structure. A DataFrame is similar to a Python dictionary in that the column names are like keys and the values are the data for that column.
 
 ![A diagram of a pandas dataframe](pictures/pandas-dataframe.png?classes=border)
 
 ## Creating a DataFrame
 
-Let's dive in to some different ways you can create a `DataFrame`.
+Let's dive in to some different ways you can create a DataFrame.
 
 ### Using a Multi-Dimensional List
 
@@ -46,12 +46,12 @@ dataframe_from_existing_list = pd.DataFrame(movies_dataframe_data)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas`.
-1. Creates a `pandas` `DataFrame` called `movie_list_of_lists` by providing a list of lists as a parameter into the `.DataFrame()` function..
-1. Creates a `pandas` `DataFrame` called `dataframe_from_existing_list` by using the already existing list `movies_dataframe_data` and passing it in as a parameter to the `.DataFrame()` function.
+1. imports pandas.
+1. Creates a pandas DataFrame called `movie_list_of_lists` by providing a list of lists as a parameter into the `.DataFrame()` function..
+1. Creates a pandas DataFrame called `dataframe_from_existing_list` by using the already existing list `movies_dataframe_data` and passing it in as a parameter to the `.DataFrame()` function.
 
 {{% notice blue Note "rocket" %}}
-One thing to note about lists when they are added into a `DataFrame` is that each list represents a *row* not a *column*.
+One thing to note about lists when they are added into a DataFrame is that each list represents a *row* not a *column*.
 {{% /notice %}}
 
 ### Using a Dictionary
@@ -70,9 +70,9 @@ dataframe_from_movies_dictionary = pd.DataFrame(movies)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas`.
-1. Creates a `pandas` `DataFrame` called `movie_dictionary_dataframe` by providing a dictionary as a parameter to the `.DataFrame()` function.
-1. Creates a `pandas` `DataFrame` called `dataframe_from_movies_dictionary` by using the already existing dictionary `movies` and passing it in as a parameter to the `.DataFrame()` function.
+1. imports pandas.
+1. Creates a pandas DataFrame called `movie_dictionary_dataframe` by providing a dictionary as a parameter to the `.DataFrame()` function.
+1. Creates a pandas DataFrame called `dataframe_from_movies_dictionary` by using the already existing dictionary `movies` and passing it in as a parameter to the `.DataFrame()` function.
 
 ### Using a Tuple
 
@@ -90,13 +90,13 @@ dataframe_from_existing_tuple = pd.DataFrame(movies_data)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas`.
-1. Creates a `pandas` `DataFrame` called `movies_tuple_dataframe` by providing a tuple as a parameter to the `.DataFrame()` function.
-1. Creates a `pandas` `DataFrame` called `dataframe_from_existing_tuple` by using an already existing tuple `movies_data` and passing it in as a parameter to the `.DataFrame()` function.
+1. imports pandas.
+1. Creates a pandas DataFrame called `movies_tuple_dataframe` by providing a tuple as a parameter to the `.DataFrame()` function.
+1. Creates a pandas DataFrame called `dataframe_from_existing_tuple` by using an already existing tuple `movies_data` and passing it in as a parameter to the `.DataFrame()` function.
 
 ## Creating a DataFrame from Series
 
-In the following example we will create a `DataFrame` from two `Series` using pandas and the `.concat()` function included with the `pandas` library.
+In the following example we will create a DataFrame from two Series using pandas and the `.concat()` function included with the pandas library.
 
 {{% notice blue Example "rocket" %}}
 ```python {linenos=table}
@@ -150,9 +150,9 @@ movie_names = movies_dataframe["Name"]
 
 The above example accomplishes the following:
 
-1. Imports `pandas`
+1. Imports pandas
 1. Creates a dictionary called `movies` with the columns `Name` and `Release`.
-1. Creates a `DataFrame` from the `movies` dictionary
+1. Creates a DataFrame from the `movies` dictionary
 1. A new variable called `movie_names` is created to store the values within the `Name` column of the `movies_dataframe`.
 
 ### Multiple Column Data
@@ -174,19 +174,19 @@ movie_names_and_genres = movies_dataframe[["Name", "Genre"]]
 {{% /notice %}}
 
 {{% notice blue Note "rocket" %}}
-Since we are grabbing specific columns from an already existing `DataFrame` and there are no joins happening we do not need to specify an `axis`.
+Since we are grabbing specific columns from an already existing DataFrame and there are no joins happening we do not need to specify an `axis`.
 {{% /notice %}}
 
 ## Check Your Understanding
 
 {{% notice green Question "rocket" %}}
-True or False: Column names cannot be changed in a `DataFrame`.
+True or False: Column names cannot be changed in a DataFrame.
 
 <!-- Solution: False -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-True or False: A `DataFrame` column is a `Series`.
+True or False: A DataFrame column is a Series.
 
 <!-- Solution: True -->
 {{% /notice %}}

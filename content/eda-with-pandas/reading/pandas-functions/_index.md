@@ -34,12 +34,12 @@ Two functions below that may stick out to you might be the `.info()` and the `.d
 | `.iloc[]` | Method used to locate rows or columns based on index positions `(0, 1, 2 ,3 ,etc..)` |
 
 {{% notice blue Note "rocket" %}}
-When using the `.shape()` function for a `DataFrame` it will show the number of rows and columns `(rows, columns)`. 
+When using the `.shape()` function for a DataFrame it will show the number of rows and columns `(rows, columns)`. 
 
-When using the `.shape()` function for a `Series` it will only return the number of rows and the column will be empty `(rows, )`
+When using the `.shape()` function for a Series it will only return the number of rows and the column will be empty `(rows, )`
 {{% /notice %}}
 
-## Statistics with `pandas`
+## Statistics with pandas
 
 A lot of the functions below may look familiar to you as you have already practiced some of them during your time spent with Google sheets. Refer back to [Summary Statistics with Google Sheets]({{% relref "../../../eda-with-spreadsheets/reading/summary-statistics/_index.md" %}}) if you need a refresher on basic statistics. While the functions might look different, conceptually they are the same.
 
@@ -81,19 +81,19 @@ print(data_file.columns)
 ## Check Your Understanding
 
 {{% notice green Question "rocket" %}}
-How do we view only the first 13 rows of a `DataFrame`?
+How do we view only the first 13 rows of a DataFrame?
 
 <!-- Solution: .head(13) -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-Which `pandas` function will prin the number of records, three quartiles, mean, standard deviation, minimum and maximum values of a `DataFrame`?
+Which pandas function will prin the number of records, three quartiles, mean, standard deviation, minimum and maximum values of a DataFrame?
 
 <!-- Solution: .describe() -->
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-What is the `pandas` function for reading a CSV file type?
+What is the pandas function for reading a CSV file type?
 
 <!-- Solution: pd.read_csv(path_to_file) -->
 {{% /notice %}}

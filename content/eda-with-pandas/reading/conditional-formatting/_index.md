@@ -5,7 +5,7 @@ draft = false
 weight = 5
 +++
 
-When exploring data, using `pandas` you can also apply conditional formatting similar to how you did using spreadsheets. Say, for instance, you only want to display related to a specific city, state, movie genre, or name, you can do so!
+When exploring data, using pandas you can also apply conditional formatting similar to how you did using spreadsheets. Say, for instance, you only want to display related to a specific city, state, movie genre, or name, you can do so!
 
 We will begin by identifying rows based on a condition using one column of data.
 
