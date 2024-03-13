@@ -36,7 +36,7 @@ series_from_existing_list = pd.Series(pre_existing_list)
 ```
 
 The above code block accomplishes the following:
-1. imports `pandas` as `pd`.
+1. Imports `pandas` as `pd`.
 1. Creates a `pandas` `Series` called `example_list` by providing a list of values.
 1. Creates a `pandas` `Series` called `series_from_existing_list` by using the already existing list `pre_existing_list` and passing it in as a parameter to the `.Series()` function.
 
