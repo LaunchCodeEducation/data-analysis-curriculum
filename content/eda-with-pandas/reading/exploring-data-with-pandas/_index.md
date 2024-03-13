@@ -20,3 +20,23 @@ pandas and other libraries like **NumPy** are not default Python packages. This 
 The pandas library is incredibly powerful and was built specifically for data analysis work. The library comes with many useful tools and data structures that we will cover more in depth in the upcoming readings.
 
 We will use pandas to create, manipulate, and view data structures based on certain conditions. We will also cover some of the most common functions used when exploring data with pandas that we can use to our advantage during the exploration process.
+
+{{% notice blue Note "rocket" %}}
+Once pandas is installed, it can be imported into your workspace in the following way:
+
+```python
+import pandas as pd
+```
+{{% /notice %}}
+
+## NumPy
+
+The NumPy library will be used in conjuction with pandas so that we can perform mathematical operations on some of our datasets. As we explore our data and in later chapters, begin cleaning and manipulating data we will use the tools it provides to make our life easier.
+
+{{% notice blue Note "rocket" %}}
+Once NumPy is installed, it can be imported into your workspace in the following way:
+
+```python
+import numpy as np
+```
+{{% /notice %}}

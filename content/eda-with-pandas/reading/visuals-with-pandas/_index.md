@@ -36,14 +36,12 @@ Often times pyplot is used to generate 2-D graphics and since it is referenced o
 
 ## Example
 
-1. `numpy` is imported as `np`
 1. `pyplot` is imported as `plt`
 1. Created a variable to hold the csv data
 1. Plot the data
 1. Show the data
 
 ```python {linenos=table}
-import numpy as np
 import matplotlib.pyplot as plt
 
 # Create a variable and read a csv data file
