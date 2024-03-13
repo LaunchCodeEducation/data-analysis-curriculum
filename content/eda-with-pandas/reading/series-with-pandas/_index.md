@@ -14,7 +14,7 @@ While a `Series` is capable of holding any type of data it usually only holds on
 {{% /notice %}}
 
 {{% notice blue Note "rocket" %}}
-If you would like to change the code within the blocks of code below to view different outputs and work with the code on your own, you can access them by opening up `data-analysis-projects/eda-with-pandas/reading-examples` in Jupyer Notebook for this this section and following sections!
+If you would like to change the code within the blocks of code below to view different outputs and work with the code on your own, you can access them by opening up `data-analysis-projects/eda-with-pandas/reading-examples` in Jupyter Notebook for this section and following sections!
 {{% /notice %}}
 
 ## Creating a Series
