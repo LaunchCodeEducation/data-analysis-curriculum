@@ -8,7 +8,7 @@ weight = 14
 +++
 
 ## Learning Objectives
-- Use Python and Pandas for EDA
+- Use Python and pandas for EDA
 - Understand pandas data structures
 - Cover statistics with pandas
 - Learn and use common pandas functions
