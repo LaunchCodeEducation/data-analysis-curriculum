@@ -95,7 +95,7 @@ custom_index_labels = pd.Series(["apple", "banana", "avocado", "honey dew"], ind
 {{% /notice %}}
 
 {{% notice blue Example "rocket" %}}
-If you would like to add a customized column name you would also need to add in an additional parameter when creating the `Series`:
+If you would like to add a customized column name, you would also need to add an additional parameter when creating the `Series`:
 
 ```python
 custom_index_labels = pd.Series(["apple", "banana", "avocado", "honey dew"], index = ["red", "yellow", "green", "green"], name = "fruit")
