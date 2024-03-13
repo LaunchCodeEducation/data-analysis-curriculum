@@ -24,7 +24,12 @@ Column values within a DataFrame are referred to as a Series. Below is an exampl
 
 The image below provides another visual of the general DataFrame structure. A DataFrame is similar to a Python dictionary in that the column names are like keys and the values are the data for that column.
 
-![A diagram of a pandas dataframe](pictures/pandas-dataframe.png?classes=border)
+{{< rawhtml >}}
+<img alt="A diagram of a pandas dataframe" src="pictures/pandas-dataframe.png?classes=border">
+<figcaption>
+For more information about pandas DataFrames and the diagram above, visit <a href="https://www.w3resource.com/python-exercises/pandas/index-dataframe.php">https://www.w3resource.com/python-exercises/pandas/index-dataframe.php</a>
+</figcaption>
+{{< /rawhtml>}}
 
 ## Creating a DataFrame
 
