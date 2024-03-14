@@ -11,24 +11,41 @@ This reading, and following readings, will provide examples from the `titanic.cs
 
 ## Groupby
 
-The `.groupby()` function groups data together from one or more columns. As we group the data together, it forms a new **GroupBy** object. One major advantage of the `.groupby()` function is that it allows the use of method chaining for additional filtering and manipulation.
+The `.groupby()` function groups data together from one or more columns. As we group the data together, it forms a new **GroupBy** object. The offical [pandas documenation](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html) states that a "group by" accomplshes the following:
+1. **Splitting**: Split the data based on the criteria provided.
+1. **Applying**: Provide an applicable function to the groups that were split.
+1. **Combining**: Combine the results from the function into a new data structure.
 
 ### Syntax
 
-The basic syntax for creating a grouping of data with just a single column is as follows:
+Syntax for the `.groupby()` method when providing a single column as a parameter is as follows:
 
 ```python
-grouping_variable = data.groupby("column-name")
+grouping_variable = your_data.groupby("column-name")
 ```
 
 {{% notice blue Example "rocket" %}}
 Let's take things a step further and aggregate the data within the grouped column name using the `.sum()` function through method chaining:
 
 ```python
-grouping_variable = data.groupby(["column_name"]).sum()
+grouping_variable = your_data.groupby(["column_name"]).sum()
 ```
 
 The above code will return the sum of all values within the provided column, giving you a count of each unique value inside.
+{{% /notice %}}
+
+The `.groupby()` method can take multiple columns as a parameter upon creation, but it is best practice to only provide as many columns as needed for your analysis. As you increase the amount of grouped columns, you are also increasing the amount of compute power and memory needed, which can lead to performance issues.
+
+In order to group multiple columns you can pass a list of column names as a parameter to the `.groupby` method.
+
+```python
+grouping_variable = your_data.groupby(["column_one", "column_two", "etc.."])
+```
+
+{{% notice blue Example "rocket" %}}
+Applying an aggregate function to multipled grouped columns can also be accomplished with method chaining. The following image uses columns from the titanic dataset as an example.
+
+![Creating a new groupby object from the columns "embark_town" and "alone" and applying the sum aggregate function](pictures/grouped-titanic.png?classes=border)
 {{% /notice %}}
 
 ## Aggregate Methods
