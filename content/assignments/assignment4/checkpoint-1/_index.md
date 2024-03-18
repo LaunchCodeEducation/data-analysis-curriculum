@@ -99,4 +99,4 @@ word-processing program. Put your name in the right-hand corner and type up your
 issue and provide the link to your chosen dataset. Submit your document on the Canvas 
 submission page for Graded Assignment #4: Checkpoint 1.
 
-[Back to Final Project Overview]({{< relref "./../" >}})
+[Back to Final Project Overview]({{% relref "./../" %}})
