@@ -46,6 +46,12 @@ grouping_variable = your_data.groupby(["column_one", "column_two", "etc.."])
 Applying an aggregate function to multipled grouped columns can also be accomplished with method chaining. The following image uses columns from the titanic dataset as an example.
 
 ![Creating a new groupby object from the columns "embark_town" and "alone" and applying the sum aggregate function](pictures/grouped-titanic.png?classes=border)
+
+The image below displays the output when only applying the `groupby()` method to only the `embark_town` column.
+
+![Applying a groupby method to only the "embark_town" column within the titanic.csv dataset to view the output](pictures/groupby-embark-town.png?classes=border)
+
+The key thing to note here is that when grouping multiple column(s) together it will provide you a dataset that is specific to that grouping of data. When the`embark_town` column was grouped with the `alone` column, the result is a dataset that provides an aggregate of the entire dataset in relation to those two columns. When `embark_town` was grouped alone, it provided an aggregate of the entire dataset only as it relates to the `embark_town` column.
 {{% /notice %}}
 
 ## Aggregate Methods
@@ -58,6 +64,31 @@ data.agg(['mean', 'median', 'mode'])
 ```
 {{% /notice %}}
 
-## Groupby and Basic Math
+### Aggregation Using a Dictionary
+
+pandas also allows the ability to provide a dictionary with columns as a key and aggregate functions as an associated value.
+
+{{% notice blue Example "rocket" %}}
+```python
+aggregate_dictionary_example = {
+    "embark_town": ["count"], 
+    "age": ["count", "median"]
+}
+
+dictionary_aggregate = data.agg(aggregate_dictionary_example)
+```
+{{% /notice %}}
 
 ## Groupby and Multiple Aggregations
+
+A common strategy used when applying multiple aggregations to your group or dataset is to hold them within a variable. The advantage of this being, you will not have to provide the list of functions you need as parameters each and every time.
+
+{{% notice blue Example "rocket" %}}
+```python
+aggregate_functions = ["mean", "median", "mode"]
+
+grouping_variable = your_data.groupby(["column_one", "column_two", "etc.."])
+
+grouping_variable.agg(aggregate_functions)
+```
+{{% /notice %}}
