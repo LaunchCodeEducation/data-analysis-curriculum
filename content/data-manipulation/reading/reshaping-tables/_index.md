@@ -69,6 +69,19 @@ The above code accomplishes the following:
 1. The output displays the average age of people alive, and not alive.
 {{% /notice %}}
 
-## Wide to Long
+## Wide vs Long Format
+
+Pandas has the ability to reshape tabular data from wide to long and vice versa. Before we dive into how to reformat the data, let's talk about the difference between wide format, and long format, as it relates to tabular data.
+
+We will use the following dictionary to represent both wide and long formats:
+
+```python
+movie_dictionary = {
+    'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"], 
+    'Release': [2014, 2005, 2010, 2003], 
+    'Genre': ["Science Fiction", "Novel", "Science Fiction", "Comedy"], 
+    'Rotten Tomatoes Score': [73%, 87%, 87%, 88%]
+}
+```
 
 ## Melt
