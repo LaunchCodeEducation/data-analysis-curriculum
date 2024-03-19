@@ -84,7 +84,7 @@ Pivot tables are often used to provide summary statistics through aggregate func
 Below are some of the commonly used parameters:
 1. `values`: column(s) to aggregate
 1. `aggfun`: aggregate function to apply
-1. `index`: 
+1. `index`: column to index by
 
 ### Syntax
 
@@ -120,7 +120,6 @@ Wide format can be thought of as a dataset that includes many columns of data as
 |-------|-------|-------------|---------|-------|------|
 | red hot riplets | bananas | kind bar | kaldis | filtered water | coke |
 | lays potato chips | apples | kelloggs protein bar | starbucks | bottled water | pepsi |
-| fritos flavor twists |  |  |  |  |  |
 
 The same data in long format:
 
@@ -128,17 +127,16 @@ The same data in long format:
 |---------|------------|
 | chips | red hot riplets |
 | chips | lays potato chips |
-| chips | fritos flavor twists |
 | fruit | bananas |
 | fruit | apples |
-| snack bar | kind bar | 
-| snack bar | kelloggs protein bar |
+| snack bars | kind bar | 
+| snack bars | kelloggs protein bar |
 | coffee | kaldis |
 | coffee | starbucks |
-| beverage | filtered water |
-| beverage | bottled water |
-| beverage | coke |
-| beverage | pepsi |
+| water | filtered water |
+| water | bottled water |
+| soda | coke |
+| soda | pepsi |
 
 But why would you want to use long format over wide format? 
 1. Readability: Long format is easier to read and visualize than wide format. 
@@ -149,7 +147,7 @@ This does not mean that wide format isn't useful. If you have a smaller dataset 
 
 ## Melt
 
-Now that we have covered the differences between the two, let's take a look at how the `.melt()` function can be used to reshape tables from wide format to long format. The `.melt()` funtion takes an existing DataFrame, creating two columns from the data within.
+Now that we have covered the differences between the two, let's take a look at how the `.melt()` function can be used to reshape tables from wide format to long format. The `.melt()` funtion takes an existing DataFrame, creating two columns from the data within. 
 
 ### Syntax
 
@@ -181,4 +179,13 @@ long_format_dataframe = pd.melt(example_dataframe, var_name="Office Item Categor
 
 ![melt function](pictures/melt-function.png?classes=border)
 
+The above code accomplished the following:
+
+1. imported pandas
+1. Created a DataFrame called `example_dateframe` from the variable `data` holding a dictionary
+1. Create a new DataFrame object called `long_format_dataframe` using the `.melt()` function
+    - the `var_name` parameter specifies the column name that will hold column labels from the `example_dataframe`
+    - the `value_name` parameter specifies the column name that will hold column values from the `example_dataframe`
+1. printed the new DataFrame object to the console
 {{% /notice %}}
+
