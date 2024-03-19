@@ -9,7 +9,7 @@ As you continue to answer questions about your data during the exploration and c
 
 ## `.concat()` function
 
-The `.concat()` functions primary use case is to join multiple DataFrames together, combining their datasets into one. It has the capability to join along the rows *or* columns of a DataFrame.
+The `.concat()` function has many use cases, one of which is to join multiple DataFrames together, combining their datasets into one. It has the capability to join along the rows *or* columns of a DataFrame.
 
 ### Syntax
 
@@ -46,6 +46,22 @@ movie_genre_dataframe = pd.concat([movie_dataframe, genre_rating_dataframe])
 ![concat-dataframe-output](pictures/concat-dataframe-output.png?classes=border)
 
 Note in the output image above the inclusion of the `axis` parameter when printing the dataframe a second time. The axis parameter specifies that the two DataFrames should be joined along the columns instead of rows, providing a cleaner dataset.
+{{% /notice %}}
+
+In the lesson on exploring data with python we covered how to create a DataFrame using the `.concat()` method by providing two Series as parameters. The `.concat` function can alse be used to add a Series within an existing DataFrame!
+
+{{% notice blue Example "rocket" %}}
+```python
+import pandas as pd
+
+data = ["movies", "genres", "release_year"]
+series_data = ["interstellar", "pride and prejudice", "barbie"]
+
+example_dataframe = pd.DataFrame(data)
+example_series = pd.Series(series_data)
+
+concat_series_dataframe = pd.concat([example_dataframe, example_series], axis=1)
+```
 {{% /notice %}}
 
 ## Sorting Values
