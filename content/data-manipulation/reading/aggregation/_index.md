@@ -12,9 +12,9 @@ This reading, and following readings, will provide examples from the `titanic.cs
 ## Groupby
 
 The `.groupby()` function groups data together from one or more columns. As we group the data together, it forms a new **GroupBy** object. The offical [pandas documenation](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html) states that a "group by" accomplshes the following:
-1. **Splitting**: Split the data based on the criteria provided.
-1. **Applying**: Provide an applicable function to the groups that were split.
-1. **Combining**: Combine the results from the function into a new data structure.
+1. Splitting: Split the data based on the criteria provided.
+1. Applying: Provide an applicable function to the groups that were split.
+1. Combining: Combine the results from the function into a new data structure.
 
 ### Syntax
 
@@ -58,6 +58,7 @@ The key thing to note here is that when grouping multiple column(s) together it 
 
 pandas provides a built-in aggregate method: `Data.aggregate()` or `Data.agg()` (both accomplish the same thing, `agg()` is short for `aggregate()`). The benefit of using the `.aggregate()` function is that it allows you to pass aggregate functions as a list.
 
+
 {{% notice blue Example "rocket" %}}
 ```python
 data.agg(['mean', 'median', 'mode'])
@@ -77,6 +78,8 @@ aggregate_dictionary_example = {
 
 dictionary_aggregate = data.agg(aggregate_dictionary_example)
 ```
+
+This dictionary object has now become a tempate for the aggregations we want to preform. However, on it's own, it does nothing. Once passed to the agg() method, it will pick out the specific location of data we want to examine. Making a subset table. 
 {{% /notice %}}
 
 ## Groupby and Multiple Aggregations

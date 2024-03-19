@@ -15,10 +15,22 @@ After completing all of the content in this chapter, you should be able to do th
 1. Group data together with the `.groupby` function
 1. Merge columns together based on the provided column or indices
 1. Restructure data long vs. wide with pandas melt and pivot functionality
-1. Use summing to calculate the sum of values within one or more columns together
-1. Further your knowledge on identifying and handling missing data
 
 ## Key Terminology
+
+### Aggregation
+1. GroupBy
+
+### Recoding Data
+1. `.replace()`
+1. `.apply()`
+
+### Reshaping Tables
+1. `.melt()`
+1. `.concat()`
+1. `.sort_values()`
+1. wide format
+1. long format
 
 ## Content Links
 

@@ -27,7 +27,7 @@ Viewing the output of the dataframe you are able to see that a new `column` call
 
 ## Replacing Values
 
-Replacing values within a column to be more data friendly is a common practice. In particular, replacing strings of data to bools, where a "yes" or "no" would become `True` or `False`. 
+Replacing values within a column to be more data friendly is a common practice. In particular, replacing strings of data to bools, where a "yes" or "no" would become `True` or `False`. We can accomplish this by using the `.replace` function.
 
 The following example simply replaces the data that exists within the column, manipulating it directly as it is, without creating a new column from the manipulation itself.
 
