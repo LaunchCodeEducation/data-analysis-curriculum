@@ -5,4 +5,7 @@ draft = false
 weight = 4
 +++
 
-## Next Steps
+Now you are ready to dive into the next major tool we will be learning about in this course, SQL. Before continuing on, here are some of our favorite additional resources on data visualization in Python:
+
+1. [Johns Hopkins' Data Visualization Guides](https://guides.library.jhu.edu/datavisualization/design)
+1. [Differences Between Matplotlib and Seaborn](https://www.geeksforgeeks.org/difference-between-matplotlib-vs-seaborn/)
