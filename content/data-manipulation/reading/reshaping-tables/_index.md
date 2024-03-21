@@ -130,7 +130,7 @@ The above code accomplishes the following:
 
 Pandas has the ability to reshape tabular data from wide to long and vice versa. Before we dive into how to reformat the data, let's talk about the difference between **wide format**, and **long format**, as it relates to tabular data.
 
-Wide format can be thought of as a dataset that includes many columns of data as it relates to similar items. For example a dataset could hold a column for each different type of food `(chips, fruit, snack bar)` or beverages `(coffee, tea, water, soda)` that an office provides to it's employees. This would be considered wide format and would be displayed as follows:
+Wide format can be thought of as a dataset that includes many columns of data as it relates to similar items. For example, a dataset could hold a column for each type of food `(chips, fruit, snack bar)` or beverage `(coffee, tea, water, soda)` an office provides to its employees. This would be considered wide format and would be displayed as follows:
 
 | chips | fruit | snack bars | coffee | water | soda |
 |-------|-------|-------------|---------|-------|------|
