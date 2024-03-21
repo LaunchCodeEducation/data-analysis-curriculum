@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Open `data-analysis-projects/data-manipulation/exercises` into a new jupyter notebook.
+Open `data-analysis-projects/data-manipulation/exercises` into a new Jupyter notebook.
 
 ## Code Along
 
