@@ -87,7 +87,7 @@ This dictionary object has now become a tempate for the aggregations we want to 
 A common strategy used when applying multiple aggregations to your group or dataset is to hold them within a variable. The advantage of this being, you will not have to provide the list of functions you need as parameters each and every time.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 aggregate_functions = ["mean", "median", "mode"]
 
 grouping_variable = your_data.groupby(["column_one", "column_two", "etc.."])
