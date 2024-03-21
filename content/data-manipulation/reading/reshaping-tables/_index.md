@@ -176,7 +176,7 @@ long_format_dataset = pd.melt(example_dataset, var_name='', value_name='')
 ```
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 import pandas as pd
 
 data = {'chips': ["red hot riplets", "lays potato chips", "fritos flavor twists"],
