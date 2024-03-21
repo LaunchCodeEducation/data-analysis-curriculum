@@ -63,7 +63,7 @@ def under_age_21_survivors(data):
         return False
 
 data["under_21_survivors"] = data.apply(under_age_21_survivors, axis=1)
-print(data)
+print(data["under_21_survivors"].value_counts())
 ```
 
 **Output**
