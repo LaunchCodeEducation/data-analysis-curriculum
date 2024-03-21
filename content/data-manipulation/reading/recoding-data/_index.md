@@ -32,7 +32,7 @@ Replacing values within a column to be more data friendly is a common practice. 
 The following example simply replaces the data that exists within the column, manipulating it directly as it is, without creating a new column from the manipulation itself.
 
 {{% notice blue Example "rocket" %}}
-Replace the "0" and "1" integer values within the `survived` column of the titanic dataset to `True` or `False` by passing in a dictionary as an argument into the `to_replace`.
+Replace the "0" and "1" integer values within the `survived` column of the Titanic dataset to `True` or `False` by passing in a dictionary as an argument into the `to_replace`.
 
 ```python
 import pandas as pd
