@@ -70,7 +70,7 @@ data.agg(['mean', 'median', 'mode'])
 pandas also allows the ability to provide a dictionary with columns as a key and aggregate functions as an associated value.
 
 {{% notice blue Example "rocket" %}}
-```python
+```python {linenos=table}
 aggregate_dictionary_example = {
     "embark_town": ["count"], 
     "age": ["count", "median"]
