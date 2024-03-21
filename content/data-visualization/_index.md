@@ -23,6 +23,7 @@ Here is a list of key terms for this chapter, broken down by the page the term f
 
 1. primary colors
 1. secondary colors
+1. complementary colors
 
 ### Choosing a Chart Style
 

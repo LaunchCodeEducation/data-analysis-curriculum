@@ -35,13 +35,13 @@ Let's dive deeper into a few of the chart styles that you may recognize from ear
 
 ## Bar Charts and Column Charts
 
-Bar charts and column charts both fall into the category of comparison charts. A bar chart has the cateogries on the y-axis, so the bars are horizontal, whereas a column chart has the categories on the x-axis so the bars are vertical. While the difference in orientation might seem minor, it can make a huge difference in the readability of the chart. For example, if the categories have very long names or there are a lot of categories, your colleagues might find it easier to read those labels if the labels are displayed on the y-axis as opposed to the x-axis. Don't hesitate to switch between a column and a bar chart to find something that looks nice to you!
+Bar charts and column charts both fall into the category of comparison charts. A bar chart has the categories on the y-axis, so the bars are horizontal, whereas a column chart has the categories on the x-axis so the bars are vertical. While the difference in orientation might seem minor, it can make a huge difference in the readability of the chart. For example, if the categories have very long names or there are a lot of categories, your colleagues might find it easier to read those labels if the labels are displayed on the y-axis as opposed to the x-axis. Don't hesitate to switch between a column and a bar chart to find something that looks nice to you!
 
 You want to be mindful of using a stacked column chart though because that falls into the category of composition charts. 
 
 ## Scatterplots
 
-Scatterplots are relationship plots. A scatterplot can help show pinpoint what the relationship exactly is in a dataset. For example, we want to visualize the number of butterflies seen in an area and the number of gardeners signed up with a pollinator planting program. We might assume before we assemble our visualization that there is a relationship between the two so a scatterplot makes sense here. 
+Scatterplots are relationship plots. A scatterplot can help pinpoint what the relationship exactly is in a dataset. For example, we want to visualize the number of butterflies seen in an area and the number of gardeners signed up with a pollinator planting program. We might assume before we assemble our visualization that there is a relationship between the two so a scatterplot makes sense here. 
 
 ## Histogram
 

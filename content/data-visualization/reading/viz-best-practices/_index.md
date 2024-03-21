@@ -11,7 +11,7 @@ Since these visualizations are part of communicating our findings to our collabo
 
 ## Labeling Your Chart
 
-No matter what chart style you choose, you need to properly label your charts. Labels inclubde axes labels and chart titles. Your labels should be clear and concise. 
+No matter what chart style you choose, you need to properly label your charts. Labels include axes labels and chart titles. Your labels should be clear and concise. 
 
 Let's say that we work for a plant nursery and we want to visualize a tomato plant's growth over the course of six months. A poor chart title might be "Plant Growth". While accurate, since we are talking about a tomato plant, our colleagues at the nursery would not know it is a tomato plant unless you are present to explain. Keeping in mind that we want our visualizations to stand on their own, a better title would be "Tomato Plant Growth March 2024 - August 2024".
 

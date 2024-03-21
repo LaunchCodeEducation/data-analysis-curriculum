@@ -29,7 +29,7 @@ Throughout your career, you may notice that sometimes you need to use `plot.show
 
 ### Matplotlib
 
-For column charts, you will need to use `bar()` method and for bar charts, you will need to use the `barh()` method. Both methods have similar parameters so once you master one, it will be simpler to master the other one. 
+For column charts, you will need to use `bar()` method and for bar charts, you will need to use the `bar()` method. Both methods have similar parameters so once you master one, it will be simpler to master the other one. 
 
 Let's revisit the plant nursery.
 
