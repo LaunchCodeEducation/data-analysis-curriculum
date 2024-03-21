@@ -202,6 +202,6 @@ The above code accomplished the following:
 1. Create a new DataFrame object called `long_format_dataframe` using the `.melt()` function
     - the `var_name` parameter specifies the column name that will hold column labels from the `example_dataframe`
     - the `value_name` parameter specifies the column name that will hold column values from the `example_dataframe`
-1. printed the new DataFrame object to the console
+1. Printed the new DataFrame object to the console
 {{% /notice %}}
 
