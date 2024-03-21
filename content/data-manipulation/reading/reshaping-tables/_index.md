@@ -197,7 +197,7 @@ long_format_dataframe = pd.melt(example_dataframe, var_name="Office Item Categor
 
 The above code accomplished the following:
 
-1. imported pandas
+1. Imported pandas
 1. Created a DataFrame called `example_dateframe` from the variable `data` holding a dictionary
 1. Create a new DataFrame object called `long_format_dataframe` using the `.melt()` function
     - the `var_name` parameter specifies the column name that will hold column labels from the `example_dataframe`
