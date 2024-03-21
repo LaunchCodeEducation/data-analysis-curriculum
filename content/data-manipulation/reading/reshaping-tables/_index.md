@@ -167,7 +167,7 @@ Now that we have covered the differences between the two, let's take a look at h
 
 ### Syntax
 
-```python
+```python {linenos=table}
 data = []
 
 example_dataframe = pd.DataFrame(data)
