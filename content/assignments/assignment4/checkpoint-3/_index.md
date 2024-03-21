@@ -23,4 +23,4 @@ Checkpoint 3 examples can be found [here](https://github.com/LaunchCodeEducation
 
 When finished cleaning your data, make sure to push your changes up to GitHub including your new cleaned dataset. Copy the link to your GitHub repository and paste it into the submission box in Canvas for Graded Assignment #4: Checkpoint 3 and click Submit.
 
-[Back to Final Project Overview]({{< relref "./../" >}})
+[Back to Final Project Overview]({{% relref "./../" %}})
