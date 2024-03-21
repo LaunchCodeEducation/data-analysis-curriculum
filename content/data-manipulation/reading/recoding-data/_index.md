@@ -7,7 +7,7 @@ weight = 2
 
 ## Creating New Columns
 
-As questions arrise during your data exploring and cleaning, you might want to test them out. In this instance, we want to make sure the values we want to manipulate remain untouched. One thing we can do is to add a new column that will contain our manipulations.
+As questions arise during your data exploration and cleaning, you might want to investigate. In this instance, we want to make sure the values we are planning on manipulating remain untouched. One thing we can do is add a new column that will contain our manipulations.
 
 {{% notice blue Example "rocket" %}}
 ```python
