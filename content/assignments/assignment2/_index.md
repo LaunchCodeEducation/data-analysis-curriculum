@@ -40,3 +40,9 @@ Fork [this GitHub repository](https://github.com/LaunchCodeEducation/call-center
 
 When you are finished, make sure to push your changes up to GitHub. Copy the link to your GitHub 
 repository and paste it into the submission box in Canvas for Graded Assignment #2: Call Center Cleanup and click *Submit*.
+
+{{% notice blue Note "rocket" %}}
+The following tasks and questions in the textbook for this assignment are also located within the notebook from the above GitHub repository. You must save the answers to the questions within your notebook for grading.
+{{% /notice %}}
+
+{{% children %}}
