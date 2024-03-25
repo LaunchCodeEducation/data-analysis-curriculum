@@ -5,5 +5,4 @@ draft = false
 weight = 1
 +++
 
-This first task of this assignment is to perform some exploratory data analysis! You should feel comfortable beginning this task after you have completed [Chapter 14: Exploratory Data Analysis with Pandas]({{< relref "../../../eda-with-pandas/_index.md" >}})
-
+This first task of this assignment is to perform some exploratory data analysis! You should feel comfortable beginning this task after you have completed [Chapter 14: Exploratory Data Analysis with Pandas]({{% relref "../../../eda-with-pandas/_index.md" %}}).
