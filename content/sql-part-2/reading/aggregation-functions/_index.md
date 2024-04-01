@@ -5,7 +5,7 @@ draft = false
 weight = 3
 +++
 
-Use the examples and links in the following tables to get familiar with the various SQL [Aggregation Functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql?view=sql-server-ver15).
+Use the examples and links in the following tables to get familiar with the various SQL [Aggregate Functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql?view=sql-server-ver15).
 
 The following examples are using the BooksDB.  
 
