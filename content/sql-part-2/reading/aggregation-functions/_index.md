@@ -5,16 +5,17 @@ draft = false
 weight = 3
 +++
 
-Use the examples and links in the following tables to get familiar with the various SQL [Aggregate Functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql?view=sql-server-ver15).
+Below you will find some of the more common aggregate functions used and those that we will focus on in this class. You can find a more exhaustive list those functions here: [SQL Aggregate Functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql?view=sql-server-ver15).
 
-The following examples are using the BooksDB.  
+{{% notice blue Note "rocket" %}}
+The following examples utilize the `BooksDB` database.
+{{% /notice %}}
 
 | **Function** | **Definition** | **Syntax** | **Value Returned** |
 |--------------|-----------------|------------|---------------------|
 | [`SUM`](https://docs.microsoft.com/en-us/sql/t-sql/functions/sum-transact-sql?view=sql-server-ver15) | Returns sum of all values or DISTINCT values. | `SELECT SUM(ratings_2) FROM BooksDB.dbo.books;` | 31108850 |
 | [`MAX`](https://docs.microsoft.com/en-us/sql/t-sql/functions/max-transact-sql?view=sql-server-ver15) | Returns the highest value. | `SELECT MAX(ratings_2) FROM BooksDB.dbo.books;` | 436802 |
 | [`MIN`](https://docs.microsoft.com/en-us/sql/t-sql/functions/min-transact-sql?view=sql-server-ver15) | Returns the lowest value. | `SELECT MIN(ratings_2) FROM BooksDB.dbo.books;` | 30 |
-
 
 ## `NULL` Functions 
 
