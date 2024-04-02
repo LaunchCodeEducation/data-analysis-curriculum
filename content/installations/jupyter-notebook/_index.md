@@ -2,7 +2,7 @@
 title = "Installing Jupyter Notebook"
 date = 2024-02-12T13:42:28-06:00
 draft = false
-weight = 18
+weight = 5
 +++
 
 ## Setting up Jupyter Notebook

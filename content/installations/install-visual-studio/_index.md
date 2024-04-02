@@ -1,8 +1,8 @@
 +++
-title = "Visual Studio Code Installation"
+title = "Installing Visual Studio Code"
 date = 2024-02-12T13:42:28-06:00
 draft = false
-weight = 20
+weight = 4
 +++
 
 ## Setting Up Visual Studio Code
