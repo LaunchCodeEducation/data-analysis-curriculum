@@ -13,171 +13,269 @@ Below you will find some of the more common SQL string functions used and those 
 
 ### RTRIM
 
-Removes whitespaces from right of last character.
+`RTRIM` removes whitespaces from the right of the last character.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT RTRIM('Too many trailing spaces.     ');
 ```
 
+**Value Returned**
+
+```console
+Too many extra spaces.
+```
+{{% /notice %}}
+
 ### LTRIM
 
-Removes whitespaces from left of first character.
+`LTRIM` removes whitespaces from the left of the first character.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT LTRIM('         Leading spaces');
 ```
 
+**Value Returned**
+
+```console
+Leading spaces
+```
+{{% /notice %}}
+
 ### LEFT
 
-Returns length of characters starting at provided character index and moving left.
+`LEFT `returns the length of characters starting at the provided character index and moving left.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT LEFT('hello there!', 7);
 ```
 
+**Value Returned**
+
+```console
+hello t
+```
+{{% /notice %}}
+
 ### RIGHT
 
-Returns length of characters starting at provided character index and moving right.
+`RIGHT` returns the length of characters starting at the provided character index and moving right.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT RIGHT('hello there!', 3);
 ```
 
+**Value Returned**
+
+```console
+re!
+```
+{{% /notice %}}
+
 ### LEN
 
-Returns the length of a string based on characters, not including trailing spaces.
+`LEN` returns the length of a string based on characters, not including trailing spaces.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT LEN('hello there!'');
 ```
 
+**Value Returned**
+
+```console
+12
+```
+{{% /notice %}}
+
 ### DATALENGTH
 
-Returns the length of a string based on bytes, not including trailing spaces.
+`DATALENGTH` returns the length of a string based on bytes, not including trailing spaces.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT DATALENGTH('hello there!'');
 ```
 
+**Value Returned**
+
+```console
+12
+```
+{{% /notice %}}
+
 ### CHARINDEX
 
-Can use to find specific character within a string. Returns the index location.
+`CHARINDEX` can use to find a specific character within a string and returns it's index location.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT CHARINDEX('log', 'catalogue');
 ```
 
+**Value Returned**
+
+```console
+5
+```
+{{% /notice %}}
+
 ### SUBSTRING
 
-Returns part of a string. First number is starting index location and second number is ending index location.
+`SUBSTRING` returns part of a string. The first number is the starting index location and the second number is the ending index location.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT SUBSTRING('Strings are fun!', 4, 9);
 ```
 
+**Value Returned**
+
+```console
+ings are
+```
+{{% /notice %}}
+
 ### REVERSE
 
-Returns the string backwards.
+`REVERSE` returns the provided string backwards.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT REVERSE('Data Analysis');
 ```
 
+**Values Returned**
+
+```console
+sisylanA ataD
+```
+{{% /notice %}}
+
 ### UPPER
 
-Returns a string in all upper case.
+`UPPER` returns a string in all upper case letters.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT UPPER('taco');
 ```
 
+**Value Returned**
+
+```console
+TACO
+```
+{{% /notice %}}
+
 ### LOWER
 
-Returns a string in all lower case.
+`LOWER` returns a string in all lower case letters.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT LOWER('tACO');
 ```
 
+**Value Returned**
+
+```console
+taco
+```
+{{% /notice %}}
+
 ### REPLACE
 
-Replaces part of a string using provided patterns.
+`REPLACE` replaces part of a string using the provided patterns.
 
-Syntax:
-
-```sql
+{{% notice blue Example "rocket" %}}
+```SQL
 SELECT REPLACE('Beach Streat', 'ea', 'ee');
 ```
 
+**Value Returned**
+
+```console
+Beech Street
+```
+{{% /notice %}}
+
 ### CONCAT
 
-Combines strings together.
+`CONCAT` is commonly used to combines strings together and work with `null` values.
 
-Syntax:
-
-```sql
+{{% notice blue Examples "rocket" %}}
+```SQL
 SELECT CONCAT('Alyce','Cat', 'Frey');
 ```
 
-Good for working with null values as seen in example 2.
-
-```sql
+```SQL
 SELECT CONCAT('Alyce', NULL, 'Frey');
 ```
 
+**Values Returned**
+
+```SQL
+-- Example 1 output:
+AlyceCatFrey
+
+-- Null example output:
+AlyceFrey
+```
+{{% /notice %}}
+
 ### CONCAT_WS
 
-Combines strings together with a specified separator value. The separator can be anything you want.
+`CONCAT_WS` allows you to combine strings together with a specified separator value. The separator can be anything you want.
 
-Syntax:
-
-```sql
+{{% notice blue Examples "rocket" %}}
+```SQL
 SELECT CONCAT_WS(' =::= ',  'Alyce', 'Frey');
 ```
 
 Works with `NULL` values similar to `CONCAT`.
 
-```sql
+```SQL
 SELECT CONCAT_WS('  -  ',  'Alyce', NULL, 'Frey');
 ```
 
+**Values Returned**
+
+```SQL
+-- Example 1 output:
+Alyce=::=Frey
+-- Null example output:
+Alyce - Frey
+```
+{{% /notice %}}
+
 ### STUFF
 
-Inserts a string into another string. The first number indicates where to insert the new characters.
+`STUFF` inserts a string into another string. The first number indicates where to insert the new characters.
 
-Syntax:
-
-```sql
+{{% notice blue Examples "rocket" %}}
+```SQL
 SELECT STUFF('Pumpkin Pie', 3, 0, 'Add Chars');
 ```
 
 The second number indicates how many original characters will be deleted upon insertion.
 
-```sql
+```SQL
 SELECT STUFF('Pumpkin Pie', 3, 5, 'Delete Chars');
 ```
+
+**Values Returned**
+
+```SQL
+-- Example 1 Output:
+PuAdd Charsmpkin Pie
+-- Example 2 Output:
+PuDelete Chars Pie
+```
+{{% /notice %}}
 
 ## Check Your Understanding
 
