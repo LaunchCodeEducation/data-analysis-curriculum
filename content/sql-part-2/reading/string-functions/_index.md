@@ -5,9 +5,11 @@ draft = false
 weight = 1
 +++
 
+Similar to pandas, SQL comes with many built-in functions to read, write, update, and in general manipulate data in any way you see fit. The examples below utilize the `SELECT` statement to work with strings so that we can first practice using these functions by only reading the data. A major benefit of this is it allows you to gain a visual of what would happen should you decide to manipulate the same data.
+
 ## String Functions
 
-You can find a more exhaustive list of string functions here: [SQL String Functions](https://learn.microsoft.com/en-us/sql/t-sql/functions/string-functions-transact-sql?view=sql-server-ver15)
+Below you will find some of the more common SQL string functions used and those that we will focus on in this class. You can find a more exhaustive list of string functions here: [SQL String Functions](https://learn.microsoft.com/en-us/sql/t-sql/functions/string-functions-transact-sql?view=sql-server-ver15).
 
 ### RTRIM
 
