@@ -5,4 +5,4 @@ draft = false
 weight = 4
 +++
 
-## Next Steps
+1. [Joins](https://learn.microsoft.com/en-us/sql/relational-databases/performance/joins?view=sql-server-ver16)

@@ -16,6 +16,8 @@ weight = 20
 
 ## Key Terminology
 
+1. join
+1. inner join
 ## Content Links
 
 {{% children %}}
