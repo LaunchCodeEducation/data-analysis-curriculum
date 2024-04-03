@@ -71,7 +71,7 @@ FROM li_wedding;
 
 ### Use an Alias
 
-While you are querying a database, you may want to give a column a nickname to make the result set easier to read. You can use the `AS` keyword to specify an alias for a column. You might want to do this the for Mary when she is working on the Li wedding like so:
+While you are querying a database, you may want to give a column a nickname to make the result set easier to read. You can use the `AS` keyword to specify an alias for a column. You might want to do this for Mary when she is working on the Li wedding like so:
 
 ```sql {linenos=table}
 SELECT first_name, last_name, diet AS "Dietary Restriction"
@@ -101,7 +101,7 @@ WHERE wedding_year = 2023;
 
 ### Sorting Results
 
-Sorting the result set can help us get the answers we need faster. In the case of Mary's work as an evemt planner, she may want to sort the guests by last name so that she can efficiently put together place cards.
+Sorting the result set can help us get the answers we need faster. In the case of Mary's work as an event planner, she may want to sort the guests by last name so that she can efficiently put together place cards.
 
 ```sql {linenos=table}
 SELECT last_name, first_name
@@ -117,7 +117,7 @@ FROM li_wedding
 ORDER BY last_name DESC;
 ```
 
-If you want to order the result sets in numerical order for integer or decimal values, then the final clause in your query would look like `ORDER BY numerical_column ASC`, for ascending order and `ORDER BY numerical_column DESC` for descending o rder.
+If you want to order the result sets in numerical order for integer or decimal values, then the final clause in your query would look like `ORDER BY numerical_column ASC`, for ascending order and `ORDER BY numerical_column DESC` for descending order.
 
 ### Filtering
 
