@@ -26,10 +26,29 @@ The data below will be used for the examples that follow:
 
 ## Nested SELECT
 
+{{% notice blue Example "rocket" %}}
+The example below will utilize a nested subquery to return the row with the max rotten tomatoes score:
 
+```SQL {linenos=table}
+SELECT * FROM Movies
+WHERE rt_score = 
+    (SELECT MAX(rt_score)
+    FROM Movies
+    );
+GO
+```
 
-## Nested INSERT
+**Output**
 
-## Nested UPDATE
+![Nested Select Query](pictures/nested-select-query.png?classes=border)
 
-## Nested DELETE
+The output of a simple one-line `SELECT` query when applying an aggregate function would look like the following:
+
+```SQL
+SELECT MAX(rt_score) FROM Movies
+```
+
+![Single-line select query applying an aggregate function](pictures/simple-select-query.png?classes=border)
+
+One major difference to note here is that when the aggregate function is applied using a subquery you receive the entire row of data as a result, instead of just the single value that satisfies the aggregate function within the column.
+{{% /notice %}}
