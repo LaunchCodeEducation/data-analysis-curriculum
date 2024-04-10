@@ -5,42 +5,36 @@ draft = false
 weight = 1
 +++
 
-**Subqueries** are similar to nested conditionals in that it is a `SQL` statement nested inside of another. Subqueries are commonly nested inside of a `SELECT` statement but are also used within the `INSERT`, `UPDATE`, or `DELETE` statements.
+**Subqueries** are similar to nested `Python` conditionals in that it is a `SQL` statement nested inside of another. Like conditionals, one of the main use cases for subqueries is to apply additional logic or filtering to your data. As that is the case, subqueries are most often nested inside of a `WHERE` or `HAVING` clause although, it is not required.
 
-One of the many benefits of using subqueries is that it allows you to apply aggregate functions within a `WHERE` clause.
+The structure of a subquery has the following attributes:
+1. `SELECT` query
+1. `FROM` clause
+    - optional `WHERE` clause
+    - optional `GROUP BY` clause
+    - optional `HAVING` clause
+1. Must be wrapped in parentheses
+
+One of the many benefits of using subqueries is that it allows you to apply aggregate functions within a `WHERE` clause that you will see in an example below.
 
 {{% notice blue Note "rocket" %}}
-The data below will be used for the examples that follow:
-
-| id | title | genre | release | rt_score |
-| --- | --- | --- | --- | --- |
-| 1 | Interstellar | Science Fiction | 2014 | 73 |
-| 2 | Pride and Prejudice | Novel | 2005 | 87 |
-| 3 | Inception | Science Fiction | 2010 | 87 |
-| 4 | Barbie | Comedy | 2023 | 88 |
-| 5 | Marley & Me | Comedy | 2008 | 63 |
-| 6 | The Proposal | Comedy | 2009 | 45 |
-| 7 | Bridesmaids | Comedy | 2011 | 90 |
-| 8 | The Guardian | Drama | 2006 | 37 |
+The following examples will reference the tables `Movies` and `More_Movies`. You can view tables data here: [Movies and More_Movies table data]({{< relref "../union-intersect-except/table-data/_index.md" >}})
 {{% /notice %}}
 
-## Nested SELECT
+## Non
 
 {{% notice blue Example "rocket" %}}
 The example below will utilize a nested subquery to return the row with the max rotten tomatoes score:
 
 ```SQL {linenos=table}
 SELECT * FROM Movies
-WHERE rt_score = 
-    (SELECT MAX(rt_score)
-    FROM Movies
-    );
+WHERE rt_score = (SELECT MAX(rt_score) FROM Movies);
 GO
 ```
 
 **Output**
 
-![Nested Select Query](pictures/nested-select-query.png?classes=border)
+![Subquery within a WHERE clause of a SELECT statement](pictures/subquery.png?classes=border)
 
 The output of a simple one-line `SELECT` query when applying an aggregate function would look like the following:
 
@@ -51,4 +45,68 @@ SELECT MAX(rt_score) FROM Movies
 ![Single-line select query applying an aggregate function](pictures/simple-select-query.png?classes=border)
 
 One major difference to note here is that when the aggregate function is applied using a subquery you receive the entire row of data as a result, instead of just the single value that satisfies the aggregate function within the column.
+{{% /notice %}}
+
+{{% notice blue Example "rocket" %}}
+What if you wanted to produce a result set of movies from the `More_Movies` table with a higher score than the average score of all movies within the `Movies` table? Let's start by gathering the average score from the `Movies` table:
+
+```sql
+-- gather average score from Movies table
+SELECT AVG(rt_score) FROM Movies
+GO
+```
+
+**Result**
+
+![Result from running a SELECT AVG() query on the Movies table](pictures/rt-avg-score-from-movies.png?classes=border)
+
+Now let's apply the same logic within a subquery:
+
+```sql
+-- Select all data from More_Movies
+SELECT * FROM More_Movies
+-- Apply condition that we only want movies with a rt_score greater than --> subquery statement/expression
+WHERE rt_score > 
+-- Use subquery to gather AVG rt_score from the Movies table (this is non-correlated as it does not reference and columns within the More_Movies table)
+(SELECT AVG(rt_score) FROM Movies)
+GO
+```
+
+**Result**
+
+![Result from running a subquery using the same logic above on a separate table of data](pictures/rt-avg-score-compare.png?classes=border)
+{{% /notice %}}
+
+## Correlated Subqueries
+
+**Correlated Subqueries** involve referencing a column or columns located in the outer query, from inside of the inner(sub) query. One common trait among correlated subqueries is that they will execute once for every row in the outer query. This process can be rather performance intensive and consume lots of memory if you are working on larger datasets. Let's take a look at an example below:
+
+{{% notice blue Example "rocket" %}}
+```sql
+-- SELECT the genre, release, and id columns from Movies
+SELECT genre, release, id FROM Movies
+-- Subquery that gathers the AVG rt_score from Movies that were released after 2010
+WHERE rt_score > (SELECT AVG(rt_score) FROM Movies WHERE release > 2010);
+GO
+```
+
+The code above accomplishes the following:
+1. `SELECT` the genre, release, and id `FROM` the `Movies` table.
+    - Return the genre, release, and id of movies that have a higher `rt_score` than the average `rt_score` of movies released after the year 2010.
+
+The reason this code block is considered a correlated subquery is because it reference the `release` column from the outer query. This means that the inner query will need the value of all movie releases after the year 2010. In order to gather that data it will need to execute the subquery against every row within the table.
+
+**Result**
+
+![Result from running a correlated subquery to display genre, release, and id from Movies table that have a rt_score greater than the AVG rt_score of movies released after 2010](pictures/correlated-subquery.png?classes=border)
+{{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+
 {{% /notice %}}
