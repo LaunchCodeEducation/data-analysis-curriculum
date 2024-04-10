@@ -35,3 +35,5 @@ condition follows the `ON` keyword and tells SQL what we believe to be
 matching records. This may mean we want to join on matching customer ids or
 matching dollar amounts or matching dates depending on the tables we are
 working with and what questions we need to answer.
+
+Let's dive into the specific type of joins and how each one works.

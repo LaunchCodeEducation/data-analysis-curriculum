@@ -7,9 +7,7 @@ weight = 3
 
 ## Getting Started
 
-For this weeks studio fork this [GitHub repository](https://github.com/launchcodeeducation/SQL-Part-3-Studio) and clone to your computer.  
-
-In Azure Data Studio, click on the open button and navigate to where you saved the git repository you just cloned and open the notebook.  
+For this week's studio, open up the `SQL-Part-3-Studio.ipynb` notebook in `data-analysis-projects/sql-part-3/studio` using Azure Data Studio.  
 
 ## In Your Notebook
 

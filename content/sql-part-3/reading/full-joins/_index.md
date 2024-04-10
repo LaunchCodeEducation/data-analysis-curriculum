@@ -5,12 +5,8 @@ draft = false
 weight = 4
 +++
 
-Joining two tables with a **full outer join** gives us a result set that
-includes all records from both tables. Full outer joins are important to SQL,
-but the syntax is not supported in MySQL. Instead, to achieve a full outer
-join, you have to work with a left outer join and a right outer join. To show
-what a full outer join looks like in other types of SQL, we have simulated some
-possible syntax below.
+Finally, we have a full outer join. Joining two tables with a **full outer join** gives us a result set that
+includes all records from both tables with null values for unmatched rows.
 
 Now that another event planner has joined Mary's company, to get all of the
 events run by the company in August, we can use a full outer join to combine
@@ -23,18 +19,21 @@ FULL OUTER JOIN leah_events ON mary_events.month = leah_events.month
 WHERE mary_events.month = 08;
 ```
 
-.. figure:: figures/fullouterjoin.png
-   :alt: Venn diagram with the entirety of both circles highlighted.
+![Venn diagram with the entirety of both circles highlighted](./pictures/fullouterjoin.png)
 
 The Venn diagram above shows the result set highlighted in blue.
 
-If you do want to try out a full outer join, the syntax to simulate it looks some like this:
+## Check Your Understanding
 
-```sql {linenos=table}
-SELECT * FROM table_a LEFT JOIN table_b ON table_a.column_name_1 = table_b.column_name_1
-UNION
-SELECT * FROM table_a RIGHT JOIN table_b ON table_a.column_name_1 = table_b.column_name_2;
-```
+{{% notice green Question %}}
 
-`UNION` is used to bring together the result sets of 2 `SELECT` queries.
-Check out the [documentation](https://dev.mysql.com/doc/refman/8.0/en/union.html) for more information on how `UNION` works.
+What does a `FULL JOIN` do?
+
+1. Returns results with matching rows in both tables
+1. Returns results with all the rows from the left table with null values for unmatched rows from the right table
+1. Returns results with all the rows from the right table with null values for unmatched rows from the left table
+1. Returns results from all the rows from both tables with null values filled in for all unmatched rows
+
+{{% /notice %}}
+
+<!-- 4 -->

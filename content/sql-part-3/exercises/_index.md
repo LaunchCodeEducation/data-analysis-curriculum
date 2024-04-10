@@ -7,14 +7,14 @@ weight = 2
 
 ## Getting Started
 
-Fork this [GitHub repository](https://github.com/launchcodeeducation/SQL-Part-3-Exercises) and clone to your computer. 
+Open up the `SQL-Part-3-Exercises.ipynb` notebook in `data-analysis-projects/sql-part-3/exercises` using Azure Data Studio.
 
 ## In Your Notebook
 
-Open Azure Data Studio and connect to the `BookDB`.  
+Connect to `BooksDB` before starting work on the exercises.  
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub.
+When finished, make sure to push your changes up to GitHub.
 
 Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Exercises: SQL Part 3** and click *Submit*.
