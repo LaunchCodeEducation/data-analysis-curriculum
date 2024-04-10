@@ -12,7 +12,7 @@ One of the many benefits of using subqueries is that it allows you to apply aggr
 {{% notice blue Note "rocket" %}}
 The data below will be used for the examples that follow:
 
-| is | title | genre | release | rt_score |
+| id | title | genre | release | rt_score |
 | --- | --- | --- | --- | --- |
 | 1 | Interstellar | Science Fiction | 2014 | 73 |
 | 2 | Pride and Prejudice | Novel | 2005 | 87 |
