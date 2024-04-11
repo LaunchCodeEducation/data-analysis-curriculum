@@ -8,20 +8,20 @@ weight = 21
 +++
 
 ## Learning Objectives
-
-<!-- TODO: Refactor below learning objectives -->
-### Goals
-
-Write nested subqueries.
-Articulate the differences between UNION, INTERSECT, and EXCEPT operators.
-Use all three of the above operators in queries.
-Use the IN keyword with a WHERE clause.
-Write correlated subqueries.
+1. Understand what a subqueries are and how they are structured.
+1. Understand the difference between a correlated and non-correlated subqueries
+1. Understand the differences between `UNION`, `INTERSECT`, and `EXCEPT`.
 
 ## Key Terminology
 
 ### Subqueries
 1. Subqueries
+1. Correlated subquery
+
+### `UNION`, `INTERSECT`, `EXCEPT`
+1. UNION
+1. INTERSECT
+1. EXCEPT
 
 ## Content Links
 
