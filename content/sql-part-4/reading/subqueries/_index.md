@@ -15,13 +15,13 @@ The structure of a subquery has the following attributes:
     - optional `HAVING` clause
 1. Must be wrapped in parentheses
 
-One of the many benefits of using subqueries is that it allows you to apply aggregate functions within a `WHERE` clause that you will see in an example below.
+One of the many benefits of using subqueries is that it allows you to apply aggregate functions within  `WHERE` clause that you will see in an example below.
 
 {{% notice blue Note "rocket" %}}
 The following examples will reference the tables `Movies` and `More_Movies`. You can view tables data here: [Movies and More_Movies table data]({{< relref "../union-intersect-except/table-data/_index.md" >}})
 {{% /notice %}}
 
-## Non
+## Non-Correlated Subqueries
 
 {{% notice blue Example "rocket" %}}
 The example below will utilize a nested subquery to return the row with the max rotten tomatoes score:
@@ -77,36 +77,37 @@ GO
 ![Result from running a subquery using the same logic above on a separate table of data](pictures/rt-avg-score-compare.png?classes=border)
 {{% /notice %}}
 
-## Correlated Subqueries
-
-**Correlated Subqueries** involve referencing a column or columns located in the outer query, from inside of the inner(sub) query. One common trait among correlated subqueries is that they will execute once for every row in the outer query. This process can be rather performance intensive and consume lots of memory if you are working on larger datasets. Let's take a look at an example below:
-
 {{% notice blue Example "rocket" %}}
+The last non-correlated example will utilize the `IN` keyword within a `WHERE` clause.
+
 ```sql
--- SELECT the genre, release, and id columns from Movies
-SELECT genre, release, id FROM Movies
--- Subquery that gathers the AVG rt_score from Movies that were released after 2010
-WHERE rt_score > (SELECT AVG(rt_score) FROM Movies WHERE release > 2010);
+-- Select all from Movies
+SELECT * FROM Movies
+-- Filter outer query based on genres from inner query
+WHERE genre IN (SELECT genre FROM Movies WHERE rt_score > 88);
+-- Will result in all movies that are within genres that have a minimum of one film with a score above 88
 GO
 ```
 
-The code above accomplishes the following:
-1. `SELECT` the genre, release, and id `FROM` the `Movies` table.
-    - Return the genre, release, and id of movies that have a higher `rt_score` than the average `rt_score` of movies released after the year 2010.
+![Query utilizing the IN keyword within a WHERE clause against the Movies table](pictures/where-in.png?classes=border)
 
-The reason this code block is considered a correlated subquery is because it reference the `release` column from the outer query. This means that the inner query will need the value of all movie releases after the year 2010. In order to gather that data it will need to execute the subquery against every row within the table.
+The same query and subquery using the `More_Movies` table:
 
-**Result**
-
-![Result from running a correlated subquery to display genre, release, and id from Movies table that have a rt_score greater than the AVG rt_score of movies released after 2010](pictures/correlated-subquery.png?classes=border)
+![Query using the IN keyword within a WHERE clause against the More_Movies table](pictures/more-movies-where-in.png?classes=border)
 {{% /notice %}}
+
+## Correlated Subqueries
+
+**Correlated Subqueries** are inner subqueries that rely on data from the outer subquery. One common trait among correlated subqueries is that they will execute once for every row in the outer query. This process can be rather performance intensive and consume lots of memory if you are working on larger datasets. Let's take a look at an example below:
 
 ## Check Your Understanding
 
 {{% notice green Question "rocket" %}}
+Is the following block of code an example of a correlated or non-correlated subquery?
 
-{{% /notice %}}
+```sql
+SELECT * FROM Movies
 
-{{% notice green Question "rocket" %}}
+```
 
 {{% /notice %}}
