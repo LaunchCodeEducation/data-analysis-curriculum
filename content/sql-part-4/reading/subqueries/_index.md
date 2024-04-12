@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-**Subqueries** are similar to nested Python conditionals in that it is a SQL statement nested inside of another. Like conditionals, one of the main use cases for subqueries is to apply additional logic or filtering to your data. As that is the case, subqueries are most often nested inside of a `WHERE` or `HAVING` clause although, it is not required.
+**Subqueries** are similar to nested Python conditionals in that it is a SQL statement nested inside of another. Like conditionals, one of the main use cases for subqueries is to apply additional logic or filtering to your data. As that is the case, subqueries are most often nested inside of a `WHERE` or `HAVING` clause although, it is not required. 
 
 The structure of a subquery has the following attributes:
 1. `SELECT` query
@@ -147,6 +147,5 @@ WHERE release IN (
     )
 GO
 ```
-
 <!-- Solution: non-correlated -->
 {{% /notice %}}
