@@ -23,6 +23,8 @@ The following examples will reference the tables `Movies` and `More_Movies`. You
 
 ## Non-Correlated Subqueries
 
+Non-Correlated subqueries are queries that can run on their own regardless of the outer query. This type of subquery will only run one time instead of executing row by row.
+
 {{% notice blue Example "rocket" %}}
 The example below will utilize a nested subquery to return the row with the max rotten tomatoes score:
 
@@ -98,16 +100,53 @@ The same query and subquery using the `More_Movies` table:
 
 ## Correlated Subqueries
 
-**Correlated Subqueries** are inner subqueries that rely on data from the outer subquery. One common trait among correlated subqueries is that they will execute once for every row in the outer query. This process can be rather performance intensive and consume lots of memory if you are working on larger datasets. Let's take a look at an example below:
+**Correlated Subqueries** are inner queries that rely on data from a column specified in the outer query. A common trait among correlated subqueries is that they will execute once for every row in the outer query and cannot execute on its own. This process can be rather performance intensive and consume lots of memory if you are working on larger datasets. 
+
+Let's take a look at an example below:
+
+{{% notice blue Example "rocket" %}}
+```sql
+-- Select all from the Movies table and create an alias (m1) for it
+SELECT * FROM Movies AS m1
+-- Where clause 
+WHERE rt_score = (
+    -- subquery to select max rt_score from movies and create a new alias (m2) for it
+    SELECT MAX(rt_score) FROM Movies AS m2
+    -- subquery where clause to compare movies within the same genre
+    WHERE m1.genre = m2.genre
+    -- check rt_score against movie with highest score
+    AND m1.rt_score <= m2.rt_score
+    )
+GO
+```
+
+**Result**
+
+![Correlated subquery against the movies table, comparing the rt_scores within the same genre](pictures/correlated-subquery-example.png?classes=border)
+{{% /notice %}}
 
 ## Check Your Understanding
+
+{{< mermaid >}}
+---
+title: Non-Correlated and Correlated Subqueries
+---
+graph LR;
+    A[Non-Correlated] --> B(self-contained) --> C(executes only once)
+    D[Correlated] --> E(cannot execute alone) --> F(executes per row)
+{{< /mermaid >}}
 
 {{% notice green Question "rocket" %}}
 Is the following block of code an example of a correlated or non-correlated subquery?
 
 ```sql
-SELECT * FROM Movies
-
+SELECT * FROM More_Movies
+WHERE release IN (
+    SELECT release from More_Movies 
+    WHERE release > 2010
+    )
+GO
 ```
 
+<!-- Solution: non-correlated -->
 {{% /notice %}}

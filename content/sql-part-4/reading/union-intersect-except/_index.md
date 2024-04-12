@@ -11,7 +11,7 @@ weight = 2
 The following examples will reference the tables `Movies` and `More_Movies`. You can view the data for them here: [Movies and More_Movies table data]({{< relref "./table-data/_index.md" >}})
 {{% /notice %}}
 
-The `UNION` operator combines table rows from multiple query statements. This is especially useful if you would like to view data from multiple tables without including duplicates. By default, the `UNION` set operator will return data *without* duplicates. However, if you wish to include duplicates in your returned data you can do so by using the `ALL` flag with `UNION`.
+The `UNION` operator combines table rows from multiple query statements. This is especially useful if you would like to view data from multiple tables without including duplicates. By default, the `UNION` set operator will return data *without* duplicates. However, if you wish to include duplicates in your returned data you can do so by using the `ALL` keyword with `UNION`.
 
 {{% notice blue Example "rocket" %}}
 ```sql
@@ -27,14 +27,18 @@ GO
 The above code will return a result set of data from the `Movies` and `More_Movies` tables with only unique rows (no duplicates).
 
 ```sql
-SELECT * FROM Movies
+SELECT *  genre FROM Movies
 -- Apply the UNION ALL set operator to include all data from both Movies and More_Movies tables
 UNION ALL
-SELECT * FROM More_Movies
+SELECT * genre FROM More_Movies
+-- where clause to include only the comedy and action genres in the union
+WHERE genre IN ('Comedy', 'Action')
 GO
 ```
 
-The above code using the `ALL` flag will return a result set of data from `Movies` and `More_Movies` with all rows from both tables (duplicates included).
+![UNION query to return ALL genres from the Movies table, but only the comedy and action genres from the More_Movies table](pictures/union-all.png?classes=border)
+
+The above code using the `ALL` keyword will return a result set of data including all genres from the `Movies` table, and only the comedy and action genres from the `More_Movies` table (duplicates included).
 {{% /notice %}}
 
 The `UNION` operator does not require multiple tables in order to work. It is also useful for returning a set of data with only unique rows when working on the same table but with mutliple query statements.
