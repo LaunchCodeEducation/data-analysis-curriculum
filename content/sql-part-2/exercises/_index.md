@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Open up the `SQL-Part-3-Exercises.ipynb` notebook in `data-analysis-projects/sql-part-2/exercises/` using Azure Data Studio.
+Open up the `SQL-Part-2-Exercises.ipynb` notebook in `data-analysis-projects/sql-part-2/exercises/` using Azure Data Studio.
 
 ## In Your Notebook
 
