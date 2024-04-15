@@ -7,15 +7,11 @@ weight = 2
 
 ## Getting Started
 
-Fork this [GitHub repository](https://github.com/launchcodeeducation/sql-part2-exercises) and clone it to your computer.
+Open up the `SQL-Part-3-Exercises.ipynb` notebook in `data-analysis-projects/sql-part-2/exercises/` using Azure Data Studio.
 
 ## In Your Notebook
 
-Open Azure Data Studio and connect to `BooksDB`.
-
-In Azure Data Studio, click on the open button and navigate to where you saved the git repository you just cloned and open the notebook.  Follow along and write queries to answer the questions.
-
-![Welcome screen for Azure Data Studio with arrow pointing to open button.](pictures/AzureOpenNotebook2.png?classes=border)
+Connect to `BooksDB` before starting work on the exercises.
 
 ## Submitting Your Work
 

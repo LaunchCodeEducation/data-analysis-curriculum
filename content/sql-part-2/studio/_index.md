@@ -7,12 +7,11 @@ weight = 3
 
 ## Getting Started
 
-For this weeks studio fork this [GitHub repository](https://github.com/launchcodeeducation/SQL-Part-2-Studio) and
-clone it to your computer.
+For this week's studio, open up the `SQL-Part-2-Studio.ipynb` notebook in `data-analysis-projects/sql-part-2/studio using Azure Data Studio.
 
 ## In Your Notebook
 
-In Azure Data Studio, click on the open button and navigate to where you saved the git repository you just cloned and open the notebook.
+Connect to `BooksDB` before starting work on the studio.
 
 ## Submitting Your Work
 
