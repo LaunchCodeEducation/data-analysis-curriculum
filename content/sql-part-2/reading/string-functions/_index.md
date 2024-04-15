@@ -45,7 +45,7 @@ Leading spaces
 
 ### LEFT
 
-`LEFT `returns the length of characters starting at the provided character index and moving left.
+`LEFT` returns the length of characters starting at the provided character index and moving left.
 
 {{% notice blue Example "rocket" %}}
 ```SQL
