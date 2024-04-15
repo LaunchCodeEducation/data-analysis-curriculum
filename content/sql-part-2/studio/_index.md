@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-For this week's studio, open up the `SQL-Part-2-Studio.ipynb` notebook in `data-analysis-projects/sql-part-2/studio using Azure Data Studio.
+For this week's studio, open up the `SQL-Part-2-Studio.ipynb` notebook in `data-analysis-projects/sql-part-2/studio` using Azure Data Studio.
 
 ## In Your Notebook
 
