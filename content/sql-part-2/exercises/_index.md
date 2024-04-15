@@ -11,7 +11,7 @@ Fork this [GitHub repository](https://github.com/launchcodeeducation/sql-part2-e
 
 ## In Your Notebook
 
-Open Azure Data Studio and connect to the `BookDB`.
+Open Azure Data Studio and connect to `BooksDB`.
 
 In Azure Data Studio, click on the open button and navigate to where you saved the git repository you just cloned and open the notebook.  Follow along and write queries to answer the questions.
 
