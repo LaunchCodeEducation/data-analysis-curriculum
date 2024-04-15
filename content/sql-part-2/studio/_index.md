@@ -16,6 +16,6 @@ In Azure Data Studio, click on the open button and navigate to where you saved t
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub.
+When finished, make sure to push your changes up to GitHub.
 
 Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Studio: SQL Part 2** and click *Submit*.
