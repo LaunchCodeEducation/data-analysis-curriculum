@@ -2,7 +2,7 @@
 title = "Checkpoint 2: EDA"
 date = 2023-05-25T12:55:09-05:00
 draft = false
-weight = 4
+weight = 2
 +++
 
 ## Before You Start
