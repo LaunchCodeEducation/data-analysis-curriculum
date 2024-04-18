@@ -5,3 +5,4 @@ draft = false
 weight = 1
 +++
 
+Working within a database can often times be cumbersome and difficult to replicate commands. 
