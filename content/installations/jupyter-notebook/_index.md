@@ -11,14 +11,6 @@ weight = 5
 
 The following command will install Jupyter Notebook onto your machine:
 
-{{% notice blue Note "rocket" %}}
-`pip` is a package manager that is included with any Python installation. You can verify the version and installation of pip by typing in the following command:
-
-```console
-python3 -m pip --version
-```
-{{% /notice %}}
-
 ```console
 pip install notebook
 ```
@@ -28,6 +20,14 @@ If the above command produces an error you may need to specify `pip3` like so:
 
 ```console
 pip3 install notebook
+```
+{{% /notice %}}
+
+{{% notice blue Note "rocket" %}}
+`pip` is a package manager that is included with any Python installation. You can verify the version and installation of pip by typing in the following command:
+
+```console
+python3 -m pip --version
 ```
 {{% /notice %}}
 
