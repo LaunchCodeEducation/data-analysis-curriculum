@@ -23,7 +23,7 @@ The following examples will reference the tables `Movies` and `More_Movies`. You
 
 ## Non-Correlated Subqueries
 
-Non-Correlated subqueries are queries that can run on their own regardless of the outer query. This type of subquery will only run one time instead of executing row by row.
+Non-correlated subqueries are queries that can run on their own regardless of the outer query. This type of subquery will only run one time instead of executing row by row.
 
 {{% notice blue Example "rocket" %}}
 The example below will utilize a nested subquery to return the row with the max rotten tomatoes score:
