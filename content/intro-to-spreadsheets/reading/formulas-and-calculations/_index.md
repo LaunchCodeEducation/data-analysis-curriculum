@@ -17,11 +17,11 @@ Sometimes, we want to set up a whole column where each value is the result of a 
 
 1. In the "Overview" tab, add a new header to column G called "Tax Value".
 1. We checked the tax rate and on cars right now, it is 2%, so the taxes we owe would be 2% of the current value.
-1. Starting with G2, write in that cell the formula for finding the tax value of the car. As you write the cell identifuer for the current value of row 2, Google Sheets will highlight the cell that you are referencing which can serve as a helpful visual reminder of what the formula is going to be using.
+1. Starting with G2, write in that cell the formula for finding the tax value of the car. As you write the cell identifier for the current value of row 2, Google Sheets will highlight the cell that you are referencing which can serve as a helpful visual reminder of what the formula is going to be using.
 1. Now we want every row in column G to accurately reflect the tax value of the car. To copy the formula and not the value in G2, hover your mouse over the bottom right corner of G2 and you will see a plus sign appear. Click and drag down to G3. Release once both cells are highlighted and you should see 2% of E3 in G3. To confirm, click on the cell to see what the formula looks like.
 1. If you want to add another row, you can click and drag down as you did above.
 
-The benefit of setting up a formula like this is that we don't have to worry about a human miscalculating and even more importantly, these cars are going to depreciate in value so that "Current Value" column is going to look different over time. Instead of us have to updating both the current value and the tax value when the car depreciates, we can update the current value and the tax value will update to reflect the change.
+The benefit of setting up a formula like this is that we don't have to worry about a human miscalculating and even more importantly, these cars are going to depreciate in value so that "Current Value" column is going to look different over time. Instead of us having to update both the current value and the tax value when the car depreciates, we can update the current value and the tax value will update to reflect the change.
 
 ## Setting up a constant
 
@@ -43,4 +43,4 @@ Finally, in a formula, you may want to reference a cell in another spreadsheet. 
 1. To reference another spreadsheet in a formula, we first need to type the name of the spreadsheet, an exclamation point, and then the cell. If we have a spreadsheet named "Budget" and we want to reference A1 in that spreadsheet, then we would write `Budget!A1`. If there are spaces in our spreadsheet name, then it should be wrapped in single quotes like `'Budget 2024'!A1`.
 1. We want to track how much of each car's maintenance budget has been spent. Since there is only one maintenance job for one car in another spreadsheet, we are going to set up a formula and NOT click and drag it to the second car. Use the above to reference the cost of the one maintenance task and divide it by a budget of 2000 to see how much we have used so far.
 
-With formulas, the possibilities are endless! We can also make use of the *Quick Calculations* menu to easy set up sums and averages.
+With formulas, the possibilities are endless! We can also make use of the *Quick Calculations* menu to easily set up sums and averages.
