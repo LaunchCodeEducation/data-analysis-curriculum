@@ -20,7 +20,7 @@ Checkpoint 2 examples can be found here: [Checkpoint 2 Examples](https://github.
 
 ## Submitting Your Work
 
-When finished with your EDA, make sure to push your changes up to GitHub. Copy the link to your GitHub repository and paste it into the submission box in Canvas for Graded Assignment 4: Checkpoint 2 and click Submit.
+When finished with your EDA, make sure to push your changes up to GitHub. Copy the link to your GitHub repository and paste it into the submission box in Canvas for Graded Assignment 4: Checkpoint 2 and click *Submit*.
 
 [Back to Final Project Overview]({{% relref "./../" %}})
 
