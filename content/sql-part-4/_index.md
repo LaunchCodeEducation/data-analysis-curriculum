@@ -19,9 +19,9 @@ weight = 21
 1. Correlated subquery
 
 ### `UNION`, `INTERSECT`, `EXCEPT`
-1. UNION
-1. INTERSECT
-1. EXCEPT
+1. `UNION`
+1. `INTERSECT`
+1. `EXCEPT`
 
 ## Content Links
 
