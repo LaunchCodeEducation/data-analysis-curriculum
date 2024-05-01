@@ -21,15 +21,23 @@ The image below depicts the downloads page for Python. Within the highlighted ar
 
 ## Windows Users
 
-Download the most recent stable release for the `Windows` operating system. At the time of writing this the most recent stable version is `3.11.8`.
+Download the most recent stable release for the `Windows` operating system. At the time this page was last edited, this the most recent stable version is `3.12.3`.
 
 ![Windows stable release for python3 highlighted on the windows operating system download page for python](pictures/stable-release-windows.png?classes=border)
 
+{{% notice blue Note %}}
+The above image depicts version `3.11.8` but you will see a different version when visiting the download page!
+{{% /notice %}}
+
 ## MacOS Users
 
-Download the most recent stable release for the `MacOS` operating system. At the time of writing this the most recent stable version is `3.11.8`.
+Download the most recent stable release for the `MacOS` operating system. At the time of writing this the most recent stable version is `3.12.3`.
 
 ![MacOS stable release for python3 highlighted on the MacOS operating system download page for python](pictures/stable-release-mac.png?classes=border)
+
+{{% notice blue Note %}}
+The above image depicts version `3.11.8` but you will see a different version when visiting the download page!
+{{% /notice %}}
 
 ### Verification
 
