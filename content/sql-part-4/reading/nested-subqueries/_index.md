@@ -63,6 +63,8 @@ GO
 ![Compare the same query as the previous example after adding a movie with a high rating to view the difference](pictures/compare-example.png?classes=border)
 {{% /notice %}}
 
+## Check Your Understanding
+
 {{% notice green Question "rocket" %}}
 What is the key difference between a nested query and a nested subquery?
 <!-- Solution: A nested query is simply a subquery, a nested subquery is a subquery within a subquery! -->
