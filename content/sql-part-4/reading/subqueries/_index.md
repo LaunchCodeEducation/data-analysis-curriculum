@@ -125,8 +125,6 @@ GO
 ![Correlated subquery against the movies table, comparing the rt_scores within the same genre](pictures/correlated-subquery-example.png?classes=border)
 {{% /notice %}}
 
-## Check Your Understanding
-
 {{< mermaid >}}
 ---
 title: Non-Correlated and Correlated Subqueries
@@ -135,6 +133,8 @@ graph LR;
     A[Non-Correlated] --> B(self-contained) --> C(executes only once)
     D[Correlated] --> E(cannot execute alone) --> F(executes per row)
 {{< /mermaid >}}
+
+## Check Your Understanding
 
 {{% notice green Question "rocket" %}}
 Is the following block of code an example of a correlated or non-correlated subquery?
