@@ -169,7 +169,7 @@ Now that you have seen how to pull aside a single column's data let's take a loo
 # import pandas
 import pandas as pd
 
-movies = {'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2003], 'Genre': ["Science Fiction", "Novel", "Science Fiction", "Comedy"]}
+movies = {'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2023], 'Genre': ["Science Fiction", "Novel", "Science Fiction", "Comedy"]}
 
 movies_dataframe = pd.DataFrame(movies)
 
