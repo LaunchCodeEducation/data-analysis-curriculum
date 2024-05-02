@@ -1,8 +1,0 @@
-+++
-title = "Databases with Python"
-date = 2024-04-17T10:00:24-05:00
-draft = false
-weight = 1
-+++
-
-Working within a database can often times be cumbersome and difficult to replicate commands. 
