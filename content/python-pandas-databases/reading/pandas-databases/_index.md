@@ -20,7 +20,7 @@ This lesson will also utilize SQLite3 as the database used to access and manipul
 The following examples can be found within the `data-analysis-projects/databases-python-pandas/pandas-db-walkthrough.ipynb` file.
 {{% /notice %}}
 
-## Reading Data into DataFrame
+## Create a DataFrame
 
 {{% notice blue Example "rocket" %}}
 ```python

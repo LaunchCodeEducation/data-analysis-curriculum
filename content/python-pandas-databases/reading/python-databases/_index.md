@@ -11,6 +11,10 @@ Working within a database command line interface can often times be cumbersome a
 1. Populate the table
 1. Perform CRUD operations on the table
 
+{{% notice blue Note "rocket" %}}
+The examples below are also available in the `data-analysis-projects/databases-python-pandas/python-db-walkthrough.ipynb` file.
+{{% /notice %}}
+
 ## SQLite3 with Python
 
 SQLite works in conjunction with python by allowing the user to establish a connection to the file-based datastore to store and reference the connection object through a variable.
@@ -20,8 +24,8 @@ The basic syntax is as follows:
 ```python
 import sqlite3
 
-# If the 'database.db` does not already exist, sqlite3 will create one!
-connection_variable = sqlite3.connect('database.db')
+# If the 'Movies.db` database does not already exist, sqlite3 will create one!
+movies_db = sqlite3.connect('Movies.db') # connect to database
 ```
 
 {{% notice blue Note "rocket" %}}
@@ -31,7 +35,7 @@ If we were to print the `connection_variable` we would see the following output:
 <sqlite3.Connection object at 0x7334db1d3940> # the 0x7334db1d3940 portion will vary
 ```
 
-This shows that a sqlite3.Connection object was created and can now be referenced using the `connection_variable`.
+This shows that a sqlite3.Connection object was created and can now be referenced using the `movies_db` variable.
 {{% /notice %}}
 
 ## Cursor Objects
@@ -42,7 +46,7 @@ We can create a new cursor object by referencing the cursor function and storing
 
 ```python
 # variable named "cur" that references the connection object:
-cur = connection_variable.cursor() 
+cur = movies_db.cursor()
 ```
 
 The basic syntax for executing a command with the cursor object is as follows:
@@ -87,3 +91,31 @@ You can also use the `fetchall()` function to read data from the database like s
 ```python
 cur.execute("SELECT * FROM table_name").fetchall()
 ```
+
+### Updating Data
+
+When running dynamic queries against a database there are some risks to be made aware of, specifically sql injection attacks or SQLi attacks. There are multiple strategies used to avoid SQLi attacks, the one we will focus on is using **parameterized queries**.
+
+Parameterized queries allow you to inject a placeholder (`?`) into your sql statement and pass in the desired value as a parameter.
+
+{{% notice blue Example "rocket" %}}
+```python
+# Desired value
+update_release_year = 1997 # Value that needs to be updated
+movie_to_update = 'Good Will Hunting'
+# Execute an UPDATE statement using the ? placeholder, passing in the update variables as a list literal
+cur.execute("UPDATE movies SET release = ? WHERE title = ?", [update_release_year, movie_to_update])
+```
+{{% /notice %}}
+
+### Deleting Data
+
+Similar to updating data we will want to use parameterized queries as best and safe practice!
+
+{{% notice blue Example "rocket" %}}
+```python
+movie_to_delete = 'Inception' # Too many sci fi movies!
+# Execute a DELETE statement using the ? placeholder, passing in the variable as a list literal
+cur.execute("DELETE FROM movies WHERE title = ?", [movie_to_delete])
+```
+{{% /notice %}}
