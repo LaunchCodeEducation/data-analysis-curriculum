@@ -4,15 +4,14 @@ draft = false
 weight = 1
 +++
 
-In order to give you more advanced SQL practice, a schema has been created for each of you for the exercises and studio for this lesson. Consider it your own personal sandbox, as you are the only one who has access to it.
+Before we can dive into the queries, we need to talk about schemas.
 
 A **schema** is a way to group database objects(tables, views, ect) into a logical collection. 
 Let's look at the `AdventureWorks2019` database in Azure Data Studio. 
 
-In the Object Explorer if you expand the tables you will see something like this:
+In the Object Explorer, if you expand the tables, you will see something like this:
 
-.. figure:: figures/TableSchemas.png
-      :alt: File Tree, Tables Folder with Human Resources schemes highlighted.
+![File Tree, Tables Folder with Human Resources schemes highlighted](./pictures/TableSchemas.png)
 
 Notice how the tables are grouped together. The syntax is `schema_name.table_name`. 
 You wouldn't want someone accidentally deleting a table or being able to view sensitive information. 

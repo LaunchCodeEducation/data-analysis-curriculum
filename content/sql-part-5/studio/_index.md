@@ -5,20 +5,11 @@ draft = false
 weight = 3
 +++
 
-Getting Started
----------------
+## Getting Started
 
-For this weeks studio fork this `GitHub repository <https://github.com/launchcodeeducation/SQL-Part-5-Studio>`__ and 
-clone to your computer.  If you need a refresher on how to do this see :ref:`Instruction for Using Github w/Jupyter Notebooks<usingGitHubNotebooks>`.
+For this week's studio, open up the `SQL-Part-5-Studio.ipynb` notebook in `data-analysis-projects/sql-part-5/studio`. You will need some starter data as you work which is all in the `data` directory within the `studio` directory.
 
-In Your Notebook
-----------------
-
-In Azure Data Studio, click on the open button and navigate to where you saved the git repository you just cloned and open the notebook. 
-Use the same connection you used for the exercises.
-
-Submitting Your Work
---------------------
+## Submitting Your Work
 
 When finished make sure to push your changes up to GitHub. 
 
