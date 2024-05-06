@@ -7,11 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Fork this [GitHub repository](https://github.com/launchcodeeducation/databases-and-py-exercises) and clone to your computer.
-
-## In Your Notebook
-
-Open the cloned repository with Jupyter Notebooks and begin working on the exercises!
+Open up `data-analysis-projects/databases-python-pandas/studio/databases-and-py.ipynb` file inside of Jupyter Notebook and begin working through the exercises!
 
 ## Submitting Your Work
 
