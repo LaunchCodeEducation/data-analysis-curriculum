@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-Working within a database command line interface can often times be cumbersome and difficult to replicate commands. Because of this, developers prefer to use a user-friendly graphical user interface (gui) or leverage programming languages like python and supported libraries to interact with them. We will use python and the `sqlite` library to complete the following:
+Working within a database command line interface can often times be cumbersome and difficult to replicate commands. Because of this, analysts prefer to use a user-friendly graphical user interface (gui) or leverage programming languages like python and supported libraries to interact with them. We will use python and the `sqlite` library to complete the following:
 1. Create a new sqlite database
 1. Add a table
 1. Populate the table
