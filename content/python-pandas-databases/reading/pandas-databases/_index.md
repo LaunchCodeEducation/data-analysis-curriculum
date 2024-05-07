@@ -7,7 +7,7 @@ weight = 2
 
 In addition to all the great things pandas is capable of, the library also makes it possible to inject data stored elsewhere into a pandas DataFrame or Series. This lesson will walk through the process of creating a pandas DataFrame from an existing table within a sqlite datastore.
 
-This lesson will also utilize SQLite3 as the database used to demonstrate how to interact with a database using a separate tool or library (pandas). Since we have already covered how to manipulate data with pandas in previous lessons, we will instead focus on the following:
+This lesson will also utilize `sqlite3` as the database used to demonstrate how to interact with a database using a separate tool or library (pandas). Since we have already covered how to manipulate data with pandas in previous lessons, we will instead focus on the following:
 1. Reading data from the database
 1. Storing the data inside of a pandas DataFrame
 1. Creating a new table inside of the database

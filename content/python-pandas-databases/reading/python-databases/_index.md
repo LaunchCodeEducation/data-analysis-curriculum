@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-Working within a database command line interface can often times be cumbersome and difficult to execute multiple commands. Because of this, analysts often times prefer to use a user-friendly graphical user interface (gui) or leverage programming languages like python and supported libraries to interact with them. We will use python and the `sqlite` library to complete the following:
+Working within a database command line interface can often times be cumbersome and difficult to execute multiple commands. Because of this, analysts often times prefer to use a user-friendly graphical user interface (gui) or leverage programming languages like python and supported libraries to interact with them. We will use python and the **sqlite3** library to complete the following:
 1. Create a new sqlite database
 1. Add a table
 1. Perform CRUD operations on the table
@@ -16,9 +16,9 @@ While you can accomplish more than just the above using python and pandas, like 
 The examples below are also available in the `data-analysis-projects/databases-python-pandas/python-db-walkthrough.ipynb` file.
 {{% /notice %}}
 
-## SQLite3 with Python
+## sqlite3 with Python
 
-SQLite works in conjunction with python by allowing the user to establish a connection to the file-based datastore to store and reference the connection object through a variable.
+[sqlite3](https://docs.python.org/3/library/sqlite3.html) works in conjunction with python by allowing the user to establish a connection to a file located on your machine. You can then reference the connection variable to begin executing sql commands.
 
 The basic syntax is as follows:
 
@@ -41,7 +41,7 @@ This shows that a sqlite3.Connection object was created and can now be reference
 
 ## Cursor Objects
 
-Now that we have established a connection to the database we need a way to execute commands. The cursor object is a database cursor which allows us to do so.
+Now that we have established a connection to the database we need a way to execute commands. The **cursor object** is a database cursor which allows us to do so.
 
 We can create a new cursor object by referencing the cursor function and storing it within a variable:
 
