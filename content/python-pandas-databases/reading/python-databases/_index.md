@@ -5,11 +5,12 @@ draft = false
 weight = 1
 +++
 
-Working within a database command line interface can often times be cumbersome and difficult to replicate commands. Because of this, analysts prefer to use a user-friendly graphical user interface (gui) or leverage programming languages like python and supported libraries to interact with them. We will use python and the `sqlite` library to complete the following:
+Working within a database command line interface can often times be cumbersome and difficult to execute multiple commands. Because of this, analysts often times prefer to use a user-friendly graphical user interface (gui) or leverage programming languages like python and supported libraries to interact with them. We will use python and the `sqlite` library to complete the following:
 1. Create a new sqlite database
 1. Add a table
-1. Populate the table
 1. Perform CRUD operations on the table
+
+While you can accomplish more than just the above using python and pandas, like performing joins, it is not always best. As it relates to joins, database engines are built and optimized to perform joins extremely well. It is always important to know what you will be doing with your data before acting.
 
 {{% notice blue Note "rocket" %}}
 The examples below are also available in the `data-analysis-projects/databases-python-pandas/python-db-walkthrough.ipynb` file.
