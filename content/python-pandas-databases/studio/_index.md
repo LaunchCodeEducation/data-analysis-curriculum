@@ -9,7 +9,7 @@ weight = 3
 
 Before getting started with the coding, create a `watchlist` of 10 TV shows/movies that you, personally, are interested in watching.
 
-For this weeks studio fork this [GitHub repository](https://github.com/launchcodeeducation/databases-and-py-studio) and clone to your computer.
+Open up the `data-analysis-projects/databases-python-pandas/studio/databases-and-py.ipynb` file in Jupyter Notebook.
 
 ## In Your Notebook
 
