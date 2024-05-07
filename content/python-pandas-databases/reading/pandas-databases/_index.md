@@ -35,6 +35,10 @@ df.head()
 ```
 {{% /notice %}}
 
+{{% notice blue Note "rocket" %}}
+The `read_sql_query` pandas function in the above example is used to read queries into a DataFrame. You can find it's documentation here: [pandas.read_sql_query API reference](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql_query.html)
+{{% /notice %}}
+
 ## Create New Table from DataFrame
 
 After exploring, cleaning, or manipulating data with pandas, you can add that data back into your database. In the scenario below we will add a new movie to an existing DataFrame and then store the DataFrame inside of a new table within the sqlite database.
@@ -60,6 +64,8 @@ movies_db.execute(
     """
 )
 ```
+
+The pandas `DataFrame.to_sql` function documentation in the above code block can be found here: [pandas.DataFrame.to_sql](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html)
 
 ```python
 # Read data from newly created table, passing in existing movies_db connection as parameter

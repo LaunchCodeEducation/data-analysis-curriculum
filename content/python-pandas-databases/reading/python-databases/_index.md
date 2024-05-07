@@ -10,7 +10,7 @@ Working within a database command line interface can often times be cumbersome a
 1. Add a table
 1. Perform CRUD operations on the table
 
-While you can accomplish more than just the above using python and pandas, like performing joins, it is not always best. As it relates to joins, database engines are built and optimized to perform joins extremely well. It is always important to know what you will be doing with your data before acting.
+While you can accomplish more than just the above using python and pandas, like performing joins, it is not always best practice. As it relates to joins, database engines are built and optimized to perform joins extremely well. It is always important to know what you will be doing with your data before acting.
 
 {{% notice blue Note "rocket" %}}
 The examples below are also available in the `data-analysis-projects/databases-python-pandas/python-db-walkthrough.ipynb` file.
@@ -119,4 +119,18 @@ movie_to_delete = 'Inception' # Too many sci fi movies!
 # Execute a DELETE statement using the ? placeholder, passing in the variable as a list literal
 cur.execute("DELETE FROM movies WHERE title = ?", [movie_to_delete])
 ```
+{{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+What type of database is SQLite?
+
+<!-- Solution: disk-based database, does not require its own server. Stored isnide of a file on your machine -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+What is the primary reason for creating a cursor object?
+
+<!-- Solution: Executing commands inside of the datastore -->
 {{% /notice %}}
