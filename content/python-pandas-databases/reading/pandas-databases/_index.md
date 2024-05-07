@@ -5,16 +5,13 @@ draft = false
 weight = 2
 +++
 
-In the previous lesson we talked about ease of use when manipulating data stored within a database. Pandas makes working with data much easier than executing numerous queries within the database itself.
+In addition to all the great things pandas is capable of, the library also makes it possible to inject data stored elsewhere into a pandas DataFrame or Series. This lesson will walk through the process of creating a pandas DataFrame from an existing table within a sqlite datastore.
 
-<!-- TODO: Reassess this note -->
-{{% notice blue Note "rocket" %}}
-Just because pandas makes working with data easier for the user than working within the database does not make it the right tool for every job. 
-
-Some analysts may prefer to work with a different tool and that is okay!
-{{% /notice %}}
-
-This lesson will also utilize SQLite3 as the database used to access and manipulate data. Since we have already covered how to manipulate data with pandas in previous lessons we will instead focus on reading data, and repopulating the database with an updated dataframe.
+This lesson will also utilize SQLite3 as the database used to demonstrate how to interact with a database using a separate tool or library (pandas). Since we have already covered how to manipulate data with pandas in previous lessons, we will instead focus on the following:
+1. Reading data from the database
+1. Storing the data inside of a pandas DataFrame
+1. Creating a new table inside of the database
+    - Adding the DataFrame data into the new table
 
 {{% notice blue Note "rocket" %}}
 The following examples can be found within the `data-analysis-projects/databases-python-pandas/pandas-db-walkthrough.ipynb` file.
@@ -40,6 +37,8 @@ df.head()
 
 ## Create New Table from DataFrame
 
+After exploring, cleaning, or manipulating data with pandas, you can add that data back into your database. In the scenario below we will add a new movie to an existing DataFrame and then store the DataFrame inside of a new table within the sqlite database.
+
 {{% notice blue Example "rocket" %}}
 We will first start by adding a row to our existing DataFrame:
 
@@ -48,12 +47,12 @@ new_movie = pd.DataFrame([{'title':'Dune', 'genre':'Science Fiction', 'release':
 df = pd.concat([df, new_movie], ignore_index=True)
 ```
 
-It was not necessary to update our DataFrame to add a new table to the database, but it will help visually when reading data to show that we are pulling a new table and did not somehow duplicate an existing table.
+It was not necessary to update our DataFrame to add a new table to the database, but it will help visually when reading data to show that it was populated into a new table correctly.
 
 ```python {linenos=table}
-# Inject new dataframe into database as new table
-df.to_sql('new_movie', movies_db, if_exists="replace")
-# Execute command against database
+# Inject dataframe into database as new table, if the table exists - replace it
+df.to_sql('df', movies_db, if_exists="replace")
+# Execute command to create a new table called new_movie_table with the new_movie dataframe data
 movies_db.execute(
     """
     create table new_movie_table as
