@@ -15,14 +15,9 @@ the current checkpoint.
 
 ## Getting Started
 
-For this checkpoint, you will need to manipulate your data and produce a Tableau story that shows off
-skills from class, such as filtering and table calculations. You may find yourself wanting to use
-Pandas and Jupyter notebooks for data manipulation. If you do, make sure to add code comments
-explaining your thought process and push your work up to Github. No matter what visualizations you
-add to your Tableau story, all of your captions should include explanations as to your thought
-process for each visualization. The first caption should include a link to your dataset and the
-final story point should include links to any supporting materials, such as the Github repository
-if you used a Jupyter notebook for this checkpoint.
+For this checkpoint, you will need to manipulate your data and produce a Tableau story that shows off skills from class, such as filtering and table calculations. You may find yourself wanting to use pandas and Jupyter notebooks for data manipulation. If you do, make sure to add code comments explaining your thought process and push your work up to Github. 
+
+No matter what visualizations you add to your Tableau story, all of your captions should include explanations as to your thought process for each visualization. The first caption should include a link to your dataset and the final story point should include links to any supporting materials, such as the Github repository if you used a Jupyter notebook for this checkpoint.
 
 ## Examples
 
