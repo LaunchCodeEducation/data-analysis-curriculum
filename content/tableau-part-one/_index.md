@@ -8,6 +8,10 @@ weight = 25
 +++
 
 ## Learning Objectives
+1. Learn how to navigate a tableau public workspace
+1. Connect to data
+1. Understand how Tableau handles and interprets data
+1. Build your own chart
 
 ## Key Terminology
 
