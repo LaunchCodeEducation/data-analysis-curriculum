@@ -5,23 +5,19 @@ draft = false
 weight = 8
 +++
 
-Setup and Introduction to Tableau
-=================================
-
-Creating Your Tableau Public and Tableau Accounts:
---------------------------------------------------
+## Creating Your Tableau Public and Tableau Accounts:
 
 We will be working with `Tableau Public <https://public.tableau.com/app/discover>`__.
 
-#. `Download the app <https://www.tableau.com/products/public/download>`__.
-#. `Create a Tableau Public account <https://public.tableau.com/app/discover?authMode=signUp>`__.
+1. [Download the app](https://www.tableau.com/products/public/download).
+1. [Create a Tableau Public account](https://public.tableau.com/app/discover?authMode=signUp).
 
-We will also be using documentation provided by `Tableau <https://www.tableau.com/>`__.  
+We will also be using documentation provided by [Tableau](https://www.tableau.com/).  
 
-#. You will need to make a separate account `here <https://id.tableau.com/register?clientId=d22771tvaQXmFdNduz4sh5pvlWu0HDbF>`__ as well.  This will allow you to access additional materials, like videos, contained within the reading assignments. 
-#. For additional video resources check out the videos `here <https://www.tableau.com/learn/training/20211>`__.
-   * These videos are for version 2021.1.  
-   * You can select the version you would like to view at the bottom of the collection list.
+1. You will need to make a separate account [here](https://id.tableau.com/register?clientId=d22771tvaQXmFdNduz4sh5pvlWu0HDbF) as well. This will allow you to access additional materials, like videos, contained within the reading assignments. 
+1. For additional video resources check out the videos [here](https://www.tableau.com/learn/training/20211).
+   - These videos are for version 2021.1.
+   - You can select the version you would like to view at the bottom of the collection list.
 
 .. admonition:: Note
    
@@ -64,8 +60,7 @@ Watch the following videos and complete the assigned Tasks:
         - `Understanding the Logic of Charts (5:05) <https://www.youtube.com/watch?v=zPkwumz6lZU>`__.
         - Code-a-long. Save and publish your worksheets.
 
-Submitting Your Work
---------------------
+## Submitting Your Work
 
 When finished make sure to save and publish your work to your Tableau Public account. Copy the URLs to your published Tableau projects, separating each URL with a semi-colon and paste them into the submission box in Canvas for **Setup and Introduction to Tableau** and click *Submit*.
 
