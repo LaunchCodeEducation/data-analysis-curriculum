@@ -7,6 +7,10 @@ weight = 2
 
 **Nested subqueries** are subqueries within subqueries, Not to be confused with a nested query (subquery). This adds an addiitonal layer of complexity to your query but allows for more filtering and manipulation should you need it.
 
+
+This is just for a demo
+
+
 ## General Structure:
 
 ```sql
