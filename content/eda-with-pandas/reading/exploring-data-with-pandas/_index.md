@@ -22,6 +22,14 @@ The pandas library is incredibly powerful and was built specifically for data an
 We will use pandas to create, manipulate, and view data structures based on certain conditions. We will also cover some of the most common functions used when exploring data with pandas that we can use to our advantage during the exploration process.
 
 {{% notice blue Note "rocket" %}}
+In order to install pandas you will need to run the following command:
+
+```python
+pip install pandas
+```
+
+If the above does not work, you may need to specify `pip3` in the command.
+
 Once pandas is installed, it can be imported into your workspace in the following way:
 
 ```python
