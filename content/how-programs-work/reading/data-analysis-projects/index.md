@@ -10,5 +10,5 @@ Throughout this course, you will be utilizing a GitHub repository that holds sta
 Fork the following repository and clone it to your machine: [LaunchCode Education: Data Analysis Projects](https://github.com/launchcodeeducation/data-analysis-projects)
 
 {{% notice blue Note "rocket" %}}
-You will begin using the `data-analysis-projects` repository beginning in the next chapter, do not leave here without it!
+You will begin using the `data-analysis-projects` repository beginning in the next chapter. Do not move on to the next page without it!
 {{% /notice %}}
