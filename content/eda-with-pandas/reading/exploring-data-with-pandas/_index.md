@@ -28,7 +28,7 @@ To install pandas, you will need to run the following command:
 pip install pandas
 ```
 
-If the above does not work, you may need to specify `pip3` in the command.
+If the above command does not work, you may need to specify `pip3` in the command.
 
 Once pandas is installed, it can be imported into your workspace in the following way:
 
