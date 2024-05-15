@@ -10,7 +10,7 @@ weight = 4
 You want to first check to see if you have received any feedback from Checkpoints 2 and 3. This
 feedback could influence the direction of your work on Checkpoint 4. If you want to change anything
 about what you have done so far in earlier checkpoints, you do not have to re-submit any previous
-checkpoints unless your mentor requests you do so. You can simply add any updated work and notes to
+checkpoints unless your IA or instructor requests you do so. You can simply add any updated work and notes to
 the current checkpoint.
 
 ## Getting Started
