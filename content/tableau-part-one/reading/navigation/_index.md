@@ -22,3 +22,5 @@ The image below will be used as a reference for the content that follows in this
 1. The bottom left corner of the workbook displays the **Data Source** tab, the current **Worksheet**, and three additional icons to create a new worksheet, a new **dashboard**, and a new story.
     - Once you have created one or more worksheets, you can add them or simply use one to create a dashboard of worksheets.
 1. The toolbar located just below the area with `File`, `Data,` `Worksheet`, `Dashboard`, `Analysis`, `Map`, `Format`, and `Help` contains some useful features that will allow you to highlight, rotate your data or columns, or simply download a worksheet, dashboard, or story to your own machine.
+
+There are many additional features that we will continue to explore in the later readings but for the time being, familiarize yourself with the above basics. In the following section we will cover how Tableau handles and interprets data in addition to importing data into the workspace.
