@@ -13,7 +13,7 @@ For the exercises and studio in this chapter, you need to connect to the `JunkDB
 
 With your new connection configured, click on the junk database in the Object Explorer. Instead of clicking on *Tables*, click on the folder called *Security* and then *Schemas*. You should see a schema with your name on it. When practicing these queries, you will only be able to use your schema.
 
-The example below is from the `AdventureWorks2019` Database.
+The example below shows how you can use the same process of finding the schema named after you to find the `HumanResources` schema in the `AdventureWorks2019` Database.
 
 ![File Tree, Security Folder to schema folder to individual schemas](./pictures/Schemas.png)
 
