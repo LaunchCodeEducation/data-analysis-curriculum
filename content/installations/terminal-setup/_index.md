@@ -43,7 +43,7 @@ If you are still struggling to find the Terminal application, you can do a simpl
 Some terminal commands require the addition of **sudo** at the front of the command. This name gives the user *super user* rights. `sudo` is often required when installing software from the terminal.
 
 ```bash
-$ sudo install mocha
+sudo install mocha
 Password:
 ```
 
