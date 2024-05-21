@@ -52,7 +52,7 @@ There are many different types of data and file formats that are valid data sour
 
 We will be mostly working with `.csv` files (comma-separated values)
 
-Click on the `netflix_titles.csv` link below to download the .csv file to your machine:
+We will using the [Netflix and TV Shows dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows) from Kaggle. Download the dataset from Kaggle or click on the `netflix_titles.csv` link below to download the .csv file to your machine:
 
 {{% attachments style="blue" title=".CSV Data" /%}}
 
