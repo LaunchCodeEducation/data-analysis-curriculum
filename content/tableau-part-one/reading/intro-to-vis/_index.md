@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-There are a couple of different options for utilizing Tableau Public. One option is to download and use the Tableau Desktop Public Edition and the other is to use the Web Authoring option.Most walkthroughs and resources that you find will be applicable to both. The following reading segments will cover how to navigate Tableau Public using the Web Authoring option provided within the browser.
+There are a couple of different options for utilizing Tableau Public. One option is to download and use the Tableau Desktop Public Edition and the other is to use the Web Authoring option. Most walkthroughs and resources that you find will be applicable to both. The following reading segments will cover how to navigate Tableau Public using the Web Authoring option provided within the browser.
 
 Start out by creating a [Tableau Public Account](https://public.tableau.com/app/discover) and logging in.
 

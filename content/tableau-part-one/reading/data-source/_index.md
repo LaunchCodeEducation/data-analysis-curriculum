@@ -71,3 +71,20 @@ You are now able to drag and drop tables into the various options within the tea
 {{% notice blue Note "rocket" %}}
 When moving around your fields and tables, adding and removing them from the `Columns`, `Rows`, or `Mark` areas you may see them referenced as "pills" in this textbook and other online materials.
 {{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+What role is typically assigned to qualitative values?
+<!-- Solution: Measures -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+What role is typically assigned to quantitative values?
+<!-- Solution: Dimension -->
+{{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+How does Tableau handle columns with mixed data types?
+<!-- Solution: It varies depending on the values inside, it will either convert the data type to either null or an existing Tableau data type -->
+{{% /notice %}}
