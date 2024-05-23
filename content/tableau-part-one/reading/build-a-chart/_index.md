@@ -28,11 +28,3 @@ Using the `netflix_titles.csv` data, we will create a bar chart that shows the `
 {{% notice blue Note "rocket" %}}
 You may notice in the above image that the name of the sheet has been changed to `netflix_titles`. You can also do this if you would like! Right click on either the `Sheet 1` name within the view and the tab in the bottom left corner to change the name.
 {{% /notice %}}
-
-## Filtering
-
-Optionally, you can apply filtering to any pill that you have added to the view.
-
-{{% notice blue Example "rocket" %}}
-Right click on the `Date Added` pill and click `Filter`. You can remove specific years if you would like to do so. This is very useful if you have data that you would like to exclude from the view. 
-{{% /notice %}}
