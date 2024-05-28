@@ -44,7 +44,7 @@ import pandas as pd
 # Create a pandas DataFrame by providing a list of lists
 movie_list_of_lists = pd.DataFrame([["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],["Marley & Me", "Two Weeks Notice", "The Guardian", "Bridesmaids"]])
 
-# Create a pandas Series from a pre-existing list of lists
+# Create a pandas DataFrame from a pre-existing list of lists
 movies_dataframe_data = [["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],["Marley & Me", "The Proposal", "The Guardian", "Bridesmaids"]]
 
 dataframe_from_existing_list = pd.DataFrame(movies_dataframe_data)
