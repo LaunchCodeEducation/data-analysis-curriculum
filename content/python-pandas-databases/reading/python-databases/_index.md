@@ -36,7 +36,7 @@ If we were to print the `connection_variable` we would see the following output:
 <sqlite3.Connection object at 0x7334db1d3940> # the 0x7334db1d3940 portion will vary
 ```
 
-This shows that a sqlite3.Connection object was created and can now be referenced using the `movies_db` variable.
+This shows that a `sqlite3.Connection` object was created and can now be referenced using the `movies_db` variable.
 {{% /notice %}}
 
 ## Cursor Objects
