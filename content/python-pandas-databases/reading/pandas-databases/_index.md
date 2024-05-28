@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-In addition to all the great things pandas is capable of, the library also makes it possible to inject data stored elsewhere into a pandas DataFrame or Series. This lesson will walk through the process of creating a pandas DataFrame from an existing table within a sqlite datastore.
+In addition to all the great things pandas is capable of, the library also makes it possible to inject data stored elsewhere into a pandas DataFrame or Series. This lesson will walk through the process of creating a pandas DataFrame from an existing table within a SQLite datastore.
 
 This lesson will also utilize `sqlite3` as the database used to demonstrate how to interact with a database using a separate tool or library (pandas). Since we have already covered how to manipulate data with pandas in previous lessons, we will instead focus on the following:
 1. Reading data from the database
@@ -24,7 +24,7 @@ The following examples can be found within the `data-analysis-projects/databases
 import sqlite3
 import pandas as pd
 
-# Create sqlite connection to Movies.db file
+# Create SQLite connection to Movies.db file
 movies_db = sqlite3.connect('Movies.db')
 
 # Use the pandas read_sql_query function to return a pandas DataFrame
@@ -41,7 +41,7 @@ The `read_sql_query` pandas function in the above example is used to read querie
 
 ## Create New Table from DataFrame
 
-After exploring, cleaning, or manipulating data with pandas, you can add that data back into your database. In the scenario below we will add a new movie to an existing DataFrame and then store the DataFrame inside of a new table within the sqlite database.
+After exploring, cleaning, or manipulating data with pandas, you can add that data back into your database. In the scenario below we will add a new movie to an existing DataFrame and then store the DataFrame inside of a new table within the SQLite database.
 
 {{% notice blue Example "rocket" %}}
 We will first start by adding a row to our existing DataFrame:
