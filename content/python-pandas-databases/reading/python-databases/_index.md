@@ -97,7 +97,7 @@ cur.execute("SELECT * FROM table_name").fetchall()
 
 When running dynamic queries against a database there are some risks to be made aware of, specifically SQL injection attacks or SQLi attacks. While we have multiple strategies to avoid SQLi attacks, the one we will focus on in this class is using **parameterized queries**.
 
-Parameterized queries allow you to inject a placeholder (`?`) into your sql statement and pass in the desired value as a parameter.
+Parameterized queries allow you to inject a placeholder (`?`) into your SQL statement and pass in the desired value as a parameter.
 
 {{% notice blue Example "rocket" %}}
 ```python
