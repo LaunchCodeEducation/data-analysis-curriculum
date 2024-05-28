@@ -84,7 +84,7 @@ for row in cur.execute("SELECT column FROM table_name")
     print(row)
 ```
 
-The above for loop will return all rows within the specified column inside of the SELECT statement. You could also pass the * flag to return all values from all rows within the database.
+The above for loop will return all rows within the specified column inside of the `SELECT` statement. You could also pass the `*` flag to return all values from all rows within the database.
 {{% /notice %}}
 
 You can also use the `fetchall()` function to read data from the database like so:
