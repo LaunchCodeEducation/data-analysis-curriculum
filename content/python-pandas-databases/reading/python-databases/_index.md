@@ -63,7 +63,7 @@ cur.execute("CREATE TABLE table_name (column DATA TYPE, column DATA TYPE, etc..)
 ```
 
 {{% notice blue Note "rocket" %}}
-You can find a list of SQLite data types here: [Data Types in SQLite](https://sqlite.org/datatype3.html)
+You can find a list of SQLite data types here: [Data Types in SQLite](https://sqlite.org/datatype3.html).
 {{% /notice %}}
 
 ### Insert Table Values
