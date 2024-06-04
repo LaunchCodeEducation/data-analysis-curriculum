@@ -40,18 +40,7 @@ You can also select a pre-built function from a list when you are creating a new
 
 ### Basic Calculations
 
-
-
 ### Table Calculations
 
 **Table calculations** are applied to any value that is already visualized. 
 
-## Parameters
-
-**Parameters** allow fo more fine-tuned control over calculations that you would like to apply to any part of your visualization. For example, if you would like to divide multiple measures by a specific amount, you can create a new calculation and then attach or include your parameter within. 
-
-One of the major benefits is that you can change your parameter value on the fly so that your calculations will be updated dynamically wherever they exist. Only having to change one value instead of many to view a different result is extremely convenient.
-
-At it's core a parameter is a variable that can be referenced inside of a calculation, filter, or reference line.
-
-### Creating a Parameter
