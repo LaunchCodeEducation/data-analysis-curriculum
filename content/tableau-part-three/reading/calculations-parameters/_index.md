@@ -16,24 +16,16 @@ ELSE do this
 END
 ```
 
-Regardless of what type calculation you are applying to your visualization it is considered a `calculated field`.
+Regardless of what type calculation you are applying to your visualization it is considered a **calculated field**.
 
-### Calculated Fields
-
-When a new calculation is created, is add a new pill into your data pane under with the name you provided to the calculation.
-
-## Parameters
-
-Parameters allow a more fine-tuned control over calculations that you would like to apply to any part of your visualization. For example, if you would like to divide multiple measures by a specific amount, you can create a new calculation and then attach or include your parameter within. 
-
-One of the major benefits is that you can change your parameter value on the fly so that your calculations will be updated dynamically wherever they exist. Only having to change one value instead of many to view a different result is extremely convenient.
+When a new calculation is created, a new pill will be added into your data pane under with the name you provided to the calculation.
 
 ### Calculation Components
 
 When you are creating a new calculation there are some multiple components to familiarize yourself with:
 1. Fields: You are able to include existing fields from your data inside of a calculation
 1. Operators: (`>`, `<`, `=`, `>=`, `<=` etc..)
-1. Literal expressions: Specific values (`23`, `"String"`, `True`, `False`, `1.0`, etc.)
+1. Literal expressions: Specific values (`23`, `"String"`, `true`, `false`, null, `#Date`)
 1. Functions: Similar to Python and SQL functions you can also create functions for any task that you may need to repeat often.
 
 Fortunately, Tableau comes with a lot of functions included that you will be able to make use of. You can find a list of all [functions included here](https://help.tableau.com/current/pro/desktop/en-us/functions_all_categories.htm).
@@ -46,8 +38,20 @@ You can also select a pre-built function from a list when you are creating a new
 
 ![Creation of a new calculated field within Tableau public, expanding the list of available functions](pictures/tableau-available-functions.png?classes=border)
 
-{{% notice blue Example "rocket" %}}
-```sql {linenos=table}
+### Basic Calculations
 
-```
-{{% /notice %}} 
+
+
+### Table Calculations
+
+**Table calculations** are applied to any value that is already visualized. 
+
+## Parameters
+
+**Parameters** allow fo more fine-tuned control over calculations that you would like to apply to any part of your visualization. For example, if you would like to divide multiple measures by a specific amount, you can create a new calculation and then attach or include your parameter within. 
+
+One of the major benefits is that you can change your parameter value on the fly so that your calculations will be updated dynamically wherever they exist. Only having to change one value instead of many to view a different result is extremely convenient.
+
+At it's core a parameter is a variable that can be referenced inside of a calculation, filter, or reference line.
+
+### Creating a Parameter
