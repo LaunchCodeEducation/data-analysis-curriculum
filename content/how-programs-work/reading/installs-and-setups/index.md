@@ -15,8 +15,7 @@ For this course, you will be working in a **integrated development environment (
 
 This is where you will write and run your code.
 
-<!-- TODO: Add Link below when able -->
-<!-- We have created a Visual Studio Code [installation guide]() for you to follow. -->
+We have created a Visual Studio Code [installation guide]({{% relref "../../../installations/install-visual-studio" %}}) for you to follow.
 
 ## Setting Up Your Terminal
 
@@ -24,20 +23,17 @@ We will be using the terminal to keep track of our code.  You will need to make 
 
 This tool is used for giving commands to your code to run or start.  This tool is also used to help track the status of your code as you work on it.  We will learn about it more in later chapters.
 
-<!-- TODO: Add Link below when able -->
-<!-- We have created a Terminal [installation guide]() for you to follow. -->
+We have created a Terminal [installation guide]({{% relref "../../../installations/terminal-setup" %}}) for you to follow.
 
-<!-- ## Setting Up Python
+## Setting Up Python
 
-Once your terminal has been installed, you will need to install `Python`.
-<!-- TODO: Add Link below when able -->
-We have created a `Python` [installation guide]() for you to follow.
+Once your terminal has been installed, you will need to install `Python`. We have created a `Python` [installation guide]({{% relref "../../../installations/install-python" %}}) for you to follow.
 
 ## Setting Up Git
 
 In the terminal, we will be using Git.  Git is a version control tool, or a way to track and manage changes in your code.  We will explore it more later in this course.  In the next section of this chapter, you will learn the basic git commands needed to work with the codebases in this course.
-<!-- TODO: Add Link below when able -->
-<!-- We have created a Git [installation guide]() for you to follow. -->
+
+We have created a Git [installation guide]({{% relref "../../../installations/install-git" %}}) for you to follow.
 
 ### Creating Your GitHub Account
 
