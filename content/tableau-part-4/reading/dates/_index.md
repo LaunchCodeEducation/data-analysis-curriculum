@@ -5,6 +5,23 @@ draft = false
 weight = 1
 +++
 
+Work with dates in Tableau
+
+Reminder about date times. Have we seen this data type before?
+
+## Loading Date Data into Tableau
+
+What do they need to know about datetime data when it is loaded
+
+## Continuous versus Discrete
+
+What is the difference and why does it matter so much when it comes to dates?
+
+## Date Functions
+
+How to convert to a date
+Convert dates to different formats to help with analysis
+
 `Dates and Times <https://help.tableau.com/current/pro/desktop/en-us/dates.htm>`__.
 
 `Continuous Dates <https://help.tableau.com/current/pro/desktop/en-us/dates_continuous.htm>`__.

@@ -5,11 +5,16 @@ draft = false
 weight = 2
 +++
 
+## Revisiting Best Practices
+
+What additional chart types does Tableau have for us 
 Watch Only: `Publishing and Embedding Vizzes (4:01min) <https://www.youtube.com/watch?v=88OoobASnV4>`__.
 
 | `Choose the Right Chart Type for Your Data <https://help.tableau.com/current/pro/desktop/en-us/what_chart_example.htm>`__.
 
-| Watch Only: `Do No Harm Guide (7:08 min video) <https://www.tableau.com/foundation/data-equity/do-no-harm>`__.
+Additional resource: `Do No Harm Guide (7:08 min video) <https://www.tableau.com/foundation/data-equity/do-no-harm>`__.
+
+## What Tools Do We Have At Our Disposal in Tableau
 
 Best Practices for Effective Dashboards <https://help.tableau.com/current/pro/desktop/en-us/dashboards_best_practices.htm>`__
 

@@ -5,6 +5,10 @@ draft = false
 weight = 3
 +++
 
+## How to Create a Story
+
+* An introduction to why and how to tell stories with Tableau.
+
 `Create a Story <https://help.tableau.com/current/pro/desktop/en-us/story_create.htm>`__.
 
 | Watch Only: `Creating Stories (5:55 min) <https://www.youtube.com/watch?v=uKxvmboDLCM>`__.
@@ -13,13 +17,11 @@ weight = 3
 
 `Best Practices for Telling Great Stories <https://help.tableau.com/current/pro/desktop/en-us/story_best_practices.htm>`__.
 
-* An introduction to why and how to tell stories with Tableau.
+## Story Best Practices
 
 **Story examples to explore:**
 
 | `Twenty-Two White Orchids by Will Strouse <https://public.tableau.com/app/profile/william.strouse/viz/Twenty-TwoWhiteOrchids/Twenty-TwoWhiteOrchids>`__.``
-
-| `F1 Story by Matt Francis <https://public.tableau.com/app/profile/ugleymatt/viz/F1Story/WhoistheGreatestF1DriverofallTime>`__.
 
 | `State Story 5.8 by Center for Employment Equity Embargoed Visualizations <https://public.tableau.com/app/profile/carly6373/viz/StateStory_5_8/StateStory>`__.
 

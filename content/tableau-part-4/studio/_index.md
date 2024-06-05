@@ -5,8 +5,7 @@ draft = false
 weight = 3
 +++
 
-Getting Started
----------------
+## Getting Started
 
 This is a group studio.  Your group has been asked to create a visual for the International Fencing Federation (FIE).   Work through the data analysis steps that you have been learning in this program to create your final viz. 
 
@@ -27,8 +26,7 @@ As a group, explore your data and decide upon:
    
 You are not limited to these topics.  If you discover something more interesting, explore away!  
 
-Setting Up the Studio:
-^^^^^^^^^^^^^^^^^^^^^^
+### Setting Up the Studio:
 
 Download `FIE Fencing Womens Foil data set <https://www.kaggle.com/datasets/amichaelsen/fie-fencing-womens-foil-data>`__. There are 4 CSV files. To download all CSV files at once, click on the ``Download`` bubble next to the ``New Notebook`` bubble.  An orange arrow is pointing to the ``Download`` bubble in the image below.
 
@@ -42,10 +40,7 @@ Download `FIE Fencing Womens Foil data set <https://www.kaggle.com/datasets/amic
 
 #. Here is more information about the `International Fencing Federation <https://fie.org/>`__.
 
-
-
-EDA
-^^^
+### EDA
 
 1. The dataset contains 4 CSVs. You only need to work with the ones that will provide answers to your questions.
 
@@ -57,8 +52,7 @@ EDA
       #. Would it work better with a calculation or any manipulation?
       #. Would looking at a smaller sample, like the top 100, help?
 
-Cleaning
-^^^^^^^^
+### Cleaning
 
 #. Do you need to clean any of the data you have decided to work with?
 
@@ -70,8 +64,7 @@ Cleaning
 
       A. Hint: ages might need some attention.
 
-Manipulation
-^^^^^^^^^^^^
+### Manipulation
 
 #. Do you need to use any calculations to answer the questions?
 #. Thinking of your dashboard, how do you think you would like to present your data to your audience? 
@@ -82,15 +75,13 @@ Manipulation
    #. Parameters? 
    #. Calculations?
 
-Dashboard and Finesse
-^^^^^^^^^^^^^^^^^^^^^
+### Dashboard and Finesse
 
 1. Create a final dashboard viz that answers the question(s)/topic(s) you explored.
 2. Now is a good time to update labels and colors for an easily digestible report.
 3. Hide your worksheets
 
-Finishing Touches
-^^^^^^^^^^^^^^^^^
+### Finishing Touches
 
 | Before you turn in your vizzes:
 
@@ -99,13 +90,11 @@ Finishing Touches
 #. Make sure any filtering, group, or set information is easy to understand. 
 #. If you want to explore fonts and colors, go right ahead. 
 
-Present Your Dashboard to the class and provide feedback to your classmates.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### Present Your Dashboard to the class and provide feedback to your classmates.
 
 #. Share even if your group dashboard is not complete, we want to see your unique ideas. 
 
-Submitting Your Work
---------------------
+## Submitting Your Work
 
 When finished make sure to save and publish your work to your Tableau Public account. Copy the URL to your published Tableau project and paste it into the submission box in 
 Canvas for **Studio: Visualization with Tableau Part 4** and click *Submit*.
