@@ -77,7 +77,7 @@ This dataset has a large amount of rows that Tableau Public might have trouble q
    1. Right click on the `Top Stores` parameter to show the parameter control in the viz.
    1. Rename the `Top Store` parameter to account for the fact that it's now being used for both store and department dimensions.  
    
-### Dashboard and Finesse
+### Dashboard Clarity
 
 1. Present your charts in a dashboard that summarizes your findings. 
 1. Now is a good time to update labels and colors for an easily digestible report.

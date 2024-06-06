@@ -75,7 +75,13 @@ By combining partitioning fields and addressing fields, you can create highly cu
 
 ## Conditional Statements
 
-You can apply one of two different types of conditional statements within a Calculated Field. The two types of conditional statements available are `IF` and `IIF` statements. The main difference between the two is that an `IIF` statement allows you to specify how unknown values are treated.
+There are a few types of conditional statements you can utilize within Calculated Field. The three types of conditional statements we will cover are `IF` and `IIF` and `CASE` statements.
+
+{{% notice blue Note "rocket" %}}
+Each conditional statement has it's own use cases. When comparing the `IIF` to the `IF` statement, the `IIF` statement allows you to specify how unknown values are treated, otherwise they are quite similar.
+
+The `CASE` statement is especially useful if you would like to rename values within a given field. Similar to `IF` statements `CASE` statements are often used to format and filter data. Let's look at a few examples below.
+{{% /notice %}}
 
 {{% notice blue Example %}}
 `IF` statement syntax:
@@ -94,5 +100,17 @@ END
 
 ```console
 IIF (some condition, do this if true, else this if false, handle unknown)
+```
+{{% /notice %}}
+
+{{% notice blue Example "rocket" %}}
+You have a field named `Operating Systems` that contains the three major types of operating systems (`Linux`, `Windows`, and `MacOS`) but they were represented by numbers within the field instead of the string values. You could create a calculated field like the one below to provide more descript value names:
+
+```python
+CASE[Operating Systems]
+WHEN 1 THEN "Linux"
+WHEN 2 THEN "Windows"
+WHEN 3 THEN "MacOs"
+END
 ```
 {{% /notice %}}

@@ -9,7 +9,10 @@ weight = 27
 
 ## Learning Objectives
 
-Creating basic calculations, parameters
+Upon completing all the content in this chapter, you should be able to do the following:
+1. Create basic and table calculations
+1. Create parameters
+1. Create a relationship between two tables
 
 ## Key Terminology
 
