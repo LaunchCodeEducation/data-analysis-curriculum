@@ -7,18 +7,25 @@ weight = 1
 
 ## Calculations
 
-Applying calculations to your visualization helps further customize, filter, and aggregate data. Calculations can be something as simple as applying an `AVG` or any other aggregate function. Others may be more complex and have an aggregate function within a condition:
-
-```console
-IF condition..
-THEN do this
-ELSE do this
-END
-```
+Applying calculations to your visualization helps further customize, filter, and aggregate data. Calculations can be something as simple as applying an `AVG` or any other aggregate function.
 
 Regardless of what type calculation you are applying to your visualization it is considered a **calculated field**.
 
-When a new calculation is created, a new pill will be added into your data pane under with the name you provided to the calculation.
+When a new calculation is created, a new pill will be added into your data pane under with the name you provided to the calculation. We will cover **basic calculations** below and **table calculations** below.
+
+## Basic Calculations
+
+Basic calculations in Tableau revolve around using arithmetic operators and functions to manipulate and transform your data as you see fit or depending on your need. Calculations can be applied to individual fields or multiple fields, allowing you to create new extracted fields based on your analysis requirements.
+
+Take a look at the example below:
+
+{{% notice blue Example "rocket" %}}
+```python
+AVG([Transaction Total])
+```
+
+This would provide you a calculated field pill that would store the `AVG` of the `Transaction Total` field.
+{{% /notice %}}
 
 ### Calculation Components
 
@@ -26,11 +33,13 @@ When you are creating a new calculation there are some multiple components to fa
 1. Fields: You are able to include existing fields from your data inside of a calculation
 1. Operators: (`>`, `<`, `=`, `>=`, `<=` etc..)
 1. Literal expressions: Specific values (`23`, `"String"`, `true`, `false`, null, `#Date`)
-1. Functions: Similar to Python and SQL functions you can also create functions for any task that you may need to repeat often.
+1. Functions: Tableau provides a numerous amount of functions that you can apply within your calculated fields. The functions available include aggregate functions, number functions, logical functions, etc..
 
-Fortunately, Tableau comes with a lot of functions included that you will be able to make use of. You can find a list of all [functions included here](https://help.tableau.com/current/pro/desktop/en-us/functions_all_categories.htm).
+{{% notice blue Note "rocket" %}}
+Tableau documentation provides an exhaustive list available functions included that you will be able to make use of. You can find a list of all [functions included here](https://help.tableau.com/current/pro/desktop/en-us/functions_all_categories.htm).
+{{% /notice %}}
 
-You can also select a pre-built function from a list when you are creating a new calculated field.
+You can select or include a function from a list during the process of creating a new calculated field.
 
 1. Click on `Analysis`.
 1. Then click on `Create Calculated Field...`.
@@ -38,9 +47,50 @@ You can also select a pre-built function from a list when you are creating a new
 
 ![Creation of a new calculated field within Tableau public, expanding the list of available functions](pictures/tableau-available-functions.png?classes=border)
 
-### Basic Calculations
+## Table Calculations
 
-### Table Calculations
+**Table calculations** are considered any manipulation or transformation applied to any value that is already visualized. These calculations allow you to perform analytics and add context to your visualizations by comparing individual values to the overall data set or a specific partition. Table calculations are powerful because they can be used to calculate running totals, moving averages, percentages of totals, and much more.
 
-**Table calculations** are applied to any value that is already visualized. 
+### Partitioning Fields
 
+When working with table calculations, you can optionally specify one or more partitioning fields. Partitioning fields are used to define subsets or partitions of your data, and the table calculation will be performed independently for each partition.
+
+{{% notice blue Example "rocket" %}}
+If you have a sales data set with fields like Region, Product, and Sales, you could partition your table calculation by Region to calculate running totals or percentages of totals for each region independently. 
+
+This allows you to analyze and compare values within specific partitions of your data.
+{{% /notice %}}
+
+### Addressing Fields
+
+In addition to partitioning fields, table calculations also require you to specify one or more addressing fields. Addressing fields determine the order or direction in which the calculation is performed within each partition.
+
+{{% notice blue Example "rocket" %}}
+If you have a time-based data set with a Date field, you could use Date as the addressing field to calculate a running total or moving average over time. The addressing field dictates the order in which the calculation is applied to the values within each partition.
+
+By combining partitioning fields and addressing fields, you can create highly customized and insightful table calculations that provide valuable context and enable deeper analysis of your data.
+{{% /notice %}}
+
+## Conditional Statements
+
+You can apply one of two different types of conditional statements within a Calculated Field. The two types of conditional statements available are `IF` and `IIF` statements. The main difference between the two is that an `IIF` statement allows you to specify how unknown values are treated.
+
+{{% notice blue Example %}}
+`IF` statement syntax:
+
+```python
+IF some condition
+THEN do this
+## ELSE statement is optional
+ELSE do this
+END
+```
+{{% /notice %}}
+
+{{% notice blue Example %}}
+`IIF` statement syntax
+
+```console
+IIF (some condition, do this if true, else this if false, handle unknown)
+```
+{{% /notice %}}
