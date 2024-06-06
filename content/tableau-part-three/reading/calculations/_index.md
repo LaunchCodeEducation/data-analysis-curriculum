@@ -30,7 +30,7 @@ This would provide you a calculated field pill that would store the `AVG` of the
 ### Calculation Components
 
 When you are creating a new calculation there are some multiple components to familiarize yourself with:
-1. Fields: You are able to include existing fields from your data inside of a calculation
+1. Fields: You are able to include existing fields from your data inside of a calculation like in the example above referencing the `Transaction Total` field.
 1. Operators: (`>`, `<`, `=`, `>=`, `<=` etc..)
 1. Literal expressions: Specific values (`23`, `"String"`, `true`, `false`, null, `#Date`)
 1. Functions: Tableau provides a numerous amount of functions that you can apply within your calculated fields. The functions available include aggregate functions, number functions, logical functions, etc..
@@ -49,11 +49,11 @@ You can select or include a function from a list during the process of creating 
 
 ## Table Calculations
 
-**Table calculations** are considered any manipulation or transformation applied to any value that is already visualized. These calculations allow you to perform analytics and add context to your visualizations by comparing individual values to the overall data set or a specific partition. Table calculations are powerful because they can be used to calculate running totals, moving averages, percentages of totals, and much more.
+Table calculations are considered any manipulation or transformation applied to any value that is already visualized. These calculations allow you to perform analytics and add context to your visualizations by comparing individual values to the overall data set or a specific partition. Table calculations are powerful because they can be used to calculate running totals, moving averages, percentages of totals, and much more.
 
 ### Partitioning Fields
 
-When working with table calculations, you can optionally specify one or more partitioning fields. Partitioning fields are used to define subsets or partitions of your data, and the table calculation will be performed independently for each partition.
+When working with table calculations, you can optionally specify one or more **partitioning fields**. Partitioning fields are used to define subsets or partitions of your data, and the table calculation will be performed independently for each partition.
 
 {{% notice blue Example "rocket" %}}
 If you have a sales data set with fields like Region, Product, and Sales, you could partition your table calculation by Region to calculate running totals or percentages of totals for each region independently. 
@@ -63,13 +63,15 @@ This allows you to analyze and compare values within specific partitions of your
 
 ### Addressing Fields
 
-In addition to partitioning fields, table calculations also require you to specify one or more addressing fields. Addressing fields determine the order or direction in which the calculation is performed within each partition.
+In addition to partitioning fields, table calculations also require you to specify one or more **addressing fields**. Addressing fields determine the order or direction in which the calculation is performed within each partition.
 
 {{% notice blue Example "rocket" %}}
 If you have a time-based data set with a Date field, you could use Date as the addressing field to calculate a running total or moving average over time. The addressing field dictates the order in which the calculation is applied to the values within each partition.
 
 By combining partitioning fields and addressing fields, you can create highly customized and insightful table calculations that provide valuable context and enable deeper analysis of your data.
 {{% /notice %}}
+
+<!-- TODO: Add image below of creating table calculation -->
 
 ## Conditional Statements
 
