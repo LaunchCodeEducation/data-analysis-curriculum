@@ -11,8 +11,31 @@ One of the great things about relationships with Tableau is that you do not need
 
 ## Creating a Relationship
 
-When creating a new relationship and populating a new sheet within your workbook using the newly related data. In order to create a new relationship you can simply drag to existing data sources onto the canvas and select the appropriate columns to relate.
+In order to create a new relationship you can simply existing data sources onto the canvas and select the appropriate columns to relate.
 
-Once the relationship is established, you can add fields from both data sources to your worksheets and visualizations. Tableau will automatically use the relationship to combine and display the data correctly.
+{{% notice blue Example "rocket" %}}
+In the example below, we initially connected to the `cleaning-data-practice` data source which serves as the **root table** for building the relationship. After creating an additional connection to the `transaction-data` data source, dragging it only the canvas alongside `cleaning-data-practice` created a relationship between the two.
 
-<!-- TODO: Add Image of creating a relationship below -->
+![Create a new relationship by dragging an additional table onto the canvas](pictures/create-relationship.png?classes=border)
+{{% /notice %}}
+
+{{% notice blue Example "rocket" %}}
+Initially, we received an error message notifying us that matching fields need to be selected in order to create the relationship
+
+![Relationship displays as invalid because the fields do not match](pictures/invalid-relationship.png?classes=border)
+{{% /notice %}}
+
+
+{{% notice blue Example "rocket" %}}
+Selecting the `transaction_total` from each table cleared the error message allowing us to establish the relationship using the matching fields of data.
+
+![Update the relationship so that the transaction total column is selected from each table](pictures/valid-relationship.png?classes=border)
+{{% /notice %}}
+
+{{% notice blue Example "rocket" %}}
+As mentioned above, you can add as many fields as you would like to the relationship as long as you have fields that allow for it.
+
+![Adding a secondary matching field to the relationship between the cleaning-data-practice and transaction-data tables](pictures/add-more-fields.png?classes=border)
+{{% /notice %}}
+
+Once the relationship is established, fields from both tables will be available when creating a new worksheet. Tableau will automatically use the relationship to combine and display the data correctly.
