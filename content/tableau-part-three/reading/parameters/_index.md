@@ -63,3 +63,12 @@ Parameters must be incorporated into something else such as a filter, reference 
 1. `True`
 1. `False`
 {{% /notice %}}
+
+{{% notice green Question "rocket" %}}
+In order to use a parameter within a calculated field you must reference it using:
+
+1. parenthesis: `()`
+1. curly brackets: `{}`
+1. square brackets": `[]`
+1. double quotes: `""`
+{{% /notice %}}
