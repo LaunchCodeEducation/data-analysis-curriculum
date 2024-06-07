@@ -48,6 +48,9 @@ interquartile "q3-q1"
 Now that we have found the interquartile range we can apply some conditional formatting to highlight desired values.
 
 1. Select column M and apply conditonal formatting to highlight any value that is above or greater than the upper quartile.
+1. Select column M and apply conditional formatting to also highlight any values that are within the lower quartile range.
+1. Do the same to find all values within the IQR.
+    - Use a different color for each so that is is clear what represents the upper-quartile, lower-quartile, and IQ
 
 ### Unnecessary Data
 
