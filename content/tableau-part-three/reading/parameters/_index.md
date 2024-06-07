@@ -7,15 +7,11 @@ weight = 2
 
 ## Parameters
 
-<!-- {{% notice blue Note "rocket" %}}
-The examples in this reading will continue to use the `netflix_titles.csv` dataset if you would like to follow along.
-{{% /notice %}} -->
-
 **Parameters** allow fo more fine-tuned control over calculations that you would like to apply to any part of your visualization. For example, if you would like to divide multiple measures by a specific amount, you can create a new calculation and then attach or include your parameter within. 
 
 One of the major benefits is that you can change your parameter value on the fly so that your calculations will be updated dynamically wherever they exist. Only having to change one value instead of many to view a different result is extremely convenient.
 
-At it's core a parameter is a variable that can be referenced inside of a calculation, filter, or reference line.
+On it's own, a parameter will not have an affect on the visualization because at it's core it is a variable that is referenced inside of a calculation, filter, or reference line.
 
 ### Creating a Parameter
 
@@ -28,12 +24,6 @@ To create a parameter in Tableau:
     - this will open up a menu allowing you to create a brand new parameter.
 
 ![Create a parameter in Tableau menu](pictures/parameter-menu.png?classes=border)
-
-{{% notice blue Example "rocket" %}}
-The following example would create a parameter named `select_type` allowing the user to select the `Type` (Movie or TV Show) using a dropdown when viewing the visualization.
-
-![select_type paramater using the netflix_titles.csv dataset to allow the user to select either Movie or TV Show from a dropdown menu](pictures/select-type-parameter.png?classes=border)
-{{% /notice %}}
 
 ### Parameter Settings
 When creating a parameter, you can define several properties:
@@ -50,25 +40,26 @@ When creating a parameter, you can define several properties:
 After creating a parameter, you can reference it in your calculations by using the parameter name enclosed in square brackets:
 
 {{% notice blue Example "rocket" %}}
-If you have a parameter called `Discount Rate`, you can create a calculated field like the one below:
+If you have a parameter called `Tax Rate`, you can create a calculated field like the one below:
 
 ```console
-Sales * (1 - [Discount Rate])
+[transaction_total] * (1 - [Tax Rate])
 ```
 
-This will apply the `Discount Rate` parameter to your sales data.
+This will apply the `Tax Rate` parameter to your the transaction_total field data.
 {{% /notice %}}
 
 ### Using Parameters in Filters
 
-Parameters can also be used in filters to dynamically filter your data based on the parameter's value. In the filter dialog, you can reference the parameter in the same way as in calculations, using square brackets.
+Parameters can also be used in filters to dynamically filter your data based on the parameter's value. When creating a new filter, you can select from a list of available parameters or create a new one within the `Top/Bottom` section as shown in the image below:
 
-{{% notice blue Example "rocket" %}}
-If you have a parameter called `Start Date`, you can create a filter with a condition:
+![Select a parameter or create a new one within the Top/Bottom section of adding a filter](pictures/filter-parameter.png?classes=border)
 
-```console
-Date >= [Start Date]
-```
+## Check Your Understanding
 
-The Date will only be returned if it is greater than or equal to the date specified in the `Start Date` parameter.
+{{% notice green Question %}}
+Parameters must be incorporated into something else such as a filter, reference line or calculation field in order to be useful.
+
+1. `True`
+1. `False`
 {{% /notice %}}

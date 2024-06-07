@@ -114,3 +114,15 @@ WHEN 3 THEN "MacOs"
 END
 ```
 {{% /notice %}}
+
+## Check Your Understanding
+
+{{% notice green Question "rocket" %}}
+Which of the following is NOT one of the four basic components of a Tableau calculation?
+
+1. Functions
+1. Level of Detail
+1. Fields
+1. Operations
+<!-- Solution: Level of Detail -->
+{{% /notice %}}
