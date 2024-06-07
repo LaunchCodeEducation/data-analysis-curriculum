@@ -28,6 +28,8 @@ Upon completing all the content in this chapter, you should be able to do the fo
 
 ### Relationships
 1. Relationships
+1. root table
+
 
 ## Content Links
 
