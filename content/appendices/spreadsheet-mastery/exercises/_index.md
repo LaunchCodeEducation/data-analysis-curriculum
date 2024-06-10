@@ -63,7 +63,7 @@ You know that your director likes to receive one workbook per project rather tha
 
 You’re ready to get started and have a plan for how you’ll proceed, which you outlined as follows:
 1. Download the dataset from Canvas. You will find it under *Files* > *Spreadsheet Mastery Resources* > Order Data.csv.
-1. Open the file, save it as an Excel Workbook (*.xlsx), and name it Order Summary Report_Your Name.
+1. Open the file, save it as an Excel Workbook (*.xlsx), and name it "Order Summary Report_Your Name".
 1. Rename the Worksheet to Data.
 1. Review the dataset and make note of anything you think will be helpful as you proceed.
 1. Note to self: EDA and cleaning already performed by a colleague.
