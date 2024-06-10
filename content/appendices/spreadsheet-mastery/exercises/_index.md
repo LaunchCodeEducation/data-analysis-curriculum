@@ -148,7 +148,7 @@ Use the UNIQUE formula on the Shipping Status and Cancellation Status columns in
 
 Your director has asked that you submit the report for review as soon as you have it prepared and gave you a head’s up that added requirements will be provided as soon as the initial review is completed. You’re ready to submit this initial report, so you review the submission requirements just to be sure that you follow specifications:
 
-Upload the Microsoft Excel Workbook under Class 4 Exercises: Oder Summary Report and click Submit.
+Upload the Microsoft Excel Workbook under Class 4 Exercises: Order Summary Report and click Submit.
 
 
 
