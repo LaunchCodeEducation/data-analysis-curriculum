@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-The initial review of the Order Summary Report is completed and, as your director promised, additional metrics need to be included in the report. The requirements are clear, and you outline a plan for how you will proceed.
+The initial review of the Order Summary Report is completed and, as your director promised, additional metrics need to be included in the report. The requirements are clear, so you outline a plan for how to proceed.
 
 ## Additional Requirements:
 1. Total Sales $ and Total Units for a new category that combines Fulfillment Entity and Shipping Status (Example: Amazon-Shipped)
