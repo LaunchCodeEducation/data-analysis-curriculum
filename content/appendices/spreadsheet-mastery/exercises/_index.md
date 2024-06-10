@@ -7,7 +7,7 @@ weight = 1
 
 Your responsibilities as a Data Analyst at Amazon encompass both reporting and analysis across various departments. Recently, your team received a request for a comprehensive analysis of shipping speed and status for orders shipped to India over the past three months. Upon reviewing the request, your department director concluded that more information is necessary before deciding to proceed with a full analysis.
 
-As a result, your director has asked you to compile a concise report summarizing sales orders and associated shipping information from March 31, 2022, to June 29, 2022.
+As a result, your director has asked you to compile a concise report summarizing sales orders and associated shipping information from March 31, 2022 to June 29, 2022.
 
 Additionally, your director would like specific information for a random sample of orders, for which the order IDs have been provided.
 
