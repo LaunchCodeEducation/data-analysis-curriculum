@@ -142,7 +142,7 @@ Use the UNIQUE formula on the Shipping Status and Cancellation Status columns in
 17. Find the Top Destination Postal Code using the MODE.SINGL function.
 18. For the first set of twenty provided Order IDs, populate the Date, Status, Ship Service Level, Units, Dollars, City, State, and Zip Code using the VLOOKUP function.
 19. For the second set of twenty provided Order IDs, populate the Ship Service Level and Zip Code by combining the `INDEX` and `MATCH` functions.
-20. Validate that your VLOOKUP and INDEX/MATCH functions are returning the correct data. Make any necessary corrections to your formulas. Double check all formats.
+20. Validate that your `VLOOKUP` and `INDEX/MATCH` functions are returning the correct data. Make any necessary corrections to your formulas. Double-check all formats.
 
 ## Submitting Your Work
 
