@@ -26,8 +26,6 @@ The initial reporting request specifies the following metrics, KPIs, and sample 
 1. Unit Counts and % of Total Units by Cancellation Status.
 1. Date, Status, Ship Service Level, Units, Dollars, City, State, and Zip Code for these 20 Order IDs:
 
-Here are the markdown tables created from the data extracted from the images:
-
 | Order ID                | Order ID                |
 |-------------------------|-------------------------|
 | 404-2822073-6488362     | 402-3840492-4873917     |
