@@ -11,11 +11,18 @@ weight = 27
 
 Upon completing all the content in this chapter you should be able to do the following:
 
-1. Work with dates in Tableau
-1. Make effective dashboards
-1. Combine visualizations to make stories
+1. Effectively handle datetime data in Tableau and use it in your visualizations
+1. Implement the best practices introduced earlier in the textbook with Tableau
+1. Combine visualizations to make dashboards and stories
 
 ## Key Terminology
+
+Here is a list of key terms for this chapter broken down by the page upon which the term first appears. Make note of each term and its meaning.
+
+### Dates and Times
+
+1. discrete date fields
+1. continuous date fields
 
 ## Content Links
 

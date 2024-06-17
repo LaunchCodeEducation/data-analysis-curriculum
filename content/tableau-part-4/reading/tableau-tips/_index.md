@@ -5,23 +5,29 @@ draft = false
 weight = 2
 +++
 
+Our second objective is to revisit the best practices we have already seen and learn how to implement these best practices in Tableau.
+
 ## Revisiting Best Practices
 
 In [Data Visualization with Python](https://education.launchcode.org/data-analysis-curriculum/data-visualization/index.html), we introduced some best practices for building effective visualizations and tips for choosing a chart style. 
 
-To start with creating an effective visualization, we need to follow three simple :
+To start with creating an effective visualization, we need to follow three rules:
 
-1. Make sure that we have labels
-1. Use a color palette that helps you stand out
+1. Make sure that we have textual context
+1. Use a color palette that helps us stand out
 1. Keep it simple
 
 Let's see how we can ensure that we follow these three rules with Tableau.
 
 ### Adding Textual Context 
 
-Beyond labels and titles, we can also add captions to visualizations to give our users additional context. We cannot guarantee that we will get the opportunity to walk every user through our visualizations so we need to add guiding text such as labels, titles, and captions.
+We cannot guarantee that we will get the opportunity to walk every user through our visualizations so we need to add guiding text such as labels, titles, and captions.
 
-Tableau names the axes of a visualization after the fields that the visualization uses so if you want to rename a label, you need to rename the field itself. If you right-click on the field label, you can click *Format Field* and change the font, font size, and color to better fit your visualization needs. Tableau defaults to field labels being a very dark gray which may not work with the colors chosen for your visualization or be easily readable by members of your team. 
+Tableau names the axes of a visualization after the fields that the visualization uses so you may not have the label you really want. To change it, right-click on the axis and select *Edit Axis*. In the resulting menu, you can change a number of characteristics of the axis such as the range, including the actual label text. Remember to add the dimensions of your axis in parantheses after the label text to make sure that the dimensions are clear to your users. If you right-click on the field label, you can click *Format Field* and change the font, font size, and color to better fit your visualization needs. Tableau defaults to field labels being a very dark gray which may not work with the colors chosen for your visualization or be easily readable by members of your team. 
+
+To edit the title, right-click on the title and select *Edit*. The resulting dialog box will also have lots of options for re-formatting the title if you are already satisfied with the text. 
+
+To edit a caption, you can find the *Edit Caption* option under the context menu that appears when you select the arrow on the right-hand side of the title.
 
 ### Picking the Right Color Palette
 
