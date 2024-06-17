@@ -16,7 +16,7 @@ While you will likely find many posts about the virtues of bullet journals as a 
 Before you open up Tableau, take some time to brainstorm. You need to create at least three visualizations, representing three spreads in your Tableau bullet journal. If you are already a bullet journal advocate, do you want to recreate three spreads you have already made? Are you struggling to think of what data you could track with Tableau? People have created so many wonderful different spreads in bullet journals, so here are just a few ideas to get you started.
 
 1. water intake
-1. Exercise data, such as: steps and workout trackers
+1. exercise data, such as steps and workout trackers
 1. hours of sleep
 1. screentime
 1. mood tracker
@@ -24,11 +24,13 @@ Before you open up Tableau, take some time to brainstorm. You need to create at 
 1. goodreads
 1. medicine tracker
 
-In addition, you can also find even more ideas on Pinterest and Instagram. Once you have your three spreads planned, you need the data behind the spreads. If you do not want to share your own data, try to make a bullet journal for a fictional character. Your data can be in whatever form you find helpful whether it starts with a spreadsheet or Pandas DataFrame. If you pull any data from Kaggle to add to your bullet journal, make sure to share the source.
+In addition, you can also find even more ideas on Pinterest and Instagram. Once you have your three spreads planned, you need the data behind the spreads. If you do not want to share your own data, try to make a bullet journal for a fictional character. Your data can be in whatever form you find helpful whether it starts with a spreadsheet or pandas DataFrame. If you pull any data from Kaggle to add to your bullet journal, make sure to share the source.
 
-## Putting together Your Vizzes
+## Putting together Your Visualizations
 
-As you work on the exercises, remind yourself of what we said in the reading. In the field of data, no one has found a correlation betweeen artistic and beautiful and effective. In the world of bullet journals, a minimal spread can be just as effective to a user as one decked out with illustrations.
+As you assemble your three visualizations, recall the best practices we shared in the reading. How can you employ best practices to make your bullet journal stand out? 
+
+Once you have three visualizations, you need to assemble your work in EITHER a dashboard or a story. Recall that dashboards can help users compare related visualizations while storys can combine visualizations that may seem unrelated to effectively relay our work.
 
 ## Submitting Your Work
 

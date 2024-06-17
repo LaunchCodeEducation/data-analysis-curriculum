@@ -24,6 +24,13 @@ Here is a list of key terms for this chapter broken down by the page upon which 
 1. discrete date fields
 1. continuous date fields
 
+### Tableau Stories and Dashboards
+
+1. story
+1. dashboard
+1. story point
+1. worksheet
+
 ## Content Links
 
 {{% children %}}

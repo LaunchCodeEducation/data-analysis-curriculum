@@ -45,18 +45,18 @@ The principle of keeping it simple means making sure that all the data on the vi
 
 ## Selecting Chart Styles in Tableau
 
-Just as before, we want to think about what we are displaying before selecting a chart style. Here is a refresher on the four chart styles:
+Finally, we want to think about what we are displaying before selecting a chart style. Here is a refresher on the four chart styles we introduced in [Data Visualization in Python]({{% relref "../../../data-visualization/reading/chart-styles/" %}}):
 
 1. Comparison
 1. Relationship
 1. Distribution
 1. Composition
 
-Tableau has many chart styles that fit each of these categories beyond the initial ones introduced to you earlier. When you are changing the chart style in the upper right hand corner of Tableau, some chart styles will be unavailable. This may be due to the chart style you chose.
+Tableau has many chart styles that fit each of these categories beyond the initial ones introduced to you earlier. When you are changing the chart style in the upper right hand corner of Tableau, some chart styles will be unavailable. Tableau marks some chart styles as unavailable due to what is in the columns and rows to help narrow down your chart style choices.
 
 {{% notice blue Example %}}
 
-A spatial chart can only be created with latitude and longitude data and latitude has to be in one location and longitude in the other. Even then your marks won't show up until you add a hierarchy with the city, state, and country.
+A spatial chart can only be created with latitude and longitude data and latitude has to be in rows and longitude in columns. Until you have the data in this configuration, Tableau will not assemble a spatial chart for you.
 
 {{% /notice %}}
 
@@ -70,11 +70,8 @@ Tableau has a great article on [choosing the right chart type for your data](htt
 
 {{% notice green Question %}}
 
-   What type of viz is best for showing correlations?
-   
-   a. Line Chart
-   #. Pie Chart
-   #. Scatter Plot 
-   #. Flow Chart 
+   Based on your explorations of Tableau, is there a chart style you have not previously encountered throughout this course?
 
 {{% /notice %}}
+
+<!-- sample answer could be a gantt chart -->
