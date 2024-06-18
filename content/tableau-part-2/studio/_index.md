@@ -45,7 +45,7 @@ Download the [library data set](https://www.kaggle.com/imls/public-libraries?sel
 
 [Source](https://www.bea.gov/news/2015/gross-domestic-product-state-advance-2014-and-revised-1997-2013/regional-maps)
 
-## Part A: EDA
+## Part 1: EDA
 
  Use data from the states.csv table unless otherwise noted.  
 
@@ -74,7 +74,7 @@ Download the [library data set](https://www.kaggle.com/imls/public-libraries?sel
       1. Hint: Rename the Region only at this time. 
       1. Don't worry about states right now.
 
-## Part B: Collect Your Data
+## Part 2: Collect Your Data
 
 Begin working with your assigned region. Remember to use the table above to help with managing and organizing your data and use data from the `states.csv` table unless otherwise noted.
 
@@ -136,7 +136,7 @@ Create a new worksheet for each question using either your sets or groups.
    1. Hint: Use the End Date pill.  Hide any Null values, we only want reported values at this time. 
    1. Add a label.
 
-## Part C: Create a Dashboard
+## Part 3: Create a Dashboard
 
 Create a dashboard that highlights at least 2 of your favorite charts from the studio.  (The bonus can be one of these).
 
