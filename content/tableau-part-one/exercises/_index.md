@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-We will continue working with the netflix_titles.csv datsaset from the previous readings [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset from Kaggle. The goal of these exercises will be to create a basic dashboard and expand on some of the columns of data within the Netflix dataset.
+We will continue working with the [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows) dataset from Kaggle. The goal of these exercises will be to create a basic dashboard and expand on some of the columns of data within the Netflix dataset.
 
 If needed, create a connection to the  `netflix_titles.csv` file.
 
