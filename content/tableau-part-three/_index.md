@@ -1,5 +1,5 @@
 +++
-pre = "<b>27. </b>"
+pre = "<b>26. </b>"
 chapter = true
 title = "Tableau Part Three"
 date = 2024-05-28T13:45:19-05:00
