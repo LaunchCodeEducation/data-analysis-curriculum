@@ -26,7 +26,7 @@ Tableau lists the data type as `Text` in the documentation, but when changing th
 
 ## Mixed Data Types
 
-Typically columns within a dataset are the same type of data (string, date, string, image, integer, number, etc..) but when they are mixed (column contains more than just one data type), Tableau will manipulate the data for you automatically. For example if you have a column that has both Numbers and Text, the text will be assigned as `Null`.
+Typically columns within a dataset are the same type of data (string, date, string, image, integer, number, etc..) but when they are mixed (column contains more than just one data type), Tableau will manipulate the data for you automatically. For example, if you have a column that has both numbers and text, the text will be assigned as `Null`.
 
 You can find a more detailed table towards the bottom of [this page](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles_datatypes.htm) from the official Tableau documentation
 
