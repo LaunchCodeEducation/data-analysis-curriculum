@@ -56,7 +56,7 @@ We will use the [Netflix and TV Shows dataset](https://www.kaggle.com/datasets/s
 
 {{% attachments style="blue" title=".CSV Data" /%}}
 
-One you have downloaded the `netflix_titles.csv` file, click on the `Data` tab in the top left corner and select `New Data Source` within your Tableau workbook. Click  on the `Upload from computer` button and navigate to the `netflix_tites.csv` file on your machine (probably in your downloads folder), and import the file.
+One you have downloaded the `netflix_titles.csv` file, click on the `Data` tab in the top left corner and select `New Data Source` within your Tableau workbook. Click on the `Upload from computer` button and navigate to the `netflix_tites.csv` file on your machine (probably in your downloads folder), and import the file.
 
 Once you have imported the spreadsheet, click on the `Sheet 1` tab in the bottom left-hand corner to create a new sheet from the data source.
 
