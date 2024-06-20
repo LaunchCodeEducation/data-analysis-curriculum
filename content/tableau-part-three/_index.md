@@ -1,7 +1,7 @@
 +++
 pre = "<b>26. </b>"
 chapter = true
-title = "Tableau Part Three"
+title = "Tableau Part 3"
 date = 2024-05-28T13:45:19-05:00
 draft = false
 weight = 27
@@ -29,7 +29,6 @@ Upon completing all the content in this chapter, you should be able to do the fo
 ### Relationships
 1. Relationships
 1. root table
-
 
 ## Content Links
 
