@@ -65,7 +65,7 @@ Parameters must be incorporated into something else such as a filter, reference 
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-In order to use a parameter within a calculated field you must reference it using:
+In order to use a parameter within a calculated field you must reference it with:
 
 1. parenthesis: `()`
 1. curly brackets: `{}`
