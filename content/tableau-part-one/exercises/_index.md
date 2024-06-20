@@ -56,6 +56,8 @@ This is a bit too granular for a dashboard as there are many boxes that do not d
 
 ### Create a Dashboard
 
+We are introducing dashboards to you now so that you can easily publish your work, but you should know that there are best practices for dashboards that you will cover in a later chapter.
+
 Click on the `Dashboard` tab at the top of your workbook and click `New Dashboard` or click on the `New Dashboard` button on the bottom of your workspace.
 
 1. Drag and drop your existing `Sheets` into the dashboard view.
