@@ -18,7 +18,7 @@ Start exploring here:
 
 Other Interesting Viz Resources:
 
-1. [Tableau Public Discover](https://public.tableau.com/app/discover).
+1. [Tableau Public Discover Page](https://public.tableau.com/app/discover).
 2. [Tableau Public Featured Authors](https://public.tableau.com/app/discover/authors).
 3. [Tableau Public Resources](https://public.tableau.com/en-us/s/resources).
 {{% /notice %}}
