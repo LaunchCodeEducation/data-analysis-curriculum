@@ -5,7 +5,7 @@ draft = false
 weight = 4
 +++
 
-Before we connect to a data source to our Tableau workspace we will first look at what types of data there are, and how those data types are interpreted. You can find official documentation on [Tableau Data Types here](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles_datatypes.htm). Below we will relate the types of data in Tableau to previously known data types using `python` or `SQL`.
+Before we connect to a data source to our Tableau workspace, let's look at what types of data there are, and how those data types are interpreted. You can find official documentation on [Tableau Data Types here](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles_datatypes.htm). Below we will relate the data types in Tableau to previously known data types from Python and SQL.
 
 ## Data Types in Tableau
 
