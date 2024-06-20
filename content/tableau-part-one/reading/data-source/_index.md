@@ -36,7 +36,7 @@ Usually, the issue of having multiple or mixed data types within a column would 
 
 When you connect to a data source using Tableau, each column within your data set is assigned a data type and field. However, they may not be categorized as the appropriate role (dimension or measure) when you import your data. Fortunately, changing the role of a table or field is very straight-forward. 
 
-You are able to right click any field and convert it to a **Measure** or **Dimension**. The easiest ways to associate a field to the appropriate role is as follows:
+You are able to right-click any field and convert it to a **Measure** or **Dimension**. The easiest ways to associate a field with the appropriate role are as follows:
 
 1. `Measure`: qualitative values (numerical data)
 1. `Dimension`: quantitative values (non-numerical)
