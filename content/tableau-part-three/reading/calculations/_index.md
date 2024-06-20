@@ -15,7 +15,7 @@ When a new calculation is created, a new pill will be added to your data pane un
 
 ## Basic Calculations
 
-Basic calculations in Tableau revolve around using arithmetic operators and functions to manipulate and transform your data as you see fit or depending on your need. Calculations can be applied to individual fields or multiple fields, allowing you to create new extracted fields based on your analysis requirements.
+Basic calculations in Tableau revolve around using arithmetic operators and functions to manipulate and transform your data as you see fit. Calculations can be applied to an individual field or multiple fields, allowing you to create new extracted fields based on your analysis requirements.
 
 Take a look at the example below:
 
