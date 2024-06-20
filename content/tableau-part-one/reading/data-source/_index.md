@@ -14,7 +14,7 @@ Before we connect to a data source to our Tableau workspace, let's look at what 
 1. **Date** *and* **Time** values: (01/29/1992 7:07:07 PM)
 1. **Numerical values**: Similar to numbers or integers in python
 1. **Boolean values**: True or False
-1. **Geographic values**: Used to create a geographic role. The geographic role is very useful if you are looking to visualize location data from your data source. When you assign a geographic role Tableau is kind enough to auto-generate a latitude and longitude value to the associated field. One thing to keep in mind is that the latitude and longitude values are only applicable to numeric fields or values.
+1. **Geographic values**: Used to create a geographic role. The geographic role is very useful if you are looking to visualize location data from your data source. When you assign a geographic role, Tableau is kind enough to auto-generate a latitude and longitude value to the associated field. One thing to keep in mind is that the latitude and longitude values are only applicable to numeric fields or values.
 1. **Image role**: field that contains an image
 1. **Cluster Group**: field used to create and associate data into a cluster
 
