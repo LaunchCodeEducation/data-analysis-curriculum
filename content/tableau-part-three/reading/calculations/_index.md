@@ -11,7 +11,7 @@ Applying calculations to your visualization helps further customize, filter, and
 
 Regardless of what type of calculation you apply to your visualization, we consider the result a **calculated field**.
 
-When a new calculation is created, a new pill will be added into your data pane under with the name you provided to the calculation. We will cover **basic calculations** below and **table calculations** below.
+When a new calculation is created, a new pill will be added to your data pane under the name you provided the calculation. We will cover **basic calculations** and **table calculations** below.
 
 ## Basic Calculations
 
