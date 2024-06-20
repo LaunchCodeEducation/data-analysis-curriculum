@@ -17,7 +17,7 @@ Using the `netflix_titles.csv` data, we will create a bar chart that shows the `
 
 1. Let's first start out by adding the `Type` pill to the `Columns` shelf.
 1. Next, add the `Show Id` pill to the `Rows` shelf.
-    - Right click on the `Show Id` pill and change from a dimension to a measure, selecting the `count` as the measure.
+    - Right-click on the `Show Id` pill and change from a dimension to a measure, selecting the `count` as the measure.
 
 ![Visual of a tableau workbook with the Type as a column, and Show Id as a measure of count as a row](pictures/type-show-id-checkpoint.png?classes=border)
 
