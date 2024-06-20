@@ -66,7 +66,7 @@ This allows you to analyze and compare values within specific partitions of your
 In addition to partitioning fields, table calculations also require you to specify one or more **addressing fields**. Addressing fields determine the order or direction in which the calculation is performed within each partition.
 
 {{% notice blue Example "rocket" %}}
-If you have a time-based data set with a Date field, you could use Date as the addressing field to calculate a running total or moving average over time. The addressing field dictates the order in which the calculation is applied to the values within each partition.
+If you have a time-based data set with a `Date` field, you could use `Date` as the addressing field to calculate a running total or moving average over time. The addressing field dictates the order in which the calculation is applied to the values within each partition.
 
 By combining partitioning fields and addressing fields, you can create highly customized and insightful table calculations that provide valuable context and enable deeper analysis of your data.
 {{% /notice %}}
