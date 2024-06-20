@@ -9,7 +9,7 @@ weight = 1
 
 Applying calculations to your visualization helps further customize, filter, and aggregate data. Calculations can be something as simple as applying an `AVG` or any other aggregate function.
 
-Regardless of what type calculation you are applying to your visualization it is considered a **calculated field**.
+Regardless of what type of calculation you apply to your visualization, we consider the result a **calculated field**.
 
 When a new calculation is created, a new pill will be added into your data pane under with the name you provided to the calculation. We will cover **basic calculations** below and **table calculations** below.
 
