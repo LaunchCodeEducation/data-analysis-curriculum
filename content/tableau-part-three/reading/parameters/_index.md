@@ -58,7 +58,7 @@ Parameters can also be used in filters to dynamically filter your data based on 
 ## Check Your Understanding
 
 {{% notice green Question %}}
-Parameters must be incorporated into something else such as a filter, reference line or calculation field in order to be useful.
+Parameters must be incorporated into something else such as a filter, reference line, or calculation field in order to be useful.
 
 1. `True`
 1. `False`
