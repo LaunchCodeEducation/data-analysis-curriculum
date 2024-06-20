@@ -5,7 +5,7 @@ draft = false
 weight = 3
 +++
 
-Tableau allows you to create **relationships** between data sources. The relationship itself is based on a column(s) that the two tables you are trying to relate have in common. A relationship must have at least one matching pair of fields in order to be created, meaning they must be of the same data type.
+Tableau allows you to create **relationships** between data sources. The relationship itself is based on a column(s) that the two tables you are trying to relate. A relationship must have at least one matching pair of fields in order to be created, meaning they must be of the same data type.
 
 One of the great things about relationships with Tableau is that you do not need to specify the join type for the relationship, Tableau takes care of that query behind the scenes for you amongst other things:
 
