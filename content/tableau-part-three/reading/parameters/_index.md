@@ -30,7 +30,7 @@ When creating a parameter, you can define several properties:
 
 1. `Name`: Provide a descriptive name for your parameter, which will be used to reference it in calculations and filters.
 1. `Data Type`: Make sure to select the correct data type for your use case. Usually this is in reference to the field that you will be using within the parameter.
-1. `Current value`: Initial or default value
+1. `Current value`: Initial or default value.
 1. `Value when workbook opens`: What value should be displayed when the workbook is first opened.
 1. `Allowable values`: Select either All values, a list of values, or a range of values to select from.
 1. `Value and Display As`: You can changes how each value is displayed within the visualization itself with the display as option.
