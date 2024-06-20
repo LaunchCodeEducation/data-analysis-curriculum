@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-Please use your best judgement on the type of chart, layout, and interpretation of the list below. This is an exercise to get hands-on experience with Tableau. This will be the first stop on a journey of many skills!
+Please use your best judgment on the chart style, layout, and interpretation of the list below. This is an exercise to get hands-on experience with Tableau. This will be the first stop on a journey of many skills!
 
 1. We will be using the [Mushroom Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification) dataset from Kaggle.  Download the CSV file.
 1. Open Tableau Public and connect to your dataset.  
