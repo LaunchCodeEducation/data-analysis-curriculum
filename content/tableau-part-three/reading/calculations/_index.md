@@ -75,7 +75,7 @@ By combining partitioning fields and addressing fields, you can create highly cu
 
 ## Conditional Statements
 
-There are a few types of conditional statements you can utilize within Calculated Field. The three types of conditional statements we will cover are `IF` and `IIF` and `CASE` statements.
+You can utilize a few types of conditional statements within calculated fields. The three types of conditional statements we will cover are `IF` and `IIF` and `CASE` statements.
 
 {{% notice blue Note "rocket" %}}
 Each conditional statement has it's own use cases. When comparing the `IIF` to the `IF` statement, the `IIF` statement allows you to specify how unknown values are treated, otherwise they are quite similar.
