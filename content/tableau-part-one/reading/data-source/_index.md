@@ -9,7 +9,7 @@ Before we connect to a data source to our Tableau workspace, let's look at what 
 
 ## Data Types in Tableau
 
-1. **Text**: Similar to string values in python, or varchar type in SQL.
+1. **Text**: Similar to string values in Python or the varchar type in SQL.
 1. **Date** values: Date value (01/29/1992)
 1. **Date** *and* **Time** values: (01/29/1992 7:07:07 PM)
 1. **Numerical values**: Similar to numbers or integers in python
