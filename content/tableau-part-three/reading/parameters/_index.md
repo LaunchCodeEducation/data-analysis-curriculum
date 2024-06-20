@@ -11,7 +11,7 @@ weight = 2
 
 One of the major benefits is that you can change your parameter value on the fly so that your calculations will be updated dynamically wherever they exist. Only having to change one value instead of many to view a different result is extremely convenient.
 
-On it's own, a parameter will not have an affect on the visualization because at it's core it is a variable that is referenced inside of a calculation, filter, or reference line.
+On its own, a parameter will not have an effect on the visualization because at its core it is a variable that is referenced inside of a calculation, filter, or reference line.
 
 ### Creating a Parameter
 
