@@ -35,7 +35,7 @@ In [SQL Part 2]({{% relref "../../../sql-part-2/reading/date-time-functions" %}}
 
 ### DATEADD
 
-`DATEADD` has a similar functionality in Tableau where we can add to a start date. If we are visualizing employee start dates and want to find the end of the 90-day probabtionary period, we can do the following:
+`DATEADD` has a similar functionality in Tableau where we can add to a start date. If we are visualizing employee start dates and want to find the end of the 90-day probationary period, we can do the following:
 
 {{% notice blue Example %}}
 
@@ -77,7 +77,7 @@ If the employee started on 6/1/2024, the value returned would be:
 
 ### DATEPART
 
-`DATEPART` returns the numerial value of a component of a date. For example, if we want to return the number of the month an employee started in, we can do the following:
+`DATEPART` returns the numerical value of a component of a date. For example, if we want to return the number of the month an employee started in, we can do the following:
 
 {{% notice blue Example %}}
 
