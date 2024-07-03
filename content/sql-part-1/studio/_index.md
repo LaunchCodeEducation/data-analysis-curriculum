@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Azure Data Studio, click on the *Open* button and navigate to `data-analysis-projects/sql-part-1/studio` to open up the `SQL-Part-1-Studio.ipynb` notebook.  
+In Azure Data Studio, click on the *Open* button and navigate to `SQL-Part-1-Studio.ipynb` you downloaded from canvas.  
 
 ## In Your Notebook
 
