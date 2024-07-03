@@ -23,6 +23,4 @@ When the whole class comes back together, each person will present one of the qu
 
 ## Submitting Your Work
 
-When finished, make sure to push your changes up to GitHub! 
-
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Studio: SQL Part 1** and click *Submit*.
+When finished, upload your completed document to canvas!
