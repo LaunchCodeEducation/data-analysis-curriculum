@@ -143,12 +143,49 @@ WHERE last_name LIKE '%Smith%';
 
 ### Grouping the Result Set
 
-Finally, we can group the result set, similar to what we did with Pandas using `GROUP BY`. We might want to group our result set based on table numbers if we are working on the `events` database.
+Finally, we can group the result set. We might want to group our result set based on table numbers if we are working on the `events` database.
 
 ```sql {linenos=table}
 SELECT first_name, last_name
 FROM li_wedding
 GROUP BY table_number;
+```
+
+### SQL Comments
+
+Adding brief documentation and notes to your SQL code can pay dividends down the road, making your code easier to read and understand its intent for others as well as your "future self" should you need to reuse the code some time later and facilitating your refamiliarization with the code, its purpose, and, for example, why specific filters were chosen. Comments do not impact the execution of the code, but are there to help the person reading the code to understand and maintain it.
+
+Let's walk through three examples of SQL comments and their use cases. First, the single-line comment.
+
+```sql {linenos=table}
+-- Ensure all members of the extensive Smith family are seated together
+SELECT first_name, last_name
+FROM li_wedding
+WHERE last_name LIKE '%Smith%';
+```
+
+Single-line comments are added by inserting a double dash "`--`" before the text that follows. These are generally used to add a brief statement explaining the intent or purpose of the specific block of code. As the name implies, the comment is just a single line only.
+
+What if you want to add additional detail or further explain a portion of code, requiring additional lines of code? The easiest method to do so is through the use of multi-line comments. Multi-line comments start with "`/*`" and end with "`*/`", such as the following:
+
+```sql {linenos=table}
+/* Ensure all members of the extensive Smith family are seated together
+   As there are several variations of the name "Smith" in their family
+   the LIKE operator will be used to capture the entire family */
+SELECT first_name, last_name
+FROM li_wedding
+WHERE last_name LIKE '%Smith%';
+```
+All text inbetween the "`/*`" and "`*/`" are identified as comments. Multi-line comments are used to provide additional detail on a block of code, or can also be used to provide details of who was the author of the code, when it was written, the tables used, the purpose of the code, and any modifications made since it was originally written. Such commnets are refered to as "header comments".
+
+Lastly, in-line comments can be added within or at the end of line of SQL code. These can be used to temporarily exclude a column from being returned in the resulting output, or to add an explanation immediately following a line of code which may not be self explanatory and to add additional context.
+
+Here is an example of in-line comments, using both of the above mentioned methods.
+
+```sql {linenos=table}
+SELECT last_name/*, first_name */
+FROM li_wedding
+WHERE (attending = 1) AND (diet = "vegetarian"); -- List confirmed wedding attendees who are vegitarian
 ```
 
 ## Best Practices for Writing SQL Queries
