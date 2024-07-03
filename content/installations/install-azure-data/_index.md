@@ -23,7 +23,7 @@ Watch the first 3 minutes and 20 seconds of the video below for a nice overview 
 
 {{% notice blue Note %}}
 
-During the video, he goes over how to connect to a server. The login info for the server you will need to connect to for this class should be sent to you by your course instructor.
+During the video, he goes over how to connect to a server. The login info for the server you will need to connect to for this class should be sent to you by your program manager.
 
 {{% /notice %}}
 
