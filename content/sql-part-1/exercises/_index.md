@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-In Azure Data Studio, open up the `SQL-Part-1-Exercises.ipynb` file you downloaded from canvas.
+In Azure Data Studio, click on the *Open* button and navigate to the `SQL-Part-1-Exercises.ipynb` file you downloaded from canvas.
 
 ## In Your Notebook
 
