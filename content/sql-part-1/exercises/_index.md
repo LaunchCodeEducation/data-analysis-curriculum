@@ -11,7 +11,7 @@ In Azure Data Studio, open up `SQL-Part-1-Exercises.ipynb` in `data-analysis-pro
 
 ## In Your Notebook
 
-Connect to `BooksDB`.  If you need a refresher on how to do this, see Setup Azure Data Studio.
+Connect to `BooksDB`.  If you need a refresher on how to do this, refer back to the [Installing Azure Data Studio]({{< relref "../../installations/install-azure-data/_index.md" >}}) section.
 
 ## Submitting Your Work
 
