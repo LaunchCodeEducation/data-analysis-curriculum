@@ -5,6 +5,7 @@ title = "Collections"
 date = 2024-02-20T09:31:05-06:00
 draft = false
 weight = 12
+hidden = true
 +++
 
 ## Learning Objectives

@@ -5,6 +5,7 @@ title = "Functions are at Your Beck and Call"
 date = 2024-02-22T14:39:01-06:00
 draft = false
 weight = 13
+hidden = true
 +++
 
 ## Learning Objectives

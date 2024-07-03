@@ -5,6 +5,7 @@ title = "Making Decisions with Conditionals"
 date = 2024-02-12T11:52:57-06:00
 draft = false
 weight = 10
+hidden = true
 +++
 
 ## Learning Objectives

@@ -4,7 +4,8 @@ chapter = true
 title = "How Programs Work"
 date = 2024-02-12T13:42:28-06:00
 draft = false
-weight = 7
+weight = 1007
+hidden = true
 +++
 
 ## Learning Objectives
