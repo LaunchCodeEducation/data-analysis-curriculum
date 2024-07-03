@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-So far, we have used spreadsheets and DataFrames to hold data. However, both of these are limited in how much information they can store.
+So far, we have used spreadsheets to hold data. However, these are limited in how much information they can store.
 This is where a relational database comes in.
 
 **Relational databases** store data in tables, which are connected to each other in a variety of different ways.
@@ -36,7 +36,7 @@ SQL has many of the same data types you have already worked with so far in this 
 For integers, we will be using the `int` data type. As you grow in your career, you may see others such as `bigint` or `tinyint` in SQL databases.
 The [SQL documentation](https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16) offers a full breakdown of these different integer types.
 
-SQL also has a `decimal` data type that is similar to what we have already seen with `double` in Python. 
+SQL also has a `decimal` data type which, as the name implies, allows for a specified number of digits after the decimal. 
 
 ### Strings
 
