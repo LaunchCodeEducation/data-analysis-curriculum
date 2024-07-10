@@ -7,9 +7,11 @@ weight = 3
 
 ## Getting Started
 
-For this week's studio, open up the `SQL-Part-3-Studio.ipynb` notebook in `data-analysis-projects/sql-part-3/studio` using Azure Data Studio.  
+In Azure Data Studio, click on the *File* >> *Open File...* and navigate to `SQL-Part-3-Studio.ipynb` you downloaded from canvas.
 
 ## In Your Notebook
+
+Connect to `BooksDB` before starting work on the studio.
 
 The focus of this studio is to get more familiar with `JOIN` statements and to practice using them.
  
@@ -24,6 +26,8 @@ When the whole class comes back together, each person will present one of the ev
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub. 
+When finished, upload your completed document to canvas!
 
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Studio: SQL Part 3** and click *Submit*.
+{{% notice green Tip "rocket" %}}
+**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+{{% /notice %}}
