@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-Below you will find some of the more common SQL date and time functions used and those that we will focus on in this class. You can find a more exhaustive list those functions here: [SQL: Date and Time Data Types and Functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-ver15).
+Below, you will find some of the more common SQL date and time functions that we will focus on in this class. For a more exhaustive list of these functions, you can refer to [SQL: Date and Time Data Types and Functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-ver15).
 
 ## Date and Time Functions
 
