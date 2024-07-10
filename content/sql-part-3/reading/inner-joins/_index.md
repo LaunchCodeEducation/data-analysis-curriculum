@@ -50,7 +50,7 @@ GROUP BY johnson_vow_renewal.diet
 HAVING johnson_vow_renewal.attending = 1;
 ```
 
-`GROUP BY` is frequently used in conjunction with aggregate functions, which were introducted in Part 2. To be clear, if you use an aggregate function in a `SELECT` statement along with at least one other column, `GROUP BY` is required.
+`GROUP BY` is frequently used in conjunction with aggregate functions, which were introduced in Part 2. To be clear, if you use an aggregate function in a `SELECT` statement along with at least one other column, `GROUP BY` is required.
 
 Let us pose the question of "How many guests of both the wedding and renewal are there with each last name?" The following query would provide such insight.
 
