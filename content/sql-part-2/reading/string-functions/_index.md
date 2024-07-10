@@ -9,7 +9,7 @@ SQL comes with many built-in functions for reading, writing, updating, and gener
 
 ## String Functions
 
-Below, you will find some of the more common SQL string functions that we will focus on in this class. For a more exhaustive list of string functions, you can visit SQL String Functions.[SQL String Functions](https://learn.microsoft.com/en-us/sql/t-sql/functions/string-functions-transact-sql?view=sql-server-ver15).
+Below, you will find some of the more common SQL string functions that we will focus on in this class. For a more exhaustive list of string functions, you can visit [SQL String Functions](https://learn.microsoft.com/en-us/sql/t-sql/functions/string-functions-transact-sql?view=sql-server-ver15).
 
 ### RTRIM
 
