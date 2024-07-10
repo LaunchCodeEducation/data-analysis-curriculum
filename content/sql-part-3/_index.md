@@ -1,10 +1,10 @@
 +++
-pre = "<b>20. </b>"
+pre = "<b>9. </b>"
 chapter = true
 title = "SQL Part 3: Joins"
 date = 2024-04-02T14:13:14-05:00
 draft = false
-weight = 20
+weight = 9 
 hidden = false 
 +++
 
