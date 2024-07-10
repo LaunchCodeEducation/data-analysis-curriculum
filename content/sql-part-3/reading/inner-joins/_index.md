@@ -50,6 +50,41 @@ GROUP BY johnson_vow_renewal.diet
 HAVING johnson_vow_renewal.attending = 1;
 ```
 
+`GROUP BY` is frequently used in conjunction with aggregate functions, which were introducted in Part 2. To be clear, if you use an aggregate function in a `SELECT` statement along with at least one other column, `GROUP BY` is required.
+
+Let us pose the question of "How many guests of both the wedding and renewal are there with each last name?" The following query would provide such insight.
+
+```sql {linenos=table}
+SELECT last_name, COUNT(first_name) AS "Number of Guests"
+FROM johnson_vow_renewal
+INNER JOIN johnson_wedding ON johnson_vow_renewal.guest_id = johnson_wedding.guest_id
+GROUP BY last_name;
+```
+
+The aggregate `SUM` function could also be used in this instance, given the `attending` column:
+
+```sql {linenos=table}
+SELECT last_name, SUM(johnson_vow_renewal.attending) AS "Number of Guests"
+FROM johnson_vow_renewal
+INNER JOIN johnson_wedding ON johnson_vow_renewal.guest_id = johnson_wedding.guest_id
+GROUP BY last_name;
+```
+
+Before we proceed, you will notice the use of a column alias in the above code. This is not the only place where an alias can be used in SQL. Table names can have aliases as well, and this is often useful when creating joins and referencing column names for a specific table. The use of table aliases allows us to shorten, sometimes significantly, the name of the table when it is referenced in a `SELELCT`, `HAVING`, or other SQL statement. When creating an alias for a table, it is good practice for the alias to be short (generally two to three charaters) and be representative of the full table name (so, for example, not creating an alias named "a") as this makes identifying which table the alias belongs to easier for the person reading the code.
+
+The table alias is created simply by typing the alias immediately after the full table name in the `FROM` and `JOIN` statements. The `AS` statement is generally omitted, as it is not required.
+
+The following shows how the above SQL code can be rewritten using table aliases.
+
+```sql {linenos=table}
+SELECT last_name, SUM(jvr.attending) AS "Number of Guests"
+FROM johnson_vow_renewal jvr
+INNER JOIN johnson_wedding jw ON jvr.guest_id = jw.guest_id
+GROUP BY last_name;
+```
+
+In the above SQL code, we have created the alias `jvr` for the table `johnson_vow_renewal` and the alias `jw` for the table `johnson_wedding`. Notice both are representative of their respective full (original) table name, as well as much shorter than the original. The alias does not rename the table in the datebase — it only exists within the SQL code. Also notice you can reference the table aliases in the `SELECT` statement which prceedes the creation of the aliases in the `FROM` and `JOIN` statements!
+
 ## Check Your Understanding
 
 {{% notice green Question %}}
