@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-Similar to pandas, SQL comes with many built-in functions to read, write, update, and in general manipulate data in any way you see fit. The examples below utilize the `SELECT` statement to work with strings so that we can first practice using these functions by only reading the data. A major benefit of this is it allows you to gain a visual of what would happen should you decide to manipulate the same data.
+SQL comes with many built-in functions to read, write, update, and in general manipulate data in any way you see fit. The examples below utilize the `SELECT` statement to work with strings so that we can first practice using these functions by only reading the data. A major benefit of this is it allows you to gain a visual of what would happen should you decide to manipulate the same data.
 
 ## String Functions
 
