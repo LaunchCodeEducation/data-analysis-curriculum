@@ -1,26 +1,27 @@
 +++
-title = "Task 3: Data Manipulation"
+title = "Task 3: Join in on the Fun"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 3
 +++
 
-This third task of this assignment involves manipulating your data. You should feel comfortable beginning this task after you have completed [Chapter 16: Data Manipulation]({{% relref "../../../data-manipulation/_index.md" %}}).
 
-Before you begin answering any questions, combine the two existing datasets together within your notebook to create a third dataframe called df. You can use this third dataframe to compare the two call centers to company-wide trends.
+Time to start joining! You can choose the type of join you use, just make sure to make a note in your notebook as to why you chose that join! You can answer these questions after [Chapter 20: SQL Part 3]({{% relref "../../../sql-part-3/_index.md" %}})
 
-{{% notice green Question "rocket" %}}
-Group by Rep ID and sum the resulting structure. Sort by calls to determine which rep in each branch has the highest number of calls.
+{{% notice green Question %}}
+
+Join `annual_2016` with series on `series_id`. We only want the data in the `annual_2016` table to be included in the result.
+
 {{% /notice %}}
 
-{{% notice green Question "rocket" %}}
-The average call abandonment rate is a KPI when it comes to determining call center efficiency. As you may recall, abandoned calls are calls where the customer hangs up due to long call times. What is the average call abandonment rate for each branch and the whole company? Do any of these fall out of the optimal range of 2-5%?
+{{% notice green Question %}}
+
+Join series and datatype on `data_type_code`.
+
 {{% /notice %}}
 
-{{% notice green Question "rocket" %}}
-Service level is another KPI when it comes to measuring call center efficiency. Service level is the percentage of calls answered within a specific number of seconds. In the case of your employer, their ideal time frame is 2 seconds. What is the percentage of calls answered within 2 seconds for each branch and the entire company?
-{{% /notice %}}
+{{% notice green Question %}}
 
-{{% notice green Question "rocket" %}}
-For each branch and the entire company, what is the average speed of answer?
+Join series and industry on `industry_code`.
+
 {{% /notice %}}

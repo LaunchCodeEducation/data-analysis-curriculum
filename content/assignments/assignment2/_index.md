@@ -1,49 +1,38 @@
 +++
 pre = "<b>A2: </b>"
-title = "Call Center Cleanup"
+title = "9 to 5"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 3
-hidden = true
+hidden = false
 +++
-
-For this assignment, we will be working with call center data. You can start 
-working on the assignment after the first lesson on Exploratory Data Analysis. 
-Make sure to read the whole assignment before starting anything! As you code 
-along in the Jupyter notebook, you are asked to make note of the results of 
-your analysis. Do so by clicking on the results box and adding your notes 
-beside each question.
 
 ## Business Issue and Understanding
 
-You are working for a company that has two call centers: the North Call 
-Center and the South Call Center. The company is looking to possibly hire five 
-additional reps to enhance customer experience. Your task is to explore how 
-efficient the current reps are in each branch to determine which branch would 
-benefit from additional assistance.
+You are working for the Bureau of Labor Statistics with the United States government and have been approached by your boss with an important meeting request. You have been asked by your supervisor to meet with Dolly Parton, whose nonprofit is looking to shed light on the state of employment in the United States. As part of the 9 to 5 project, their research is focused on production and nonsupervisory employees and how those employees fare compared to all employees in the United States. While the data the BLS collects from the CES is publicly available, Dolly Parton and her colleagues need your assistance navigating the thousands of rows in each table in `LaborStatisticsDB`.
 
-### How the Call Center Works
+## More on the Dataset
 
-Call center representatives are assigned queues. When calls are assigned to a 
-queue, the call is assigned to the next person in line in the queue. After a call 
-is assigned to a representative, the amount of time between assignment and the 
-call starting is divided into busy minutes and not ready minutes. If the call is 
-incoming and a customer is waiting on the phone for a rep, the time is split into 
-three categories: busy minutes, not ready minutes, and incoming call wait time. 
-Once the rep has the customer on the phone, there might be during call wait time, 
-where the call is put on hold while the rep gets an answer for the customer.
+For this assignment, you will be using the Bureau of Labor Statistics (BLS) Current Employment Survey (CES) results which can be found on [Kaggle](https://www.kaggle.com/datasets/bls/employment) and are already added to `LaborStatisticsDB` for you.
+
+Here are some things you need to know about this dataset:
+
+1. The industry table contains an NAICS code. This is different from the industry code. NAICS stands for North American Industry Classification System.
+1. Series ID is composed of multiple different codes. CES stands for Current Employment Survey, the name of the survey which collected the data. The industry code as specified by the BLS and the data type code as specified in the datatype table.
 
 ## Getting Started
 
-Fork [this GitHub repository](https://github.com/LaunchCodeEducation/call-center-cleanup-assignment), clone it to your computer, and open it inside of a new notebook.
+Fork this [GitHub repository](https://github.com/LaunchCodeEducation/nine-to-five-assignment) and clone it to your computer.
 
 ## Submitting Your Work
 
 When you are finished, make sure to push your changes up to GitHub. Copy the link to your GitHub 
-repository and paste it into the submission box in Canvas for Graded Assignment #2: Call Center Cleanup and click *Submit*.
+repository and paste it into the submission box in Canvas for Graded Assignment #3: 9 to 5 and click *Submit*.
 
 {{% notice blue Note "rocket" %}}
+
 The following tasks and questions in the textbook for this assignment are also located within the notebook from the above GitHub repository. You must save the answers to the questions within your notebook for grading.
+
 {{% /notice %}}
 
 {{% children %}}

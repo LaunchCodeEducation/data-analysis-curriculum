@@ -1,28 +1,26 @@
 +++
-title = "Task 1: Database Exploration"
+title = "Task 1: EDA"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 1
 +++
 
-To start with, let’s get to know the database further. You should feel comfortable doing this task after [Chapter 18: SQL Part 1]({{% relref "../../../sql-part-1/_index.md" %}}).
+This first task of this assignment is to perform some exploratory data analysis! You should feel comfortable beginning this task after you have completed [Chapter 14: Exploratory Data Analysis with Pandas]({{% relref "../../../eda-with-pandas/_index.md" %}}).
 
-{{% notice green Question %}}
+In the process of learning more about the two datasets, answer the following questions. Use the code blocks within the notebook to begin cleaning your data. At the end of the notebook, record your answers.
 
-Make note of each table in the database, the columns within each table, each column’s data type, and how the tables are connected. You can write this down or draw a diagram. Whatever method helps you get an understanding of what is going on with `LaborStatisticsDB`.
-
-To add a photo, diagram or document to your file, drop the file into the folder that holds the notebook.  Use the link button to the right of the `</>` symbol in the gray part of the cell to create a link. The link you are looking for is just the name of the file for your visual.
-
+{{% notice green Question "rocket" %}}
+How many reps are in the South branch?  
 {{% /notice %}}
 
-{{% notice green Question %}}
-
-What is the datatype for women employees?
-
+{{% notice green Question "rocket" %}}
+What is the average busy minutes, not ready minutes, incoming wait time, and during call wait time for the North branch? 
 {{% /notice %}}
 
-{{% notice green Question %}}
+{{% notice green Question "rocket" %}}
+What is the average busy minutes, not ready minutes, incoming wait time, and during call wait time for the South branch? 
+{{% /notice %}}
 
-What is the series id for women employees in the commercial banking industry in the financial activities supersector?
-
+{{% notice green Question "rocket" %}}
+What is the number of calls taken for each time block(Both North and South combined)?
 {{% /notice %}}
