@@ -26,8 +26,11 @@ Fork this [GitHub repository](https://github.com/LaunchCodeEducation/nine-to-fiv
 
 ## Submitting Your Work
 
-When you are finished, make sure to push your changes up to GitHub. Copy the link to your GitHub 
-repository and paste it into the submission box in Canvas for Graded Assignment #3: 9 to 5 and click *Submit*.
+When you are finished, make sure to save your file and upload it to the associated Canvas assignment!
+
+{{% notice green Tip "rocket" %}}
+**Windows Users:** when you are saving your edited file from Azure Data Studio, you may need to select the “Notebook” file type when saving the file to your machine.
+{{% /notice %}}
 
 {{% notice blue Note "rocket" %}}
 
