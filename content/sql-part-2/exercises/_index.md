@@ -11,7 +11,7 @@ In Azure Data Studio, click on *File* >> *Open File...* and navigate to the `SQL
 
 ## In Your Notebook
 
-Connect to `BooksDB` before starting work on the exercises.
+Connect to `RideShareDB` before starting work on the exercises.
 
 ## Submitting Your Work
 
