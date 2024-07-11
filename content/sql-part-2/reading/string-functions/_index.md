@@ -93,17 +93,17 @@ SELECT LEN('hello there!'');
 
 ### DATALENGTH
 
-`DATALENGTH` returns the length of a string based on bytes, not including trailing spaces.
+`DATALENGTH` returns the length of a string based on bytes, including trailing spaces.
 
 {{% notice blue Example "rocket" %}}
 ```SQL
-SELECT DATALENGTH('hello there!'');
+SELECT DATALENGTH('hello there!  ')
 ```
 
 **Value Returned**
 
 ```console
-12
+14
 ```
 {{% /notice %}}
 
