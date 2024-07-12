@@ -1,26 +1,50 @@
 +++
-title = "Task 2: Cleaning Data"
+title = "Task 2: Aggregate Your Friends and Code Some SQL"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 2
 +++
 
-This second task of this assignment is to clean your data! You should feel comfortable beginning this task after you have completed [Chapter 15: Cleaning Data with Pandas]({{% relref "../../../cleaning-pandas/_index.md" %}}).
+The following questions you should be able to tackle after [Chapter 8: SQL Part 2]({{% relref "../../../sql-part-2/_index.md" %}})
 
-When cleaning the datasets, you may find that there isn't dirty data to clean. That is okay! Below are some questions you need to answer about the data sets.
+{{% notice green Question %}}
 
-{{% notice green Question "rocket" %}}
-Is there any missing data and if yes explain what you would do with the missing data and why?
+How many employees were reported in 2016 in all industries? Round to the nearest whole number. 
+
+{{% /notice %}}
+     
+{{% notice green Question %}}
+
+How many women employees were reported in 2016 in all industries? Round to the nearest whole number. 
+
 {{% /notice %}}
 
-{{% notice green Question "rocket" %}}
-In the North data set, there are two separate "YES" values for a sale. Why and how did you rectify the issue?
-{{% /notice %}}
+{{% notice green Question %}}
 
-{{% notice green Question "rocket" %}}
-Are there duplicates in the two data sets? If there are, how did you handle them?
-{{% /notice %}}
+How many production/nonsupervisory employees were reported in 2016? Round to the nearest whole number.
 
-{{% notice green Question "rocket" %}}
-Is any of the data in the two data sets unnecessary? If yes, how did you handle it?
+{{% /notice %}} 
+
+{{% notice green Question %}}
+
+In January 2017, what is the average weekly hours worked by production and nonsupervisory employees across all industries?
+
+{{% /notice %}}  
+
+{{% notice green Question %}}
+
+What is the total weekly payroll for production and nonsupervisory employees across all industries in January 2017? Round to the nearest penny, please.
+
+{{% /notice %}}   
+
+{{% notice green Question %}}
+
+In January 2017, for which industry was the average weekly hours worked by production and nonsupervisory employees the highest? Which industry was the lowest?
+
+{{% /notice %}} 
+
+{{% notice green Question %}}
+
+In January 2021, for which industry was the total weekly payroll for production and nonsupervisory employees the highest? Which industry was the lowest?
+
 {{% /notice %}}
