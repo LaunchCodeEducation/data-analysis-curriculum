@@ -22,7 +22,7 @@ Here are some things you need to know about this dataset:
 
 ## Getting Started
 
-Fork this [GitHub repository](https://github.com/LaunchCodeEducation/nine-to-five-assignment) and clone it to your computer.
+Download the `9-to-5.ipynb` file included within the canvas assignment, open it within Azure Data Studio and connect to the `LaborStatisticsDB`.
 
 ## Submitting Your Work
 
@@ -34,7 +34,7 @@ When you are finished, make sure to save your file and upload it to the associat
 
 {{% notice blue Note "rocket" %}}
 
-The following tasks and questions in the textbook for this assignment are also located within the notebook from the above GitHub repository. You must save the answers to the questions within your notebook for grading.
+The following tasks and questions in the textbook for this assignment are also located within the `9-to-5.ipynb` file. You must save the answers to the questions within your notebook for grading.
 
 {{% /notice %}}
 
