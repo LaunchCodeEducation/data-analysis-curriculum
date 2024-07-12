@@ -5,7 +5,7 @@ draft = false
 weight = 4
 +++
 
-You can answer the following questions after [Chapter 21: SQL Part 4]({{% relref "../../../sql-part-4/_index.md" %}}).
+You can answer the following questions after [Chapter 10: SQL Part 4]({{% relref "../../../sql-part-4/_index.md" %}}).
 
 {{% notice green Question %}}
 

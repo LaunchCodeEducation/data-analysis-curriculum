@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-To start with, let’s get to know the database further. You should feel comfortable doing this task after [Chapter 18: SQL Part 1]({{% relref "../../../sql-part-1/_index.md" %}}).
+To start with, let’s get to know the database further. You should feel comfortable doing this task after [Chapter 7: SQL Part 1]({{% relref "../../../sql-part-1/_index.md" %}}).
 
 {{% notice green Question %}}
 

@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-The following questions you should be able to tackle after [Chapter 19: SQL Part 2]({{% relref "../../../sql-part-2/_index.md" %}})
+The following questions you should be able to tackle after [Chapter 8: SQL Part 2]({{% relref "../../../sql-part-2/_index.md" %}})
 
 {{% notice green Question %}}
 
