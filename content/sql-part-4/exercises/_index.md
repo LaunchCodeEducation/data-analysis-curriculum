@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Open up the `SQL-Part-4-Exercises.ipynb` notebook in `data-analysis-projects/sql-part-4/exercises` using Azure Data Studio. 
+In Azure Data Studio, click on *File* >> *Open File...* and navigate to the `SQL-Part-4-Exercises.ipynb` file you downloaded from canvas. 
 
 ## In Your Notebook
 
@@ -15,6 +15,8 @@ Connect to the `BookDB` before starting your work on the exercises.
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub.
+When finished, upload your completed document to canvas!
 
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Exercises: SQL Part 4** and click *Submit*.
+{{% notice green Tip "rocket" %}}
+**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+{{% /notice %}}
