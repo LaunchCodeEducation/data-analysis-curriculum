@@ -9,8 +9,12 @@ weight = 3
 
 For this week's studio, open up the `SQL-Part-5-Studio.ipynb` notebook in `data-analysis-projects/sql-part-5/studio`. You will need some starter data as you work which is all in the `data` directory within the `studio` directory.
 
+In Azure Data Studio, click on the *File* >> *Open File...* and navigate to `SQL-Part-3-Studio.ipynb` you downloaded from canvas.
+
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub. 
+When finished, upload your completed document to canvas!
 
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Studio: SQL Part 5** and click *Submit*.
+{{% notice green Tip "rocket" %}}
+**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+{{% /notice %}}
