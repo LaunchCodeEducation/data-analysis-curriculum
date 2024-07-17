@@ -11,6 +11,7 @@ hidden = true
 ## Learning Objectives
 1. Understand what a subqueries are and how they are structured.
 1. Understand the difference between a correlated and non-correlated subqueries.
+2. Understand what a Common Table Expression is and the potential benefit compared to subqueries.
 1. Understand the differences between `UNION`, `INTERSECT`, and `EXCEPT`.
 
 ## Key Terminology
@@ -18,6 +19,9 @@ hidden = true
 ### Subqueries
 1. Subqueries
 1. Correlated subquery
+
+### Common Table Expression
+1. Common Table Expression (CTE)
 
 ### `UNION`, `INTERSECT`, `EXCEPT`
 1. `UNION`
