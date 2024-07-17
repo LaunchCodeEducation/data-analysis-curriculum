@@ -7,7 +7,8 @@ weight = 2
 
 ## Getting Started
 
-Open up the `SQL-Part-5-Exercises.ipynb` notebook in `data-analysis-projects/sql-part-5/exercises`.
+In Azure Data Studio, click on *File* >> *Open File...* and navigate to the `SQL-Part-5-Exercises.ipynb` file you downloaded from canvas.
+
 
 For the exercises and studio in this chapter, you need to connect to the `JunkDB` named after your class. This database serves as a playground for you to experiment with what you learned in this chapter. 
 
