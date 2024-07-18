@@ -23,7 +23,7 @@ hidden = false
 ### Common Table Expression
 1. Common Table Expression (CTE)
 
-### `UNION`, `INTERSECT`, `EXCEPT`
+### UNION, INTERSECT, EXCEPT
 1. `UNION`
 1. `INTERSECT`
 1. `EXCEPT`
