@@ -2,7 +2,7 @@
 title = "Common Table Expressions"
 date = 2024-07-15T07:15:00-06:00
 draft = false
-weight = 1
+weight = 3 
 +++
 
 **Common Table Expressions** or CTEs are an alternative approach to subqueries, and can be easier to both logically read and write, as well as allow for their output to be referenced multiple times within a SQL code block.

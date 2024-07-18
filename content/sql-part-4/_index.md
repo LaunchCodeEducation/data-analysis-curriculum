@@ -1,11 +1,11 @@
 +++
-pre = "<b>21. </b>"
+pre = "<b>10. </b>"
 chapter = true
-title = "SQL Part 4: Subqueries, UNION, INTERSECT, EXCEPT"
+title = "SQL Part 4: Subqueries, CTEs, UNION, INTERSECT, EXCEPT"
 date = 2024-03-12T15:04:03-05:00
 draft = false
-weight = 21
-hidden = true
+weight = 10
+hidden = false 
 +++
 
 ## Learning Objectives
@@ -23,7 +23,7 @@ hidden = true
 ### Common Table Expression
 1. Common Table Expression (CTE)
 
-### `UNION`, `INTERSECT`, `EXCEPT`
+### UNION, INTERSECT, EXCEPT
 1. `UNION`
 1. `INTERSECT`
 1. `EXCEPT`
