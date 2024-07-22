@@ -24,6 +24,7 @@ Here is a list of key terms for this chapter broken down by the page they first 
 ### Schemas
 
 1. schema
+2. Edits made
 
 ### Create
 
