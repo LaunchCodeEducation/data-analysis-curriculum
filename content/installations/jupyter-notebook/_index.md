@@ -7,7 +7,7 @@ weight = 5
 
 ## Setting up Jupyter Notebook
 
-This is an example of lines removed.
+This is an examples of lines removed.
 
 The following command will install Jupyter Notebook onto your machine:
 
