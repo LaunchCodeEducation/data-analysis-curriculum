@@ -7,7 +7,7 @@ weight = 5
 
 ## Setting up Jupyter Notebook
 
-[Jupyter](https://jupyter.org/) is a non-profit, open-source project that offers various tools and solutions. This course will utilize [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/) for documentation and code editing all within your browser.
+This is an example of lines removed.
 
 The following command will install Jupyter Notebook onto your machine:
 
