@@ -24,7 +24,7 @@ WHERE CouponID = 143;
 
 Now the value of `Category` is changed for all records where the `CouponID` value is 146.
 
-## ChecK Your Understanding
+## Check Your Understanding
 
 {{% notice green Question %}}
 
