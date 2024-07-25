@@ -20,6 +20,8 @@ The example below shows how you can use the same process of finding the schema n
 
 ## Submitting Your Work
 
-When finished make sure to push your changes up to GitHub. 
+When finished, upload your completed document to canvas!
 
-Copy the link to your GitHub repository and paste it into the submission box in Canvas for **Exercises: SQL Part 5** and click *Submit*.
+{{% notice green Tip "rocket" %}}
+**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+{{% /notice %}}
