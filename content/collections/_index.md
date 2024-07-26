@@ -1,11 +1,11 @@
 +++
-pre = "<b>12. </b>"
+pre = "<b>17. </b>"
 chapter = true
 title = "Collections"
 date = 2024-02-20T09:31:05-06:00
 draft = false
-weight = 12
-hidden = true
+weight = 17
+hidden = false 
 +++
 
 ## Learning Objectives
