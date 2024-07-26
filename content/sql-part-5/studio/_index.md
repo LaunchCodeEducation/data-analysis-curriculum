@@ -9,6 +9,10 @@ weight = 3
 
 In Azure Data Studio, click on the *File* >> *Open Folder...* and navigate to `SQL-Part-5-Studio` folder you downloaded from canvas. You will need some starter data as you work which is all in the `data` directory included in the `SQL-Part-5-Studio` folder.
 
+{{% notice blue Note "rocket" %}}
+The files within the data directory are meant to help you populate your tables with some initial values for you to practice with. There are prompts within the studio file to help walk you through this process.
+{{% /notice %}}
+
 ## Submitting Your Work
 
 When finished, upload your completed `SQL-Part-5-Studio.ipynb` file to canvas!
