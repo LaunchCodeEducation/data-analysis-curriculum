@@ -6,6 +6,4 @@ draft = false
 weight = 1000
 +++
 
-## Content Links
-
 {{% children %}}

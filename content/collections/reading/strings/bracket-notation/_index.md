@@ -27,6 +27,7 @@ characters that make up a string. To access a character, we use the following sy
 
 ```python
 some_string[index]
+```
 
 The expression `'school'[2]` selects the character at index `2` and creates
 a new string containing just that one character.
@@ -64,7 +65,6 @@ print(len(this_string))
 ```console
 20
 ```
-
 
 ``len(this_string)`` evaluates to 20, and that value gets printed to the
 console.
