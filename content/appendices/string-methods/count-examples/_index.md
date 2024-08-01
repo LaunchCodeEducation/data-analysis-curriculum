@@ -6,72 +6,65 @@ draft = false
 weight = 1
 +++
 
-.. _string-count-examples:
-
-.. index::
-   single: string; count
-
-``count`` Examples
-==================
+## `count` Examples
 
 The general syntax for this method is:
 
-.. sourcecode:: python
+```python
+string_name.count(search_string)
+```
 
-   string_name.count(search_string)
+This method returns the number of times `search_string` occurs in
+`string_name`.
 
-This method returns the number of times ``search_string`` occurs in
-``string_name``.
+{{% notice blue Example "rocket" %}}
+```python
+print('bananas'.count('a'))
+print('bananas'.count('B'))
+print('bananas'.count('nana'))
+```
 
-.. admonition:: Example
+**Console Output**
 
-   .. sourcecode:: python
-      :linenos:
-         
-      print('bananas'.count('a'))
-      print('bananas'.count('B'))
-      print('bananas'.count('nana'))
+```console
+3
+0
+1
+```
+{{% /notice %}}
 
-   **Console Output**
 
-   ::
 
-      3
-      0
-      1
+Note that `count()` searches for the EXACT string placed in the `()`. Even
+though `bananas` contains the letter `'b'`, since the case does NOT match
+in line 2, the expression returns `0`.
 
-Note that ``count()`` searches for the EXACT string placed in the ``()``. Even
-though ``bananas`` contains the letter ``'b'``, since the case does NOT match
-in line 2, the expression returns ``0``.
+##Search Part of a String
 
-Search Part of a String
------------------------
+The `count()` method can also take a starting and ending index value:
 
-The ``count()`` method can also take a starting and ending index value:
+```python
+string_name.count(search_string, start, end)
+```
 
-.. sourcecode:: python
+Written this way, the method searches `string_name` from the `start` index
+up to but NOT including the `end` index.
 
-   string_name.count(search_string, start, end)
+{{% notice blue Example "rocket" %}}
+```python
+produce = 'Bananas and rutabagas!'
+# Note that the first three 'a' characters are at index values 1, 3, and 5.
+   
+print(produce.count('a'))
+print(produce.count('a', 1, 5))
+print(produce.count('a', 1, 6))
+```
 
-Written this way, the method searches ``string_name`` from the ``start`` index
-up to but NOT including the ``end`` index.
+**Console Output**
 
-.. admonition:: Example
-
-   .. sourcecode:: python
-      :linenos:
-
-      produce = 'Bananas and rutabagas!'
-      # Note that the first three 'a' characters are at index values 1, 3, and 5.
-         
-      print(produce.count('a'))
-      print(produce.count('a', 1, 5))
-      print(produce.count('a', 1, 6))
-
-   **Console Output**
-
-   ::
-
-      7
-      2
-      3
+```console
+7
+2
+3
+```
+{{% /notice %}}
