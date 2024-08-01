@@ -6,77 +6,66 @@ draft = false
 weight = 2
 +++
 
-.. _string-find-examples:
-
-.. index::
-   single: string; find
-
-``find`` and ``index`` Examples
-===============================
+## ``find`` and ``index`` Examples
 
 The general syntax for these methods is:
 
-.. sourcecode:: python
+```python
+string_name.find(a_string)
+string_name.index(a_string)
+```
 
-   string_name.find(a_string)
-   string_name.index(a_string)
+`a_string` is called a **substring**, which means that it will match a
+smaller part of `string_name`.
 
-.. index:: substring
+Given the value `a_string`, both `find()` and `index()` return the
+integer index for the *first* occurrence of `a_string` in `string_name`.
 
-``a_string`` is called a **substring**, which means that it will match a
-smaller part of ``string_name``.
+The difference between the two methods appears when `a_string` is NOT found
+in `string_name`.
 
-Given the value ``a_string``, both ``find()`` and ``index()`` return the
-integer index for the *first* occurrence of ``a_string`` in ``string_name``.
+1. `find()` returns a value of `-1`.
+1. `index()` throws and error, and the program stops running.
 
-The difference between the two methods appears when ``a_string`` is NOT found
-in ``string_name``.
+{{% notice blue Examples "rocket" %}}
+```python
+text = "Rainbow Unicorns"
+pets = "dogs and dogs and dogs!"
 
-#. ``find()`` returns a value of ``-1``.
-#. ``index()`` throws and error, and the program stops running.
+print(text.find('i'))
+print(pets.index('dog'))
 
-.. admonition:: Examples
+print(text.find('Q'))
+print(pets.index('cats'))
+```
+
+**Console Output**
+
+```console
+2
+0
+-1
+ValueError, line 8: substring not found
+```
+{{% /notice %}}
    
-   .. sourcecode:: python
-      :linenos:
+{{% notice blue Example "rocket" %}}
+An email address must contain an `@` symbol. Checking for this symbol is a
+part of email verification in most programs.
 
-      text = "Rainbow Unicorns"
-      pets = "dogs and dogs and dogs!"
+```python
+user_input = "fake.email@launchcode.org"
+at_index = user_input.find("@")
 
-      print(text.find('i'))
-      print(pets.index('dog'))
+if at_index > -1:
+   print("Email contains @")
+else:
+   print("Invalid email")
+```
 
-      print(text.find('Q'))
-      print(pets.index('cats'))
+**Console Output**
 
-   **Console Output**
-
-   ::
-
-      2
-      0
-      -1
-      ValueError, line 8: substring not found
-
-
-.. admonition:: Example
-
-   An email address must contain an ``@`` symbol. Checking for this symbol is a
-   part of email verification in most programs.
-
-   .. sourcecode:: python
-      :linenos:
-   
-      user_input = "fake.email@launchcode.org"
-      at_index = user_input.find("@")
-      
-      if at_index > -1:
-         print("Email contains @")
-      else:
-         print("Invalid email")
-
-   **Console Output**
-
-   ::
-
-      Email contains @   
+```console
+Email contains @   
+```
+{{% /notice %}}
