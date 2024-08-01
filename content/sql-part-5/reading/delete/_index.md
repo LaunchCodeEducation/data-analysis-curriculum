@@ -50,12 +50,6 @@ Write a query to delete any records with a `Description` of Frozen from the `Rec
 
 {{% notice green Question %}}
 
-Write a query to clear all the contents of the `Recipes` table.
-
-{{% /notice %}}
-
-{{% notice green Question %}}
-
 Which of the following queries will delete the entire `Recipes` table?
 
 1. `DROP TABLE schema_name.Recipes;`
