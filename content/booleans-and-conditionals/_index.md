@@ -1,11 +1,11 @@
 +++
-pre = "<b>10. </b>"
+pre = "<b>15. </b>"
 chapter = true
 title = "Making Decisions with Conditionals"
 date = 2024-02-12T11:52:57-06:00
 draft = false
-weight = 10
-hidden = true
+weight = 15
+hidden = false
 +++
 
 ## Learning Objectives
