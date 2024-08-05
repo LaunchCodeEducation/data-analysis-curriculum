@@ -8,4 +8,10 @@ weight = 1
 
 ## Content Links
 
+{{% notice blue Note "rocket" %}}
+In addition to the following readings there is also a section in the book that covers common Python string methods. You can find that section by clicking on the following link:
+
+[Python String Methods]({{% relref "../../../appendices/string-methods/_index.md" %}})
+{{% /notice %}}
+
 {{% children %}}
