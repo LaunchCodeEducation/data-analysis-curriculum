@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-The following exercises can be worked on within the `data-analysis-projects/exercises/exercises.py` file!
+The following exercises can be worked on within the `data-analysis-projects/data-and-variables/exercises/exercises.py` file!
 
 ## The Data
 
