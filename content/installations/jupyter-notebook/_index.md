@@ -9,7 +9,44 @@ weight = 5
 
 [Jupyter](https://jupyter.org/) is a non-profit, open-source project that offers various tools and solutions. This course will utilize [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/latest/) for documentation and code editing all within your browser.
 
-The following command will install Jupyter Notebook onto your machine:
+{{% notice blue Note "rocket" %}}
+This course will utilize virtual environments when installing Jupyter Notebook and other external libraries onto your machine. You can read more about virtual environments here: [venv - Creation of virtual environments](https://docs.python.org/3/library/venv.html)
+{{% /notice %}}
+
+## Creating a Virtual Environment
+
+You can create a new virtual environment inside of any directory of your choice. However, for this class it would be wise to create it inside of the root directory of your `data-analysis-projects` directory.
+
+1. Navigate to your `data-analysis-projects` directory and run the following command:
+
+    ```python
+    # -m (module) 
+    # venv (venv module) 
+    # venv (directory name - think of this last piece as a variable, you can name it anything, venv is a typical naming convention)
+    python -m venv venv
+    ```
+
+{{% notice blue Note "rocket" %}}
+If the above command does not work, you may need to specify `python3`:
+
+```python
+python3 -m venv venv
+```
+{{% /notice %}}
+
+The above command will create a virtual environment called `venv` using the `venv` module.
+
+### Activating the Environment
+
+1. While inside of the directory that you installed your virtual environment you can run the following command to activate it:
+
+    ```python
+    source venv/bin/activate
+    ```
+
+Source is a built-in shell command that will execute any file provided as an argument. In this particular scenario we are sourcing the `activate` script located within `bin` directory that contains executable files.
+
+Once you have activated your virtual enviroment, the following commands will install Jupyter Notebook within it:
 
 ```console
 pip install notebook
