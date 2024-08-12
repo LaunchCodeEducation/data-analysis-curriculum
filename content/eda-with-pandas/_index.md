@@ -29,6 +29,9 @@ hidden = true
 ### pandas Functions
 - pandas functions
 
+### NumPy Functions
+- NumPy functions
+
 ## Content Links
 
 {{% children %}}
