@@ -144,13 +144,13 @@ We have used the phrase `Hello, World` as an example throughout this chapter bec
 
 ![file tree for hello-world repo](../images/visual-studio-code-view.png?classes=border)
 
-1. Double click on `hello.js` to open the file.  You should see instructions and `console.log("Hello");`.  You can type in this file now.  Follow the instructions to complete your first program.  
+1. Double click on `hello.py` to open the file.  You should see instructions and `console.log("Hello");`.  You can type in this file now.  Follow the instructions to complete your first program.  
    1. Enter your code on line 6 to print 'Hello, World!'
    1. Open a terminal inside Visual Studio Code.  If you need a refresher, checkout the [installation guide]({{% relref "../../../installations/install-visual-studio" %}}).
    1. Inside your terminal type the following commands
       1. Next type the command `python3 hello.py`.  This should run the program, which in this case prints your message in the terminal.  
       ```bash
-      python3 hello.js
+      python3 hello.py
       Hello World!
       ```
    1. Try out the other prompts starting at line 10.
