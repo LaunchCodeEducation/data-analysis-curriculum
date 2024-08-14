@@ -1,11 +1,11 @@
 +++
-pre = "<b>15. </b>"
+pre = "<b>20. </b>"
 chapter = true
 title = "Cleaning Data with Pandas"
 date = 2024-02-27T13:59:58-06:00
 draft = false
-weight = 15
-hidden = true
+weight = 20
+hidden = false
 +++
 
 ## Learning Objectives

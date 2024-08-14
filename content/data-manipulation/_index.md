@@ -1,11 +1,11 @@
 +++
-pre = "<b>16. </b>"
+pre = "<b>21. </b>"
 chapter = true
 title = "Data Manipulation"
 date = 2024-03-12T15:04:03-05:00
 draft = false
-weight = 16
-hidden = true
+weight = 21
+hidden = false
 +++
 
 ## Learning Objectives

@@ -1,11 +1,11 @@
 +++
-pre = "<b>17. </b>"
+pre = "<b>22. </b>"
 chapter = true
 title = "Data Visualization with Python"
 date = 2024-03-11T13:58:38-05:00
 draft = false
-weight = 17
-hidden = true
+weight = 22
+hidden = false
 +++
 
 ## Learning Objectives
