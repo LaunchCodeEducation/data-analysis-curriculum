@@ -4,7 +4,7 @@ title = "Call Center Cleanup"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 4
-hidden = true
+hidden = false
 +++
 
 For this assignment, we will be working with call center data. You can start 
