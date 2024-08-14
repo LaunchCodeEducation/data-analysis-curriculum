@@ -15,6 +15,12 @@ Exploratory Data Analysis or EDA as you already know is a critical step when beg
 pandas and other libraries like **NumPy** are not default Python packages. This means that we will need to install and import any external package that we need into our workspace to use their functionality.
 {{% /notice %}}
 
+## Jupyter Notebooks
+
+{{% notice orange Warning "rocket" %}}
+Before moving forward take a look at [this section on Jupyter Notebooks]({{% relref "../../../installations/jupyter-notebook/_index.md" %}})
+{{% /notice %}}
+
 ## pandas
 
 The pandas library is incredibly powerful and was built specifically for data analysis work. The library comes with many useful tools and data structures that we will cover more in depth in the upcoming readings.
