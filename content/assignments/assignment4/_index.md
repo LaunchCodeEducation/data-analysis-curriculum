@@ -15,9 +15,7 @@ is broken into five checkpoints and a final presentation.
 1. [Selecting your business issue and dataset]({{% relref "./checkpoint-1" %}})
 1. [EDA]()
 1. [Cleaning data]({{% relref "./checkpoint-3" %}})
-1. [Manipulate, interpret, and visualize data]()
-1. [Modelling data]()
-1. [Final Project Fair]()
+1. [Manipulate, interpret, and visualize data]({{% relref "./checkpoint-4" %}})
 
 Examples of final project repositories to help you understand the requirements and complete your own:
 
