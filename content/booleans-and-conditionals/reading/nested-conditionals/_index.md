@@ -57,7 +57,21 @@ conditional determines whether or not to consider the second.
 Notice that when we put one conditional inside another, the body of the nested
 conditional is indented by two levels rather than one. In Python, the indentation 
 of an `if` statement determines if it is nested. For an `if`
-statement to run inside another, it must be indented more than the outer conditional. 
+statement to run inside another, it must be indented more than the outer conditional.
+
+The correct solution looks like this:
+
+```python
+entry = int(input("Enter a whole number: "))
+
+if entry%2 == 0:
+   print("EVEN!")
+
+   if entry > 0:
+      print("POSITIVE")
+```
+
+Now, run the two different blocks of code in your IDE. You will see that the correctly nested version of the code will only output POSITIVE if the original if condition evaluates as True.
 
 ## Nesting Also Works With `else`
 
