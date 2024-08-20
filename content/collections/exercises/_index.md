@@ -102,16 +102,20 @@ The following exercises can be found in the `data-analysis-projects/collections/
    {{% expand "Check Your Solution" %}}
    ```python {linenos=table}
    # 1
+
    cargo_hold[5] = 'space tether'
    
    # 4
+
    cargo_hold.append('20 meters')
+
    cargo_hold.insert(0, 1138)
    
    # 6
+
    output = "The list {0} contains {1} items."
+
    print(output.format(cargo_hold, len(cargo_hold)))
-   Back to the exercises.
    ```
    {{% /expand %}}
 
@@ -119,41 +123,99 @@ The following exercises can be found in the `data-analysis-projects/collections/
 
 The exercises for this portion can be found in the `data-analysis-projects/collections/exercises/search-a-dictionary.py` file.
 
-The `flavors` dictionary contains entries that pair different ice cream
-flavors with their cost per scoop. Your job is to do the following:
+The `flavors` dictionary contains entries that pair different ice cream flavors with their cost per scoop. Your job is to do the following:
 
-1. Write a function called `return_cost` that takes a dictionary and flavor choice as parameters.
-   
-   - The function searches the dictionary for the flavor and returns its cost.
-   - If the flavor is not in the dictionary, return a value of `0`.
+1. Set a variable called choice to the flavor you want to search for.
 
    {{% expand "Check Your Solution" %}}
    ```python
-   def return_cost(menu, item):
-       if item in menu:
-           return menu[item]
-       return 0
+   choice = 'vanilla'
    ```
    {{% /expand %}}
 
-1. After coding the `return_cost` function, run the program and examine the output. Make sure your function behaves as expected before moving to the next step. Don't forget to assign different strings to the `choice` variable! 
-   
-1. Write a function called `fanciest_flavor` that takes a dictionary as a parameter. The function should return the key name for the most expensive choice in the dictionary.
+1. Use an if statement to check if choice is in the flavors
+dictionary.
 
    {{% expand "Check Your Solution" %}}
    ```python
-   def fanciest_flavor(menu):
-       highest_cost = 0
-       fanciest = ''
-       for (flavor, price) in menu.items():
-           if price > highest_cost:
-               fanciest = flavor
-               highest_cost = price
-       return fanciest
+   if choice in flavors:
+   ```
+   {{% /expand %}}
+   
+1. If it is, set another variable called cost to the value
+associated with choice.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   cost = flavors[choice]
    ```
    {{% /expand %}}
 
-1. Uncomment the 3 indicated lines in `main()`, then run the program several times and examine the output. Change the prices in `flavors` after each run to make sure your function correctly identifies the most expensive ice cream flavor.
+1. If it isn’t, set cost to 0.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   else:
+      cost = 0
+   ```
+   {{% /expand %}}
+
+1. Print the cost.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   print('The cost of', choice, 'is', cost)
+   ```
+   {{% /expand %}}
+
+
+### Search a Dictionary Part 2
+
+1. Initialize two variables: highest_cost to 0 and fanciest to an
+empty string.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   highest_cost = 0
+
+   fanciest = ''
+   ```
+   {{% /expand %}}
+
+1. Loop through the flavors dictionary using a for loop.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   for flavor in flavors:
+   ```
+   {{% /expand %}}
+
+1. For each flavor, check if its price is higher than highest_cost.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   if flavors[flavor] > highest_cost:
+   ```
+   {{% /expand %}}
+
+1. If it is, update fanciest to this flavor and highest_cost to its
+price.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   fanciest = flavor
+
+   highest_cost = flavors[flavor]
+   ```
+   {{% /expand %}}
+
+1. After the loop, print the most expensive flavor.
+
+   {{% expand "Check Your Solution" %}}
+   ```python
+   print('The fanciest flavor is', fanciest, 'and it costs', highest_cost)
+   ```
+   {{% /expand %}}
 
 ## Submitting Your Work
 
