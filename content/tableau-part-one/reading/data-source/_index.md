@@ -38,8 +38,8 @@ When you connect to a data source using Tableau, each column within your data se
 
 You are able to right-click any field and convert it to a **Measure** or **Dimension**. The easiest ways to associate a field with the appropriate role are as follows:
 
-1. `Measure`: qualitative values (numerical data)
-1. `Dimension`: quantitative values (non-numerical)
+1. `Measure`: quantitative values (numerical data)
+1. `Dimension`: qualitative values (non-numerical)
 
 ## Connecting Data
 
