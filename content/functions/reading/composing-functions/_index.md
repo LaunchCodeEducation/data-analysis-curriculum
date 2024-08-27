@@ -14,13 +14,16 @@ def double_number(num):
    return num*2
 
 integer = 8
-double_number(integer)
+result = double_number(integer)
+print(result)
 
 if integer > 5:
-   double_number(integer)
+   result = double_number(integer)
+   print(result)
 
 for number in range(10):
-   double_number(number)
+   result = double_number(number)
+   print(result)
 ```
 
 {{% /notice %}}

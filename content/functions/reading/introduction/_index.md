@@ -50,7 +50,7 @@ print("The variable num is of type", type(num), "and has value", num)
 **Console Output**
 
 ```console
-The variable num is of type number and has value 42
+The variable num is of type <class 'int'> and has value 42.
 ```
 
 {{% /notice %}}

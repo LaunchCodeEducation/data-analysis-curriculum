@@ -95,17 +95,15 @@ keyword.
 def add_numbers_together(num):
    total = 0
    while num < 100:
-      total += number
-      number +=1
+      total += num 
+      num +=1
    
    return total
 
 print("Hello, World!")
 ```
 
-Line 1 defines the function name and parameter. Lines 2 - 6 are part of the
-function body. Line 9 is even with the `def` keyword, so it is NOT part of
-the `add_list_numbers` function.
+Line 1 defines the function name and parameter. Lines 2 - 7 are part of the function body. Line 9 is even with the `def` keyword, so it is NOT part of the `add_numbers_together function`. Since the function `add_numbers_together` is defined but not called, only the message `"Hello, World!"` will print. The function itself will not execute until it is explicitly called in the code.
 
 {{% /notice %}}
 
