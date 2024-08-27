@@ -33,12 +33,10 @@ For our sandwich function, the answers might look like this:
 * Function name: `make_sandwich`
 * Parameters: bread, filling, condiments
 * Parameter names and types: `bread_type` (string), `filling_type` (string), `condiment` (string)
-* Return Value: The finished sandwich
-* Return Type: An object of type `sandwich`
+* Return Value: A string that describes the sandwich, such as `'Turkey sandwich with mustard'`.
+* Return Type: String 
     
-Python does not actually have a `sandwich` data type, but we want our
-function to be as flexible as possible. For now, recognize that returning a
-simple string to describe the sandwich will not be useful.
+As you continue to grow with Python, you will be able to return complex data types that encapsulate more and more powerful components. For now, focus on returning simple types like strings.
 
 ## Step 2: Create the Basic Structure
 
