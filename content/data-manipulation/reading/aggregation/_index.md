@@ -31,7 +31,7 @@ Let's take things a step further and aggregate the data within the grouped colum
 grouping_variable = your_data.groupby(["column_name"]).sum()
 ```
 
-The above code will return the sum of all values within the provided column, giving you a count of each unique value inside.
+The above code will group the dataset by 'column_name', and will then return the sum of all values within each column grouped by each unique value in the 'column_name' column
 {{% /notice %}}
 
 The `.groupby()` method can take multiple columns as a parameter upon creation, but it is best practice to only provide as many columns as needed for your analysis. As you increase the amount of grouped columns, you are also increasing the amount of compute power and memory needed, which can lead to performance issues.
