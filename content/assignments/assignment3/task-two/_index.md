@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-This second task of this assignment is to clean your data! You should feel comfortable beginning this task after you have completed [Chapter 15: Cleaning Data with Pandas]({{% relref "../../../cleaning-pandas/_index.md" %}}).
+This second task of this assignment is to clean your data! You should feel comfortable beginning this task after you have completed [Chapter 20: Cleaning Data with Pandas.]({{% relref "../../../cleaning-pandas/_index.md" %}})
 
 When cleaning the datasets, you may find that there isn't dirty data to clean. That is okay! Below are some questions you need to answer about the data sets.
 

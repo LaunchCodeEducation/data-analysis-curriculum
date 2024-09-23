@@ -5,7 +5,7 @@ draft = false
 weight = 3
 +++
 
-This third task of this assignment involves manipulating your data. You should feel comfortable beginning this task after you have completed [Chapter 16: Data Manipulation]({{% relref "../../../data-manipulation/_index.md" %}}).
+This third task of this assignment involves manipulating your data. You should feel comfortable beginning this task after you have completed [Chapter 21: Data Manipulation]({{% relref "../../../data-manipulation/_index.md" %}})
 
 Before you begin answering any questions, combine the two existing datasets together within your notebook to create a third dataframe called df. You can use this third dataframe to compare the two call centers to company-wide trends.
 
