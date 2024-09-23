@@ -11,7 +11,7 @@ Now that we have covered some of the basics we will create a chart with our impo
 If you have closed out the data connection to the `netflix_titles.csv` file, reopen the connection!
 {{% /notice %}}
 
-Using the `netflix_titles.csv` data, we will create a bar chart that shows the `Type` (Movie or TV Show), the `Date Added` (What year the Movie or TV show was added to Netflix), and we will use the `Show Id` as a unique identifier to provide a `CNT` measure. The result will be a bar chart that displays how many `Movies` and `TV Shows` were added to Netflix and in what year they were added.
+Using the `netflix_titles.csv` data, we will create a bar chart that shows the `Type` (Movie or TV Show), the `Date Added` (What year the Movie or TV show was added to Netflix), and the `Show Id` as a unique identifier to provide a `CNT` (count) measure. The result will be a bar chart that displays how many `Movies` and `TV Shows` were added to Netflix and in what year they were added.
 
 ## Creating the Chart
 
@@ -21,18 +21,20 @@ Using the `netflix_titles.csv` data, we will create a bar chart that shows the `
 
 ![Visual of a tableau workbook with the Type as a column, and Show Id as a measure of count as a row](pictures/type-show-id-checkpoint.png?classes=border)
 
-1. Now we can add `Date Added` pill to the `Columns` shelf.
+3. Now we can add the `Date Added` pill to the `Columns` shelf.
 
 ![Visual of tableau workbook with the Type and Date Added as columns, and Show ID as a measure of count as a row](pictures/date-added-checkpoint.png?classes=border)
 
-It is important to notice and understand the meaning of the green and blue pills in Tableau. As mentioned previously, the two main data types in Tableau are Measures and Dimensions. Green pills typically represent quantitative data, which are numerical data which can be measured or counted, and hence are the Measures of your dataset(s). Examples of quantitative data include:
+It is important to notice and understand the meaning of the green and blue pills in Tableau. As mentioned previously, the two main data types in Tableau are Measures and Dimensions. 
+
+Green pills typically represent quantitative data, which is numerical data that can be measured or counted, and hence are the **Measures** of your dataset(s). Examples of quantitative data include:
 
 * Sales figures
 * Customer age
 * Product price
 * Revenue
 
-Blue pills represent qualitative data, which are non-numerical data which describe attributes or characteristics, and hence are the Dimensions of your dataset(s). Examples of qualitative data include:
+Blue pills represent qualitative data, which is non-numerical data that describes attributes or characteristics, and hence are the **Dimensions** of your dataset(s). Examples of qualitative data include:
 
 * Product category
 * Product color
