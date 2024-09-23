@@ -49,7 +49,31 @@ You can select or include a function from a list during the process of creating 
 
 ## Table Calculations
 
-Table calculations are considered any manipulation or transformation applied to any value that is already visualized. These calculations allow you to perform analytics and add context to your visualizations by comparing individual values to the overall data set or a specific partition. Table calculations are powerful because they can be used to calculate running totals, moving averages, percentages of totals, and much more.
+Table calculations in Tableau are a powerful tool for performing calculations on data within a visualization, based on the context of the table or chart. They allow you to create dynamic and informative visualizations which provide insights into your data that would be difficult or impossible to achieve with simple calculations.
+
+Here are a few key concepts to be familiar with in creating table calculations:
+
+* Addressing: Determines the direction in which the calculation is performed. For example, across rows, down columns, or across a specific dimension.
+* Partitioning: Defines the groups or subsets of data within which the calculation is applied. This allows you to perform calculations on specific segments of your data.
+* Compute Using: Specifies the field or fields that determine the calculation's scope and direction.
+
+Ther are severak common table calculation functions immediate available within Tableau:
+
+* Running Totals: Accumulate values over time or across categories.
+* Differences: Calculate the difference between values in adjacent rows or columns.
+* Percentages: Calculate percentages of totals or grand totals.
+* Moving Averages: Calculate averages over a specific window of data.
+* Rank: Rank values within a group or partition.
+* Custom Calculations: Create your own calculations using Tableau's built-in functions and operators.
+
+To add a table calculation to a visualization within Tableau:
+
+1. Build your basic visualization using your desired dimension(s) and measure(s).
+2. Right-click on the measure you want to calculate and select "Quick Table Calculation" or "Edit Table Calculation."
+3. Select the desired calculation type from the options provided.
+4. Adjust the addressing, partitioning, and compute using settings to customize the calculation.
+
+<Add the Pluralsight videos Introduction to Calculations in Tableau https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e and Numerical Calculations and Quick Table Functions https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e here>
 
 ### Partitioning Fields
 
