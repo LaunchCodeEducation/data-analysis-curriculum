@@ -55,6 +55,10 @@ Parameters can also be used in filters to dynamically filter your data based on 
 
 ![Select a parameter or create a new one within the Top/Bottom section of adding a filter](pictures/filter-parameter.png?classes=border)
 
+Here is an example of creating and utilizing parameters in Tableau
+
+<Insert https://app.pluralsight.com/ilx/video-courses/clips/de1124d7-2c19-45ac-9fa0-3a23067ddf3a video here>
+
 ## Check Your Understanding
 
 {{% notice green Question %}}
