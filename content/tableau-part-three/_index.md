@@ -5,7 +5,7 @@ title = "Tableau Part 3"
 date = 2024-05-28T13:45:19-05:00
 draft = false
 weight = 27
-hidden = true
+hidden = false
 +++
 
 ## Learning Objectives

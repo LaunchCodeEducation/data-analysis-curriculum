@@ -5,7 +5,7 @@ title = "Tableau Part 1 - Intro to Visualization"
 date = 2024-03-12T15:04:03-05:00
 draft = false
 weight = 24
-hidden = true
+hidden = false
 +++
 
 ## Learning Objectives
