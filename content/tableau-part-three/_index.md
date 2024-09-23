@@ -1,7 +1,7 @@
 +++
 pre = "<b>26. </b>"
 chapter = true
-title = "Tableau Part 3"
+title = "Tableau Part 3: Calculations, Parameters and Relationships"
 date = 2024-05-28T13:45:19-05:00
 draft = false
 weight = 27
