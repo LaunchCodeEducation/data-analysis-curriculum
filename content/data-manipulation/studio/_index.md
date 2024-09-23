@@ -7,13 +7,15 @@ weight = 3
 
 ## Getting Started
 
-For the studio, we will be continuing to work with pumpkins in small groups.
+This week's studio will be continuing our work with the USDA Pumpkin Prices dataset.
 
-## In Your Notebooks
+The starting notebook for this studio can be found at `data-analysis-projects/data-manipulation/studio/data-manipulation-studio/data-manipulation-studio.ipynb`
+
+## In Your Notebook
 
 As always confer with a partner if you want to talk something through!
 
-You are more than welcome to also pull up your notebook from the last lesson to help you speed through cleaning the data and get straight to manipulating it.
+You are more than welcome to pull up your notebook from the last lesson to help you speed through cleaning the data and get straight to manipulating it.
 
 ## Submitting Your Work
 
