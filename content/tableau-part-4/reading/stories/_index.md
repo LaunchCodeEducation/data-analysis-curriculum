@@ -7,17 +7,44 @@ weight = 3
 
 Finally, we want to cover how to combine individual charts in Tableau to make stories and dashboards.
 
-You won't oftentimes find in your career that one visualization says all that you need it to. You may have to create a series of visualizations to show off your analysis. A **worksheet** holds one chart. Tableau has two different ways to combine worksheets to convey your findings: **stories** and **dashboards**. Stories look like presentations in that each chart is on its own slide. Dashboards are one page where you can add as many visualizations as you want. 
+Often in your career you won't find that one visualization that says all that you need it to.
+You may have to create a series of visualizations to show off your analysis. 
+
+A **worksheet** holds one chart. 
+
+Tableau has two different ways to combine worksheets to convey your findings: **stories** and **dashboards**.
+
+**Stories** look like presentations in that each chart is on its own slide. **Dashboards** are one page where you can add as many visualizations as you want. 
 
 ## How to Create a Dashboard
 
-In the bottom left-hand corner, you have three buttons for creating a new worksheet, a new dashboard, and a new story. The button to create a new dashboard looks like a grid with a plus sign. Click on it to make a new blank dashboard. You can drag available worksheets into your dashboard. Before you start adding any visualizations, you might find it helpful to sketch out what you want to put in your dashboard. A dashboard works best when the visualizations put together are meant to be viewed all at once. For example, if you used Tableau for your personal budgeting, you might want to combine a visualization for your monthly expenses and your annual spending into a dashboard. Such a dashboard might help you more easily spot discrepancies in your spending on car maintenance.
+In the bottom left-hand corner, you have three buttons for creating a new worksheet, a new dashboard, and a new story. 
+
+The button to create a new dashboard looks like a grid with a plus sign. Click on it to make a new blank dashboard. You can drag available worksheets into your dashboard. 
+
+Before you start adding any visualizations, you might find it helpful to sketch out what you want to put in your dashboard. A dashboard works best when multiple visualizations are meant to be viewed all at once. 
+
+For example, if you used Tableau for your personal budgeting, you might want to combine a visualization for your monthly expenses and your annual spending into a dashboard. Such a dashboard might help you more easily spot discrepancies in your spending on groceries or dining out.
 
 Another benefit of Tableau dashboards is that you can add interactivity for the user. You can add filters and navigation to help users seamlessly transition between dashboards or between a dashbord and a story. 
 
-A useful walk-through of creating your first Tableau dashboard can be found here: https://app.pluralsight.com/library/courses/build-first-dashboard-tableau/table-of-contents
+### Filling in the Gaps: PluralSight Content (see warning notice below)
 
-<Add reference to Pluarsight video series of "Build Your First Dashboard with Tableau" here>
+**At this moment, please pause your reading of the textbook and complete the PluralSight course linked below. This course will help fill in learning gaps that currently exist in this chapter.** 
+Once you are finished with the course, please continue reading the chapter.
+
+1. [Build Your First Dashboard with Tableau](https://app.pluralsight.com/library/courses/build-first-dashboard-tableau/table-of-contents)
+
+{{% notice orange Warning "rocket" %}}
+PluralSight has gifted LaunchCode licenses for our students to use. 
+
+**You do not have to pay for your own PluralSight account**. 
+
+A PluralSight invitation should have been sent to the email you used to register for LaunchCode.
+The subject of the email should include `LaunchCode has invited you to join Pluralsight!`
+
+If you cannot find the email or are having trouble registering using the invite email, **please reach out to Course Staff**
+{{% /notice %}}
 
 {{% notice blue Note %}}
 
