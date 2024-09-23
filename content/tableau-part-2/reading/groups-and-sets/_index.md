@@ -49,6 +49,8 @@ You can create a fixed set by selecting a group of data points on your visualiza
 
 When visualizing sets, Tableau defaults to visualizing the set in **In/Out** mode. One of the benefits of creating a set is easily comparing what is going on within the set and the rest of the dataset. If you want to see just the members of the set, you can right-click on the set name and choose *Show Members in Set*. If you want to go back to In/Out mode, you can right-click and choose *Show In/Out*.
 
+The names **In/Out** may be modified when added to a visualization in Tableau. You can directly right click on the field name **In/Out**, then click "Edit alias". The dialog box which opens provides the ability to create "Alias" names for **In** and **Out** which will appear in your visualization, and may often be more beneficial and understandable for the audience of your data visualization.
+
 ## Check Your Understanding
 
 {{% notice green Question %}}
