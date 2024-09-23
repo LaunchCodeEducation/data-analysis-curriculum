@@ -5,7 +5,11 @@ draft = false
 weight = 3
 +++
 
-Armed with visualization best practices, we can dive into Matplotlib and Seaborn, the two Python libraries oftentimes used with pandas to create beautiful visualizations. Seaborn is built on top of Matplotlib and can make more complex visualizations with customized color palettes. Matplotlib might show up more as a tool for EDA where the visualizations are mainly tools for us as analysts as opposed to visualizations to present to business leaders. 
+Armed with visualization best practices, we can dive into Matplotlib and Seaborn, the two Python libraries oftentimes used with pandas to create beautiful visualizations. 
+
+Seaborn is built on top of Matplotlib and can make more complex visualizations with customized color palettes.
+ 
+Matplotlib might show up more as a tool for EDA, where the visualizations are mainly tools for us as analysts as opposed to visualizations to present to business leaders. 
 
 To import Matplotlib, we can use the following common syntax:
 
@@ -21,7 +25,9 @@ import seaborn as sns
 
 {{% notice blue Note %}}
 
-Throughout your career, you may notice that sometimes you need to use `plot.show()` to get your visualization to actually appear on the screen. This depends on what environment you are running your code in. If you are running your code in the terminal, you need to add `plot.show()`, however, if you are running your code in an environment like a Jupyter notebook, you do not need `plot.show()`.
+Throughout your career, you may notice that sometimes you need to use `plot.show()` to get your visualization to actually appear on the screen. This depends on what environment you are running your code in. If you are running your code in the terminal, you need to add `plot.show()`. 
+
+However, if you are running your code in an environment like a Jupyter notebook, you do not need `plot.show()`.
 
 {{% /notice %}}
 
@@ -29,7 +35,7 @@ Throughout your career, you may notice that sometimes you need to use `plot.show
 
 ### Matplotlib
 
-For column charts, you will need to use `bar()` method and for bar charts, you will need to use the `bar()` method. Both methods have similar parameters so once you master one, it will be simpler to master the other one. 
+For column charts, you will need to use `bar()` method and for bar charts, you will need to use the `barh()` method. Both methods have similar parameters so once you master one, it will be simpler to master the other one. 
 
 Let's revisit the plant nursery.
 
@@ -85,7 +91,7 @@ sns.scatterplot(data=pollinator_program, x="pollinator_participants", "butterfli
 
 ### Matplotlib
 
-Let's use histograms to butterfly population at the nursery. When we chart a histogram, we need to decide on the bin size. **Bins** are the columns in a histogram. If someone counted the number of butterflies every week for 8 weeks, then it makes sense for us to have 8 bins.
+Let's use histograms to better understand the butterfly population at the nursery. When we chart a histogram, we need to decide on the bin size. **Bins** are the columns in a histogram. If someone counted the number of butterflies every week for 8 weeks, then it makes sense for us to have 8 bins.
 
 ```python {linenos=table}
 butterflies=[2,6,17,28,59,112,56,24]
