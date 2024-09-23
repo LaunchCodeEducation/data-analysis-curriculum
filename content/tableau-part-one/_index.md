@@ -25,7 +25,7 @@ hidden = false
 1. Analytics Pane
 1. Data Source
 1. Worksheet
-1. dashboard
+1. Dashboard
 
 ### Connecting Data
 1. Text
