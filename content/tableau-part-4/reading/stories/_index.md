@@ -54,9 +54,13 @@ For a comprehensive list of every feature you can add to a dashboard, check out 
 
 ## How to Create a Story
 
-Unlike dashboards, stories help us group together related visualizations that we want to include in the same conversation, but do not want to directly compare. Just as with dashboards, you can start in the bottom left-hand corner with creating your first story by clicking the icon that looks like an open book with a plus sign. Your first story point is blank. However, on the left-hand side, you will find all the available worksheets and dashboards you can add. To add an item to your first story point, drag it inside the story point window. 
+Unlike dashboards, stories help us group together related visualizations that we want to include in the same conversation, but do not want to directly compare. 
 
-For each story point, your captions will appear above the visualization. Click on the gray box labeled *Add a caption* to enter your caption text. Remember you might not get a chance to explain all the details of your analysis so a caption can support your visualization if you do not get a chance to talk about it with your viewers.
+In the bottom left-hand corner, you can click the icon that looks like an open book with a plus sign to create your first story. Your first story point is blank. However, on the left-hand side, you will find all the available worksheets and dashboards you can add. To add an item to your first story point, drag it inside the story point window. 
+
+For each story point, your captions will appear above the visualization. 
+
+Click on the gray box labeled *Add a caption* to enter your caption text. Remember: you might not get a chance to explain all the details of your analysis, so a caption can support your visualization if you do not get a chance to talk about it with your viewers.
 
 To add a new story point, you will want to redirect your attention back to the left-hand side and select *Blank* under *New Storypoint*. You can add as many story points as you need to convey your findings to your audience!
 
@@ -67,13 +71,23 @@ While much of what we have already covered will serve you well when making effec
 1. The order of your visualizations
 1. The screen size of the story
 
-For the order of your visualizations, there is no right and wrong we can summarize here. The most effective order depends on your audience and what you want to share. All we can say is that you may find it helpful to sketch out the order before you start assembling your story and as you make note of each viz, ask yourself "What is this visualization revealing to my audience and do the visualizations that come before it help enhance that point?". You want your story points to support each other and build up to your conclusions. 
+For the order of your visualizations, there is no right or wrong way we can summarize here. 
 
-Your story may not be shown on the screen that you are working on and if you do not size it accordingly, your visualizations may end up getting re-sized in a way that makes the legends and axes difficult to read. Below the listing of available worksheets and dashboards, you will find the list of available sizes so you can choose a standard size or set a custom size.
+The most effective order depends on your audience and what you want to share. All we can say is that you may find it helpful to sketch out the order before you start assembling your story. As you make note of each viz, ask yourself "What is this visualization revealing to my audience and do the visualizations that come before it help enhance that point?". 
+
+You want your story points to support each other and build up to your conclusions. 
+
+
+**Your audience may not view your story on the same size screen you built it on.**
+If you do not size your story based on your audiences expected screen size, your visualizations may end up getting re-sized in a way that makes the legends and axes difficult to read. 
+
+Below the listing of available worksheets and dashboards in Tableau, you will find the list of available sizes. You can choose a standard size or set a custom size.
 
 {{% notice blue Example %}}
 
-Before you start creating your own stories, check out these stories on Tableau public. As you study each one, make a note of what you like about each one and what you are struggling with on each one.
+Before you start creating your own stories, check out these stories on Tableau public. 
+
+As you study them, make a note of what you like about each one and what you are struggling to understand with each one.
 
 1. [Twenty-Two White Orchids by Will Strouse](https://public.tableau.com/app/profile/william.strouse/viz/Twenty-TwoWhiteOrchids/Twenty-TwoWhiteOrchids)
 1. [State Story 5.8 by Center for Employment Equity Embargoed Visualizations](https://public.tableau.com/app/profile/carly6373/viz/StateStory_5_8/StateStory)
@@ -89,8 +103,8 @@ Match the following:
 
 |   |   |
 |---|---|    
-| Dashboard | is based on different view or dashboard, or different stages of a single viz |
-| Story Point | is a single viz |
-| Worksheet | is collection of several views to compare a variety of data all at once |
+| Dashboard | Based on a different view or dashboard, or different stages of a single viz |
+| Story Point | A single viz |
+| Worksheet | A collection of several views to compare a variety of data all at once |
 
 {{% /notice %}}
