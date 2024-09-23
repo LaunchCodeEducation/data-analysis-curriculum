@@ -5,7 +5,9 @@ draft = false
 weight = 4
 +++
 
-You are now ready to move into Tableau Part Four. If you would like to further explore content related to calculated fields, parameters, or relationships, you can find some of our favorite resources below.
+You are now ready to move into Tableau Part Four. 
+
+If you would like to further explore content related to calculated fields, parameters, or relationships, you can find some of our favorite resources below.
 
 1. [Tableau Documentation: Getting Started with Calculations in Tableau](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm)
 1. [Tableau Documentation: Create Parameters](https://help.tableau.com/current/pro/desktop/en-us/parameters_create.htm)
