@@ -15,6 +15,10 @@ In the bottom left-hand corner, you have three buttons for creating a new worksh
 
 Another benefit of Tableau dashboards is that you can add interactivity for the user. You can add filters and navigation to help users seamlessly transition between dashboards or between a dashbord and a story. 
 
+A useful walk-through of creating your first Tableau dashboard can be found here: https://app.pluralsight.com/library/courses/build-first-dashboard-tableau/table-of-contents
+
+<Add reference to Pluarsight video series of "Build Your First Dashboard with Tableau" here>
+
 {{% notice blue Note %}}
 
 For a comprehensive list of every feature you can add to a dashboard, check out the [documentation](https://help.tableau.com/current/pro/desktop/en-us/dashboards_create.htm).
