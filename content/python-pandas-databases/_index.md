@@ -13,7 +13,7 @@ Upon completing all the content in this chapter, you should be able to do the fo
 1. Establish a connection to a sqlite3 database using python.
 1. Create a cursor object to interact with the database.
 1. Create a pandas DataFrame using data from a sqlite3 database.
-1. Add data from a pandas DataFrame into a slite3 database.
+1. Add data from a pandas DataFrame into a sqlite3 database.
 
 ## Key Terminology
 

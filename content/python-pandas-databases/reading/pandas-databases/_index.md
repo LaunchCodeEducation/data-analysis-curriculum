@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-In addition to all the great things pandas is capable of, the library also makes it possible to inject data stored elsewhere into a pandas DataFrame or Series. This lesson will walk through the process of creating a pandas DataFrame from an existing table within a SQLite datastore.
+In addition to all the great things pandas is capable of, the library also makes it possible to inject data stored elsewhere into a pandas DataFrame or Series. This lesson will walk you through the process of creating a pandas DataFrame from an existing table within a SQLite datastore.
 
 This lesson will also utilize `sqlite3` as the database used to demonstrate how to interact with a database using a separate tool or library (pandas). Since we have already covered how to manipulate data with pandas in previous lessons, we will instead focus on the following:
 1. Reading data from the database
@@ -44,14 +44,15 @@ The `read_sql_query` pandas function in the above example is used to read querie
 After exploring, cleaning, or manipulating data with pandas, you can add that data back into your database. In the scenario below we will add a new movie to an existing DataFrame and then store the DataFrame inside of a new table within the SQLite database.
 
 {{% notice blue Example "rocket" %}}
-We will first start by adding a row to our existing DataFrame:
+We will start by adding a row to our existing DataFrame:
 
 ```python
 new_movie = pd.DataFrame([{'title':'Dune', 'genre':'Science Fiction', 'release':2021, 'rt_score': 83}])
 df = pd.concat([df, new_movie], ignore_index=True)
 ```
 
-It was not necessary to update our DataFrame to add a new table to the database, but it will help visually when reading data to show that it was populated into a new table correctly.
+It isn't necessary for us to update our DataFrame to add a new table to the database. 
+But, it will help visually when reading data to show that it was populated into a new table correctly.
 
 ```python {linenos=table}
 # Inject dataframe into database as new table, if the table exists - replace it
@@ -73,4 +74,16 @@ new_movies_df = pd.read_sql_query('Select * from new_movie_table;', movies_db)
 # Read first 6 rows
 new_movies_df.head(6)
 ```
+{{% /notice %}}
+
+{{% notice red Warning "rocket" %}}
+For any connection you open to a sqlite3 database, make sure to close it once you're done using it!
+```python
+# Open a new connection
+movies_db = sqlite3.connect('Movies.db')
+# Close the connection
+movies_db.close()
+```
+
+**Leaving open connections hanging around can cause our database to become locked**
 {{% /notice %}}
