@@ -25,6 +25,22 @@ Using the `netflix_titles.csv` data, we will create a bar chart that shows the `
 
 ![Visual of tableau workbook with the Type and Date Added as columns, and Show ID as a measure of count as a row](pictures/date-added-checkpoint.png?classes=border)
 
+It is important to notice and understand the meaning of the green and blue pills in Tableau. As mentioned previously, the two main data types in Tableau are Measures and Dimensions. Green pills typically represent quantitative data, which are numerical data which can be measured or counted, and hence are the Measures of your dataset(s). Examples of quantitative data include:
+
+* Sales figures
+* Customer age
+* Product price
+* Revenue
+
+Blue pills represent qualitative data, which are non-numerical data which describe attributes or characteristics, and hence are the Dimensions of your dataset(s). Examples of qualitative data include:
+
+* Product category
+* Product color
+* Customer location
+* Order status
+
+You will be able to perform mathematical operations, such as sum and average, on green pills (Measures), while blue pills (Dimensions) will be used for grouping / segmenting data, such as in a pie or bar chart.
+
 {{% notice blue Note "rocket" %}}
 In the above image, we changed the sheet name to `netflix_titles`. You can also do this if you would like! Right-click on either the `Sheet 1` name within the view or the tab in the bottom left corner to change the name.
 {{% /notice %}}
