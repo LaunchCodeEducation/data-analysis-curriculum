@@ -54,6 +54,23 @@ Finally, we want to think about what we are displaying before selecting a chart 
 
 Tableau has many chart styles that fit each of these categories beyond the initial ones introduced to you earlier. When you are changing the chart style in the upper right hand corner of Tableau, some chart styles will be unavailable. Tableau marks some chart styles as unavailable due to what is in the columns and rows to help narrow down your chart style choices.
 
+**Show Me** in Tableau is a powerful feature which helps you quickly discover the best visualizations for your data. It automatically suggests a variety of charts and graphs based on your data structure — meaning, the dimension(s) and measure(s) in your visualization and how many of each are selected — and the relationships between your fields.
+
+Here is how **Show Me** works:
+
+* Select Fields: Choose the fields you want to visualize.
+* Show Me Suggestions: Tableau will present a list of potential visualizations that might be suitable for your data. These suggestions are based on factors like data types, relationships between fields, and common visualization patterns.
+* Choose a Visualization: Click on the visualization you like to see the results.
+
+Key benefits of **Show Me**:
+
+* Time-saving: Quickly explore different visualization options without manually creating each chart.
+* Data-driven Suggestions: Show Me provides recommendations based on the characteristics of your data.
+* Discover New Insights: You might find visualizations you hadn't considered before that reveal interesting trends or patterns.
+* Easy to Use: The interface is simple and intuitive, making it accessible to users of all levels.
+
+**Show Me** is also a time-efficient way of learning how to create a visualization you may not yet be familar with how to build, as once the visual is selected within **Show Me**, it will automatcally move the dimension and meaure pills to the appropriate row, columns, and / or marks card to display the visualization.
+
 {{% notice blue Example %}}
 
 A spatial chart can only be created with latitude and longitude data and latitude has to be in rows and longitude in columns. Until you have the data in this configuration, Tableau will not assemble a spatial chart for you.
