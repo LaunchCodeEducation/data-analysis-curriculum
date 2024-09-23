@@ -29,23 +29,31 @@ Once you figure out what category of chart you need, then you can dive deeper in
    </figure>
 {{< /rawhtml >}}
 
-For now, we just want you to focus in on practicing making visualizations, trying out different chart styles, and developing your thought process around making an effective visualization. You do not need to memorize all the different chart styles at this time.
+For now, we just want you to practice making visualizations, trying out different chart styles, and developing your thought process around making an effective visualization. You do not need to memorize all the different chart styles at this time.
 
 Let's dive deeper into a few of the chart styles that you may recognize from earlier chapters in this book.
 
 ## Bar Charts and Column Charts
 
-Bar charts and column charts both fall into the category of comparison charts. A bar chart has the categories on the y-axis, so the bars are horizontal, whereas a column chart has the categories on the x-axis so the bars are vertical. While the difference in orientation might seem minor, it can make a huge difference in the readability of the chart. For example, if the categories have very long names or there are a lot of categories, your colleagues might find it easier to read those labels if the labels are displayed on the y-axis as opposed to the x-axis. Don't hesitate to switch between a column and a bar chart to find something that looks nice to you!
+Bar charts and column charts both fall into the category of comparison charts. 
+
+A bar chart has the categories on the y-axis, so the bars are horizontal, whereas a column chart has the categories on the x-axis so the bars are vertical. While the difference in orientation might seem minor, it can make a huge difference in the readability of the chart. 
+
+For example, if the categories have very long names or there are a lot of categories, your colleagues might find it easier to read those labels if the labels are displayed on the y-axis as opposed to the x-axis. Don't hesitate to switch between a column and a bar chart to find something that looks nice to you!
 
 You want to be mindful of using a stacked column chart though because that falls into the category of composition charts. 
 
 ## Scatterplots
 
-Scatterplots are relationship plots. A scatterplot can help pinpoint what the relationship exactly is in a dataset. For example, we want to visualize the number of butterflies seen in an area and the number of gardeners signed up with a pollinator planting program. We might assume before we assemble our visualization that there is a relationship between the two so a scatterplot makes sense here. 
+Scatterplots are relationship plots. A scatterplot can help pinpoint what the relationship exactly is in a dataset. 
+
+For example, we want to visualize the number of butterflies seen in an area and the number of gardeners signed up with a pollinator planting program. We might assume before we assemble our visualization that there is a relationship between the two so a scatterplot makes sense here. 
 
 ## Histogram
 
-A histogram is a type of distribution chart that looks a little bit like a bar chart. The key with a distribution chart is that we are trying to understand how the data is distributed. Is the data spread out or is it tightly packed? Histograms are oftentimes used in EDA to shed light on oddities in summary statistics and it is because they are distribution charts. If we wanted to plot the daily butterfly population over the course of the summer, a histogram would be a great choice!
+A histogram is a type of distribution chart that looks a little bit like a bar chart. The key with a distribution chart is that we are trying to understand how the data is distributed. Is the data spread out or is it tightly packed? 
+
+Histograms are oftentimes used in EDA to shed light on oddities in summary statistics and it is because they are distribution charts. If we wanted to plot the daily butterfly population over the course of the summer, a histogram would be a great choice!
 
 ## Pie Charts
 

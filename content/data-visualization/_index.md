@@ -13,7 +13,7 @@ hidden = false
 Upon completing all the content in this chapter, you should be able to do the following:
 
 1. Talk about what to do and what not to do with data visualizations.
-1. Differentiate between chart styles and pros and cons to each style. Scatter plots, histograms, bar charts, pie charts, etc.
+1. Differentiate between chart styles and provide the pros and cons for each style. Scatter plots, histograms, bar charts, pie charts, etc
 1. Use Matplotlib and Seaborn to create visualizations.
 
 ## Key Terminology
