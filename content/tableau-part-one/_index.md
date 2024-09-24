@@ -1,11 +1,11 @@
 +++
 pre = "<b>24. </b>"
 chapter = true
-title = "Tableau Part 1 - Intro to Visualization"
+title = "Tableau Part 1: Intro to Visualization"
 date = 2024-03-12T15:04:03-05:00
 draft = false
 weight = 24
-hidden = true
+hidden = false
 +++
 
 ## Learning Objectives
@@ -25,7 +25,7 @@ hidden = true
 1. Analytics Pane
 1. Data Source
 1. Worksheet
-1. dashboard
+1. Dashboard
 
 ### Connecting Data
 1. Text

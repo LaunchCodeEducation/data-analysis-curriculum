@@ -7,7 +7,7 @@ weight = 1
 
 ## Calculations
 
-Applying calculations to your visualization helps further customize, filter, and aggregate data. Calculations can be something as simple as applying an `AVG` or any other aggregate function.
+Applying calculations to your visualization helps further customize, filter, and aggregate data. Calculations can be something as simple as applying an `AVG` (average) or any other aggregate function.
 
 Regardless of what type of calculation you apply to your visualization, we consider the result a **calculated field**.
 
@@ -29,17 +29,17 @@ This would provide you a calculated field pill that would store the `AVG` of the
 
 ### Calculation Components
 
-When you are creating a new calculation there are some multiple components to familiarize yourself with:
-1. Fields: You are able to include existing fields from your data inside of a calculation like in the example above referencing the `Transaction Total` field.
+When you are creating a new calculation there are multiple components to familiarize yourself with:
+1. Fields: You are able to include existing fields from your data inside of a calculation, like in the example above referencing the `Transaction Total` field.
 1. Operators: (`>`, `<`, `=`, `>=`, `<=` etc..)
 1. Literal expressions: Specific values (`23`, `"String"`, `true`, `false`, null, `#Date`)
-1. Functions: Tableau provides a numerous amount of functions that you can apply within your calculated fields. The functions available include aggregate functions, number functions, logical functions, etc..
+1. Functions: Tableau provides a large number of functions that you can apply within your calculated fields. The functions available include aggregate functions, number functions, logical functions, etc..
 
 {{% notice blue Note "rocket" %}}
-Tableau documentation provides an exhaustive list available functions included that you will be able to make use of. You can find a list of all [functions included here](https://help.tableau.com/current/pro/desktop/en-us/functions_all_categories.htm).
+Tableau documentation provides an exhaustive list of the available functions you can make use of. You can find a list of all functions [here](https://help.tableau.com/current/pro/desktop/en-us/functions_all_categories.htm).
 {{% /notice %}}
 
-You can select or include a function from a list during the process of creating a new calculated field.
+While creating a new calculated field, you can select or include a function from a list.
 
 1. Click on `Analysis`.
 1. Then click on `Create Calculated Field...`.
@@ -49,7 +49,7 @@ You can select or include a function from a list during the process of creating 
 
 ## Table Calculations
 
-Table calculations in Tableau are a powerful tool for performing calculations on data within a visualization, based on the context of the table or chart. They allow you to create dynamic and informative visualizations which provide insights into your data that would be difficult or impossible to achieve with simple calculations.
+**Table calculations** in Tableau are a powerful tool for performing calculations on data within a visualization, based on the context of the table or chart. They allow you to create dynamic and informative visualizations which provide insights into your data that would be difficult or impossible to achieve with simple calculations.
 
 Here are a few key concepts to be familiar with in creating table calculations:
 
@@ -57,7 +57,7 @@ Here are a few key concepts to be familiar with in creating table calculations:
 * Partitioning: Defines the groups or subsets of data within which the calculation is applied. This allows you to perform calculations on specific segments of your data.
 * Compute Using: Specifies the field or fields that determine the calculation's scope and direction.
 
-Ther are severak common table calculation functions immediate available within Tableau:
+There are several common table calculation functions immediately available within Tableau:
 
 * Running Totals: Accumulate values over time or across categories.
 * Differences: Calculate the difference between values in adjacent rows or columns.
@@ -73,7 +73,25 @@ To add a table calculation to a visualization within Tableau:
 3. Select the desired calculation type from the options provided.
 4. Adjust the addressing, partitioning, and compute using settings to customize the calculation.
 
-<Add the Pluralsight videos Introduction to Calculations in Tableau https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e and Numerical Calculations and Quick Table Functions https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e here>
+
+### Filling in the Gaps: PluralSight Content (see warning notice below)
+
+**At this moment, please pause your reading of the textbook and watch the two PluralSight videos linked below. These videos will help fill in learning gaps that currently exist in this chapter.** 
+Once you are finished with these videos, please resume reading this chapter.
+
+1. [Introduction to Calculations in Tableau](https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e)
+1. [Numerical Calculations and Quick Table Functions](https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e)
+
+{{% notice orange Warning "rocket" %}}
+PluralSight has gifted LaunchCode licenses for our students to use. 
+
+**You do not have to pay for your own PluralSight account**. 
+
+A PluralSight invitation should have been sent to the email you used to register for LaunchCode.
+The subject of the email should include `LaunchCode has invited you to join Pluralsight!`
+
+If you cannot find the email or are having trouble registering using the invite email, **please reach out to Course Staff**
+{{% /notice %}}
 
 ### Partitioning Fields
 
@@ -99,12 +117,12 @@ By combining partitioning fields and addressing fields, you can create highly cu
 
 ## Conditional Statements
 
-You can utilize a few types of conditional statements within calculated fields. The three types of conditional statements we will cover are `IF` and `IIF` and `CASE` statements.
+You can utilize a few types of conditional statements within calculated fields. The three types of conditional statements we will cover are `IF`, `IIF`, and `CASE` statements.
 
 {{% notice blue Note "rocket" %}}
-Each conditional statement has it's own use cases. When comparing the `IIF` to the `IF` statement, the `IIF` statement allows you to specify how unknown values are treated, otherwise they are quite similar.
+Each conditional statement has it's own use cases. When comparing the `IIF` to the `IF` statement, the `IIF` statement allows you to specify how unknown values are treated. Otherwise, these two conditional statements are quite similar.
 
-The `CASE` statement is especially useful if you would like to rename values within a given field. Similar to `IF` statements `CASE` statements are often used to format and filter data. Let's look at a few examples below.
+The `CASE` statement is especially useful if you would like to rename values within a given field. Similar to `IF` statements, `CASE` statements are often used to format and filter data. Let's look at a few examples below.
 {{% /notice %}}
 
 {{% notice blue Example %}}
@@ -128,7 +146,7 @@ IIF (some condition, do this if true, else this if false, handle unknown)
 {{% /notice %}}
 
 {{% notice blue Example "rocket" %}}
-You have a field named `Operating Systems` that contains the three major types of operating systems (`Linux`, `Windows`, and `MacOS`) but they were represented by numbers within the field instead of the string values. You could create a calculated field like the one below to provide more descript value names:
+You have a field named `Operating Systems` that contains the three major types of operating systems: `Linux`, `Windows`, and `MacOS`. But, they were represented by numbers within the field instead of the string values. You could create a calculated field like the one below to provide more descriptive value names:
 
 ```python
 CASE[Operating Systems]

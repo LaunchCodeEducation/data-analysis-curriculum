@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-Our second objective is to revisit the best practices we have already seen and learn how to implement these best practices in Tableau.
+Our second objective is to revisit the best practices we have already seen in other chapters and learn how to implement these best practices in Tableau.
 
 ## Revisiting Best Practices
 
@@ -21,9 +21,13 @@ Let's see how we can ensure that we follow these three rules with Tableau.
 
 ### Adding Textual Context 
 
-We cannot guarantee that we will get the opportunity to walk every user through our visualizations so we need to add guiding text such as labels, titles, and captions.
+We cannot guarantee that we will get the opportunity to walk every user through our visualizations. So, we need to add guiding text such as labels, titles, and captions.
 
-Tableau names the axes of a visualization after the fields that the visualization uses so you may not have the label you really want. To change it, right-click on the axis and select *Edit Axis*. In the resulting menu, you can change a number of characteristics of the axis such as the range, including the actual label text. Remember to add the dimensions of your axis in parentheses after the label text to make sure that the dimensions are clear to your users. If you right-click on the field label, you can click *Format Field* and change the font, font size, and color to better fit your visualization needs. Tableau defaults to field labels being a very dark gray which may not work with the colors chosen for your visualization or be easily readable by members of your team. 
+Tableau names the axes of a visualization after the fields that the visualization uses, so you may not have the label you really want. 
+
+To change it, right-click on the axis and select *Edit Axis*. In the resulting menu, you can change a number of characteristics of the axis such as the range, including the actual label text. Remember to add the dimensions of your axis in parentheses after the label text to make sure that the dimensions are clear to your users. 
+
+Tableau defaults field labels to be a very dark gray which may not work with the colors chosen for your visualization or be easily readable by members of your team. If you right-click on the field label, you can click *Format Field* and change the font, font size, and color to better fit your visualization needs. 
 
 To edit the title, right-click on the title and select *Edit*. The resulting dialog box will also have lots of options for re-formatting the title if you are already satisfied with the text. 
 
@@ -41,7 +45,9 @@ You can edit your color palette for the marks of your visualization by right-cli
 
 ### Keep It Simple
 
-The principle of keeping it simple means making sure that all the data on the viz is relevant and that we aren't including too much. The more data we have on one viz, the harder it becomes for the reader to comprehend without you there. This isn't to say that including multiple lines on a line chart is a bad idea. You can however use filters on your Tableau vizzes to help clarify what exactly you need and help users select specific groups.
+The principle of keeping it simple means making sure that all the data on the viz is relevant and that we aren't including too much. The more data we have on one viz, the harder it becomes for the reader to comprehend the visual without you there to explain it. 
+
+This isn't to say that including multiple lines on a line chart is a bad idea. You can use filters on your Tableau vizzes to help clarify what exactly you need and help users select specific groups.
 
 ## Selecting Chart Styles in Tableau
 
@@ -52,7 +58,9 @@ Finally, we want to think about what we are displaying before selecting a chart 
 1. Distribution
 1. Composition
 
-Tableau has many chart styles that fit each of these categories beyond the initial ones introduced to you earlier. When you are changing the chart style in the upper right hand corner of Tableau, some chart styles will be unavailable. Tableau marks some chart styles as unavailable due to what is in the columns and rows to help narrow down your chart style choices.
+Tableau has many chart styles that fit each of these categories beyond the initial ones introduced to you earlier.
+
+When you are changing the chart style in the upper-right hand corner of Tableau, you may notice some chart styles will be unavailable. Tableau analyzes the selected rows and columns in your viz and marks certain charts as unavailable if they don't fit your dataset.
 
 **Show Me** in Tableau is a powerful feature which helps you quickly discover the best visualizations for your data. It automatically suggests a variety of charts and graphs based on your data structure — meaning, the dimension(s) and measure(s) in your visualization and how many of each are selected — and the relationships between your fields.
 
@@ -69,11 +77,11 @@ Key benefits of **Show Me**:
 * Discover New Insights: You might find visualizations you hadn't considered before that reveal interesting trends or patterns.
 * Easy to Use: The interface is simple and intuitive, making it accessible to users of all levels.
 
-**Show Me** is also a time-efficient way of learning how to create a visualization you may not yet be familar with how to build, as once the visual is selected within **Show Me**, it will automatcally move the dimension and meaure pills to the appropriate row, columns, and / or marks card to display the visualization.
+**Show Me** is also a time-efficient way of learning how to create a visualization you may not yet be familar with how to build, as once the visual is selected within **Show Me**, it will automatically move the dimension and measure pills to the appropriate row, columns, and / or marks card to display the visualization.
 
 {{% notice blue Example %}}
 
-A spatial chart can only be created with latitude and longitude data and latitude has to be in rows and longitude in columns. Until you have the data in this configuration, Tableau will not assemble a spatial chart for you.
+A spatial chart can only be created with latitude and longitude data. Latitude data has to be in rows and longitude data in columns. Until you have the data in this configuration, Tableau will not assemble a spatial chart for you.
 
 {{% /notice %}}
 

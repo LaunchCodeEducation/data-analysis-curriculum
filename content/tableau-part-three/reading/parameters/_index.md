@@ -33,8 +33,8 @@ When creating a parameter, you can define several properties:
 1. `Current value`: Initial or default value.
 1. `Value when workbook opens`: What value should be displayed when the workbook is first opened.
 1. `Allowable values`: Select either All values, a list of values, or a range of values to select from.
-1. `Value and Display As`: You can changes how each value is displayed within the visualization itself with the display as option.
-1. `Add values from`: Select where you want to add values from for the parameter itself, this is usually a field from your data.
+1. `Value and Display As`: You can change how each value is displayed within the visualization itself with the display as option.
+1. `Add values from`: Select where you want to add values from for the parameter itself. This is usually a field from your data.
 
 ### Using Parameters in Calculations
 After creating a parameter, you can reference it in your calculations by using the parameter name enclosed in square brackets:
@@ -46,7 +46,7 @@ If you have a parameter called `Tax Rate`, you can create a calculated field lik
 [transaction_total] * (1 - [Tax Rate])
 ```
 
-This will apply the `Tax Rate` parameter to your the transaction_total field data.
+The above calculated field will multiply your transaction_total field data by the result of one minus the `Tax Rate` parameter.
 {{% /notice %}}
 
 ### Using Parameters in Filters
@@ -55,9 +55,25 @@ Parameters can also be used in filters to dynamically filter your data based on 
 
 ![Select a parameter or create a new one within the Top/Bottom section of adding a filter](pictures/filter-parameter.png?classes=border)
 
-Here is an example of creating and utilizing parameters in Tableau
 
-<Insert https://app.pluralsight.com/ilx/video-courses/clips/de1124d7-2c19-45ac-9fa0-3a23067ddf3a video here>
+### Filling in the Gaps: PluralSight Content (see warning notice below)
+
+**At this moment, please pause your reading of the textbook and watch the PluralSight video linked below. This video will help fill in learning gaps that currently exist in this chapter.** 
+Once you are finished with this video, please resume reading this chapter.
+
+1. [Dynamic Interactivity with Filters and Parameters](https://app.pluralsight.com/ilx/video-courses/clips/de1124d7-2c19-45ac-9fa0-3a23067ddf3a)
+
+{{% notice orange Warning "rocket" %}}
+PluralSight has gifted LaunchCode licenses for our students to use. 
+
+**You do not have to pay for your own PluralSight account**. 
+
+A PluralSight invitation should have been sent to the email you used to register for LaunchCode.
+The subject of the email should include `LaunchCode has invited you to join Pluralsight!`
+
+If you cannot find the email or are having trouble registering using the invite email, **please reach out to Course Staff**
+{{% /notice %}}
+
 
 ## Check Your Understanding
 

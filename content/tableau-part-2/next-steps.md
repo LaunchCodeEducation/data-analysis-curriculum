@@ -5,7 +5,9 @@ draft = false
 weight = 4
 +++
 
-You are ready to dive deeper into Tableau in next chapter! If there is something you want additional reinforcement on, check out our favorite additional resources:
+You are now ready to dive deeper into Tableau in the next chapter! 
+
+If you want to reinforce what you learned in this chapter, check out these additional resources:
 
 1. [Filtering Data from Your Views](https://help.tableau.com/current/pro/desktop/en-us/filtering.htm)
 1. [Create Hierarchies](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm)
