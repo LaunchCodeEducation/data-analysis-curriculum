@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Open up `data-analysis-projects/databases-python-pandas/studio/databases-and-py.ipynb` file inside of Jupyter Notebook and begin working through the exercises!
+Open up `data-analysis-projects/databases-python-pandas/exercises/databases-with-python.ipynb` file inside of Jupyter Notebook and begin working through the exercises!
 
 ## Submitting Your Work
 

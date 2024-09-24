@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-Working within a database command line interface can oftentimes be cumbersome and difficult to execute multiple commands. Because of this, analysts oftentimes prefer to use a user-friendly graphical user interface (GUI) or leverage programming languages like Python and supported libraries to interact with them. We will use Python and the **sqlite3** library to complete the following:
+Working within a database command line interface can oftentimes make it cumbersome and difficult to execute multiple commands. Because of this, analysts usually prefer to use a user-friendly graphical user interface (GUI) or leverage programming languages like Python and supported libraries to interact with them. We will use Python and the **sqlite3** library to complete the following:
 1. Create a new SQLite database
 1. Add a table
 1. Perform CRUD operations on the table
@@ -95,7 +95,7 @@ cur.execute("SELECT * FROM table_name").fetchall()
 
 ### Updating Data
 
-When running dynamic queries against a database there are some risks to be made aware of, specifically SQL injection attacks or SQLi attacks. While we have multiple strategies to avoid SQLi attacks, the one we will focus on in this class is using **parameterized queries**.
+When running dynamic queries against a database there are some risks to be aware of, specifically SQL injection attacks or SQLi attacks. While we have multiple strategies to avoid SQLi attacks, the one we will focus on in this class is using **parameterized queries**.
 
 Parameterized queries allow you to inject a placeholder (`?`) into your SQL statement and pass in the desired value as a parameter.
 
@@ -111,7 +111,8 @@ cur.execute("UPDATE movies SET release = ? WHERE title = ?", [update_release_yea
 
 ### Deleting Data
 
-Similar to updating data we will want to use parameterized queries as best and safe practice!
+We should also use parameterized queries to safely delete data.
+Using parameterized queries to update and delete data is a best practice!
 
 {{% notice blue Example "rocket" %}}
 ```python
