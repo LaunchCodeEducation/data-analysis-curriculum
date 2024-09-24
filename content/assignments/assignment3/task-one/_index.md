@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-This first task of this assignment is to perform some exploratory data analysis! You should feel comfortable beginning this task after you have completed [Chapter 14: Exploratory Data Analysis with Pandas]({{% relref "../../../eda-with-pandas/_index.md" %}}).
+This first task of this assignment is to perform some exploratory data analysis! You should feel comfortable beginning this task after you have completed [Chapter 19: Exploratory Data Analysis with Pandas]({{% relref "../../../eda-with-pandas/_index.md" %}})
 
 In the process of learning more about the two datasets, answer the following questions. Use the code blocks within the notebook to begin cleaning your data. At the end of the notebook, record your answers.
 
