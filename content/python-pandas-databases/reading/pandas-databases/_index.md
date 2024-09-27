@@ -13,8 +13,13 @@ This lesson will also utilize `sqlite3` as the database used to demonstrate how 
 1. Creating a new table inside of the database
     - Adding the DataFrame data into the new table
 
-{{% notice blue Note "rocket" %}}
-The following examples can be found within the `data-analysis-projects/databases-python-pandas/pandas-db-walkthrough.ipynb` file.
+{{% notice red Warning "rocket" %}}
+We have created a new repo for Class 19 and 20 exercise and studios. 
+Please fork this repo to your Github account, and then clone it to your local device
+
+[Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
+
+The examples below can be found at `data-analysis-projects-class-19-and-20/class-20/pandas-db-walkthrough.ipynb`
 {{% /notice %}}
 
 ## Create a DataFrame

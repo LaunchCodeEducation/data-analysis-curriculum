@@ -12,9 +12,16 @@ Working within a database command line interface can oftentimes make it cumberso
 
 While you can accomplish more than just the above using python and pandas, like performing joins, it is not always best practice. As it relates to joins, database engines are built and optimized to perform joins extremely well. It is always important to know what you will be doing with your data before acting.
 
-{{% notice blue Note "rocket" %}}
-The examples below are also available in the `data-analysis-projects/databases-python-pandas/python-db-walkthrough.ipynb` file.
+{{% notice red Warning "rocket" %}}
+We have created a new repo for Class 19 and 20 exercise and studios. 
+Please fork this repo to your Github account, and then clone it to your local device
+
+[Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
+
+The examples below can be found at `data-analysis-projects-class-19-and-20/class-20/python-db-walkthrough.ipynb`
 {{% /notice %}}
+
+
 
 ## sqlite3 with Python
 

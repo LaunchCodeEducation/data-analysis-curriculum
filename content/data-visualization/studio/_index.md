@@ -7,7 +7,14 @@ weight = 3
 
 ## Getting Started
 
-For this week's studio, open up `data-analysis-projects/data-viz-with-py/studio`. We will be using the `data-viz-studio.ipynb` notebook.
+{{% notice red Warning "rocket" %}}
+We have created a new repo for Class 19 and 20 exercise and studios. 
+Please fork this repo to your Github account, and then clone it to your local device
+
+[Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
+{{% /notice %}}
+
+Open up `data-analysis-projects-class-19-and-20/class-19/studio/`. You will be working in the file `data-viz-studio.ipynb`.
 
 ## The Data
 
