@@ -8,7 +8,7 @@ weight = 3
 ## Getting Started
 
 {{% notice red Warning "rocket" %}}
-We have created a new repo for Class 19 and 20 exercise and studios. 
+We have created a new repo for Class 19 and 20 exercises and studios. 
 Please fork this repo to your Github account, and then clone it to your local device
 
 [Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
