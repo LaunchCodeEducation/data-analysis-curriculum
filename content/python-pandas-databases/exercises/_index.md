@@ -7,7 +7,14 @@ weight = 2
 
 ## Getting Started
 
-Open up `data-analysis-projects/databases-python-pandas/exercises/databases-with-python.ipynb` file inside of Jupyter Notebook and begin working through the exercises!
+{{% notice red Warning "rocket" %}}
+We have created a new repo for Class 19 and 20 exercises and studios. 
+Please fork this repo to your Github account, and then clone it to your local device
+
+[Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
+{{% /notice %}}
+
+Open up `data-analysis-projects-class-19-and-20/class-20/exercises/`. You will be working in the file `databases-and-python.ipynb`.
 
 ## Submitting Your Work
 

@@ -7,9 +7,18 @@ weight = 3
 
 ## Getting Started
 
+
+
+{{% notice red Warning "rocket" %}}
+We have created a new repo for Class 19 and 20 exercises and studios. 
+Please fork this repo to your Github account, and then clone it to your local device
+
+[Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
+{{% /notice %}}
+
 Before getting started with the coding, create a `watchlist` of 10 TV shows/movies that you, personally, are interested in watching.
 
-Open up the `data-analysis-projects/databases-python-pandas/studio/databases-and-py.ipynb` file in Jupyter Notebook.
+Open up `data-analysis-projects-class-19-and-20/class-20/studio/`. You will be working in the file `databases-and-py-studio.ipynb`.
 
 ## In Your Notebook
 
