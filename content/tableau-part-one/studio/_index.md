@@ -12,14 +12,12 @@ Please use your best judgment on the chart style, layout, and interpretation of 
 1. We will be using the [Mushroom Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification) dataset from Kaggle.  Download the CSV file.
 1. Open Tableau Public and connect to your dataset.  
 1. Create visualizations for the following:  (a sheet for each).
-    - How many Mushrooms are poisonous vs edible?
-    - How many different habitats were mushrooms collected from?
-    - How many Mushroom habitats compared to class?
-    - How many Mushrooms sorted by class and cap-color?
-    - [Create aliases](https://help.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties_aliases_ex1editing.htm) for each letter in the chart from the above bullet point.
-      - Use the context provided in the dataset for what each letter represents.
-      - Explore the “Marks” card to add color or size to chart d based on the chart design you have chosen.
-      - Give your chart a new title.
+    - How many Mushrooms are poisonous vs edible (i.e. use the `Class` field)?
+    - How many Mushrooms were collected from each habitat?
+    - How many Mushrooms were collected from each habitat, grouped by their class?
+    - How many Mushrooms were collected for each cap-color, grouped by their class?
+    - Now for the chart you created above, [create aliases](https://help.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties_aliases_ex1editing.htm) for each cap-color value that corresponds to its full name in the attributes list below.
+      - Explore the “Marks” card to add color or size to the chart based on the chart design you have chosen.
    - Create your own chart with at least 2 dimensions and aliases to provide context.
    - Create a dashboard with at least 2 of your sheets.
    - Save and publish your dashboard.  
