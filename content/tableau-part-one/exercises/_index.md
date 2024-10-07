@@ -17,12 +17,15 @@ As you work on each of your sheets, think about a descriptive name that you woul
 
 ### Sheet 1: Total of Movies vs TV Shows
 
-The first worksheet will contain a a total count of Movies and TV Shows.
+The first worksheet will contain a a total count of Movies and TV Shows. We will display this information in a horiztonal bar chart.
 
-1. Drag and drop the `Show Id` pill into the `Rows` shelf.
+1. Drag and drop the `Show Id` pill into the `Columns` shelf.
     - Convert it to a measure of `Count`
-1. Add the `Type` pill to the columns shelf.
-1. Lastly, add the `Rating` pill as a `Color` within the `Marks` card to provide some additional detail on the Movies and TV Shows.
+1. Add the `Type` pill to the `Rows` shelf.
+1. Add the `Rating` pill as a `Color` within the `Marks` card to provide some additional detail on the Movies and TV Shows.
+1. Finally, in the Marks section, click the dropdown and select the `Bar` option to ensure our Viz presents the data as a bar chart.
+1. Right click the Sheet tab and use the *Rename* option to rename the sheet to this: `Total Count of Movies and TV Shows`
+
 
 This provides a visual of how many Movies vs TV Shows there are within the given years, and how many Movies and TV shows exist within all available ratings.
 
@@ -30,16 +33,18 @@ This provides a visual of how many Movies vs TV Shows there are within the given
 
 The second worksheet will contain a line graph displaying how many Movies and TV shows were released in the available years.
 
-1. Drag and drop the `Release Year` pill into the columns shelf.
+1. Drag and drop the `Release Year` pill into the `Columns` shelf.
 1. Add the `Show Id` pill into the rows shelf and convert it to a measure of `Count`.
 1. Add the `Type` pill as a `Color` within the `Marks` card to display both Movies and TV Shows, and when how many of each were released per year.
+1. For this viz, we can stick with the `Automatic` viz option in the Marks section. This should render our data as a multi-line chart.
+1. Right click the Sheet tab and use the *Rename* option to rename the sheet to this: `Release Years of Movies and TV Shows`
 
 ### Sheet 3: Popular Genres
 
 The third and final worksheet that you will create for your dashboard is going to display popular genres among the Movies and TV Shows.
 
-1. Drag and drop the `Show Id` pill into the Marks card as a `Color`.
-1. Add another `Show Id` pill into the Marks card as a `Size`.
+1. Drag and drop the `Show Id` pill into the Marks card as a `Color` and convert it to a measure of `Count`.
+1. Add another `Show Id` pill into the Marks card as a `Size` and convert it to a measure of `Count`.
 1. Add the `Listed In` pill into the Marks card as a `Label`.
 
 This is a bit too granular for a dashboard as there are many boxes that do not display a label for the associated genre. Let's apply some minor conditional filtering to the `Listed In` pill.
@@ -48,7 +53,9 @@ This is a bit too granular for a dashboard as there are many boxes that do not d
     - Click on filter
     - Click on the *Condition* section
     - Click *By Field*
+    - For the `Field`, select `Listed In`. For the `Aggregation`, select `Count`
     - Under the *Comparison* section select the `>=` option and add `128` as the *Value*.
+5. Right click the Sheet tab and use the *Rename* option to rename the sheet to this: `Popular Genres`
 
    {{% notice blue Note "rocket" %}}
    You will learn more about filtering in the next Tableau lesson, but this serves a brief introduction!
@@ -56,11 +63,13 @@ This is a bit too granular for a dashboard as there are many boxes that do not d
 
 ### Create a Dashboard
 
-We are introducing dashboards to you now so that you can easily publish your work, but you should know that there are best practices for dashboards that you will cover in a later chapter.
+We are introducing dashboards to you now so that you can easily publish your work. 
+
+But, you should know that there are best practices for dashboards that we will cover in a later chapter.
 
 Click on the `Dashboard` tab at the top of your workbook and click `New Dashboard` or click on the `New Dashboard` button on the bottom of your workspace.
 
-1. Drag and drop your existing `Sheets` into the dashboard view.
+1. From inside the `Dashboard` view pane on the left side of the window, under the `Sheets` section, drag and drop your existing `Sheets` into the dashboard view.
 
 {{% notice blue Note "rocket" %}}
 Feel free to customize this any way you like!
@@ -68,7 +77,7 @@ Feel free to customize this any way you like!
 
 ## End Result
 
-Your dashboard will most likely look similar to the following image:
+If you didn't make any customizations after these steps, your dashboard should look similar to the following image:
 
 ![Completed dashboard for intro to tableau exercises](pictures/dashboard-example.png?classes=border)
 
