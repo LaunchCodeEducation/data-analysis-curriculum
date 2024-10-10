@@ -44,21 +44,17 @@ weight = 2
 1. What months had the most number of adult occupants for South American bookings?
    
    1. Create a group of South American countries and place the group on the shelf.
+      - The country codes you need for the group are as follows:
+         -  ARG, BOL, BRA, CHL, COL, ECU, GUY, PER, PRY, SUR, URY, VEN
 
 1. Which country in South America had the highest number of adult occupants across all bookings?
 
 ## Part D: Sets
 
-1. What countries have hotel bookings that occurred within 10 days or less of arrival?
-   
-   1. Hint: Create a conditional.  
-
-      1. You can do this by filtering your set.  
-      1. You should see the options: “General”, “Conditional”, and “Top”.
-      1. Select “Conditional”, by field and then select the desired field and the operator and the value.
+1. Create a viz that displays the number of bookings that ended up being a 'No-Show', broken down by Deposit Type and Customer Type. 
+   1. You will need to create a set using the 'Reservation Status' field
 
 1. Student Choice: Create a hierarchy of sets to explore the ADR of a country you would like to visit.
-
    1. Start with the continent.
    1. Then a region.
    1. Then the country.  
