@@ -7,30 +7,37 @@ weight = 3
 
 ## Getting Started
 
+**Due to the size of the dataset we are using, please use the Desktop version of Tableau Public for these exercises.** 
+
+**You can publish a local Tableau workbook to your Tableau Public account by selecting the 'File' dropdown menu in the app toolbar, and then selecting the 'Save to Tableau Public' option.**
+
+**Please make sure to save your local workbook often when using the Desktop version of Tableau Public. You only need to 'Save to Tableau Public' when you finish the exercises and are ready to submit your work.**
+
 ### Background
 
-This dataset used in this studio was created by the Institute of Museums and Library Services (IMLS).  We 
-will be exploring data from the Fiscal Year 2014.  Documentation of this survey can be found [here](https://www.imls.gov/sites/default/files/fy2014_pls_data_file_documentation.pdf) if you would like to learn more about the survey.  The survey collected data for each state and the District of Columbia.
+The dataset used in this studio was created by the Institute of Museums and Library Services (IMLS).  We 
+will be exploring data from Fiscal Year 2014.  Documentation of this survey can be found [here](https://www.imls.gov/sites/default/files/fy2014_pls_data_file_documentation.pdf) if you would like to learn more about it. The survey collected data for each state and the District of Columbia.
 
 ### Working Through the Studio
 
 You will be placed into one of eight groups.  The group number reflects the region you have been assigned in the table below.  As a team, one group member can be in charge of Tableau and screen share while other group members provide direction and suggestions.  At the end of the studio, you will present your favorite chart or final dashboard to the class as a whole.
 
-While this is a group assignment, for your own portfolio it is recommended that you make your own version of this studio.
+While this is a group assignment, it is recommended for your own portfolio that you make your own version of this studio.
 
 ### Setting Up the Studio
 
-Download the [library data set](https://www.kaggle.com/imls/public-libraries?select=libraries.csv%C2%A0). There are 2 CSV files. To download all CSV files at once, click on the "Download" bubble next to the "New Notebook" bubble.  An orange arrow is pointing to the "Download" bubble in the image below.
+Download the [library data set](https://www.kaggle.com/imls/public-libraries?select=libraries.csv%C2%A0). There are 2 CSV files. To download all CSV files at once, click on the "Download" bubble next to the "New Notebook" bubble at the top of the Kaggle Page.
 
 1. Open the CSV file in Tableau Public.  
 
    1. It is a larger file than we have previously used and may take a few minutes to open. 
 
-1. When you open this data set, you will want to create a relationship between the `libraries.csv` file and the `states.csv` file using branch libraries.
-1. Part A invites you to briefly explore the data set.  You will explore all the regions of the US.
-1. In Part B, using your assigned region, you will be asked to answer questions using the collection type of your choice: a set or group.  
-1. In Part C,  you will select 2 (or more) of your favorite charts and create a dashboard that highlights results from your selected region.
-1. Final outcome of this studio will include 9 worksheets (10 if you do the bonus) and 1 dashboard.
+1. When you open this data set, you will want to create a relationship between the `libraries.csv` file and the `states.csv` file using the 'Branch Libraries' field.
+![Image showing how to establish the relationship](pictures/tableau-relationship.png)
+1. Part 1 invites you to briefly explore the data set.  You will explore all the regions of the US.
+1. In Part 2, using your assigned region, you will be asked to answer questions using a set.
+1. In Part 3, you will select 2 (or more) of your favorite charts and create a dashboard that highlights results from your selected region.
+1. The final outcome of this studio will include 8 worksheets (9 if you do the bonus) and 1 dashboard.
   
 | **US Regional Codes Table** | **State Names and Abbreviations** |
 |-----------------------------|-----------------------------------|
@@ -47,94 +54,52 @@ Download the [library data set](https://www.kaggle.com/imls/public-libraries?sel
 
 ## Part 1: EDA
 
- Use data from the states.csv table unless otherwise noted.  
+**Use data from the states.csv table unless otherwise noted.**  
 
- In this section, we are looking nationwide.
+In this section, we will be looking at the overall nationwide data. 
+Use the US Regional Codes Table above to create a group for each region using the `State` field. 
 
- Create a viz for each of the following questions: 
+Create a viz for each of the following questions: 
 
-1. How many visits occurred in each region?  
-   
-   1. How does that compare to circulation transactions?
+1. How many library visits occurred in each region? 
+   Then, how do library visits compare to circulation transactions for each region?
 
-1. Compare Library Programs against State Population.
+1. Compare Library Programs against State Population for each region.
+   **Try something other than a bar chart.**
+   1. Explore the marks card. Add at least one feature.
 
-   1. Try something other than a bar chart.
-   1. Explore the marks card.  Add at least one feature.
-
-1. How many visits in each region compared to the End Date?
-
-   1. Hint: Use the End date from the `libraries.csv` file.
-
-      1. Pull other elements from the `states.csv` file.
-      1. Hide the `Null` values in your final viz.
+1. How many library visits are there for each region compared by End Date? 
+   Use the End date from the `libraries.csv` file. 
+   Pull other elements from the `states.csv` file. 
+   Hide the `Null` values in your final viz.
       
-   1. Use the US Regional Codes Table above to create aliases for each region. 
-   
-      1. Hint: Rename the Region only at this time. 
-      1. Don't worry about states right now.
 
 ## Part 2: Collect Your Data
 
 Begin working with your assigned region. Remember to use the table above to help with managing and organizing your data and use data from the `states.csv` table unless otherwise noted.
 
-Create collections to hold your data:
+Create a collection to hold your data:
 
-1. Set Your Data.
+1. Using the groups created in Part 1, create a set that only includes your group's region. Change the set to 'Show members in Set' from the dropdown menu for the field. Rename the set to match your region's name.
 
-   1. Select your region as a set.  
-
-      1. We are going to compare your region to the rest of the US. 
-      1. Give this set a name so that you can easily find and use it.
- 
-1. Group Your Data.
-
-   1. Group the states within your region as a whole.
-    
-      1. Give this group a name.  
-      1. If you used the “State Code” field for your group, you will need to create aliases for the state number to either the name or abbreviation.
-      1. For example, “51” becomes “Virginia” or “VA”.
-      1. See [document page D-44](https://www.imls.gov/sites/default/files/fy2014_pls_data_file_documentation.pdf) for the state codes.
-
-   1. Group the states individually.
-   
-      1. Give this group a name.
-
-1. Organizing Your Collections.
-
-   1. If you want to create a hierarchy to better organize your data or drill down at some point, this is your choice.  
-   
-      1. You can create vizzes with or without hierarchies.  
-      1. It is your choice. 
 
 **Questions to Answer with a Viz**
 
 Now that you have organized your data, you are ready to explore your region.
 
-Create a new worksheet for each question using either your sets or groups.
+Create a new worksheet for each question. Answer them using your set and the overall regions (when necessary).
 
-1. How many Central Libraries vs Branch Libraries are in each state within your region?
-
-   1. How many bookmobiles?
-   1. Add a tooltip or make an interactive filter card.
+1. How many Central Libraries vs Branch Libraries are in each state within your region? Then, add in how many bookmobiles are in each state in your region.
 
 1. How many Young Adult (YA) library programs does each state in your region host and how many individuals attend?
 
-   1. Add a detail and a label to this viz. 
+1. For Central Libraries and Branch Libraries in your region, how many employees are Librarians?
 
-1. Between Central Libraries and Branch Libraries in your region, how many employees are Librarians?
-
-   1. Use the marks card to show data about Librarians.
-
-1. How many Librarians hold an MLS degree in your region compared to the rest of the US?
-
-   1. Compared to how many Total Staff?
-   1. Use a new chart format (if possible).
+1. How many Librarians hold an MLS degree in your region compared to the rest of the US? Then, compare the number of librarians that hold an MLS degree to the number of total staff for your region and the rest of the US.
 
 1. How do circulation transactions compare between your region and the rest of the US over 2013-2014?
 
    1. Hint: Use the End Date pill.  Hide any Null values, we only want reported values at this time. 
-   1. Add a label.
 
 ## Part 3: Create a Dashboard
 
@@ -142,11 +107,11 @@ Create a dashboard that highlights at least 2 of your favorite charts from the s
 
 ## Bonus Mission
 
-Using the spacial files to create a map, create a viz to answer the following question:
+Using the spacial fields to create a map, create a viz to answer the following question:
 
-1. Within your region, how many children's programs were distributed by a state by county?
+1. For a specific state within your region, how many children's programs were there for each county?
 
-   1. Hint: Drag the State (`states.csv`) file into the central plane, and use the `Marks` card.  
+   1. Hint: Drag the State (`states.csv`) field into the central plane, and use the `Marks` card.  
    
       1. Be sure to filter.
       
@@ -157,11 +122,11 @@ Using the spacial files to create a map, create a viz to answer the following qu
 
 Before you turn in your vizzes:
 
-1. Make sure that they are easy to read. 
-1. Review and edit any axes so that they don't contain any file information. 
+1. Make sure they are easy to read. 
+1. Review and edit any axes so that they don't contain the file name information. 
 1. Make sure any filtering, group, or set information is easy to understand. 
 
-   1. For example, when using a set the predefined labels may say “In” and “Out”. Would extra context make them easier to understand? 
+   1. For example, when using a set, the predefined labels may say “In” and “Out”. Would extra context make them easier to understand? 
    1. Don't forget to title your charts.  
 
 1. If you want to explore fonts and colors, go right ahead. 
@@ -171,5 +136,5 @@ Before you turn in your vizzes:
 
 ## Submitting Your Work
 
-When finished make sure to save and publish your work to your Tableau Public account. Copy the URL to your published Tableau project and paste it into the submission box in 
+When finished, make sure to save and publish your work to your Tableau Public account. Copy the URL to your published Tableau project and paste it into the submission box in 
 Canvas for **Studio: Visualization with Tableau Part 2** and click *Submit*.
