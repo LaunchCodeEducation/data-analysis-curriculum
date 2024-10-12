@@ -32,8 +32,8 @@ Download the [library data set](https://www.kaggle.com/imls/public-libraries?sel
 
    1. It is a larger file than we have previously used and may take a few minutes to open. 
 
-1. When you open this data set, you will want to create a relationship between the `libraries.csv` file and the `states.csv` file using the 'Branch Libraries' field.
-![Image showing how to establish the relationship](pictures/tableau-relationship.png)
+1. When you open this data set, you will want to create a relationship between the `libraries.csv` file and the `states.csv` file using the 'State Code' field.
+![Image showing how to establish the relationship](pictures/tableau-relation.png)
 1. Part 1 invites you to briefly explore the data set.  You will explore all the regions of the US.
 1. In Part 2, using your assigned region, you will be asked to answer questions using a set.
 1. In Part 3, you will select 2 (or more) of your favorite charts and create a dashboard that highlights results from your selected region.
@@ -107,7 +107,7 @@ Create a dashboard that highlights at least 2 of your favorite charts from the s
 
 ## Bonus Mission
 
-Using the spacial fields to create a map, create a viz to answer the following question:
+Using the spacial fields in `libraries.csv` (latitude, longitude), create a map viz to answer the following question:
 
 1. For a specific state within your region, how many children's programs were there for each county?
 
