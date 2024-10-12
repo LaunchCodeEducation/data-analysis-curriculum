@@ -10,14 +10,12 @@ weight = 2
 1. Download this [Bike Sharing in Washington D.C. Dataset](https://www.kaggle.com/marklvl/bike-sharing-dataset).
    - 2 CSV files total (`day.csv` and `hour.csv`). 
   
-1. Be sure to read the context and content about this dataset to better understand how and why data was collected.
-1. Open the downloaded dataset in Tableau Public.
-   - Create a relationship between the CSV files.
-   - `Dteday` is a shared column between the two tables.
+1. Please read the context and content about this dataset to better understand how and why data was collected.
+1. Open the downloaded dataset in Tableau Public. Create a relationship between the CSV files using the `Dteday` field.
    
-1. Create a new Tableau Public project to answer the below questions.
+1. Create a new Tableau Public project to answer the questions in this exercise.
 1. We are going to explore dates and create calculations and parameters with our data that answer our business issue.
-1. Your final output will be a dashboard with at least 3 of your charts that provides data useful to the business issue.
+1. Your final output will be a dashboard with at least 3 of your charts that provides useful data that addresses the business issue.
 1. Here are some [other fun facts about the DC Bike sharing program](https://en.wikipedia.org/wiki/Capital_Bikeshare)
 
 ### Business Issue: 
@@ -26,7 +24,7 @@ The Bike Sharing program did very well in DC and is still popular today.  Your c
 creating its own bike sharing program.  You have been tasked to see how the first 2 years went in DC to 
 anticipate any factors that might affect usability such as weather, seasons, or holidays.
 
-A few questions have been provided to help guide your thoughts in this exercise.
+A few questions have been provided to help guide your thoughts in this exercise. Remember, sometimes we may want to report on a field as a Measure AND a Dimension. **We can do this by creating a duplicate of the original field and renaming it to be either `field name - measure` or `field name - dimension` depending on our use case.**
 
 ### EDA
 
@@ -60,7 +58,8 @@ A few questions have been provided to help guide your thoughts in this exercise.
 1. Does the average temp (°F) impact all riders? 1. Use calculations to convert the `Temp` from a “Normalized” scale of 0-1, to °C then finally to °F.
    - Convert from 0-1 to Celsius using the following formula: **temp = 47 * temp - 8**
       - [Formula source](https://www.andrew.cmu.edu/user/achoulde/94842/homework/homework5.html).
-      - Quick Check:  The average temp of Jan 1, 2011 is 46.72°F and the average temp of Feb 1, 2011 is 33.86°F.
+      - Quick Check:  The average temp of Jan 1, 2011 is 46.72°F and the average temp of Feb 1, 2011 is 33.86°F
+   - Convert the new Celsius field to Fahrenheit using this formula: ([celsius] × 9/5) + 32 = [fahrenheit]
 
 
 ### Table Calculation:
