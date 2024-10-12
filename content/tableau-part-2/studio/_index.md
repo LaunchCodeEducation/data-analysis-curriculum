@@ -107,15 +107,9 @@ Create a dashboard that highlights at least 2 of your favorite charts from the s
 
 ## Bonus Mission
 
-Using the spacial fields in `libraries.csv` (latitude, longitude), create a map viz to answer the following question:
+Using the `libraries.csv` file, create a map viz to answer the following question:
 
-1. For a specific state within your region, how many children's programs were there for each county?
-
-   1. Hint: Drag the State (`states.csv`) field into the central plane, and use the `Marks` card.  
-   
-      1. Be sure to filter.
-      
-   1. Hint: County is a dimension found in the libraries.csv table.
+1. For each county for a specific state in your region, what was the total audience for Young Adult Programs?
  
 
 ## Finishing Touches
