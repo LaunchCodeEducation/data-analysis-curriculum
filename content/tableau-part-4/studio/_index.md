@@ -7,16 +7,19 @@ weight = 3
 
 ## Getting Started
 
-This is a group studio.  Your group has been asked to create a visual for the International Fencing Federation (FIE).   Work through the data analysis steps that you have been learning in this program to create your final viz. 
+**This is a group studio.**  
 
-As a group, explore your data and decide upon: 
+Your group has been asked to create a visual for the International Fencing Federation (FIE). You can learn more about the FIE [from their website](https://fie.org/).
 
-1. A business issue or a question you want to explore further.  
-1. Next clean, and manipulate the data to create vizzes that provide insight to your business issue or question.  
-1. Your final output should be a dashboard that best provides insight on your discoveries.  
-1. You will present your dashboard at the end of class.
-1. Suggested Topics to Explore:
+As a group, explore your data and decide upon a business issue or a question you want to explore further.  
 
+Next, clean and manipulate the data to create vizzes that provide insight to your business issue or question.  
+
+Your final output should be a dashboard that uses data visualization best practices to relay your discoveries.  
+
+You will present your dashboard at the end of class.
+
+Suggested Topics to Explore:
    1. Weapons
    1. Handedness
    1. Category
@@ -35,7 +38,7 @@ Download [FIE Fencing Womens Foil data set](https://www.kaggle.com/datasets/amic
 
    1. You will explore this in the EDA section below.
 
-1. Here is more information about the [International Fencing Federation](https://fie.org/).
+
 
 ### EDA
 
