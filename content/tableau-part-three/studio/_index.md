@@ -9,14 +9,20 @@ weight = 3
 
 ### Business Issue:
 
-You work for TarMart corporate. TarMart has 45 department stores across the country, of various 
+You work for TarMart corporate. TarMart has 45 department stores across the country of various 
 sizes. Between 2010 and 2013, TarMart has tracked weekly sales of each store by department. Your 
 supervisors want some insights on which stores and departments are performing the best in weekly 
 sales.
 
+**Due to the size of the dataset we are using, please use the Desktop version of Tableau Public for these exercises.** 
+
+**You can publish a local Tableau workbook to your Tableau Public account by selecting the 'File' dropdown menu in the app toolbar, and then selecting the 'Save to Tableau Public' option.**
+
+**Please make sure to save your local workbook often when using the Desktop version of Tableau Public. You only need to 'Save to Tableau Public' when you finish the exercises and are ready to submit your work.**
+
 ### Setting Up the Studio:
 
-Download [Retail Data Analytics data set](https://www.kaggle.com/datasets/manjeetsingh/retaildataset?select=Features+data+set.csv). There are 3 CSV files. To download all CSV files at once, click on the `Download` bubble next to the `New Notebook` bubble.  An orange arrow is pointing to the `Download` bubble in the image below.
+Download the [Retail Data Analytics data set](https://www.kaggle.com/datasets/manjeetsingh/retaildataset?select=Features+data+set.csv). There are 3 CSV files. To download all CSV files at once, click on the `Download` bubble next to the `New Notebook` bubble.
 
 1. Open the CSV file in Tableau Public.  
 1. When you open this data set, you will want to create a relationship between the 3 CSV files.
@@ -28,7 +34,7 @@ This dataset has a large amount of rows that Tableau Public might have trouble q
 
 ### EDA
 
-1. What do weekly sales over time look like?
+1. What do weekly sales look like over time?
 1. Weekly sales by store type?
 1. Weekly sales by store?
 1. Weekly sales by department?
@@ -36,12 +42,10 @@ This dataset has a large amount of rows that Tableau Public might have trouble q
 
 ### Calculations
 
-1. Determine a cutoff for constituting a high sale amount.
-
-   - Use your discretion from what you observe in your vizzes. 
-   - Use a basic calculation to create a new field indicating your measure for high sales.
-   
-      -  Use this field in a new chart to display which stores return higher sales than others.
+1. Determine a cutoff value for constituting a high sale amount. 
+   Use your discretion from what you observe in your vizzes. 
+      - Then, use a basic calculation to create a new field indicating your measure for high sales.
+        Use this field in a new chart to display which stores return higher sales than others.
 
 1. TarMart wants to know which of the stores included in this dataset have contributed the most to overall sales in the company. 
 
@@ -74,8 +78,7 @@ This dataset has a large amount of rows that Tableau Public might have trouble q
    
 ### Dashboard Clarity
 
-1. Present your charts in a dashboard that summarizes your findings. 
-1. Now is a good time to update labels and colors for an easily digestible report.
+1. Present your charts in a dashboard that summarizes your findings. Now is a good time to update labels and colors for an easily digestible report.
 
 ### Finishing Touches
 
