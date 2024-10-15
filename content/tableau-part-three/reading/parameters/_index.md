@@ -58,8 +58,8 @@ Parameters can also be used in filters to dynamically filter your data based on 
 
 ### Filling in the Gaps: PluralSight Content (see warning notice below)
 
-**At this moment, please pause your reading of the textbook and watch the PluralSight video linked below. This video will help fill in learning gaps that currently exist in this chapter.** 
-Once you are finished with this video, please resume reading this chapter.
+**At this moment, please pause your reading of the textbook and complete the PluralSight learning module linked below. This module will help you further understand how to use filters and parameters in Tableau.** 
+Once you are finished with this module, please resume reading this chapter.
 
 1. [Dynamic Interactivity with Filters and Parameters](https://app.pluralsight.com/ilx/video-courses/clips/de1124d7-2c19-45ac-9fa0-3a23067ddf3a)
 

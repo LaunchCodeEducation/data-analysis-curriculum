@@ -76,8 +76,8 @@ To add a table calculation to a visualization within Tableau:
 
 ### Filling in the Gaps: PluralSight Content (see warning notice below)
 
-**At this moment, please pause your reading of the textbook and watch the two PluralSight videos linked below. These videos will help fill in learning gaps that currently exist in this chapter.** 
-Once you are finished with these videos, please resume reading this chapter.
+**At this moment, please pause your reading of the textbook and complete the two PluralSight learning modules linked below. These modules will help you further understand how to use calculations and quick table functions in Tableau.** 
+Once you are finished with these modules, please resume reading this chapter.
 
 1. [Introduction to Calculations in Tableau](https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e)
 1. [Numerical Calculations and Quick Table Functions](https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e)

@@ -30,8 +30,8 @@ Another benefit of Tableau dashboards is that you can add interactivity for the 
 
 ### Filling in the Gaps: PluralSight Content (see warning notice below)
 
-**At this moment, please pause your reading of the textbook and complete the PluralSight course linked below. This course will help fill in learning gaps that currently exist in this chapter.** 
-Once you are finished with the course, please continue reading the chapter.
+**At this moment, please pause your reading of the textbook and complete the PluralSight course linked below. This course will help you further understand how to build your dashboard.** 
+Once you are finished with this course, please continue reading the chapter.
 
 1. [Build Your First Dashboard with Tableau](https://app.pluralsight.com/library/courses/build-first-dashboard-tableau/table-of-contents)
 
