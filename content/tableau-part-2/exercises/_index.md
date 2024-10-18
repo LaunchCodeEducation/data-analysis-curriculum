@@ -31,7 +31,7 @@ weight = 2
    1. Create a hierarchy using:
       1. Arrival Date Day of Month.
       1. Arrival Date Week Number. 
-         - This field may auto import as a Dimension. If it does, you will need to convert it to a Measure and change the Data Type to 'Number' 
+         - You might need to change the Data Type of this field to `Number (whole)` 
       1. Arrival Date Year.
       
 ## Part B: Filtering
