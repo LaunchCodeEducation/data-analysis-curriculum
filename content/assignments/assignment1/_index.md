@@ -8,7 +8,7 @@ weight = 2
 
 ## Outline
 
-In this assignment, you are working for a fintech company looking to build a personal finance app to guide the average American consumer. You will be using the EDA and cleaning data skills you acquired with Google Sheets to grow the founders' understanding of various data sources before the app teams put together the underlying logic into the app.
+In this assignment, you are working for a fintech company looking to build a personal finance app to guide the average American consumer. You will be using the EDA and cleaning data skills you acquired with Excel to grow the founders' understanding of various data sources before the app teams put together the underlying logic into the app.
 
 ## Content Links
 

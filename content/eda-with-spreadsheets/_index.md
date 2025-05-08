@@ -5,6 +5,7 @@ title = "Exploratory Data Analysis With Spreadsheets"
 date = 2024-01-22T16:53:31-06:00
 draft = false
 weight = 5
+hidden = true
 +++
 
 ## Learning Objectives
@@ -12,7 +13,7 @@ weight = 5
 After reviewing all the content in this chapter, you should be able to:
 
 * Understand what Exploratory Data Analysis is and why it is an important step in the data analysis process.
-* Be able to perform an exploratory analysis on a dataset with Google Sheets
+* Be able to perform an exploratory analysis on a dataset with Excel
 
 ## Key Terminology
 
@@ -21,7 +22,7 @@ After reviewing all the content in this chapter, you should be able to:
 1. Exploratory Data Analysis
 1. EDA
 
-### Summary Statistics with Google Sheets
+### Summary Statistics with Excel
 
 1. Summary statistics
 1. Descriptive statistics
@@ -38,7 +39,7 @@ After reviewing all the content in this chapter, you should be able to:
 1. IQR
 1. standard deviation
 
-### Creating Visualizations with Google Sheets
+### Creating Visualizations with Excel
 
 1. line graph
 1. bar chart

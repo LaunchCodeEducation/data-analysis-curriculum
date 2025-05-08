@@ -15,12 +15,12 @@ This dataset includes over 5,000 rows! To save yourself time, if you want to sel
 
 {{% /notice %}}
 
-We can import a CSV into Google Sheets with the following steps:
+We can import a CSV into Excel with the following steps:
 
 1. Create a new workbook.
 1. Click *File* > *Import*.
 1. This will result in a popup. Click on *Upload* and drag your downloaded CSV into the box or select *Browse* and find it in your computer's file system.
-1. Once Google Sheet is ready, a popup will appear with different options. You want the *Import Location* to be "Replace current sheet", *Separator type* to be "Detect automatically", and to make sure that "Convert text to numbers, dates, and formulas" is checked. Click *Import data* when you are ready.
+1. Once Excel is ready, a popup will appear with different options. You want the *Import Location* to be "Replace current sheet", *Separator type* to be "Detect automatically", and to make sure that "Convert text to numbers, dates, and formulas" is checked. Click *Import data* when you are ready.
 
 With your dataset imported, we can begin EDA. Focusing on just the `Fuel_Price` column answer the following questions:
 
