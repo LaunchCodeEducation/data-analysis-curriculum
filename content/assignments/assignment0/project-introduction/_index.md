@@ -9,6 +9,7 @@ Your first assignment is mostly an exercise in following instructions. We'll ask
 
 {{% notice orange Warning "rocket" %}}
 In order to complete this assignment you will need to have created a Microsoft account! If you have not done so you can find the link below:
+{{% /notice %}}
 
 ## Requirements
 1. Sign in to your associated Microsoft account.
