@@ -41,7 +41,7 @@ When using the `.shape()` function for a Series it will only return the number o
 
 ## Statistics with pandas
 
-A lot of the functions below may look familiar to you as you have already practiced some of them during your time spent with Google sheets. Refer back to [Summary Statistics with Google Sheets]({{% relref "../../../eda-with-spreadsheets/reading/summary-statistics/_index.md" %}}) if you need a refresher on basic statistics. While the functions might look different, conceptually they are the same.
+A lot of the functions below may look familiar to you as you have already practiced some of them during your time spent with Google sheets. Refer back to [Summary Statistics with Excel]({{% relref "../../../eda-with-spreadsheets/reading/summary-statistics/_index.md" %}}) if you need a refresher on basic statistics. While the functions might look different, conceptually they are the same.
 
 | Function | Description |
 |-----------|-------------|

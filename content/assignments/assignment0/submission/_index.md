@@ -11,14 +11,14 @@ Once you are done with your assignment and have verified that you have the corre
 
 ### Proper Sharing Options
 
-When sharing a google sheet you want to ensure you provide the correct sharing permissions. For this assignment, you want to only allow individuals with the link to be able to *view* the sheet.
+When sharing a Excel you want to ensure you provide the correct sharing permissions. For this assignment, you want to only allow individuals with the link to be able to *view* the sheet.
 
 1. Click on the "Share" button in the top right corner.
-1. Under "General Access", it may still be "Restricted" access, meaning the only people that have been directly added can view the google sheet.
+1. Under "General Access", it may still be "Restricted" access, meaning the only people that have been directly added can view the Excel.
     1. Click on the "Restricted" button and select "Anyone with the link"
     1. To the right, make sure the "Viewer" option is selected. This ensures that no one can edit or make changes to your workbook, even if they have access.
 1. Click the *Copy link* button and paste the link within the submission box on the assignment page within Canvas!
 
 If you have completed the above steps, your sharing options should look similar to the image below:
 
-![Correct sharing options for a google sheet assignment](pictures/share-options.png?classes=border)
+![Correct sharing options for a Excel assignment](pictures/share-options.png?classes=border)

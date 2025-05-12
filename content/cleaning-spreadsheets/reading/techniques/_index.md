@@ -54,13 +54,13 @@ Some common functions that you might find helpful include the following:
 1. `UPPER`: Converts a string of text to uppercase
 
 {{% notice blue Note "rocket" %}}
-If you would like to view the entire list of functions available within google sheets you can find them here: [Google Sheets function list](https://support.google.com/docs/table/25273?hl=en) 
+If you would like to view the entire list of functions available within Excels you can find them here: [Excel function list](https://support.google.com/docs/table/25273?hl=en) 
 {{% /notice %}}
 
 ### Remove Redundant data
 Removing duplicated or **redundant data** will help not only shrink your dataset down but also remove any piece of data from being recorded twice. If redundant data is not removed it can slow down queries made to the dataset. Datasets will often times include data that is not necessary and can be removed to reduce bloat and required storage space. This practice might not seem critical on smaller sized datasets but as the size of the dataset increases it will have a much bigger impact.
 
-Fortunately google sheets has a tool to remove duplicates! Select the column you would like to clean up and click on `Data` > `Data cleanup` > `Remove duplicates`.
+Fortunately Excels has a tool to remove duplicates! Select the column you would like to clean up and click on `Data` > `Data cleanup` > `Remove duplicates`.
 
 {{% notice red Warning "rocket" %}}
 Use the `Remove duplicates` option with care! Sometimes a column may have duplicate values that is intended! For example if you have a `first_name` column you may not want to remove all duplicates as there may be multiple people with the same first name.
@@ -71,7 +71,7 @@ A great way to standardize data entry and remove the possiblity of user error is
 
 Google sheets allows you to add data validation but creating a drop down menu. Select the column or cells that you would like to add a drop-down list to and click on `Data` > `Data validation` > under `Criteria` select `Dropdown` and add any options you want included in the list.
 
-![Image of a dropdown list created within google sheets](pictures/dropdown-list.png?classes=border)
+![Image of a dropdown list created within Excels](pictures/dropdown-list.png?classes=border)
 
 ### Rename Columns
 When working with a dataset it is very helpful to have proper naming conventions for your columns. This not only helps you understand the data you are working with but it also makes things a bit more clear for your stakeholders. For example when working with a column full of birth dates named "DOB" might be a confusing acronym, a better name would be "DateOfBirth".

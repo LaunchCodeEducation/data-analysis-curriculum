@@ -12,7 +12,7 @@ Below are some of the more common methods and techniques used today.
 ## Methods and Techniques
 
 1. **Cleaning data**: After data has been collected it will most often need to be cleaned. Since collected data may often be improperly formatted, duplicated, have errors or typos, missing values, or simply incorrect, correcting these mistakes or "cleaning" the data is a very logical step. One of the most important reasons to clean data is so that you do not reach false or inaccurate conclusions when presenting it.
-1. **Data Visualization**: Adding a visual to your data is helpful when presenting. It also allows for a better understanding. Using tools and software like google sheets and Microsoft excel amongst others to create basic charts, plots, or histograms is very common practice.
+1. **Data Visualization**: Adding a visual to your data is helpful when presenting. It also allows for a better understanding. Using tools and software like Excels and Microsoft excel amongst others to create basic charts, plots, or histograms is very common practice.
 1. **Formatting data**: Providing a specific format for certain columns, rows, values, data types, and more will help mitigate errors in your data. If you are working with data that has a specific length or is of a specific type you can add that parameter to prevent user error when adding and collecting data.
 1. **Cluster analysis**: This type of analysis is a technique used to group data together that have similarities. This allows the ability to organize data based on the features present within those groups.
 

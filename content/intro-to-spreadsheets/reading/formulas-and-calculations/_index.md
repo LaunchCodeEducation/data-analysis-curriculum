@@ -7,7 +7,7 @@ originalAuthorGitHub = "gildedgardenia"
 
 Right now, we have a lot of information stored in our spreadsheet, but we haven't fully unlocked all that we can do with spreadsheets. One feature that many data analysts make use of is formulas. Formulas in spreadsheets enable us to run a mathematical calculation using the value of a cell. We can sum multiple cells together or multiple a cell's value by 3. 
 
-To write a formula, we can start by typing a `=` in the cell. This tells Google Sheets that we are going to write a formula. If we want to multiple the value of B4 by 3, then we type `=B4*3`. When you are done with your formula you can hit *Enter* to see the result. 
+To write a formula, we can start by typing a `=` in the cell. This tells Excel that we are going to write a formula. If we want to multiple the value of B4 by 3, then we type `=B4*3`. When you are done with your formula you can hit *Enter* to see the result. 
 
 Let's explore some ways we can use formulas in Car Info.
 
@@ -17,7 +17,7 @@ Sometimes, we want to set up a whole column where each value is the result of a 
 
 1. In the "Overview" tab, add a new header to column G called "Tax Value".
 1. We checked the tax rate and on cars right now, it is 2%, so the taxes we owe would be 2% of the current value.
-1. Starting with G2, write in that cell the formula for finding the tax value of the car. As you write the cell identifier for the current value of row 2, Google Sheets will highlight the cell that you are referencing which can serve as a helpful visual reminder of what the formula is going to be using.
+1. Starting with G2, write in that cell the formula for finding the tax value of the car. As you write the cell identifier for the current value of row 2, Excel will highlight the cell that you are referencing which can serve as a helpful visual reminder of what the formula is going to be using.
 1. Now we want every row in column G to accurately reflect the tax value of the car. To copy the formula and not the value in G2, hover your mouse over the bottom right corner of G2 and you will see a plus sign appear. Click and drag down to G3. Release once both cells are highlighted and you should see 2% of E3 in G3. To confirm, click on the cell to see what the formula looks like.
 1. If you want to add another row, you can click and drag down as you did above.
 

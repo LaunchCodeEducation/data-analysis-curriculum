@@ -9,7 +9,7 @@ weight = 2
 
 Now that we have covered what cleaning data is and why its important, the different types of data cleaning techniques, and types of dirty data we can put it into practice!
 
-Download the below dataset to your machine and upload it into Google Sheets.
+Download the below dataset to your machine and upload it into Excel.
 
 {{% attachments style="blue" title="Random Data starter set" /%}}
 
@@ -21,10 +21,10 @@ Don't hesitate to reach out to course staff and your fellow students if you want
 
 ### Missing Data
 
-Google Sheets has many built-in tools that allow the user to handle missing data. We will explore a few of those options below to help clean a randomly generated dataset that includes the following:
+Excel has many built-in tools that allow the user to handle missing data. We will explore a few of those options below to help clean a randomly generated dataset that includes the following:
 `first_name`, `last_name`, `email`, `employer`, `username`, `password`, `ipv4_address`, `user_agent`, `datetime`, `company`, `city`, `transaction_total`
 
-1. Conditional Formatting: Google Sheets allows you to use conditional formatting to highlight specific cells that meet a certain criteria. Lets start by highlighting cells that do not contain any data.
+1. Conditional Formatting: Excel allows you to use conditional formatting to highlight specific cells that meet a certain criteria. Lets start by highlighting cells that do not contain any data.
    - Select columns A - M. Once selected, click `Format` > `Conditional Formatting`. Under the `Format cells if...` section select `Is empty`. All cells missing data should now be highlighted. This provides a visual indicator for you so you can more easily scan through.
 
 {{% notice green Tip "rocket" %}}
