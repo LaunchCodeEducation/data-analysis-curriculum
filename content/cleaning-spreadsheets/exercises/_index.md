@@ -11,7 +11,7 @@ Now that we have covered what cleaning data is and why its important, the differ
 
 Download the below dataset to your machine and upload it into Excel.
 
-{{% attachments style="blue" title="Random Data starter set" /%}}
+{{% resources style="blue" title="Random Data starter set" /%}}
 
 ## Code Along
 

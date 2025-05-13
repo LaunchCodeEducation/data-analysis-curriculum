@@ -7,7 +7,7 @@ theme = "hugo-theme-relearn"
 canonifyUrls = true
 
 [outputs]
-  home = ["HTML", "RSS", "SEARCH"]
+  home = ["HTML", "RSS"]
 
 [params]
   themeVariant = ["lc-light", "lc-dark-blue", "lc-dark-blue-two"]

@@ -1,5 +1,5 @@
 +++
-pre = "<b>4. </b>"
+pre = "<b>3. </b>"
 chapter = true
 title = "Introduction to Data"
 date = 2024-01-08T10:24:35-06:00
