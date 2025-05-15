@@ -57,7 +57,7 @@ We will be mostly working with `.csv` (comma-separated values) files.
 
 We will use the [Netflix and TV Shows dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows) from Kaggle. Download the dataset from Kaggle or click on the `netflix_titles.csv` link below to download the CSV file to your machine:
 
-{{% attachments style="blue" title=".CSV Data" /%}}
+{{% resources style="blue" title=".CSV Data" /%}}
 
 One you have downloaded the `netflix_titles.csv` file, click on the `Data` tab in the top left corner and select `New Data Source` within your Tableau workbook. 
 
