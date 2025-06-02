@@ -11,7 +11,7 @@ Start out by creating a [Tableau Public Account](https://public.tableau.com/app/
 
 After downloading the desktop application, you should see an option to Create a new workspace, which will lead you to a view similar to the below image:
 
-![New Tableau Public Workbook via web authoring](pictures/new-workbook-view.png?classes=border)
+![New Tableau Public Workbook view](pictures/new-workbook-view.png?classes=border)
 
 For the time being, click the `X` on the connect to data option, we will not be doing that just yet!
 
