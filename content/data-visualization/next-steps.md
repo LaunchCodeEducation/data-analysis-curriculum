@@ -9,4 +9,3 @@ hidden = false
 Next we will be learning how to use pandas with a sqlite3 database. Before continuing on, here are some of our favorite additional resources on data visualization in Python:
 
 1. [Johns Hopkins' Data Visualization Guides](https://guides.library.jhu.edu/datavisualization/design)
-1. [Differences Between Matplotlib and Seaborn](https://www.geeksforgeeks.org/difference-between-matplotlib-vs-seaborn/)

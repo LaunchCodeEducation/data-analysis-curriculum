@@ -1,13 +1,11 @@
 +++
-title = "Matplotlib and Seaborn"
+title = "Matplotlib"
 date = 2024-03-11T13:58:38-05:00
 draft = false
 weight = 3
 +++
 
-Armed with visualization best practices, we can dive into Matplotlib and Seaborn, the two Python libraries oftentimes used with pandas to create beautiful visualizations. 
-
-Seaborn is built on top of Matplotlib and can make more complex visualizations with customized color palettes.
+Armed with visualization best practices, we can dive into Matplotlib, the Python library is oftentimes used with pandas to create beautiful visualizations. 
  
 Matplotlib might show up more as a tool for EDA, where the visualizations are mainly tools for us as analysts as opposed to visualizations to present to business leaders. 
 
@@ -15,12 +13,6 @@ To import Matplotlib, we can use the following common syntax:
 
 ```python
 import matplotlib.pyplot as plt
-```
-
-To import Seaborn, use the following:
-
-```python
-import seaborn as sns
 ```
 
 {{% notice blue Note %}}
@@ -48,21 +40,6 @@ plt.bar(plants, fruit_yield)
 
 The above code would create a column chart that has three different citrus trees on the x-axis and their respective fruit yields for the year on the y-axis.
 
-### Seaborn
-
-Seaborn is a little sleeker than Matplotlib in that we have one `barplot()` method with a parameter that allows us to switch between a column and a bar chart. Seaborn also works best with DataFrames.
-
-If we wanted to make the same plot as above, but with Seaborn and switch it to a bar chart, we would need to do the following:
-
-```python {linenos=table}
-data = [["Lemon", 89], ["Lime", 43], ["Orange", 12]]
-citrus = pd.DataFrame(data, columns=["plant","fruit_yield"])
-
-sns.barplot(citrus, x="fruit_yield", y="plant", orient="y")
-```
-
-Setting the `orient` parameter to `"y"` specifies that we want a bar chart as opposed to a column chart.
-
 ## Scatterplots
 
 ### Matplotlib
@@ -76,17 +53,6 @@ pollinator_participants=[10,56,102]
 plt.scatter(pollinator_participants, butterflies)
 ```
 
-### Seaborn
-
-Once again, when working with Seaborn, we need to load our data into a DataFrame before we can try out the `scatterplot()` method.
-
-```python {linenos=table}
-data = [[12,10], [34,56], [89,102]]
-pollinator_program = pd.DataFrame(data, columns=["butterflies","pollinator_participants"])
-
-sns.scatterplot(data=pollinator_program, x="pollinator_participants", "butterflies")
-```
-
 ## Histograms
 
 ### Matplotlib
@@ -97,17 +63,6 @@ Let's use histograms to better understand the butterfly population at the nurser
 butterflies=[2,6,17,28,59,112,56,24]
 
 plt.hist(butterflies, bins=8)
-```
-
-### Seaborn
-
-We can plot a similar histogram using Seaborn and the `histplot()` method.
-
-```python {linenos=table}
-data = [[1,2], [2,6], [3,17], [4,28], [5,59], [6,112], [7,56], [8,24]]
-butterflies = pd.DataFrame(data, columns=["week", "butterflies"])
-
-sns.hisplot(butterflies, bins=8)
 ```
 
 ## Pie Charts
@@ -129,4 +84,4 @@ The `labels` parameter specifies what each slice of the pie chart should be call
 
 As we mentioned on the previous page, not everyone likes pie charts and Seaborn is no exception. Seaborn does not come with a pie chart method. 
 
-As you explore making visualizations in Python, we suggest bookmarking both the [Matplotlib documentation](https://matplotlib.org/stable/index.html) and the [Seaborn documentation](https://seaborn.pydata.org/). Both sets of documentation come with lots and lots of examples of how you can properly use the multitude of parameters that come with each of the above methods.
+As you explore making visualizations in Python, we suggest bookmarking both the [Matplotlib documentation](https://matplotlib.org/stable/index.html) This documentation comes with lots of examples of how you can properly use the multitude of parameters that come with each of the above methods.
