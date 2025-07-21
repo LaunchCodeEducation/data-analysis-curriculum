@@ -27,16 +27,8 @@ The pandas library is incredibly powerful and was built specifically for data an
 
 We will use pandas to create, manipulate, and view data structures based on certain conditions. We will also cover some of the most common functions used when exploring data with pandas that we can use to our advantage during the exploration process.
 
-{{% notice orange Warning "rocket" %}}
-Remember to install pandas within your virtual environment! Run the following command to activate it from within your `data-analysis-projects` directory. Refer back to the section on virtual environments if you would like to revisit the material: [Virtual Environments]({{% relref "../../../installations/jupyter-notebook/_index.md#creating-a-virtual-environment" %}})
-
-```python
-source venv/bin/activate
-```
-{{% /notice %}}
-
 {{% notice blue Note "rocket" %}}
-To install pandas, you will need to run the following command within your virtual environment:
+To install pandas, you will need to run the following command:
 
 ```python
 pip install pandas
