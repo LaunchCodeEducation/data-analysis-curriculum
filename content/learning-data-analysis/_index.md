@@ -1,6 +1,5 @@
 +++
 chapter = true
-pre = "<b>2. </b>"
 title = "Our Approach to Learning Data Analysis"
 weight = 2
 originalAuthorGitHub = "gildedgardenia"

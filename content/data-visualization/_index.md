@@ -1,5 +1,4 @@
 +++
-pre = "<b>22. </b>"
 chapter = true
 title = "Data Visualization with Python"
 date = 2024-03-11T13:58:38-05:00

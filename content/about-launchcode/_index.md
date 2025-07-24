@@ -1,6 +1,5 @@
 +++
 chapter = true
-pre = "<b>1. </b>"
 title = "About LaunchCode Courses"
 weight = 1
 originalAuthorGitHub = "gildedgardenia"

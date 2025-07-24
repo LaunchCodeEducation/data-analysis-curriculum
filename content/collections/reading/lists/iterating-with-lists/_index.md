@@ -1,5 +1,4 @@
 +++
-pre = "<b>3. </b>"
 title = "Iterating with Lists"
 date = 2024-02-20T09:31:05-06:00
 draft = false

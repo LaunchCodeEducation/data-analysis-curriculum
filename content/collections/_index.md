@@ -1,5 +1,4 @@
 +++
-pre = "<b>17. </b>"
 chapter = true
 title = "Collections"
 date = 2024-02-20T09:31:05-06:00

@@ -1,5 +1,4 @@
 +++
-pre = "<b>25. </b>"
 chapter = true
 title = "Tableau Part 2: Data Preparation"
 date = 2024-05-13T11:44:50-05:00

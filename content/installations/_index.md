@@ -1,5 +1,4 @@
 +++
-pre = "<b>INSTL. </b>"
 title = "Installations"
 date = 2024-02-12T13:42:28-06:00
 draft = false
