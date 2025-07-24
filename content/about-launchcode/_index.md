@@ -3,6 +3,7 @@ chapter = true
 pre = "<b>1. </b>"
 title = "About LaunchCode Courses"
 weight = 1
+hidden = true
 originalAuthorGitHub = "gildedgardenia"
 +++
 
