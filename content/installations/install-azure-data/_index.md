@@ -3,6 +3,7 @@ title = "Installing Azure Data Studio"
 date = 2024-02-12T13:42:28-06:00
 draft = false
 weight = 6
+hidden = true
 +++
 
 Azure Data Studio is a tool that allows us to work with data that is either stored on our machine and on servers that we need to connect to. Maintained by Microsoft, Azure Data Studio is the premier tool for users of all operating systems to work with SQL Server. 
