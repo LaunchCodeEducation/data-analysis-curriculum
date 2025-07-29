@@ -2,6 +2,7 @@
 chapter = true
 title = "Our Approach to Learning Data Analysis"
 weight = 2
+hidden = true
 originalAuthorGitHub = "gildedgardenia"
 +++
 

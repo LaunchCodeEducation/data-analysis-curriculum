@@ -2,6 +2,7 @@
 chapter = true
 title = "About LaunchCode Courses"
 weight = 1
+hidden = true
 originalAuthorGitHub = "gildedgardenia"
 +++
 
