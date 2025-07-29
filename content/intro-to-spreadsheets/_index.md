@@ -1,6 +1,5 @@
 +++
 chapter = true
-pre = "<b>3. </b>"
 title = "Intro to Spreadsheets"
 weight = 3
 hidden = true

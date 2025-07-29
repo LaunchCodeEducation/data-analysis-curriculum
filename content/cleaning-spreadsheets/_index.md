@@ -1,5 +1,4 @@
 +++
-pre = "<b>6. </b>"
 chapter = true
 title = "Cleaning Data with Spreadsheets"
 date = 2024-01-31T13:01:06-06:00

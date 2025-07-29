@@ -1,5 +1,4 @@
 +++
-pre = "<b>19. </b>"
 chapter = true
 title = "Exploratory Data Analysis with pandas"
 date = 2024-02-29T09:18:56-06:00

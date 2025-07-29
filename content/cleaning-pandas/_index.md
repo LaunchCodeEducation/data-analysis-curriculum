@@ -1,5 +1,4 @@
 +++
-pre = "<b>20. </b>"
 chapter = true
 title = "Cleaning Data with Pandas"
 date = 2024-02-27T13:59:58-06:00

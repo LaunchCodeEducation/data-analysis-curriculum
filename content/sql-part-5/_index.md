@@ -1,5 +1,4 @@
 +++
-pre = "<b>11. </b>"
 chapter = true
 title = "SQL Part 5: Schemas and CRUD Operations"
 date = 2024-04-17T13:28:48-05:00

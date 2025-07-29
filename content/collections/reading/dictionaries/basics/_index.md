@@ -1,5 +1,4 @@
 +++
-pre = "<b>1. </b>"
 title = "Dictionary Basics"
 date = 2024-02-20T09:31:05-06:00
 draft = false

@@ -1,5 +1,4 @@
 +++
-pre = "<b>10. </b>"
 chapter = true
 title = "SQL Part 4: Subqueries, CTEs, UNION, INTERSECT, EXCEPT"
 date = 2024-03-12T15:04:03-05:00

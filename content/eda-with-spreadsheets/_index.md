@@ -1,5 +1,4 @@
 +++
-pre = "<b>5. </b>"
 chapter = true
 title = "Exploratory Data Analysis With Spreadsheets"
 date = 2024-01-22T16:53:31-06:00
