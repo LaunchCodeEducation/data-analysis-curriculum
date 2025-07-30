@@ -2,7 +2,7 @@
 title = "Spreadsheet Mastery Project: Part 2"
 date = 2024-01-08T10:24:35-06:00
 draft = false
-weight = 4
+weight = 2
 +++
 
 Your department director reviewed the different components that you created for the Mockup and liked the different options that you created. While your director was reviewing these options, the stakeholders requested an enhancement to the original specifications: additional detail about Cancelled Orders.
