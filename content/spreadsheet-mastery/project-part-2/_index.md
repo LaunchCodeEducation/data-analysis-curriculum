@@ -1,5 +1,5 @@
 +++
-title = "Spreadsheet Mastery: Studio Part 2"
+title = "Spreadsheet Mastery Project: Part 2"
 date = 2024-01-08T10:24:35-06:00
 draft = false
 weight = 4
@@ -42,4 +42,4 @@ Your director sends you an email requesting that you mockup a Cancelled Order Su
 
 Now that the basic Cancellation Summary and Detail pages are created, you send the workbook back to your director for additional review.
 
-Upload the Microsoft Excel Workbook to Canvas under Class 5 Studio: Cancelled Orders Enhancement and click *Submit*.
+Upload the Microsoft Excel Workbook to Canvas under *Spreadsheet Mastery Project: Part 1* and click *Submit*.

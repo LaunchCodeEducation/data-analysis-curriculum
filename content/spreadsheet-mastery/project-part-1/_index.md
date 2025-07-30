@@ -1,8 +1,8 @@
 +++
-title = "Spreadsheet Mastery: Studio"
+title = "Spreadsheet Mastery Project: Part 1"
 date = 2024-01-08T10:24:35-06:00
 draft = false
-weight = 2
+weight = 3
 +++
 
 The initial review of the Order Summary Report is completed and, as your director promised, additional metrics need to be included in the report. The requirements are clear, so you outline a plan for how to proceed.
@@ -67,8 +67,4 @@ You have confirmed that all data and formatting is correct, and you are ready to
 
 ## Submission
 
-Upload three documents (template workbook, static report workbook, PDF) to Canvas under Class 4 Studio: Expanded Order Summary Report and click Submit.
-
-
-
-
+Upload three documents (template workbook, static report workbook, PDF) to Canvas under *Spreadsheet Mastery Project: Part 1* and click Submit.
