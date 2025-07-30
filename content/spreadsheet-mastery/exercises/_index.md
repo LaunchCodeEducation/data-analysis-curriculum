@@ -60,7 +60,7 @@ Upon reviewing the report requirements, you realize that you do not have an exis
 You know that your director likes to receive one workbook per project rather than multiple files, so you decide to use several worksheets within the same workbook.
 
 You’re ready to get started and have a plan for how you’ll proceed, which you outlined as follows:
-1. Download the dataset from Canvas. You will find it under *Files* > *Spreadsheet Mastery Resources* > Order Data.csv.
+1. Download the dataset from Canvas. You can find the dataset within the assignment *Exercises: Spreadsheet Mastery* if you did not already download it.
 1. Open the file, save it as an Excel Workbook (*.xlsx), and name it "Order Summary Report_Your Name".
 1. Rename the worksheet to Data.
 1. Review the dataset and make note of anything you think will be helpful as you proceed.
@@ -146,7 +146,7 @@ Use the UNIQUE formula on the Shipping Status and Cancellation Status columns in
 
 Your director has asked that you submit the report for review as soon as you have it prepared and gave you a heads-up that added requirements will be provided as soon as the initial review is completed. You’re ready to submit this initial report, so you review the submission requirements just to be sure that you follow the specifications.
 
-Upload the Microsoft Excel Workbook under Class 4 Exercises: Order Summary Report and click Submit.
+Upload the Microsoft Excel Workbook under *Exercises: Spreadsheet Mastery*.
 
 
 

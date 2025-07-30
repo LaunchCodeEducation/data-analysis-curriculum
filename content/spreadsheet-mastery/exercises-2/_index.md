@@ -2,7 +2,7 @@
 title = "Spreadsheet Mastery: Exercises Part 2"
 date = 2024-01-08T10:24:35-06:00
 draft = false
-weight = 3
+weight = 2
 +++
 
 The Order Summary Report that you submitted last week was well received by your department director and the key stakeholders in external departments.
@@ -58,4 +58,4 @@ like this:
 
 Your department director asked that you provide a status update as you build out different component and style options, so you decide to stop here to send the workbook for review.
 
-Upload the Microsoft Excel Workbook to Canvas under Class 5 Exercises: Order Summary Pivots and click *Submit*.
+Upload the Microsoft Excel Workbook to Canvas under *Exercises: Spreadsheet Mastery Part 2*. 

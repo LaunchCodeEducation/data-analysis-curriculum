@@ -1,8 +1,9 @@
 +++
-title = "Spreadsheet Mastery: Studio Part 2"
+title = "Spreadsheet Mastery Project: Part 2"
 date = 2024-01-08T10:24:35-06:00
 draft = false
-weight = 4
+weight = 2
+hidden = true
 +++
 
 Your department director reviewed the different components that you created for the Mockup and liked the different options that you created. While your director was reviewing these options, the stakeholders requested an enhancement to the original specifications: additional detail about Cancelled Orders.
@@ -42,4 +43,4 @@ Your director sends you an email requesting that you mockup a Cancelled Order Su
 
 Now that the basic Cancellation Summary and Detail pages are created, you send the workbook back to your director for additional review.
 
-Upload the Microsoft Excel Workbook to Canvas under Class 5 Studio: Cancelled Orders Enhancement and click *Submit*.
+Upload the Microsoft Excel Workbook to Canvas under *Spreadsheet Mastery Project: Part 1* and click *Submit*.
