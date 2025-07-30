@@ -2,7 +2,7 @@
 title = "Spreadsheet Mastery: Exercises"
 date = 2024-01-08T10:24:35-06:00
 draft = false
-weight = 2
+weight = 1
 +++
 
 Your responsibilities as a Data Analyst at Amazon encompass both reporting and analysis across various departments. Recently, your team received a request for a comprehensive analysis of shipping speed and status for orders shipped to India over the past three months. Upon reviewing the request, your department director concluded that more information is necessary before deciding to proceed with a full analysis.
