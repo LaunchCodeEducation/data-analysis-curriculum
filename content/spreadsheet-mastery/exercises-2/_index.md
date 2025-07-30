@@ -58,4 +58,4 @@ like this:
 
 Your department director asked that you provide a status update as you build out different component and style options, so you decide to stop here to send the workbook for review.
 
-Upload the Microsoft Excel Workbook to Canvas under Class 5 Exercises: Order Summary Pivots and click *Submit*.
+Upload the Microsoft Excel Workbook to Canvas under *Exercises: Spreadsheet Mastery Part 2*. 
