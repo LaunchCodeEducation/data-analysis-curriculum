@@ -4,7 +4,7 @@ title = "How Programs Work"
 date = 2024-02-12T13:42:28-06:00
 draft = false
 weight = 12
-hidden = false
+hidden = true
 +++
 
 ## Learning Objectives
