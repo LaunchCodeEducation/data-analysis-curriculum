@@ -27,7 +27,7 @@ Throughout this course, we will be referring to T-SQL as SQL. This is common in 
 
 {{% /notice %}}
 
-To get started with the chapter, you need to [set up Visual Studio Code for SQL]({{% relref "./../../../installations/install-azure-data" %}}) and connect to the instance of SQL server.
+To get started with the chapter, you need to [set up Visual Studio Code for SQL]({{% relref "./../../../installations/install-vscode-sql" %}}) and connect to the instance of SQL server.
 
 SQL has many of the same data types you have already worked with so far in this course. However, some of the types, like `string`, have a different name in SQL.
 

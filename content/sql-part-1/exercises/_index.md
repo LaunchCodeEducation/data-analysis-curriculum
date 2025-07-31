@@ -11,7 +11,7 @@ In Visual Studio Code, open the `SQL-Part-1-Exercises.ipynb` file you downloaded
 
 ## In Your Notebook
 
-Connect to `BooksDB`.  If you need a refresher on how to do this, refer back to the [Setting Up Visual Studio Code for SQL]({{% relref "../../installations/install-azure-data/_index.md" %}}) section.
+Connect to `BooksDB`.  If you need a refresher on how to do this, refer back to the [Setting Up Visual Studio Code for SQL]({{% relref "../../installations/install-vscode-sql/_index.md" %}}) section.
 
 ## Submitting Your Work
 
