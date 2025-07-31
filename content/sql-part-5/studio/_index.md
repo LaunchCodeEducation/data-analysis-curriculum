@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Azure Data Studio, click on the *File* >> *Open File...* and navigate to `SQL-Part-5-Studio.ipynb` file you extracted from the zip file within canvas. You will need some starter data as well, which will be located in the data folder extracted from the zip file.
+In Visual Studio Code, open the `SQL-Part-5-Studio.ipynb` file you extracted from the zip file within canvas. You will need some starter data as well, which will be located in the data folder extracted from the zip file.
 
 {{% notice blue Note "rocket" %}}
 When you extract the contents of the `sql-part-5-studio.zip` file it will create a directory called "studio". All of the files you need will be located inside.
@@ -20,5 +20,5 @@ The files within the data directory are meant to help you populate your tables w
 When finished, upload your completed `SQL-Part-5-Studio.ipynb` file to canvas!
 
 {{% notice green Tip "rocket" %}}
-**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+**Windows Users**: when you are saving your edited file from Visual Studio Code, you may need to select the "Notebook" file type when saving the file to your machine.
 {{% /notice %}}

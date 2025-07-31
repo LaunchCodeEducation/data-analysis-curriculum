@@ -7,7 +7,7 @@ weight = 1
 Before we can dive into the queries, we need to talk about schemas.
 
 A **schema** is a way to group database objects(tables, views, ect) into a logical collection. 
-Let's look at the `AdventureWorks2019` database in Azure Data Studio. 
+Let's look at the `AdventureWorks2019` database in Visual Studio Code. 
 
 In the Object Explorer, if you expand the tables, you will see something like this:
 
