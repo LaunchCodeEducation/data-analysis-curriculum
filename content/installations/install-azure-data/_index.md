@@ -1,33 +1,49 @@
 +++
-title = "Installing Azure Data Studio"
+title = "Setting Up Visual Studio Code for SQL"
 date = 2024-02-12T13:42:28-06:00
 draft = false
 weight = 6
 hidden = true
 +++
 
-Azure Data Studio is a tool that allows us to work with data that is either stored on our machine and on servers that we need to connect to. Maintained by Microsoft, Azure Data Studio is the premier tool for users of all operating systems to work with SQL Server. 
+Visual Studio Code with SQL extensions provides a powerful environment for working with Microsoft SQL Server databases. This setup allows us to connect to SQL Server instances, write queries, and work with SQL notebooks directly in VS Code.
 
-[Download and install Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall)
+## Installing the SQL Server Extension
+
+1. First, ensure you have [Visual Studio Code installed]({{% relref "../install-visual-studio/" %}}).
+
+2. Open Visual Studio Code and go to the Extensions view by clicking the Extensions icon in the Activity Bar or pressing `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac).
+
+3. Search for "SQL Server (mssql)" and install the official Microsoft extension.
+
+4. Optionally, you may also want to install the "SQL Notebook" extension for enhanced notebook support.
+
+## Connecting to SQL Server
+
+1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and type "MS SQL: Connect".
+
+2. You'll be prompted to create a connection profile:
+   - **Server name**: Enter the SQL Server instance details provided by your program manager
+   - **Database name**: Leave blank for default, or enter specific database name
+   - **Authentication Type**: Choose "SQL Login" 
+   - **User name**: Enter your SQL Server username
+   - **Password**: Enter your SQL Server password
+   - **Save Password**: Choose "Yes" for convenience
+
+3. Give your connection profile a name for easy identification.
 
 {{% notice blue Note %}}
 
-If you are a Mac user, make sure to select the correct chip type for your machine!
+The login information for the SQL Server you'll connect to should be provided by your program manager. Save this connection profile so you won't need to re-enter these details each time.
 
 {{% /notice %}}
 
-## Working with Notebooks in Azure Data Studio
+## Working with SQL Notebooks
 
-Watch the first 3 minutes and 20 seconds of the video below for a nice overview of getting started with Azure Data Studio.
+VS Code supports SQL notebooks (.ipynb files) that allow you to combine SQL queries with markdown documentation:
 
-[Azure Data Studio Introduction](https://www.youtube.com/watch?v=4HpBJkjA-M8&list=PLW_iKqdGFW0zS688xkUV56ZxfDaUqZ6kD&index=5)
+1. Open your SQL notebook file in VS Code
+2. Select your SQL Server connection when prompted
+3. You can now run SQL code cells and view results directly in the notebook
 
-{{% notice blue Note %}}
-
-During the video, he goes over how to connect to a server. The login info for the server you will need to connect to for this class should be sent to you by your program manager.
-
-{{% /notice %}}
-
-We will continue to use notebooks, however, now we will be opening our notebooks in Azure Data Studio. There are some differences running notebooks in Azure Data Studio, which the below video goes into more detail on.
-
-[Quick intro to SQL Notebooks in Azure Data Studio](https://www.youtube.com/watch?v=Csd9p1-0Y_c)
+The SQL Server extension provides IntelliSense, syntax highlighting, and query execution capabilities that make working with T-SQL efficient and user-friendly.
