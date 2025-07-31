@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-In Azure Data Studio, click on *File* >> *Open File...* and navigate to the `SQL-Part-5-Exercises.ipynb` file you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-5-Exercises.ipynb` file you downloaded from canvas.
 
 
 For the exercises and studio in this chapter, you need to connect to the `JunkDB` named after your class. This database serves as a playground for you to experiment with what you learned in this chapter. 
@@ -23,5 +23,5 @@ The example below shows how you can use the same process of finding the schema n
 When finished, upload your completed document to canvas!
 
 {{% notice green Tip "rocket" %}}
-**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+**Windows Users**: when you are saving your edited file from Visual Studio Code, you may need to select the "Notebook" file type when saving the file to your machine.
 {{% /notice %}}

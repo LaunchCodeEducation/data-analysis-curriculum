@@ -21,14 +21,14 @@ Here are some things you need to know about this dataset:
 
 ## Getting Started
 
-Download the `9-to-5.ipynb` file included within the canvas assignment, open it within Azure Data Studio and connect to the `LaborStatisticsDB`.
+Download the `9-to-5.ipynb` file included within the canvas assignment, open it within Visual Studio Code and connect to the `LaborStatisticsDB`.
 
 ## Submitting Your Work
 
 When you are finished, make sure to save your file and upload it to the associated Canvas assignment!
 
 {{% notice green Tip "rocket" %}}
-**Windows Users:** when you are saving your edited file from Azure Data Studio, you may need to select the “Notebook” file type when saving the file to your machine.
+**Windows Users:** when you are saving your edited file from Visual Studio Code, you may need to select the "Notebook" file type when saving the file to your machine.
 {{% /notice %}}
 
 {{% notice blue Note "rocket" %}}

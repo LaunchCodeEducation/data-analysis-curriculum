@@ -1,6 +1,6 @@
 +++
 chapter = true
-title = "SQL Part 1: Introduction and Azure Data Studio"
+title = "SQL Part 1: Introduction and Visual Studio Code SQL Setup"
 date = 2024-03-21T15:06:12-05:00
 draft = false
 weight = 7

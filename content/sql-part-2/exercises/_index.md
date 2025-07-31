@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-In Azure Data Studio, click on *File* >> *Open File...* and navigate to the `SQL-Part-2-Exercises.ipynb` file you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-2-Exercises.ipynb` file you downloaded from canvas.
 
 ## In Your Notebook
 
@@ -18,5 +18,5 @@ Connect to `RideShareDB` before starting work on the exercises.
 When finished, upload your completed document to canvas!
 
 {{% notice green Tip "rocket" %}}
-**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+**Windows Users**: when you are saving your edited file from Visual Studio Code, you may need to select the "Notebook" file type when saving the file to your machine.
 {{% /notice %}}

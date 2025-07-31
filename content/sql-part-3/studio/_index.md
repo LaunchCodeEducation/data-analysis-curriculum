@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Azure Data Studio, click on the *File* >> *Open File...* and navigate to `SQL-Part-3-Studio.ipynb` you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-3-Studio.ipynb` file you downloaded from canvas.
 
 ## In Your Notebook
 
@@ -29,5 +29,5 @@ When the whole class comes back together, each person will present one of the ev
 When finished, upload your completed document to canvas!
 
 {{% notice green Tip "rocket" %}}
-**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+**Windows Users**: when you are saving your edited file from Visual Studio Code, you may need to select the "Notebook" file type when saving the file to your machine.
 {{% /notice %}}

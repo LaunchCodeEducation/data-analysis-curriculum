@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Azure Data Studio, click on the *File* >> *Open File...* and navigate to `SQL-Part-2-Studio.ipynb` you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-2-Studio.ipynb` file you downloaded from canvas.
 
 ## In Your Notebook
 
@@ -18,5 +18,5 @@ Connect to `BooksDB` before starting work on the studio.
 When finished, upload your completed document to canvas!
 
 {{% notice green Tip "rocket" %}}
-**Windows Users**: when you are saving your edited file from Azure Data Studio, you may need to select the "Notebook" file type when saving the file to your machine.
+**Windows Users**: when you are saving your edited file from Visual Studio Code, you may need to select the "Notebook" file type when saving the file to your machine.
 {{% /notice %}}
