@@ -1,5 +1,5 @@
 +++
-title = "Spreadsheet Mastery Project: Part 1"
+title = "Spreadsheet Mastery Project: Part 1 - Expanded Order Summary Report"
 date = 2024-01-08T10:24:35-06:00
 draft = false
 weight = 1

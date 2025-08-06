@@ -1,9 +1,9 @@
 +++
-title = "Spreadsheet Mastery Project: Part 2"
+title = "Spreadsheet Mastery Project: Part 2 - Cancelled Orders Enhancement"
 date = 2024-01-08T10:24:35-06:00
 draft = false
 weight = 2
-hidden = true
+hidden = false
 +++
 
 Your department director reviewed the different components that you created for the Mockup and liked the different options that you created. While your director was reviewing these options, the stakeholders requested an enhancement to the original specifications: additional detail about Cancelled Orders.
@@ -12,7 +12,7 @@ Your director sends you an email requesting that you mockup a Cancelled Order Su
 
 ## Your Plan
 
-1. From PivotTable 1 of the Exercise solution, double-click the cell that holds the value for `Cancelled Order Count`. A new worksheet with a Table of data will pop out titled Detail1. Rename it "Cancelled Order Detail".
+1. From PivotTable 1 of the first part of this project, double-click the cell that holds the value for `Cancelled Order Count`. A new worksheet with a Table of data will pop out titled Detail1. Rename it "Cancelled Order Detail".
 1. Using this new table of data, insert a PivotTable into a new worksheet in cell T2. Title the new worksheet "Cancelled Order Summary".
 1. Build the new PivotTable so that the `Date` appears in rows and the `Order Count` appears in columns. Rename column headers to align with previous naming conventions.
 1. Insert a line chart that displays the order count by day. Title the chart "Daily Cancelled Orders". Title the vertical axis "Order Count" and the horizontal axis "Date". Remove the legend.
