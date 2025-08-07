@@ -5,6 +5,20 @@ draft = false
 weight = 1
 +++
 
+## Learning Objectives
+
+By completing this project, students will be able to:
+
+1. **Advanced Excel Functions**: Master complex Excel functions including CONCAT, UNIQUE, COUNTA, COUNT, COUNTIFS, SUMIFS, SUMIF, and AVERAGEIF to perform sophisticated data analysis and reporting tasks.
+
+2. **Dynamic Formula Construction**: Build formulas with absolute cell references, logical operators, and nested functions to create flexible reporting templates that can be reused with updated data.
+
+3. **Data Transformation and Categorization**: Create new data variables by combining existing columns and use Excel's sorting and filtering capabilities to organize and present data according to business requirements.
+
+4. **Professional Report Design and Formatting**: Apply consistent formatting, borders, shading, and layout principles to create professional-quality business reports that meet stakeholder specifications.
+
+5. **Report Template Development and Documentation**: Develop reusable Excel templates, create static report versions, manage file versions with appropriate naming conventions, and generate PDF outputs for cross-departmental sharing.
+
 The initial review of the Order Summary Report is completed and, as your director promised, additional metrics need to be included in the report. The requirements are clear, so you outline a plan for how to proceed.
 
 ## Additional Requirements:

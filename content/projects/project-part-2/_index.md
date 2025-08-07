@@ -6,6 +6,20 @@ weight = 2
 hidden = false
 +++
 
+## Learning Objectives
+
+By completing this project, students will be able to:
+
+1. **PivotTable Advanced Manipulation**: Create, modify, and extract detailed data from PivotTables, including drilling down into data to generate new worksheets and building dynamic summary reports.
+
+2. **Excel Chart Creation and Formatting**: Design and customize line charts with appropriate titles, axis labels, positioning, and formatting to effectively visualize time-series data and identify trends.
+
+3. **Complex Formula Development**: Construct advanced nested formulas combining INDEX, MATCH, MAX, and COUNTIF functions to solve complex analytical problems like identifying peak values in datasets.
+
+4. **Date and Time Analysis**: Use date functions and logical operators (COUNTIF, COUNTIFS) with time-based criteria to analyze patterns and calculate period-specific metrics from transactional data.
+
+5. **Dynamic Report Templates**: Build interactive Excel dashboards that maintain accuracy when users apply filters to PivotTables, using table references instead of range references to ensure data integrity and consistency.
+
 Your department director reviewed the different components that you created for the Mockup and liked the different options that you created. While your director was reviewing these options, the stakeholders requested an enhancement to the original specifications: additional detail about Cancelled Orders.
 
 Your director sends you an email requesting that you mockup a Cancelled Order Summary page and a Cancelled Order Detail page and then resubmit the workbook for review.
