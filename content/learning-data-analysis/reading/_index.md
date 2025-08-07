@@ -1,9 +1,9 @@
 +++
-title = "Reading"
+title = "Lesson"
 weight = 1
 originalAuthorGitHub = "gildedgardenia"
 +++
 
-## Reading Content
+## Lesson Content
 
 {{% children %}}

@@ -3,7 +3,7 @@ title = "Setting Up Visual Studio Code for SQL"
 date = 2024-02-12T13:42:28-06:00
 draft = false
 weight = 6
-hidden = true
+hidden = false
 +++
 
 Visual Studio Code with SQL extensions provides a powerful environment for working with Microsoft SQL Server databases. This setup allows us to connect to SQL Server instances, write queries, and work with SQL notebooks directly in VS Code.
@@ -24,11 +24,11 @@ Visual Studio Code with SQL extensions provides a powerful environment for worki
 
 2. You'll be prompted to create a connection profile:
    - **Server name**: Enter the SQL Server instance details provided by your program manager
-   - **Database name**: Leave blank for default, or enter specific database name
+   - **Database name**: Leave blank to use the default database for the SQL Server instance. Or, you can enter the specific database name to always connect to that one from this connection.
    - **Authentication Type**: Choose "SQL Login" 
-   - **User name**: Enter your SQL Server username
-   - **Password**: Enter your SQL Server password
-   - **Save Password**: Choose "Yes" for convenience
+   - **User name**: Enter your provided SQL Server username
+   - **Password**: Enter your provided SQL Server password
+   - **Save Password**: Choose "Yes", so you don't have to provide your password every time you activate this connection
 
 3. Give your connection profile a name for easy identification.
 
