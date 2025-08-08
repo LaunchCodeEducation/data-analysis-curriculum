@@ -5,15 +5,15 @@ draft = false
 weight = 2
 +++
 
-There are a couple of different options for utilizing Tableau Public. One option is to download and use the Tableau Desktop Public Edition and the other is to use the Web Authoring option. Most walkthroughs and resources that you find will be applicable to both. The following reading segments will cover how to navigate Tableau Public using the Web Authoring option provided within the browser.
+The following reading segments will cover how to navigate Tableau Public using the desktop application.
 
 Start out by creating a [Tableau Public Account](https://public.tableau.com/app/discover) and logging in.
 
-Once you are logged in, click on the `Create` button in the top left corner and select the `Web Authoring` option.
+Once you are logged in, you can begin creating visualizations using the Tableau Public desktop application.
 
 ![Tableau public web browser window showing the options of the Create and Learn tabs](pictures/create-web-auth.png?classes=border)
 
-After selecting the web authoring option you should see something similar to the below image:
+After opening the desktop application you should see something similar to the below image:
 
 ![New Tableau Public Workbook via web authoring](pictures/new-workbook-view.png?classes=border)
 
