@@ -5,23 +5,15 @@ draft = false
 weight = 1
 +++
 
-## Learning Objectives
+## Scenario
 
-By completing this project, students will be able to:
+The initial review of your Order Summary Report from the Spreadsheet Mastery Exercises is completed and, as your director promised, additional metrics need to be included in the report. The feedback was positive, with stakeholders particularly appreciating the comprehensive analysis and professional presentation from your original exercise work.
 
-1. **Advanced Excel Functions**: Master complex Excel functions including CONCAT, UNIQUE, COUNTA, COUNT, COUNTIFS, SUMIFS, SUMIF, and AVERAGEIF to perform sophisticated data analysis and reporting tasks.
+However, they identified several gaps in the analysis that need to be addressed for the report to fully meet their decision-making needs. Your director has compiled the feedback into clear additional requirements and asked you to enhance the existing report while maintaining the established template structure for future use.
 
-2. **Dynamic Formula Construction**: Build formulas with absolute cell references, logical operators, and nested functions to create flexible reporting templates that can be reused with updated data.
+## Requirements
 
-3. **Data Transformation and Categorization**: Create new data variables by combining existing columns and use Excel's sorting and filtering capabilities to organize and present data according to business requirements.
-
-4. **Professional Report Design and Formatting**: Apply consistent formatting, borders, shading, and layout principles to create professional-quality business reports that meet stakeholder specifications.
-
-5. **Report Template Development and Documentation**: Develop reusable Excel templates, create static report versions, manage file versions with appropriate naming conventions, and generate PDF outputs for cross-departmental sharing.
-
-The initial review of the Order Summary Report is completed and, as your director promised, additional metrics need to be included in the report. The requirements are clear, so you outline a plan for how to proceed.
-
-## Additional Requirements:
+Building on your existing Order Summary Report from the Spreadsheet Mastery Exercises, add the following enhancements:
 1. Total Sales $ and Total Units for a new category that combines Fulfillment Entity and Shipping Status (Example: Amazon-Shipped)
 1. The Total Order Count, Total Sales $, and Total Units for all cancelled orders greater than or equal to the AOV and all cancelled orders less than the AOV
 1. The AOV for the Top Destination Zip Code
@@ -29,56 +21,95 @@ The initial review of the Order Summary Report is completed and, as your directo
 1. Sort the Shipping Status section of the report descending by $ Amt
 1. We will be reporting this data at a standardized cadence going forward, so please keep your template and submit a static version of the Excel workbook. Include a PDF of the report pages to provide to external departments.
 
-## Your Plan:
+## Learning Objectives
 
-1. Use the `CONCAT` function to create a new variable in Column M of the dataset titled Fulfillment_Status. Separate the two variables using a single dash and use the fill option to populate every row in the dataset. Copy the column and paste over it using values-only to keep the data but remove the formulas from the dataset.
-1. Use the `UNIQUE` function to return a list of the new Fulfillment Status categories
-1. Update the Report Templates to include the additional requirements – it should look like these mock-ups
+By completing this project, you will:
+
+- Create calculated columns using CONCAT function for data transformation
+- Apply nested functions (COUNTA/UNIQUE, COUNT/UNIQUE) for advanced data analysis
+- Use conditional counting and summing functions (COUNTIFS, SUMIFS) with logical operators
+- Implement custom sorting for professional report presentation
+- Export workbooks to multiple formats (template, static, PDF) for different stakeholder needs
+- Validate complex calculations across multiple report sections
+
+## Tasks
+
+**Starting Point:** Use your completed Order Summary Report workbook from the Spreadsheet Mastery Exercises as the foundation.
+
+### 1. Data preparation and enhancement:
+
+   - Create a new Fulfillment_Status column (Column M) using the CONCAT function to combine Fulfillment Entity and Shipping Status with a dash separator
+   - Apply the formula to all dataset rows using fill option
+   - Convert formulas to static values using copy and paste values-only to optimize workbook performance
+   - Generate a list of new Fulfillment Status categories using the UNIQUE function
+
+### 2. Update report templates:
+   - Modify the Summary Report and Sample Order Data templates to accommodate the new requirements
+   - Follow these updated mock-ups for the enhanced layout:
 
 ![Order report template updated](pictures/report-template-updated.png?classes=border)
 
 ![Shipping report updated](pictures/shipping-info-updated.png?classes=border)
 
-4. Combine the `COUNTA` and `UNIQUE` functions into a nested function to populate the Total Cities and Total States cells
+### 3. Calculate distinct location counts:
+   - Use nested COUNTA and UNIQUE functions to populate Total Cities and Total States cells
 
-{{% notice blue Note "rocket" %}}
-You need to use `COUNTA` instead of `COUNT` on these non-numeric columns
-{{% /notice %}}
+   - Use nested COUNT and UNIQUE functions to populate the Total Zip Codes cell (use COUNT for numeric zip codes)
 
-5. Combine the `COUNT` and `UNIQUE` functions into a nested function to populate the Total Zip Codes cell
-6. Populate the Order Count in the Cancelled By Order Value section of the report using an absolute cell reference to the AOV, the `COUNTIFS` function, and the logical operators `>=` and `<`
+### 4. Analyze cancelled orders by value:
+   - Calculate Order Count for cancelled orders using COUNTIFS with absolute cell reference to AOV and logical operators (>= and <)
+   - Use ampersand (&) to join logical operators with cell references: (">="&$P$53)
+   - Calculate Sales $ and Units using SUMIFS with the same logical approach
+   - Fill formulas down and modify operators as needed
 
-{{% notice blue Note "rocket" %}}
-Remember to use the & (ampersand) to join the logical operator and the cell reference within the formula like this so that Excel will accept the syntax (">="&$P$53). Also, fill the formula down and simply change the logical operator within the formula bar.
-{{% /notice %}}
+### 5. Calculate fulfillment status metrics:
+   - Populate Sales $ and Units in the By Fulfillment Status section using SUMIF with cell references
+   - Use appropriate absolute references to enable formula fill-down functionality
+   - Leverage the new Fulfillment_Status column to simplify calculations
 
-7. Populate the Sales $ and Units cells using the `SUMIFS` function and the same approach as step 6
-8. Populate the Sales $ and Units in the By Fulfillment Status section of the report using the `SUMIF` function and cell references to the Fulfillment Status. Use absolute references where appropriate to allow a fill down of the formula.
+### 6. Apply professional sorting and formatting:
+   - Sort the Shipping Status section descending by Sales $ using Custom Sort
+   - Apply consistent sorting to the By Fulfillment Status section for uniformity
+   - Calculate Top Destination Postal Code AOV using AVERAGEIF function on the Sample Order Data worksheet
 
-{{% notice blue Note "rocket" %}}
-Creating a new variable column in the dataset will save a lot of time – would have to use `SUMIFS` for each category as an alternative approach.
-{{% /notice %}}
+### 7. Validate and finalize:
+   - Verify all calculations return accurate results
+   - Check text and number formatting consistency
+   - Confirm all shading and border formatting is retained
+   - Validate that original report functions remain accurate alongside new requirements
 
-9. Using the Custom Sort option from the tool bar, sort the Shipping Status section of the report Descending by Sales $
-10. Even though it isn’t specified but to maintain consistency, apply the same sort to the By Fulfillment Status section
-11. On the Order Sample Data worksheet, populate the Top Destination Postal Code AOV using the `AVERAGEIF` function
-12. Validate that all calculations returned correct results and double check all text and number formats. Also, double check that all shading and border formatting has been retained. Make any necessary adjustments before submission.
+### 8. Create multiple deliverable formats:
 
-{{% notice blue Note "rocket" %}}
-Confirm that all functions from the initial report were retained accurately as you continued to program the added requirements.
-{{% /notice %}}
+Since this report will be used at a standardized cadence going forward, create multiple versions for different purposes:
 
-You have confirmed that all data and formatting is correct, and you are ready to submit the report. You know from the added requirements outline that you will need to keep a copy of this template to be used with refreshed data in the future, so you decide to proceed as follows:
-- File > Save As > Order Summary Report_mm.dd.yyyy using today’s date in the file name
-- Select the entire Summary Report worksheet by clicking the upper left corner of worksheet where the Columns and Rows intersect
-- Copy the entire worksheet and paste values only to keep a static copy of the report but remove the functions from within the cells
-- Do the same with the Order Sample Data worksheet
-- Now that you’ve removed the formulas from the workbook, delete the Data worksheet
-- Using the Page Layout menu option and the additional buttons on the ribbon, format each report page by Setting the Print Area to include the surrounding borders, setting the orientation to Landscape and fitting each to one-page
-- Export both worksheets to a PDF by navigating to File > Export > Create PDF/XPS > Options > Entire Workbook > OK > Publish
-- Verify that your PDF look as you’d expect based on your print and page layout sections
-- Verify that your Excel workbook and PDF are both named Order Summary Report_mm.dd.yyyy
+**Template Workbook (for future use):**
+- Keep your original workbook with all formulas intact
+- Save as "Order Summary Report Template_Your Name"
+
+**Static Report Workbook:**
+- File > Save As > "Order Summary Report_mm.dd.yyyy" using today's date
+- Select entire Summary Report worksheet (click upper left corner where columns and rows intersect)
+- Copy and paste values only to remove formulas while keeping calculated results
+- Repeat for Order Sample Data worksheet
+- Delete the Data worksheet since formulas are now static values
+
+**Professional PDF Export:**
+- Set Print Area to include surrounding borders for both worksheets
+- Set orientation to Landscape and fit to one page
+- Export to PDF: File > Export > Create PDF/XPS > Options > Entire Workbook > OK > Publish
+- Verify PDF formatting matches your print layout expectations
+- Ensure PDF is named "Order Summary Report_mm.dd.yyyy"
 
 ## Submission
 
-Upload three documents (template workbook, static report workbook, PDF) to Canvas under *Spreadsheet Mastery Project: Part 1* and click Submit.
+Upload three documents to Canvas under *Spreadsheet Mastery Project: Part 1*:
+
+1. **Template workbook** (with formulas intact for future data refreshes)
+2. **Static report workbook** (with calculated values only, named with date)
+3. **PDF report** (for external department distribution)
+
+**Before submitting, confirm:**
+- All enhanced calculations are accurate and properly formatted
+- Static workbook contains values only (no formulas)
+- PDF displays correctly with professional layout
+- All three files are properly named and formatted

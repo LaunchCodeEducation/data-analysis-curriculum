@@ -6,55 +6,96 @@ weight = 2
 hidden = false
 +++
 
+## Scenario
+
+Your department director reviewed the different PivotTable components that you created for the Mockup in the Spreadsheet Mastery Exercises Part 2 and was pleased with the various options and professional design approaches you developed.
+
+While your director was reviewing these options with stakeholders, they requested an enhancement to the original specifications: they want additional detail specifically focused on cancelled orders. This deep-dive analysis will help them understand cancellation patterns and identify potential areas for operational improvement.
+
+Your director sends you an email requesting that you create a Cancelled Order Summary page and a Cancelled Order Detail page, then resubmit the workbook for review.
+
+## Requirements
+
+Create enhanced analysis focused on cancelled orders:
+
+1. **Cancelled Order Detail page** - Detailed transaction-level data for all cancelled orders
+2. **Cancelled Order Summary page** - Interactive dashboard with PivotTable and visualization
+3. **Dynamic summary calculations** that remain accurate when users filter the data
+4. **Peak cancellation analysis** to identify the highest-impact cancellation date
+
 ## Learning Objectives
 
-By completing this project, students will be able to:
+By completing this project, you will:
 
-1. **PivotTable Advanced Manipulation**: Create, modify, and extract detailed data from PivotTables, including drilling down into data to generate new worksheets and building dynamic summary reports.
+- Extract detailed data from PivotTables using drill-down functionality
+- Build summary dashboards that combine PivotTables, charts, and calculated metrics
+- Create formulas that reference table data instead of PivotTable ranges for stability
+- Apply advanced nested functions (INDEX, MATCH, MAX, COUNTIF) for complex analysis
+- Design interactive visualizations that update dynamically with data filters
 
-2. **Excel Chart Creation and Formatting**: Design and customize line charts with appropriate titles, axis labels, positioning, and formatting to effectively visualize time-series data and identify trends.
+## Tasks
 
-3. **Complex Formula Development**: Construct advanced nested formulas combining INDEX, MATCH, MAX, and COUNTIF functions to solve complex analytical problems like identifying peak values in datasets.
+**Starting Point:** Use your completed PivotTable mockup workbook from the Spreadsheet Mastery Exercises Part 2.
 
-4. **Date and Time Analysis**: Use date functions and logical operators (COUNTIF, COUNTIFS) with time-based criteria to analyze patterns and calculate period-specific metrics from transactional data.
+### 1. Extract cancelled order data:
 
-5. **Dynamic Report Templates**: Build interactive Excel dashboards that maintain accuracy when users apply filters to PivotTables, using table references instead of range references to ensure data integrity and consistency.
+   - Double-click the `Cancelled Order Count` value in PivotTable 1 to extract detailed data
+   - Rename the new worksheet from "Detail1" to "Cancelled Order Detail"
+   - This creates a dedicated table with all cancelled order transaction details
 
-Your department director reviewed the different components that you created for the Mockup and liked the different options that you created. While your director was reviewing these options, the stakeholders requested an enhancement to the original specifications: additional detail about Cancelled Orders.
+### 2. Create cancelled order summary dashboard:
+   - Insert a PivotTable in cell T2 of a new worksheet named "Cancelled Order Summary"
+   - Configure the PivotTable with Date in rows and Order Count in columns
+   - Rename column headers to match your established naming conventions
+   - Create a line chart displaying order count by day with title "Daily Cancelled Orders"
+   - Format chart with "Order Count" vertical axis label and "Date" horizontal axis label (remove legend)
+   - Position chart in columns A-S to maximize workspace utilization
 
-Your director sends you an email requesting that you mockup a Cancelled Order Summary page and a Cancelled Order Detail page and then resubmit the workbook for review.
-
-## Your Plan
-
-1. From PivotTable 1 of the first part of this project, double-click the cell that holds the value for `Cancelled Order Count`. A new worksheet with a Table of data will pop out titled Detail1. Rename it "Cancelled Order Detail".
-1. Using this new table of data, insert a PivotTable into a new worksheet in cell T2. Title the new worksheet "Cancelled Order Summary".
-1. Build the new PivotTable so that the `Date` appears in rows and the `Order Count` appears in columns. Rename column headers to align with previous naming conventions.
-1. Insert a line chart that displays the order count by day. Title the chart "Daily Cancelled Orders". Title the vertical axis "Order Count" and the horizontal axis "Date". Remove the legend.
-1. Position the line chart to the left of the PivotTable, stretching the length of Columns A-S to make the most of the space on the worksheet.
-1. Create a simple template above the line chart that looks like this image:
+### 3. Build summary template and reporting period display:
+   - Create a summary template above the line chart matching this design:
 
    ![desired template in excel](pictures/excel-template.png)
 
-1. In cell C2, type this formula with the actual ranges to display the reporting period in a custom format.
+   - In cell C2, create a formula to display the reporting period in custom format:
 
    ![excel formula for displaying reporting period](pictures/formula-1.png)
 
-1. Use the `SUM` formula and reference the PivotTable Range U3:U93 to populate the Grand Total cell for `Order Count`.
-1. Now, filter the `Date` column of the PivotTable to display only 3/31/2022. What happens to the `Grand Total Order Count` that you just calculated? What happens to the line chart? Is this what you expected? Clear the filter from the PivotTable before moving on to the next step.
-1. Delete the `SUM` formula that references the PivotTable range. You will need to reference the `Cancelled Order Detail` table to populate the summary grid with data that doesn’t update when users interact with the PivotTable.
-1. Populate the `Cancelled Order Grand Total` using the `COUNTA` function on the `Order ID` column of the `Cancelled Order Detail` table.
-1. Calculate the total orders for March by using the `COUNTIF` function on the `Cancelled Order Detail` table. Use the `COUNTIFS` function with logical operators to calculate the totals for April, May, and June. Your syntax will look similar to this.
+### 4. Test PivotTable interaction and understand formula stability:
+   - Initially populate Grand Total using SUM formula referencing PivotTable range (U3:U93)
+   - Filter the Date column to display only 3/31/2022 and observe the impact on:
+     - Grand Total Order Count calculation
+     - Line chart display
+   - Clear the filter and note the behavior differences
+   - Delete the SUM formula - this demonstrates why PivotTable range references are unreliable for summary calculations
+
+### 5. Create stable summary calculations:
+   - Populate Cancelled Order Grand Total using COUNTA function on the Order ID column from the Cancelled Order Detail table
+   - Calculate monthly totals using COUNTIF for March and COUNTIFS with logical operators for April, May, and June:
 
    ![excel formula for calculating monthly totals](pictures/formula-2.png)
 
-1. Validate that the total order count for March, April, May, and June reconcile to the `Cancelled Order Total`.
-1. Use the appropriate formulas to populate the`Sales $` and `Units` for `Grand Total`, `March`, `April`, `May`, and `June`. Validate that the totals reconcile to the `Grand Total` aggregates.
-1. Lastly, find the `Peak Cancellation Date` using the nested formulas `INDEX`, `MATCH`, `MAX`, and `COUNTIF`. Type this out step by step to attempt to understand how the functions work together.
+   - Validate that March + April + May + June totals reconcile to the Cancelled Order Grand Total
+   - Apply the same approach to calculate Sales $ and Units for all periods (Grand Total, March, April, May, June)
+   - Confirm that monthly aggregates sum to Grand Total values
+
+### 6. Implement advanced peak analysis:
+   - Find the Peak Cancellation Date using nested functions INDEX, MATCH, MAX, and COUNTIF
+   - Build the formula step-by-step to understand how the functions work together:
 
    ![excel formula for finding peak cancellation date](pictures/formula-3.png)
 
-1. Does this date correspond to the `Peak Cancellation Date` displayed in the line chart?
+   - Verify that the calculated Peak Cancellation Date corresponds to the highest point displayed in your line chart
 
-Now that the basic Cancellation Summary and Detail pages are created, you send the workbook back to your director for additional review.
+## Submission
 
-Upload the Microsoft Excel Workbook to Canvas under *Spreadsheet Mastery Project: Part 1* and click *Submit*.
+With the Cancelled Order Summary and Detail pages complete, you're ready to submit the enhanced workbook to your director for additional review.
+
+**Deliverable:** Upload your Microsoft Excel Workbook to Canvas under *Spreadsheet Mastery Project: Part 2*.
+
+**Before submitting, confirm:**
+- Cancelled Order Detail worksheet contains complete transaction-level data for all cancelled orders
+- Cancelled Order Summary dashboard includes properly formatted PivotTable, chart, and summary template
+- Summary calculations reference the detail table (not PivotTable ranges) for stable results
+- Monthly totals reconcile to Grand Total calculations
+- Peak Cancellation Date formula works correctly and matches chart visualization
+- All formatting is professional and consistent with your established design standards

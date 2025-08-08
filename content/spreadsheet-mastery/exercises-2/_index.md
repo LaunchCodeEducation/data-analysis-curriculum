@@ -5,9 +5,11 @@ draft = false
 weight = 2
 +++
 
-The Order Summary Report that you submitted last week was well received by your department director and the key stakeholders in external departments.
+## Scenario
 
-The stakeholders have requested a set of interactive PivotTables in addition to the static report, so you schedule a meeting with your department director and the interested parties to gather requirements for the build.
+The Order Summary Report that you submitted last week was well received by your department director and key stakeholders in external departments. The comprehensive analysis and clear presentation of the data helped stakeholders understand the current order patterns and shipping performance.
+
+Building on this success, the stakeholders have requested interactive PivotTables to complement the static report. This will allow them to explore the data dynamically and answer ad-hoc questions without requiring additional reports. You schedule a meeting with your department director and interested parties to gather specific requirements for this enhancement.
 
 ## Requirements
 1. In Microsoft Excel
@@ -20,42 +22,78 @@ The stakeholders have requested a set of interactive PivotTables in addition to 
    1. Date timeline selector
    1. Related Charts and Graphs
 
-The specifications are simple. The stakeholders know the information they want to access and how they would like to interact with the data, but they are not particular about the overall design. This leaves the design and build almost entirely to your professional opinion.
+The specifications focus on functionality rather than design aesthetics. The stakeholders know what information they want to access and how they want to interact with the data, giving you flexibility in the visual presentation. This leaves the design and implementation approach largely to your professional judgment.
 
-You decide to create a mockup of several PivotTable options to review with your department director before you finalize the components that will be included in the final deliverable.
+You decide to create multiple PivotTable mockups to review with your department director before finalizing the components for the deliverable.
 
-## Your Plan
+## Learning Objectives
 
-Use the template file that you kept from last week’s Order Summary Report, add a new worksheet and name it Mockup. Be sure to build all components in this worksheet to keep your template workbook organized. Number formats and field header naming conventions should align with the Summary Report when possible.
+By completing this exercise, you will:
 
-Create the following PivotTables:
+- Create and customize PivotTables for dynamic data analysis
+- Design interactive dashboard components with slicers and timelines
+- Build PivotCharts that update dynamically with user selections
+- Apply professional formatting and design principles to data visualizations
+- Organize complex analysis across multiple worksheets
 
-1. `Order Count`, `Sales $`, `% TTL Orders`, `% TTL Sales $`, `AOV`, `Total Units`, `% TTL
-Units`, and `UPT by Status`. Status in rows and values in columns. It should look
-like this:
+## Tasks
+
+**Starting Point:** Use your completed Order Summary Report workbook from the previous exercise as the foundation for this analysis.
+
+### 1. Set up the workspace:
+   - Add a new worksheet named "Mockup" to your existing workbook
+   - Ensure number formats and field header conventions align with your Summary Report
+   - Build all initial components in this worksheet for organization
+
+### 2. Create core PivotTables:
+
+   - Create a comprehensive PivotTable showing `Order Count`, `Sales $`, `% TTL Orders`, `% TTL Sales $`, `AOV`, `Total Units`, `% TTL Units`, and `UPT by Status` (Status in rows, values in columns):
 
    ![pivot tables required](./pictures/pivot-tables-required.png)
 
-1. Create the same PivotTable with both the status and the values in the rows. Drag values before status and status before values. Decide which view you like best and keep this component. Note to Self: Copy/Paste previous PivotTable and edit pasted copy where applicable to save time.
-1. Create the same PivotTable with the values in the rows and the status in the columns.
-1. `Order Count by Status`. Status in rows and values in columns.
-1. `Sales $ by Status`. Status in rows and values in columns.
-1. `Unit Count by Status`. Status in rows and values in columns.
-1. `AOV by Date`. Date in rows and values in columns.
-1. `UPT by Status`. Status in rows and values in columns.
-1. `% Total Orders`, `% Total Sales $`, and `% Total Units` for each status. Status in rows and values in columns.
-1. Create another PivotTable identical to Step 1 but replace `Status` with `Fulfillment_Status`.
-1. Create another identical PivotTable and add `ship-service-level` as the first category, appearing before `Fulfillment_Status` in the rows. Reorder the categories. Decide which view you like best and keep this component.
-1. Create another PivotTable that displays `Order Count by Sales Channel` and then by `Status`. Categories in rows and values in columns.
-1. Create another PivotTable that displays `Sales $` and the numerical rank of the `Sales` volume by `Status`. Category in rows and values in columns. Sort this table by `Rank`, largest to smallest.
-1. To conceptualize different style options that you might consider for your final dashboard solution, apply different formatting options to each PivotTable using the PivotTable Styles and PivotTable Options menus.
-1. As you continue to develop and format components, you realize that you want to use one worksheet per component to make additional room to add Slicers, Timelines, and Charts. Use the Move PivotTable action from the ribbon to move your components to new worksheets, renaming the worksheets to numbers that align with these Step numbers (1,2,3, etc.).
-1. Add Category Slicers and Timeline Selectors to each PivotTable. Adjust slicer connections to control only the PivotTable on the related worksheet. Use the formatting menus for the slicers and timelines to design each one differently, aligning these controls with the aesthetic of the PivotTable. Notice how your PivotTables update when different slicer and timeline options are selected.
-1. Create PivotCharts for the following PivotTables. Spend time updating the formatting options to best display your visualization, Axis Title, Axis Labels, data labels, etc. Charts should be visually appealing and easy to read. Remember that these charts will update dynamically based on the slicer and timeline selections, so be sure to test the appearance of each before you finalize.
-   1. 2-D Pie Chart for PivotTable 4 displaying the `Order Count per Category`. Sort by `Orders`, largest to smallest, and update slicer to only display the top 5 categories.
-   1. Column Chart for PivotTable 5 displaying the `Sales $ per Category`. Sort by `Sales $` from largest to smallest.
-   1. Line Chart for PivotTable 7 displaying the `AOV` over time. Add a trend line.
+   - Test different layout options (values in rows vs. columns, status positioning) to determine optimal presentation
+   - Create focused single-metric PivotTables: `Order Count by Status`, `Sales $ by Status`, `Unit Count by Status`
+   - Build time-based analysis: `AOV by Date` (Date in rows, values in columns)
+   - Create performance metrics table: `UPT by Status`
+   - Generate percentage breakdowns: `% Total Orders`, `% Total Sales $`, and `% Total Units` by status
 
-Your department director asked that you provide a status update as you build out different component and style options, so you decide to stop here to send the workbook for review.
+### 3. Develop advanced analysis components:
+   - Create identical analysis using `Fulfillment_Status` instead of `Status`
+   - Build hierarchical analysis combining `ship-service-level` and `Fulfillment_Status` 
+   - Design cross-category analysis: `Order Count by Sales Channel` and `Status`
+   - Build ranked analysis: `Sales $` with numerical ranking by `Status` (sorted largest to smallest)
+### 4. Apply professional formatting:
+   - Apply different PivotTable Styles to each component to explore design options for your final dashboard
+   - Test various formatting approaches using PivotTable Styles and Options menus
+   - Choose formatting that enhances readability and professional appearance
 
-Upload the Microsoft Excel Workbook to Canvas under *Exercises: Spreadsheet Mastery Part 2*. 
+### 5. Organize components across worksheets:
+   - Move each PivotTable to its own worksheet using the Move PivotTable function
+   - Rename worksheets with descriptive numbers (1, 2, 3, etc.) that align with component purposes
+   - This provides space for slicers, timelines, and charts while maintaining organization
+
+### 6. Add interactive controls:
+   - Add Category Slicers and Timeline Selectors to each PivotTable
+   - Configure slicer connections to control only the PivotTable on the related worksheet
+   - Apply custom formatting to slicers and timelines that complements each PivotTable's design
+   - Test functionality to ensure PivotTables update correctly with different selections
+
+### 7. Create dynamic visualizations:
+   - Create a 2-D Pie Chart for Order Count analysis (display top 5 categories, sorted by Orders largest to smallest)
+   - Build a Column Chart for Sales $ analysis (sorted by Sales $ from largest to smallest)
+   - Design a Line Chart for AOV over time analysis (include trend line)
+   - Focus on professional formatting: axis titles, labels, data labels for optimal readability
+   - Test chart appearance with different slicer and timeline selections to ensure consistent quality
+
+## Submission
+
+Your department director has requested a status update on the component and style options you've developed for review before finalizing the dashboard approach.
+
+**Deliverable:** Upload your Microsoft Excel Workbook to Canvas under *Exercises: Spreadsheet Mastery Part 2*.
+
+**Before submitting, confirm:**
+- All PivotTables display data correctly and update with slicer/timeline changes
+- Formatting is professional and consistent across components
+- Charts are visually appealing and complement their respective PivotTables
+- Worksheets are properly organized and labeled
+- Interactive controls (slicers/timelines) function as expected 
