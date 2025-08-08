@@ -6,6 +6,20 @@ weight = 3
 hidden = false
 +++
 
+## Learning Objectives
+
+By completing this assignment, students will be able to:
+
+1. **Database Exploration**: Navigate and understand complex database structures, including table relationships, column data types, and data connections within the Bureau of Labor Statistics employment dataset.
+
+2. **SQL Aggregation Functions**: Apply aggregate functions (COUNT, SUM, AVERAGE) to calculate employment statistics and answer business questions using large datasets with thousands of rows.
+
+3. **SQL Joins**: Implement different types of SQL joins (LEFT, INNER, OUTER) to combine data from multiple tables and extract meaningful insights from relational databases.
+
+4. **Advanced SQL Techniques**: Utilize subqueries, unions, and derived tables to perform complex data analysis and answer sophisticated business questions about employment trends.
+
+5. **Data Analysis Problem-Solving**: Translate business requirements from stakeholders (Dolly Parton's nonprofit research) into actionable SQL queries that provide insights about production/nonsupervisory employees versus all employees.
+
 ## Business Issue and Understanding
 
 You are working for the Bureau of Labor Statistics with the United States government and have been approached by your boss with an important meeting request. You have been asked by your supervisor to meet with Dolly Parton, whose nonprofit is looking to shed light on the state of employment in the United States. As part of the 9 to 5 project, their research is focused on production and nonsupervisory employees and how those employees fare compared to all employees in the United States. While the data the BLS collects from the CES is publicly available, Dolly Parton and her colleagues need your assistance navigating the thousands of rows in each table in `LaborStatisticsDB`.

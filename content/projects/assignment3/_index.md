@@ -6,6 +6,20 @@ weight = 4
 hidden = false
 +++
 
+## Learning Objectives
+
+By completing this assignment, students will be able to:
+
+1. **Exploratory Data Analysis (EDA)**: Conduct thorough exploratory analysis on call center datasets to understand data structure, identify patterns, and extract basic statistics about call center performance metrics.
+
+2. **Data Cleaning with Pandas**: Identify and resolve data quality issues including missing data, duplicates, inconsistent values, and unnecessary information using systematic data cleaning techniques.
+
+3. **Data Manipulation and Transformation**: Combine datasets, perform grouping operations, calculate key performance indicators (KPIs), and create new derived metrics for business analysis.
+
+4. **Data Visualization**: Create effective visualizations using Python libraries to communicate call center performance insights, choosing appropriate chart types for different data relationships and business questions.
+
+5. **Business Analytics Problem-Solving**: Apply data analysis skills to real-world business scenarios, specifically evaluating call center efficiency to inform resource allocation decisions and operational improvements.
+
 For this assignment, we will be working with call center data. You can start 
 working on the assignment after the first lesson on Exploratory Data Analysis. 
 Make sure to read the whole assignment before starting anything! As you code 
