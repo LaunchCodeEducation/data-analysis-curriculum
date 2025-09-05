@@ -12,8 +12,7 @@ The Order Summary Report that you submitted last week was well received by your 
 Building on this success, the stakeholders have requested interactive PivotTables to complement the static report. This will allow them to explore the data dynamically and answer ad-hoc questions without requiring additional reports. You schedule a meeting with your department director and interested parties to gather specific requirements for this enhancement.
 
 ## Requirements
-1. In Microsoft Excel
-1. Focuses on Shipping Status categories
+
 1. One workbook with multiple worksheets, including:
    1. Summary Report for Total Reporting Period (as currently exists)
    1. PivotTables by previously defined categories 
