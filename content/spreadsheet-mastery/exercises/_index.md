@@ -75,7 +75,7 @@ By completing this exercise, you will:
 
 After reviewing the requirements, you recognize that no existing template meets these specifications. A cleaned dataset has been prepared by a colleague and is available as a CSV file. Since your director prefers consolidated deliverables, you will create a single workbook with multiple worksheets to organize the analysis.
 
-**Dataset Access:** The [Order Summary Dataset](link-to-workbook) contains all the data needed for this analysis.
+**Dataset Access:** The Order Summary dataset found in Canvas contains all the data needed for this analysis.
 
 Proceed with the following tasks:
 ### 1. Set up the workbook structure:
