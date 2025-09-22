@@ -47,29 +47,30 @@ By completing this exercise, you will:
 
 ### 2. Create core PivotTables:
 
-   - Create a comprehensive PivotTable showing `Order Count`, `Sales $`, `% TTL Orders`, `% TTL Sales $`, `AOV`, `Total Units`, `% TTL Units`, and `UPT by Status` (Status in rows, values in columns):
+   - Create a comprehensive PivotTable showing `Order Count`, `Sales $`, `% Total Orders`, `% Total Sales $`, `AOV`, `Total Units`, `% Total Units`, and `UPT by Status` (Status in rows, values in columns):
 
    ![pivot tables required](./pictures/pivot-tables-required.png)
 
    - Test different layout options (values in rows vs. columns, status positioning) to determine optimal presentation
    - Create focused single-metric PivotTables: `Order Count by Status`, `Sales $ by Status`, `Unit Count by Status`
-   - Build time-based analysis: `AOV by Date` (Date in rows, values in columns)
    - Create performance metrics table: `UPT by Status`
-   - Generate percentage breakdowns: `% Total Orders`, `% Total Sales $`, and `% Total Units` by status
+   - Generate a single PivotTable of percentage breakdowns: `% Total Orders`, `% Total Sales $`, and `% Total Units` by status
 
 ### 3. Develop advanced analysis components:
-   - Create identical analysis using `Fulfillment_Status` instead of `Status`
+   - Create a set of identical PivotTables to those above, now using `Fulfillment_Status` instead of `Status`
+   - Build time-based analysis: `AOV by Date` (Date in rows, values in columns)
    - Build hierarchical analysis combining `ship-service-level` and `Fulfillment_Status` 
    - Design cross-category analysis: `Order Count by Sales Channel` and `Status`
    - Build ranked analysis: `Sales $` with numerical ranking by `Status` (sorted largest to smallest)
+
 ### 4. Apply professional formatting:
    - Apply different PivotTable Styles to each component to explore design options for your final dashboard
    - Test various formatting approaches using PivotTable Styles and Options menus
    - Choose formatting that enhances readability and professional appearance
 
 ### 5. Organize components across worksheets:
-   - Move each PivotTable to its own worksheet using the Move PivotTable function
-   - Rename worksheets with descriptive numbers (1, 2, 3, etc.) that align with component purposes
+   - Move each PivotTable to its own worksheet using the Move PivotTable function. You should have a total of 16 PivotTables.
+   - Rename worksheets with descriptive names that align with each component purpose
    - This provides space for slicers, timelines, and charts while maintaining organization
 
 ### 6. Add interactive controls:
@@ -93,7 +94,8 @@ Your department director has requested a status update on the component and styl
 
 **Before submitting, confirm:**
 - All PivotTables display data correctly and update with slicer/timeline changes
-- Formatting is professional and consistent across components
-- Charts are visually appealing and complement their respective PivotTables
+- Formatting is professional, and components use a variety of different formatting options to showcase possibilities for final dashboard product
+- Charts are visually appealing and complement their respective PivotTables.
+- Charts have appropriate titles and labels
 - Worksheets are properly organized and labeled
 - Interactive controls (slicers/timelines) function as expected 
