@@ -42,6 +42,7 @@ By completing this project, you will:
    - Double-click the `Cancelled Order Count` value in PivotTable 1 to extract detailed data
    - Rename the new worksheet from "Detail1" to "Cancelled Order Detail"
    - This creates a dedicated table with all cancelled order transaction details
+   - Click in any cell on the detail table, then click the "Table" tab in the top ribbon. Rename the table from the default name to something more descriptive, like `cancelled_orders`. This will make any forumlas that you write referencing this table much easier to understand.
 
 ### 2. Create cancelled order summary dashboard:
    - Insert a PivotTable in cell T2 of a new worksheet named "Cancelled Order Summary"
@@ -56,23 +57,25 @@ By completing this project, you will:
 
    ![desired template in excel](pictures/excel-template.png)
 
-   - In cell C2, create a formula to display the reporting period in custom format:
+   - In cell C2, create a formula to display the reporting period in custom format by referencing the Date column in the detail table:
 
-   ![excel formula for displaying reporting period](pictures/formula-1.png)
+   ![excel formula for displaying the reporting period, which reads "=TEXT(MIN(cancelled_orders[Date]), "mmm d, yyyy") & " - " & TEXT(MAX(cancelled_orders[Date]), "mmm d, yyyy")"](pictures/formula-1.png)
 
 ### 4. Test PivotTable interaction and understand formula stability:
-   - Initially populate Grand Total using SUM formula referencing PivotTable range (U3:U93)
-   - Filter the Date column to display only 3/31/2022 and observe the impact on:
-     - Grand Total Order Count calculation
-     - Line chart display
-   - Clear the filter and note the behavior differences
-   - Delete the SUM formula - this demonstrates why PivotTable range references are unreliable for summary calculations
+   - Initially populate Grand Total using SUM formula referencing PivotTable range (U3:U97)
+   - Then, collapse the entire Date column to display only the month summaries and observe the impact on the Grand Total Order Count calculation.
+   - Try expanding just the month of April, and again note the impact. Experiment with various combinations of months expanded and collapsed. Can you piece together what is going on?
+   - Next, edit the Design of the PivotTable so that it does not show subtotals.
+   - Repeat your experimentation with expanding and collapsing the values in the PivotTable. Is the Grand Total value still changing? 
+   - Since design decisions can impact the result of a calculation that references a PivotTable range, it's considered an unreliable source for calculation fields. Although we discovered that removing subtotals fixed this particular issue, you don't want to rely on needing to maintain certain design or presentation decisions just to make your calculations correct. 
+   - **For this reason, it's considered best practice to reference the data you're working with directly, rather than referencing a PivotTable that was built using the data of interest**
+   - If you prefer the aesthetic of having subtotals shown in the PivotTable, turn them back on. In the next section, we will build our formula using best practices instead. 
 
 ### 5. Create stable summary calculations:
    - Populate Cancelled Order Grand Total using COUNTA function on the Order ID column from the Cancelled Order Detail table
    - Calculate monthly totals using COUNTIF for March and COUNTIFS with logical operators for April, May, and June:
 
-   ![excel formula for calculating monthly totals](pictures/formula-2.png)
+   ![excel formula for calculating monthly totals, which reads: =COUNTIFS(cancelled_orders[Date],">=StartDate", cancelled_orders[Date],"<=EndDate")"](pictures/formula-2.png)
 
    - Validate that March + April + May + June totals reconcile to the Cancelled Order Grand Total
    - Apply the same approach to calculate Sales $ and Units for all periods (Grand Total, March, April, May, June)
@@ -82,7 +85,7 @@ By completing this project, you will:
    - Find the Peak Cancellation Date using nested functions INDEX, MATCH, MAX, and COUNTIF
    - Build the formula step-by-step to understand how the functions work together:
 
-   ![excel formula for finding peak cancellation date](pictures/formula-3.png)
+   ![excel formula for finding peak cancellation date, which reads "=INDEX(cancelled_orders[Date], MATCH(MAX(COUNTIF(cancelled_orders[Date], cancelled_orders[Date])), COUNTIF(cancelled_orders[Date], cancelled_orders[Date]), 0))"](pictures/formula-3.png)
 
    - Verify that the calculated Peak Cancellation Date corresponds to the highest point displayed in your line chart
 
