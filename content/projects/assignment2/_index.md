@@ -1,5 +1,5 @@
 +++
-title = "9 to 5"
+title = "SQL Project: 9 to 5"
 date = 2023-05-25T12:55:09-05:00
 draft = false
 weight = 3
