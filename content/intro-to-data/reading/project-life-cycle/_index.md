@@ -33,8 +33,8 @@ Exploring or investigating data is an important step in understanding it. Explor
 
 Below are the key questions you want to answer during this stage:
 - What issues need to be addressed?
-- What are the anolomies within the data?
-- What trends or movements arrise?
+- What are the anomalies within the data?
+- What trends or movements arise?
 - What presumptions or premise can be formed?
 
 ## Building a Model
