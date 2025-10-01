@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-In Visual Studio Code, open the `SQL-Part-1-Exercises.ipynb` file [here] (https://github.com/LaunchCodeEducation/data-analysis-projects).
+In Visual Studio Code, open the `SQL-Part-1-Exercises.ipynb` file [here](https://github.com/LaunchCodeEducation/data-analysis-projects).
 
 ## In Your Notebook
 
