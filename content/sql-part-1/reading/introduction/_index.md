@@ -2,7 +2,7 @@
 title = "What is SQL?"
 date = 2021-10-01T09:28:27-05:00
 draft = false
-weight = 1
+weight = 5
 +++
 
 So far, we have used spreadsheets to hold data. However, these are limited in how much information they can store.

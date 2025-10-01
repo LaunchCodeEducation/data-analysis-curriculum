@@ -2,7 +2,7 @@
 title = "SQL Queries"
 date = 2021-10-01T09:28:27-05:00
 draft = false
-weight = 2
+weight = 10
 +++
 
 When we want to perform an operation on a database, we write a SQL **query**.
