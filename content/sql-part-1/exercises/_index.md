@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-In Visual Studio Code, open the `SQL-Part-1-Exercises.ipynb` file you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-1-Exercises.ipynb` file.
 
 ## In Your Notebook
 
