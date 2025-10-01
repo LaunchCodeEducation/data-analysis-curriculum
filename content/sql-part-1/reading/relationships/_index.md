@@ -2,7 +2,7 @@
 title = "Table Relationships"
 date = 2021-10-01T09:28:27-05:00
 draft = false
-weight = 3
+weight = 15
 +++
 
 Each table should deal with a very narrow set of data, and any specific piece of information should be stored in ONLY ONE PLACE. This
