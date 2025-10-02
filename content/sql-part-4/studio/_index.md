@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Visual Studio Code, open the `SQL-Part-4-Studio.ipynb` file you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-4-Studio.ipynb` file that is located within the `data-analysis-projects` repository you forked and cloned in an earlier lesson.
 
 ## In Your Notebook
 For this studio, you will be working in small groups and using `BooksDB`. One group member should screen share while fellow group members code along in their own notebooks.  Each group member will submit a link to their studio notebook.
