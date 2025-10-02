@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Visual Studio Code, open the `SQL-Part-5-Studio.ipynb` file you extracted from the zip file within canvas. You will need some starter data as well, which will be located in the data folder extracted from the zip file.
+In Visual Studio Code, open the `SQL-Part-5-Studio.ipynb` file you extracted from the zip file that is located within the `data-analysis-projects` repository you forked and cloned in an earlier lesson. You will need some starter data as well, which will be located in the data folder extracted from the zip file.
 
 {{% notice blue Note "rocket" %}}
 When you extract the contents of the `sql-part-5-studio.zip` file it will create a directory called "studio". All of the files you need will be located inside.
