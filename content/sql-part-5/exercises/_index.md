@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-In Visual Studio Code, open the `SQL-Part-5-Exercises.ipynb` file you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-5-Exercises.ipynb` file that is located within the `data-analysis-projects` repository you forked and cloned in an earlier lesson.
 
 
 For the exercises and studio in this chapter, you need to connect to the `JunkDB` named after your class. This database serves as a playground for you to experiment with what you learned in this chapter. 
