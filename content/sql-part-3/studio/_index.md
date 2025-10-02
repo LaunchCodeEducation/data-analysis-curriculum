@@ -7,7 +7,7 @@ weight = 3
 
 ## Getting Started
 
-In Visual Studio Code, open the `SQL-Part-3-Studio.ipynb` file you downloaded from canvas.
+In Visual Studio Code, open the `SQL-Part-3-Studio.ipynb` file you that is located within the `data-analysis-projects` repository you forked and cloned in an earlier lesson.
 
 ## In Your Notebook
 
