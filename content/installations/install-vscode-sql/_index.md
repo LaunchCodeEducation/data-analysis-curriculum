@@ -18,17 +18,23 @@ Visual Studio Code with SQL extensions provides a powerful environment for worki
 
 ## Connecting to SQL Server
 
-1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and type "MS SQL: Connect".
+1. In order to connect to the server using the following instructions, you need to be in an open SQL file. 
+   - Create a new file by going to File -> New File and entering a name for the file. It can be named anything, as long as it ends in the ".sql" file extension. (e.g., "new-file.sql").
 
-2. You'll be prompted to create a connection profile:
-   - **Server name**: Enter the SQL Server instance details provided by your program manager
-   - **Database name**: Leave blank to use the default database for the SQL Server instance. Or, you can enter the specific database name to always connect to that one from this connection.
+2. With this new file open, open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and type "MS SQL: Connect", then select "+ Create a Connection Profile"
+
+3. You'll be prompted to create a connection profile:
+   - **Profile Name:**: Give this profile a helpful name so you can remember what you're connecting to
+   - **Connection Group**: Leave set to "<Default>"
+   - **Server name**: Enter the SQL Server instance details provided in Canvas under "Lesson: SQL Part 1"
+   - **Trust Server Certificate**: Check this box
    - **Authentication Type**: Choose "SQL Login" 
    - **User name**: Enter your provided SQL Server username
    - **Password**: Enter your provided SQL Server password
-   - **Save Password**: Choose "Yes", so you don't have to provide your password every time you activate this connection
+   - **Save Password**: Check this box, so you don't have to provide your password every time you activate this connection
+   - **Database name**: Leave blank to use the default database for the SQL Server instance.
 
-3. Give your connection profile a name for easy identification.
+4. Once the connection profile is created, you can feel free to delete the file you created in step one. 
 
 {{% notice blue Note %}}
 
