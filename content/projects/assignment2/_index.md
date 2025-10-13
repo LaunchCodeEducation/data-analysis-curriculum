@@ -37,6 +37,8 @@ Here are some things you need to know about this dataset:
 
 Download the `9-to-5.ipynb` file included within the canvas assignment, open it within Visual Studio Code and connect to the `LaborStatisticsDB`.
 
+You can also find the file here inside of this GitHub Repo: [Nine to Five Assignment](https://github.com/LaunchCodeEducation/nine-to-five-assignment)
+
 ## Submitting Your Work
 
 When you are finished, make sure to save your file and upload it to the associated Canvas assignment!
