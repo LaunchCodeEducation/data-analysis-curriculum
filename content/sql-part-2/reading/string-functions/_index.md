@@ -23,7 +23,7 @@ SELECT RTRIM('Too many trailing spaces.     ');
 **Value Returned**
 
 ```console
-Too many extra spaces.
+Too many trailing spaces.
 ```
 {{% /notice %}}
 
