@@ -45,6 +45,6 @@ In January 2017, for which industry was the average weekly hours worked by produ
 
 {{% notice green Question %}}
 
-In January 2021, for which industry was the total weekly payroll for production and nonsupervisory employees the highest? Which industry was the lowest?
+In January 2017, for which industry was the total weekly payroll for production and nonsupervisory employees the highest? Which industry was the lowest?
 
 {{% /notice %}}
