@@ -56,7 +56,6 @@ Which of the following are supported data types in SQL? Select ALL that are corr
 
 1. `tinyint`
 1. `int`
-1. `double`
 1. `varchar`
 1. `boolean`
 1. `string`
