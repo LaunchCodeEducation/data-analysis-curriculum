@@ -22,7 +22,7 @@ SET Category='canned goods'
 WHERE CouponID = 143;
 ```
 
-Now the value of `Category` is changed for all records where the `CouponID` value is 146.
+Now the value of `Category` is changed for all records where the `CouponID` value is 143.
 
 ## Check Your Understanding
 
