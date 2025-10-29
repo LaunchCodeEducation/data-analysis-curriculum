@@ -145,7 +145,7 @@ Every programming language has a **type system**, which is the set of rules that
 
 When discussing the differences between programming languages, the details of type systems are one of the main factors that programmers consider. There are other aspects of type systems beyond just how values are categorized. We will explore these in future lessons.
 
-## Check Your Understanding
+<!-- ## Check Your Understanding
 
 {{% notice green Question "rocket" %}}
 Which of these is *not* a data type in Python?
@@ -154,4 +154,4 @@ Which of these is *not* a data type in Python?
 1. string
 1. letter
 1. object
-{{% /notice %}}
+{{% /notice %}} -->
