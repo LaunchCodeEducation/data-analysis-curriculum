@@ -90,12 +90,12 @@ The `%` operator returns the *remainder* obtained by carrying out integer divisi
 - 7 % 2 is 1
 
 The last two examples illustrate a general rule: An integer x is even exactly
-when `x % 2`% is %`0%` and is odd exactly when %`x % 2%` is %`1%`.
+when `x % 2` is `0` and is odd exactly when `x % 2` is `1`.
 {{% /notice %}}
 
 {{% notice blue Note "rocket" %}}
-The value returned by %`a % b%` will be in the range from `%0%` to %`b`%
-(not including `%b%`).
+The value returned by `a % b` will be in the range from `0` to `b`
+(not including `b`).
 {{% /notice %}}
 
 {{% notice green Tip "rocket" %}}
