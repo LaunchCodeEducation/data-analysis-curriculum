@@ -78,10 +78,9 @@ info = input("Please enter your age: ")
 # The user enters 25.
 
 print(type(info))
-
-1. string
-1. number
-1. info
-1. 25
 ```
+1. string
+2. number
+3. info
+4. 25
 {{% /notice %}}
