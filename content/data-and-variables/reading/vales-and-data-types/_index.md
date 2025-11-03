@@ -137,7 +137,6 @@ print(3.4, "hello", 45)
 {{% /notice %}}
 
 Remember not to put commas or spaces in your integers, no matter how big they are.
-Also revisit what we said in the chapter [How Programs Work]({{% relref "../../../how-programs-work/reading/_index.md" %}}) programming languages can be strict, the notation is concise, and even the smallest change might mean something quite different from what you intend.
 
 ## Type Systems
 
