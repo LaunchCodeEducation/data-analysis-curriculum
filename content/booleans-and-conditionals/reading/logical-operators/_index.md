@@ -108,8 +108,16 @@ to be true for the overall result to be `True`.
 Let's look at another code example. Change the value of `num` to see when
 each combined expression returns `True`.
 
-Using `num = 5`, lines 2 and 4 both return `True` because at least one of
-the two comparisons is `True`. Line 6 returns `False` because both of the
+```python {linenos=tabel}
+num = 5
+
+print(num > 0 or num < 10)
+print(7 > num or num == 3)
+print(num*5 > 100 or 'dog' == 'cat')
+```
+
+Using `num = 5`, lines 3 and 4 both return `True` because at least one of
+the two comparisons is `True`. Line 5 returns `False` because both of the
 comparisons are `False`.
 
 {{% notice green Tip %}}
