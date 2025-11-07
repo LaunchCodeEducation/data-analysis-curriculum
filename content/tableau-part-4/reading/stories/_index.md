@@ -91,7 +91,7 @@ As you study them, make a note of what you like about each one and what you are 
 
 1. [Twenty-Two White Orchids by Will Strouse](https://public.tableau.com/app/profile/william.strouse/viz/Twenty-TwoWhiteOrchids/Twenty-TwoWhiteOrchids)
 1. [State Story 5.8 by Center for Employment Equity Embargoed Visualizations](https://public.tableau.com/app/profile/carly6373/viz/StateStory_5_8/StateStory)
-1. [Earthquake Trend Story Example by Tableau Help Content](https://public.tableau.com/app/profile/tableau.docs.team/viz/EarthquakeTrendStoryExample/Earthquakestory)
+1. [An Earthquake Trend Story by Tableau Help Content](https://public.tableau.com/app/profile/tableau.docs.team/viz/EarthquakeTrendStory2/Finished-Earthquakestory)
 
 {{% /notice %}}
 
