@@ -80,7 +80,7 @@ To add a table calculation to a visualization within Tableau:
 Once you are finished with these modules, please resume reading this chapter.
 
 1. [Introduction to Calculations in Tableau](https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e)
-1. [Numerical Calculations and Quick Table Functions](https://app.pluralsight.com/ilx/video-courses/clips/05067e65-e111-4207-ba59-6067d6edcd1e)
+1. [Numerical Calculations and Quick Table Functions](https://app.pluralsight.com/ilx/video-courses/81b7d6bd-e61f-48b1-a568-085e6a4cdcda/fbc454fa-6bd9-4626-9bb3-9abcd51c0f40/30e6fc86-7f8f-467e-93d9-c142f5af3c6f)
 
 {{% notice orange Warning "rocket" %}}
 PluralSight has gifted LaunchCode licenses for our students to use. 
