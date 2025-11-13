@@ -5,7 +5,7 @@ draft = false
 weight = 3
 +++
 
-The `reverse` list method flips the order of the elements within an list.
+The `reverse` list method flips the order of the elements within a list.
 However, `reverse` does not affect the digits or characters *within* those
 elements.
 
