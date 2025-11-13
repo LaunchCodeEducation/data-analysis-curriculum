@@ -90,6 +90,23 @@ You will find the starter code in `data-analysis-projects/functions/exercises/fu
       #####
    ```
 
+      {{% expand "Check your solution" %}}
+
+   ```python {linenos=table}
+   def make_square(size):
+   
+      square = ""
+      for i in range(size):
+         square += make_line(size)
+         if i < size - 1:
+            square += "\n"
+      return square
+
+      print(make_square(5))
+   ```
+
+   {{% /expand %}}
+
    {{% notice orange Warning %}}
    
    For each of the shape exercises, do not include a newline character at
@@ -159,7 +176,9 @@ You will find the starter code in `data-analysis-projects/functions/exercises/fu
    def make_downward_stairs(height):
       stairs = ""
       for i in range(height):
-         stairs += (make_line(i+1) + "\n")
+         stairs += make_line(i+1)
+         if i < height - 1:
+            stairs += "\n"
       return stairs
 
    print(make_downward_stairs(5))
@@ -216,7 +235,9 @@ You will find the starter code in `data-analysis-projects/functions/exercises/fu
    def make_isosceles_triangle(height):
       triangle = ""
       for i in range(height):
-         triangle += (make_space_line(height - i - 1, 2 * i + 1) + "\n")
+         triangle += make_space_line(height - i - 1, 2 * i + 1)
+         if i < height - 1:
+            triangle += "\n"
       return triangle
 
    print(make_isosceles_triangle(5))
