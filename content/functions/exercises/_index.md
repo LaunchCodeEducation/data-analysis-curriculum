@@ -274,10 +274,17 @@ You will find the starter code in `data-analysis-projects/functions/exercises/fu
    ```python {linenos=table}
    def make_diamond(height):
       diamond = ""
-      triangle = make_isosceles_triangle(height)
-      diamond += triangle[:-1]
-      for i in range(len(triangle)-1, -1, -1):
-         diamond += triangle[i]
+
+      for i in range(height):
+         spaces = " " * (height - i - 1)
+         hash = "#" * (2 * i + 1)
+         diamond += spaces + hash + "\n"
+
+      for i in range(height - 2, -1, -1):
+         spaces = " " * (height - i - 1)
+         hash = "#" * (2 * i + 1)
+         diamond += spaces + hash + "\n"
+
       return diamond
 
    print(make_diamond(5))
