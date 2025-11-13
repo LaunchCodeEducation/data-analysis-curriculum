@@ -116,12 +116,14 @@ You will find the starter code in `data-analysis-projects/functions/exercises/fu
    ```
 
    {{% expand "Check your solution" %}}
-   
+
    ```python {linenos=table}
    def make_rectangle(width, height):
       rectangle = ""
       for i in range(height):
-         rectangle += (make_line(width) + "\n")
+         rectangle += make_line(width)
+         if i < height - 1:
+            rectangle += "\n"
       return rectangle
 
    print(make_rectangle(5, 3))
@@ -170,7 +172,7 @@ You will find the starter code in `data-analysis-projects/functions/exercises/fu
    specified number of hashes, followed again by `num_spaces` more spaces.
 
    ```python
-   print(make_space_line(3, 5));
+   print(make_space_line(3, 5))
    ```
 
    **Console Output**

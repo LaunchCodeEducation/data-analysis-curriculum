@@ -91,7 +91,7 @@ def count_to_n(n):
       if count > n:
          return
       print(count)
-      count += count
+      count += 1
 ```
 
 {{% /notice %}}
