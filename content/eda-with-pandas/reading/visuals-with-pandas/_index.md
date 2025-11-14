@@ -6,7 +6,7 @@ weight = 4
 hidden = true
 +++
 
-The `pandas` library works in conjuction and is able to integrate other libraries very easily. One of those libraries is **Matplotlib**, which is a library used to visalize the data that you are working with.
+The `pandas` library works in conjuction and is able to integrate other libraries very easily. One of those libraries is **Matplotlib**, which is a library used to visualize the data that you are working with.
 
 ## Installation
 
@@ -22,7 +22,7 @@ import matplotlib as mpl
 ```
 
 ```python
-# best practice when is to import matplotlib.pyplot as plt
+# best practice is to import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 ```
 
@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 When importing matplotlib you are also importing `pyplot` as well. You could reference pyplot as such: `mpl.pyplot.function_here()`
 
-Often times pyplot is used to generate 2-D graphics and since it is referenced often importing it separately and assigning it it's own alias is helpful and may save some time!
+Often times pyplot is used to generate 2-D graphics and since it is referenced often importing it separately and assigning it its own alias is helpful and may save some time!
 {{% /notice %}}
 
 ## Example
@@ -54,7 +54,7 @@ plt.show()
 ```
 
 {{% notice blue Note "rocket" %}}
-When using tools like Jupyter Notebooks you may not need to include the `plt.show()` line of code shown on line 11 in the above code block. 
+When using tools like Jupyter Notebooks you may not need to include the `plt.show()` line of code shown in the above code block.
 
 The `plt.show()` when used within a terminal emulator environment will create a separate pop-out of the graph. Tools like Jupyter Notebooks will include the visual within the notebook itself, eliminating the need for the pop out window.
 {{% /notice %}}
