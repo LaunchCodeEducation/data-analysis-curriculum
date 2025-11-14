@@ -7,7 +7,7 @@ weight = 3
 
 A pandas **DataFrame** is the second type of class that is capable of handling data.
 
-Similar to a spreadsheet, a DataFrame can be visualzed as having multiple columns and rows associated with the data inside. The data within can be of any type.
+Similar to a spreadsheet, a DataFrame can be visualized as having multiple columns and rows associated with the data inside. The data within can be of any type.
 
 A DataFrame can also be considered a collection or assortment of Series. Similar to a Series there are multiple ways that a DataFrame can be created:
 1. Using a multi-dimensional list, dictionary, or tuple
@@ -66,7 +66,7 @@ One thing to note about lists when they are added into a DataFrame is that each 
 import pandas as pd
 
 # Create a pandas DataFrame by providing a dictionary
-movie_dictionary_dataframe = pd.DataFrame(movies = {'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2003]})
+movie_dictionary_dataframe = pd.DataFrame({'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2003]})
 
 # Create a pandas DataFrame from a pre-existing dictionary
 movies = {'Name': ["Interstellar", "Pride and Prejudice", "Inception", "Barbie"],'Release': [2014, 2005, 2010, 2003]}
@@ -131,7 +131,7 @@ movies_genres_dataframe = pd.concat([movies, genres], axis=1) # axis 1 specifies
 the `axis` parameter specifies whether the data will be joined or combined along the *row* or *column*. Take a look at the table below. If you do not specify `axis=1` it will default to `axis=0`.
 
 | Axis | Represents | Use Case |
-|---|---|---|---|
+|---|---|---|
 | 0 (default) | **Row** | Operations performed **across rows** |
 | 1 | **Column** | Operations performed **down each column** |
 {{% /notice %}}

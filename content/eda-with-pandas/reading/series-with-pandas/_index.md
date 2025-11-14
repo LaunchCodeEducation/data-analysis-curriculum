@@ -170,7 +170,7 @@ What does index-labeling default to if none are provided?
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-What type of data is a pandas Series capable of holidng?
+What type of data is a pandas Series capable of holding?
 
 <!-- Solution: Any type -->
 {{% /notice %}}

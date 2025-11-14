@@ -7,7 +7,7 @@ weight = 2
 
 NumPy, or Numerical Python, provides additional flexibility in working with data than standard Python lists. The foundational element of NumPy are arrays, and the main structure found in NumPy is the `ndarray`.
 
-Arrays can hold a collection of the same data type and can be one-dimesional, also called a vector, or multi-dimensional, such as a matrix. The benefits of NumPy arrays are efficient element access and data manipulation / transformation.
+Arrays can hold a collection of the same data type and can be one-dimensional, also called a vector, or multi-dimensional, such as a matrix. The benefits of NumPy arrays are efficient element access and data manipulation / transformation.
 
 ### The basics of NumPy arrays
 
@@ -26,7 +26,7 @@ print(array1)
 [8 5 3 2 1 1]
 ```
 
-Multi-dimensional arrays can be created applying the same method using mutiple nested lists, such as the following two-dimensional array (or matrix)
+Multi-dimensional arrays can be created applying the same method using multiple nested lists, such as the following two-dimensional array (or matrix)
 
 ```python {linenos=table}
 # import numpy as np
@@ -45,7 +45,7 @@ print(array2)
 
 ### Basic array operations
 
-Many functions can be performed on arrays, such as determing attributes of the array, sorting, spliting or combining arrays, and, of course, numerical operations.
+Many functions can be performed on arrays, such as determining attributes of the array, sorting, spliting or combining arrays, and, of course, numerical operations.
 
 We will introduce a brief selection of the broad array (no pun intended) of functions which provide useful insights into NumPy arrays.
 
@@ -118,7 +118,7 @@ print(array5)
  [3 7 9]]
 ```
 
-Lastly for this introduction, arthimetic functions can be performed on an array as a whole, or for a specific dimension.
+Lastly for this introduction, arithmetic functions can be performed on an array as a whole, or for a specific dimension.
 
 ```python {linenos=table}
 # import numpy as np

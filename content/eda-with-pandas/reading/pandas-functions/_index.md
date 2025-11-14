@@ -29,14 +29,14 @@ Two functions below that may stick out to you might be the `.info()` and the `.d
 | `.fillna(desired_value)` | Fills null values in a DataFrame with the specified value. |
 | `.groupby('column_name')` | Groups a DataFrame by the unique values in the specified column. |
 | `.value_counts()` | Computes the value counts for each element in a DataFrame. |
-| `.shape()` | Returns a tuple representing the dimensions of your data structure |
+| `.shape` | Returns a tuple representing the dimensions of your data structure |
 | `.loc[]` | Method used to locate rows or columns based on label-indexing |
 | `.iloc[]` | Method used to locate rows or columns based on index positions `(0, 1, 2 ,3 ,etc..)` |
 
 {{% notice blue Note "rocket" %}}
-When using the `.shape()` function for a DataFrame it will show the number of rows and columns `(rows, columns)`. 
+When using the `.shape` attribute for a DataFrame it will show the number of rows and columns `(rows, columns)`.
 
-When using the `.shape()` function for a Series it will only return the number of rows and the column will be empty `(rows, )`
+When using the `.shape` attribute for a Series it will only return the number of rows and the column will be empty `(rows, )`
 {{% /notice %}}
 
 ## Statistics with pandas
@@ -87,7 +87,7 @@ How do we view only the first 13 rows of a DataFrame?
 {{% /notice %}}
 
 {{% notice green Question "rocket" %}}
-Which pandas function will prin the number of records, three quartiles, mean, standard deviation, minimum and maximum values of a DataFrame?
+Which pandas function will print the number of records, three quartiles, mean, standard deviation, minimum and maximum values of a DataFrame?
 
 <!-- Solution: .describe() -->
 {{% /notice %}}
