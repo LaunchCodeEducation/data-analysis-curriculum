@@ -4,7 +4,7 @@ draft = false
 weight = 2
 +++
 
-Missing data is when a value for either a row or column is not actually there. pandas has different data types for missing data so when you print out a row of a dataframe where data is missing you will see one of these data types. pandas has a number of built-in methods that can handle missing data. `None` and `NaN` both hold missing values, however, the two are not actually equivalent. The boolean expression `None == nan` evaluates to `False`. This is because `None` is a Python object and `NaN` is a floating point value. If you find yourself needing to code a custom solution to handle an issue related to missing data, you might need to keep this in mind!
+Missing data is when a value for either a row or column is not actually there. pandas has different data types for missing data so when you print out a row of a dataframe where data is missing you will see one of these data types. pandas has a number of built-in methods that can handle missing data. `None` and `NaN` both hold missing values, however, the two are not actually equivalent. The boolean expression `None == np.nan` evaluates to `False`. Additionally, even `np.nan == np.nan` evaluates to `False` - this is a special property of NaN values! This is because `None` is a Python object and `NaN` is a floating point value. If you find yourself needing to code a custom solution to handle an issue related to missing data, you might need to keep this in mind!
 
 {{% notice blue Note %}}
 
