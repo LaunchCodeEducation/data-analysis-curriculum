@@ -25,7 +25,7 @@ We are going to start by converting everything to numbers. Once everything in th
 1. First, let's focus in on turning `'True'` to `'1'`.
 
    ```python
-   etsy_sellers = etsy_sellers.loc[etsy_sellers['Star_Seller'] == 'True'] = '1'
+   etsy_sellers.loc[etsy_sellers['Star_Seller'] == 'True', 'Star_Seller'] = '1'
    ```
 
    This code will replace all the values in the `Star_Seller` column with `'1'` only if that value is currently equal to `'True'`.

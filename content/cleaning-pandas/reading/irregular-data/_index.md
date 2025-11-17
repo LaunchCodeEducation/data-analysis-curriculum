@@ -28,11 +28,11 @@ However, when we use the `descibe()` function and look more closely at `Total_Ra
 
 ```python
 
-outlier = np.where((etsy_sellers['Total_Rating'] < 0.0) & (etsy_sellers['Total_Rating'] > 5.0))
+outlier = np.where((etsy_sellers['Total_Rating'] < 0.0) | (etsy_sellers['Total_Rating'] > 5.0))
 etsy_sellers.drop(etsy_sellers[outlier])
 ```
 
-Even though we can visually see where Sierra's Stationary is in the dataframe, if we have one row that is off, we might have others. `np.where()` returns a list of all indices where the condition is met. In this case, the condition is that the rating must be greater than or equal to 0 and less than or equal to 5.
+Even though we can visually see where Sierra's Stationary is in the dataframe, if we have one row that is off, we might have others. `np.where()` returns a list of all indices where the condition is met. In this case, the condition finds ratings that are outside the valid range (less than 0 or greater than 5).
 
 We can also use visualizations to detect outliers. 
 
