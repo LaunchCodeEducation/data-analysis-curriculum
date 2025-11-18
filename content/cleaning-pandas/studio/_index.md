@@ -9,7 +9,8 @@ weight = 3
 
 For this week's studio you will be working with a partner.  
 
-Each of you should work in your notebook that can be found at `data-analysis-projects/cleaning-data-with-pandas/studio`.
+Each of you should work in your notebook that can be found within this repository [Cleaning Data with Pandas Exercises and Studio](https://github.com/LaunchCodeEducation/cleaning-data-pandas-exercises-studio/tree/main).
+
 You will also notice that we have already added a CSV for you. This CSV is a subset of a larger dataset on [Kaggle](https://www.kaggle.com/datasets/usda/a-year-of-pumpkin-prices) from the USDA. You only need this one CSV to do the studio.
 
 ## In Your Notebook
