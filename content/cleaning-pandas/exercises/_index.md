@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Open up `data-analysis-projects/cleaning-data-with-pandas/exercises/PandasCleaningTechniques.ipynb`.
+Fork and clone the following repository to get starter: [Cleaning Data with Pandas Exercises and Studio](https://github.com/LaunchCodeEducation/cleaning-data-pandas-exercises-studio)`.
 
 ## Code Along
 
