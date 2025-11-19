@@ -7,7 +7,7 @@ weight = 2
 
 The following reading segments will cover how to navigate Tableau Public using the desktop application.
 
-Start out by creating a [Tableau Public Account](https://public.tableau.com/app/discover) and logging in.
+Start out by creating a [Tableau Public Account](https://id.tableau.com/register?clientId=wcS7HwY98qdfgBREHT7Xoln7ipc75U0a) and logging in.
 
 Once you are logged in, you can begin creating visualizations using the Tableau Public desktop application.
 
