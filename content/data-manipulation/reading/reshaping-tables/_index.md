@@ -48,7 +48,7 @@ movie_genre_dataframe = pd.concat([movie_dataframe, genre_rating_dataframe])
 Note in the output image above the inclusion of the `axis` parameter when printing the dataframe a second time. The axis parameter specifies that the two DataFrames should be joined along the columns instead of rows, providing a cleaner dataset.
 {{% /notice %}}
 
-In the lesson on exploring data with python we covered how to create a DataFrame using the `.concat()` method by providing two Series as parameters. The `.concat` function can alse be used to add a Series within an existing DataFrame!
+In the lesson on exploring data with python we covered how to create a DataFrame using the `.concat()` method by providing two Series as parameters. The `.concat` function can also be used to add a Series within an existing DataFrame!
 
 {{% notice blue Example "rocket" %}}
 ```python
@@ -64,6 +64,67 @@ concat_series_dataframe = pd.concat([example_dataframe, example_series], axis=1)
 ```
 {{% /notice %}}
 
+## Merging DataFrames
+
+The `.merge()` function is used to combine two DataFrames based on common columns or indices, similar to SQL joins. Unlike `.concat()` which simply stacks DataFrames, `.merge()` intelligently combines rows based on matching values in specified columns.
+
+### Common Merge Types
+
+There are four main types of merges:
+1. `inner`: Returns only rows with matching values in both DataFrames (default)
+1. `left`: Returns all rows from the left DataFrame and matching rows from the right
+1. `right`: Returns all rows from the right DataFrame and matching rows from the left
+1. `outer`: Returns all rows from both DataFrames, filling in missing values with NaN
+
+### Syntax
+
+```python
+merged_dataframe = pd.merge(left_dataframe, right_dataframe, on="column_name", how="inner")
+```
+
+{{% notice blue Example "rocket" %}}
+```python
+import pandas as pd
+
+# Create two DataFrames with a common column
+passengers = pd.DataFrame({
+    'passenger_id': [1, 2, 3, 4],
+    'name': ['John', 'Jane', 'Bob', 'Alice'],
+    'age': [25, 30, 35, 28]
+})
+
+tickets = pd.DataFrame({
+    'passenger_id': [1, 2, 3, 5],
+    'ticket_class': ['First', 'Second', 'Third', 'First'],
+    'fare': [100, 50, 25, 100]
+})
+
+# Inner merge - only passengers with tickets
+inner_merged = pd.merge(passengers, tickets, on='passenger_id', how='inner')
+
+# Left merge - all passengers, with ticket info if available
+left_merged = pd.merge(passengers, tickets, on='passenger_id', how='left')
+```
+
+The `inner` merge will return only the 3 passengers (IDs 1, 2, 3) that exist in both DataFrames. The `left` merge will return all 4 passengers, with NaN values for the ticket information of passenger 4 who doesn't have a ticket.
+{{% /notice %}}
+
+### Merging on Multiple Columns
+
+You can merge on multiple columns by passing a list to the `on` parameter:
+
+```python
+merged_dataframe = pd.merge(df1, df2, on=['column1', 'column2'], how='inner')
+```
+
+### Merging with Different Column Names
+
+If the columns to merge on have different names in each DataFrame, use `left_on` and `right_on`:
+
+```python
+merged_dataframe = pd.merge(df1, df2, left_on='id', right_on='passenger_id', how='inner')
+```
+
 ## Sorting Values
 
 The `.sort_values()` function allows you to reshape data to your specific use case. The below parameters are some of the more common:
@@ -78,7 +139,7 @@ The above parameters are not the only ones available when using the `.sort_value
 ### Syntax
 
 ```python
-data.sort_values(by="column_name", axis=1, ascending=True)
+data.sort_values(by="column_name", ascending=True)
 ```
 
 {{% notice blue Example %}}

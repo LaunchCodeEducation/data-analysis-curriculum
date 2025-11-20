@@ -46,14 +46,14 @@ data["survived"] = data["survived"].replace(to_replace={0: False, 1: True})
 Creating a function to aggregate data or create new columns is another common practice used when analyzing data. Pandas utilizes the `.apply()` method to execute a function on a pandas Series or DataFrame.
 
 {{% notice blue Example "rocket" %}}
-Suppose you wanted to know how many survivors under the age of 20 are still alive from the titanic dataset:
+Suppose you wanted to know how many survivors age 20 and under are still alive from the titanic dataset:
 
 ```python
 import pandas as pd
 
 data = pd.read_csv("titanic.csv")
 
-def under_age_21_survivors(data):
+def age_20_and_under_survivors(data):
     age = data['age']
     alive = data['alive']
 
@@ -62,8 +62,8 @@ def under_age_21_survivors(data):
     else:
         return False
 
-data["under_21_survivors"] = data.apply(under_age_21_survivors, axis=1)
-print(data["under_21_survivors"].value_counts())
+data["age_20_and_under_survivors"] = data.apply(age_20_and_under_survivors, axis=1)
+print(data["age_20_and_under_survivors"].value_counts())
 ```
 
 **Output**
@@ -75,5 +75,5 @@ print(data["under_21_survivors"].value_counts())
 
 When recoding your data there are some things you should think about:
 1. Does the original data need to remain intact?
-1. What data tyes should be replaced with new values, and what type of data should the new value be?
+1. What data types should be replaced with new values, and what type of data should the new value be?
 1. Would a function be useful for repetitive tasks and manipulation?
