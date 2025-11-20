@@ -11,7 +11,7 @@ This reading, and following readings, will provide examples from the `titanic.cs
 
 ## Groupby
 
-The `.groupby()` function groups data together from one or more columns. As we group the data together, it forms a new **GroupBy** object. The offical [pandas documenation](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html) states that a "group by" accomplshes the following:
+The `.groupby()` function groups data together from one or more columns. As we group the data together, it forms a new **GroupBy** object. The official [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html) states that a "group by" accomplishes the following:
 1. Splitting: Split the data based on the criteria provided.
 1. Applying: Provide an applicable function to the groups that were split.
 1. Combining: Combine the results from the function into a new data structure.
@@ -43,7 +43,7 @@ grouping_variable = your_data.groupby(["column_one", "column_two", "etc.."])
 ```
 
 {{% notice blue Example "rocket" %}}
-Applying an aggregate function to multipled grouped columns can also be accomplished with method chaining. The following image uses columns from the titanic dataset as an example.
+Applying an aggregate function to multiple grouped columns can also be accomplished with method chaining. The following image uses columns from the titanic dataset as an example.
 
 ![Creating a new groupby object from the columns "embark_town" and "alone" and applying the sum aggregate function](pictures/grouped-titanic.png?classes=border)
 
@@ -65,6 +65,10 @@ data.agg(['mean', 'median', 'mode'])
 ```
 {{% /notice %}}
 
+{{% notice orange Warning "rocket" %}}
+Note that the `mode()` function can return multiple values per column if there are multiple modes (values that appear with equal frequency). This may result in a DataFrame with more rows than expected. If you need only one mode value, you may want to use `mode()[0]` or apply mode to specific columns individually.
+{{% /notice %}}
+
 ### Aggregation Using a Dictionary
 
 pandas also allows the ability to provide a dictionary with columns as a key and aggregate functions as an associated value.
@@ -79,7 +83,7 @@ aggregate_dictionary_example = {
 dictionary_aggregate = data.agg(aggregate_dictionary_example)
 ```
 
-This dictionary object has now become a tempate for the aggregations we want to preform. However, on it's own, it does nothing. Once passed to the agg() method, it will pick out the specific location of data we want to examine. Making a subset table. 
+This dictionary object has now become a template for the aggregations we want to perform. However, on it's own, it does nothing. Once passed to the agg() method, it will pick out the specific location of data we want to examine. Making a subset table. 
 {{% /notice %}}
 
 ## Groupby and Multiple Aggregations

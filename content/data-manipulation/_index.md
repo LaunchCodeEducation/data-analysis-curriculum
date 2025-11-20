@@ -9,7 +9,7 @@ hidden = false
 
 ## Learning Objectives
 After completing all of the content in this chapter, you should be able to do the following:
-1. Aggregate data accross multiple columns (mean, median, mode)
+1. Aggregate data across multiple columns (mean, median, mode)
 1. Append data: stack or concatenate multiple datasets with the `.concat` function
 1. Recode and map values within a column to new values by providing conditional formatting
 1. Group data together with the `.groupby` function
@@ -28,6 +28,7 @@ After completing all of the content in this chapter, you should be able to do th
 ### Reshaping Tables
 1. `.melt()`
 1. `.concat()`
+1. `.merge()`
 1. `.sort_values()`
 1. wide format
 1. long format
