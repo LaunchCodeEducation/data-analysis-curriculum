@@ -9,7 +9,7 @@ weight = 3
 
 This week's studio will be continuing our work with the USDA Pumpkin Prices dataset.
 
-The starting notebook for this studio can be found at `data-analysis-projects/data-manipulation/studio/data-manipulation-studio/data-manipulation-studio.ipynb`
+Fork and clone the following repository (if you have not already done so from completing the exercises) to begin work on the exercises: [data-manipulation-exercises-studio](https://github.com/LaunchCodeEducation/data-manipulation-exercises-studio)
 
 ## In Your Notebook
 
