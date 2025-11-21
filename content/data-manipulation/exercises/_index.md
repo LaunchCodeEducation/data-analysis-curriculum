@@ -7,7 +7,7 @@ weight = 2
 
 ## Getting Started
 
-Open `data-analysis-projects/data-manipulation/exercises` into a new Jupyter notebook.
+Fork and clone the following repository to begin work on the exercises: [data-manipulation-exercises-studio](https://github.com/LaunchCodeEducation/data-manipulation-exercises-studio)
 
 ## Code Along
 
