@@ -63,13 +63,13 @@ Pie charts are some of the most commonly-used composition charts. Pie charts sho
 
 {{% notice green Question %}}
 
-Match each chart style to its purpose.
+The following table shows incorrect matches between chart styles and their purposes. Provide the correct purpose for each chart style.
 
-| Chart Style | Purpose |
-|-------------|---------|
-| Pie chart | Comparison |
-| Scatterplot | Composition |
-| Bar chart | Relationship |
+| Chart Style | Incorrect Purpose | Correct Purpose |
+|-------------|-------------------|-----------------|
+| Pie chart | Comparison | ? |
+| Scatterplot | Composition | ? |
+| Bar chart | Relationship | ? |
 
 {{% /notice %}}
 

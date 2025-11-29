@@ -33,7 +33,7 @@ Here is a list of key terms for this chapter, broken down by the page the term f
 1. composition chart
 
 
-### Matplotlib and Seaborn
+### Matplotlib
 
 1. bins
 
