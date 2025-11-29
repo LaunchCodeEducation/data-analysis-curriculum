@@ -44,11 +44,9 @@ Some publishers' names are in non-Latin scripts, such as Japanese and Russian. M
 
 ## Create Your Visualizations
 
-Once you have your group, everyone in the group needs to make **two** visualizations:
+Once you have your group, everyone in the group needs to make **two** visualizations using Matplotlib:
 
-1. One made using Matplotlib.
-1. One made using Seaborn.
-1. These visualizations can be of any chart type.
+1. Each visualization should use a different chart type.
 1. Make sure that everyone is doing something different! 
 
 ## Share with Your Group
