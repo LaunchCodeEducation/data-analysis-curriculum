@@ -14,7 +14,7 @@ This lesson will also utilize `sqlite3` as the database used to demonstrate how 
     - Adding the DataFrame data into the new table
 
 {{% notice red Warning "rocket" %}}
-We have created a new repo for Class 19 and 20 exercises and studios. 
+We have created a new repo for Class 19 and 20 exercises and studios (Class numbers may differ per cohort). 
 Please fork this repo to your Github account, and then clone it to your local device
 
 [Class 19 and 20 Exercise Studio Repo](https://github.com/LaunchCodeEducation/data-analysis-projects-class-19-and-20)
@@ -56,26 +56,22 @@ new_movie = pd.DataFrame([{'title':'Dune', 'genre':'Science Fiction', 'release':
 df = pd.concat([df, new_movie], ignore_index=True)
 ```
 
-It isn't necessary for us to update our DataFrame to add a new table to the database. 
+It isn't necessary for us to update our DataFrame to add a new table to the database.
 But, it will help visually when reading data to show that it was populated into a new table correctly.
 
-```python {linenos=table}
+```python
 # Inject dataframe into database as new table, if the table exists - replace it
-df.to_sql('df', movies_db, if_exists="replace")
-# Execute command to create a new table called new_movie_table with the new_movie dataframe data
-movies_db.execute(
-    """
-    create table new_movie_table as
-    select * from new_movie
-    """
-)
+# Use index=False to avoid storing the DataFrame index as a column
+df.to_sql('updated_movies', movies_db, if_exists="replace", index=False)
+# Commit the changes to the database
+movies_db.commit()
 ```
 
 The pandas `DataFrame.to_sql` function documentation in the above code block can be found here: [pandas.DataFrame.to_sql](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html)
 
 ```python
 # Read data from newly created table, passing in existing movies_db connection as parameter
-new_movies_df = pd.read_sql_query('Select * from new_movie_table;', movies_db)
+new_movies_df = pd.read_sql_query('SELECT * FROM updated_movies;', movies_db)
 # Read first 6 rows
 new_movies_df.head(6)
 ```
