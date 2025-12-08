@@ -17,7 +17,7 @@ As you work on each of your sheets, think about a descriptive name that you woul
 
 ### Sheet 1: Total of Movies vs TV Shows
 
-The first worksheet will contain a a total count of Movies and TV Shows. We will display this information in a horiztonal bar chart.
+The first worksheet will contain a a total count of Movies and TV Shows. We will display this information in a horizontal bar chart.
 
 1. Drag and drop the `Show Id` pill into the `Columns` shelf.
     - Convert it to a measure of `Count`

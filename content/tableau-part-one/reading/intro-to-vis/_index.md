@@ -25,7 +25,7 @@ Throughout the following readings we will cover the following:
 
 1. Navigating a Tableau public workspace
 1. Connecting to a data source
-1. Understandng how Tableau interprets data
+1. Understanding how Tableau interprets data
 1. Building your very first chart!
 
 
