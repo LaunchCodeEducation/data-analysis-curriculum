@@ -59,10 +59,11 @@ weight = 2
 1. Create a viz that displays the number of bookings that ended up being a 'No-Show', broken down by Deposit Type and Customer Type. 
    1. You will need to create a set using the 'Reservation Status' field
 
-1. Student Choice: Create a hierarchy of sets to explore the ADR of an area of the world you would like to visit.
-   1. Start with the continent.
-   1. Then a region.
-   1. Then the country.  
+1. Student Choice: Create sets and use geographic hierarchy to explore the ADR (Average Daily Rate) of an area of the world you would like to visit.
+   1. Create a set for a continent of your choice.
+   1. Create a set for a region within that continent.
+   1. Create a set for a country within that region.
+   1. Use these sets together in your visualization to drill down from continent to region to country.  
  
 ## Submitting Your Work
 
