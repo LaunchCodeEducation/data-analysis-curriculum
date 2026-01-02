@@ -45,10 +45,10 @@ Download the [library data set](https://www.kaggle.com/imls/public-libraries?sel
 | Region Code 2 - Mideast | New York (NY), Pennsylvania (PA), Maryland (MD), New Jersey (NJ), Delaware (DE), Washington DC (DC) |
 | Region Code 3 - Great Lakes | Wisconsin (WI), Illinois (IL), Indiana (IN), Michigan (MI), Ohio (OH) |
 | Region Code 4 - Plains | Missouri (MO), Kansas (KS), North Dakota (ND), South Dakota (SD), Minnesota (MN), Iowa (IA), Nebraska (NE) |
-| Region Code 5 - Southeast | Virginia (VA), West Virginia (WV), North Carolina (NC), South Carolina (SC), Georgia (GA), Florida (FL), Alabama (AL), Mississippi (MS), Louisiana (LA), Arkansas (AK), Tennessee (TN), Kentucky (KY) |
+| Region Code 5 - Southeast | Virginia (VA), West Virginia (WV), North Carolina (NC), South Carolina (SC), Georgia (GA), Florida (FL), Alabama (AL), Mississippi (MS), Louisiana (LA), Arkansas (AR), Tennessee (TN), Kentucky (KY) |
 | Region Code 6 - Southwest | Arizona (AZ), New Mexico (NM), Oklahoma (OK), Texas (TX) |
 | Region Code 7 - Rocky Mountain | Idaho (ID), Montana (MT), Wyoming (WY), Colorado (CO), Utah (UT) |
-| Region Code 8 - Far West | Alaska (AK), Washington (WI), Oregon (OR), California (CA), Nevada (NV), Hawaii (HI) |
+| Region Code 8 - Far West | Alaska (AK), Washington (WA), Oregon (OR), California (CA), Nevada (NV), Hawaii (HI) |
 
 [Source](https://www.bea.gov/news/2015/gross-domestic-product-state-advance-2014-and-revised-1997-2013/regional-maps)
 

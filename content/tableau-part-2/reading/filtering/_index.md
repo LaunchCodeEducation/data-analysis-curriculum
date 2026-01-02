@@ -35,25 +35,27 @@ It may be beneficial to save this diagram so you have it on hand for the next fe
 
 Let's review what each of these categories mean.
 
-An **extract filter** is a filter applied to the **extract** of the data source, or where the data originally comes from. 
+An **extract** is a saved snapshot of your data in Tableau's own format. An **extract filter** is a filter applied when creating this extract, determining which data gets included in the snapshot.
 
-If you work for an online retailer that specializes in jewelry and want to analyze earring sales for the past 6 months, you may start by pulling the data into Tableau from a SQL Server. However, if you already know that you only need the data from the past 6 months, you may apply an **extract filter** to ensure that only the data from the past 6 months is brought into Tableau.
+If you work for an online retailer that specializes in jewelry and want to analyze earring sales for the past 6 months, you may start by pulling the data into Tableau from a SQL Server. However, if you already know that you only need the data from the past 6 months, you may apply an **extract filter** to ensure that only the data from the past 6 months is included in your extract. This reduces the file size and improves performance.
 
 Once you load the data into Tableau, the data is known as the **data source**. A **data source filter** is a filter applied to the data source before a visualization needs to be made. 
 
 You will find it very helpful when visualizing data to first review your data source and think hard about what you do and do not need. In the case of earring sales, you might realize that the actual dimensions of the sales are not as important as the category, so you can apply a data source filter before you begin working on your visualizations.
 
-A **context filter** and a **dimension filter** both do similar things, so this is where the order of operations becomes vital! 
+A **context filter** and a **dimension filter** both do similar things, so this is where the order of operations becomes vital!
 
-The **context filter** comes first in the order of operations and performs its action *before* the data is loaded and a **dimension filter** will perform its action *after* the data is loaded. 
+The **context filter** comes first in the order of operations and creates a temporary filtered dataset. All subsequent filters (including dimension filters) then operate on this filtered context rather than the full dataset.
 
-Because of this, you may find a **context filter** handy if your data is taking a long time to load. 
+A **dimension filter** operates after context filters in the query pipeline and filters the data independently.
 
-If we only have a few thousand earring sales to visualize, you may not notice a difference. But, a few million  sales records could bog Tableau down. 
+You may find a **context filter** handy when working with large datasets because it reduces the amount of data that subsequent filters need to process, which can improve performance.
 
-Both filters remove whole columns or rows from the dataset. As we dive into the visualizations, we might find it unhelpful to have a dimension for `item name` because some of the names are long and do not look nice when we assemble our visualizations. 
+If we only have a few thousand earring sales to visualize, you may not notice a difference. But, a few million sales records could bog Tableau down.
 
-This would be a perfect use case for a **dimension filter** because the data is already loaded into Tableau and upon assembling the visualizations we have discovered that we do not need that whole column. You may not see context filters as often as dimension filters.
+Both filters remove whole columns or rows from the dataset. As we dive into the visualizations, we might find it unhelpful to have a dimension for `item name` because some of the names are long and do not look nice when we assemble our visualizations.
+
+This would be a perfect use case for a **dimension filter** because upon assembling the visualizations we have discovered that we do not need that whole column. You may not see context filters as often as dimension filters.
 
 **Measure filters** remove specific cells that don't match a given condition. In the case of analyzing earring sales, you may want to perform some visualizations based on the price of the earrings sold. You can use a measure filter to only visualize earrings that are priced between $50 and $100.
 
@@ -142,17 +144,17 @@ Willow wants to filter some qualitative data in a chart she is making about pets
 
 {{% notice green Question %}}
 
-Willow wants to only show data about dogs. 
+Willow wants to only show data about dogs.
 
-Her data set contains a column `Type of Pet` that contains these string values: “dog”, “cat”, “rodent”, “bird”, “reptile”, “amphibian”, “rabbit”, and “other”. 
+Her data set contains a column `Type of Pet` that contains these string values: "dog", "cat", "rodent", "bird", "reptile", "amphibian", "rabbit", and "other".
 
 Which of the following filter features would allow her to only show data about dogs?
 
 1. Wildcard
-1. Top 
-1. Conditional 
+1. Top
+1. Conditional
 1. General
 
 {{% /notice %}}
 
-<!-- Wildcard -->
+<!-- General -->

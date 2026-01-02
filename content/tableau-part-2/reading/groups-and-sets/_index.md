@@ -106,8 +106,8 @@ Match the members of a set:
 
 |  |  |
 |--|--|
-| In | Members not in the set |
-| Out | Members within the set |
+| In | Members within the set |
+| Out | Members not in the set |
 
 {{% /notice %}}
 
